@@ -1,5 +1,0 @@
-[01m[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/mapOptmization.cpp:[m[K In destructor ‘[01m[Kvirtual MapOptimization::~MapOptimization()[m[K’:
-[01m[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/mapOptmization.cpp:130:22:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Knav_msgs::msg::Odometry[m[K’ {aka ‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Knav_msgs::msg::Odometry_<ContainerAllocator>::Odometry_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
-  130 |   [01;35m[K_input_channel.send({})[m[K;
-      |   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
-[01m[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/mapOptmization.cpp:130:22:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit

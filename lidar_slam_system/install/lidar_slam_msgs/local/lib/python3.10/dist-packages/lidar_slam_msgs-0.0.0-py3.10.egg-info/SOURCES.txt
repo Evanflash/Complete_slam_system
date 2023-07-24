@@ -1,0 +1,6 @@
+setup.py
+lidar_slam_msgs/__init__.py
+lidar_slam_msgs.egg-info/PKG-INFO
+lidar_slam_msgs.egg-info/SOURCES.txt
+lidar_slam_msgs.egg-info/dependency_links.txt
+lidar_slam_msgs.egg-info/top_level.txt

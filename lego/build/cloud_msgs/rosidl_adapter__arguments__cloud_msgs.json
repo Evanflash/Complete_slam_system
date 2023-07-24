@@ -1,6 +1,0 @@
-{
-  "package_name": "cloud_msgs",
-  "non_idl_tuples": [
-    "/home/evan/code/lego-loam/lego/src/cloud_msgs:msg/CloudInfo.msg"
-  ]
-}

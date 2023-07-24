@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target lidar_slam[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/lidar_slam.dir/src/data_process.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/lidar_slam.dir/src/main.cpp.o[0m

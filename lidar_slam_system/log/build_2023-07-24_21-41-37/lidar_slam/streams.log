@@ -1,0 +1,283 @@
+[0.043s] Invoking command in '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam -- -j4 -l4
+[0.091s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.256s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.349s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.352s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.360s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.375s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.411s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.489s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.492s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.660s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.858s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.019s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.124s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.299s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.311s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.340s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.999s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.006s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.006s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.183s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.190s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.197s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.371s] -- Found Qhull version 8.0.2
+[2.552s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.718s] -- looking for PCL_COMMON
+[2.719s] -- looking for PCL_KDTREE
+[2.720s] -- looking for PCL_OCTREE
+[2.720s] -- looking for PCL_SEARCH
+[2.721s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.721s] -- looking for PCL_FILTERS
+[2.722s] -- looking for PCL_2D
+[2.722s] -- looking for PCL_GEOMETRY
+[2.723s] -- looking for PCL_IO
+[2.723s] -- looking for PCL_FEATURES
+[2.724s] -- looking for PCL_ML
+[2.724s] -- looking for PCL_SEGMENTATION
+[2.725s] -- looking for PCL_VISUALIZATION
+[2.726s] -- looking for PCL_SURFACE
+[2.726s] -- looking for PCL_REGISTRATION
+[2.727s] -- looking for PCL_KEYPOINTS
+[2.728s] -- looking for PCL_TRACKING
+[2.728s] -- looking for PCL_RECOGNITION
+[2.729s] -- looking for PCL_STEREO
+[2.729s] -- looking for PCL_APPS
+[2.730s] -- looking for PCL_IN_HAND_SCANNER
+[2.731s] -- looking for PCL_MODELER
+[2.731s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.731s] -- looking for PCL_OUTOFCORE
+[2.732s] -- looking for PCL_PEOPLE
+[2.751s] -- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include
+[2.756s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread serialization timer 
+[2.924s] -- Configuring done
+[2.984s] -- Generating done
+[2.998s] -- Build files have been written to: /home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam
+[3.043s] [35m[1mConsolidate compiler generated dependencies of target lidar_slam[0m
+[3.086s] [ 33%] [32mBuilding CXX object CMakeFiles/lidar_slam.dir/src/data_process.cpp.o[0m
+[5.138s] In file included from [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1[m[K:
+[5.138s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:28:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[5.138s]     5 | class DataProcess : public [01;31m[Krclcpp[m[K::Node{
+[5.138s]       |                            [01;31m[K^~~~~~[m[K
+[5.139s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:36:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KNode[m[K’
+[5.139s]     5 | class DataProcess : public rclcpp::[01;31m[KNode[m[K{
+[5.139s]       |                                    [01;31m[K^~~~[m[K
+[5.139s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:6:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+[5.139s]     6 | [01;31m[Kprivate[m[K:
+[5.139s]       | [01;31m[K^~~~~~~[m[K
+[5.139s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:6:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kprivate[m[K’
+[5.139s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:40:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[5.139s]     5 | class DataProcess : public rclcpp::Node[01;36m[K{[m[K
+[5.139s]       |                                        [01;36m[K^[m[K
+[5.140s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:9:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[5.140s]     9 |     [01;31m[Krclcpp[m[K::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pub_cloud_in;
+[5.141s]       |     [01;31m[K^~~~~~[m[K
+[5.142s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:10:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[5.142s]    10 |     [01;31m[Krclcpp[m[K::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pub_corner_sharp;
+[5.142s]       |     [01;31m[K^~~~~~[m[K
+[5.144s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:11:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[5.144s]    11 |     [01;31m[Krclcpp[m[K::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pub_corner_less_sharp;
+[5.145s]       |     [01;31m[K^~~~~~[m[K
+[5.146s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[5.146s]    12 |     [01;31m[Krclcpp[m[K::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pub_surf_flat;
+[5.146s]       |     [01;31m[K^~~~~~[m[K
+[5.148s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[5.148s]    13 |     [01;31m[Krclcpp[m[K::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pub_surf_less_flat;
+[5.148s]       |     [01;31m[K^~~~~~[m[K
+[5.150s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[5.150s]    14 |     [01;31m[Krclcpp[m[K::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pub_segment_cloud;
+[5.150s]       |     [01;31m[K^~~~~~[m[K
+[5.152s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[5.152s]    15 |     [01;31m[Krclcpp[m[K::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pub_ground_cloud;
+[5.152s]       |     [01;31m[K^~~~~~[m[K
+[5.152s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:18:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kqueue[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[5.152s]    18 |     std::[01;31m[Kqueue[m[K<sensor_msgs::msg::PointCloud2> queClouds;
+[5.152s]       |          [01;31m[K^~~~~[m[K
+[5.152s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::queue[m[K’ is defined in header ‘[01m[K<queue>[m[K’; did you forget to ‘[01m[K#include <queue>[m[K’?
+[5.152s]   +++ |+[32m[K#include <queue>[m[K
+[5.152s]     1 | #ifndef _DATA_PROCESS_H
+[5.152s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:19:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[5.152s]    19 |     std::[01;31m[Kmutex[m[K mtx;
+[5.153s]       |          [01;31m[K^~~~~[m[K
+[5.153s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::mutex[m[K’ is defined in header ‘[01m[K<mutex>[m[K’; did you forget to ‘[01m[K#include <mutex>[m[K’?
+[5.153s]   +++ |+[32m[K#include <mutex>[m[K
+[5.153s]     1 | #ifndef _DATA_PROCESS_H
+[5.153s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:22:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kthread[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[5.153s]    22 |     std::[01;31m[Kthread[m[K _run_thread;
+[5.153s]       |          [01;31m[K^~~~~~[m[K
+[5.153s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::thread[m[K’ is defined in header ‘[01m[K<thread>[m[K’; did you forget to ‘[01m[K#include <thread>[m[K’?
+[5.153s]   +++ |+[32m[K#include <thread>[m[K
+[5.153s]     1 | #ifndef _DATA_PROCESS_H
+[5.154s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[KChannel[m[K’ does not name a type
+[5.154s]    25 |     [01;31m[KChannel[m[K<DataProcessOut>& _output_channel;
+[5.154s]       |     [01;31m[K^~~~~~~[m[K
+[5.161s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:28:5:[m[K [01;31m[Kerror: [m[K‘[01m[KCloudTypePtr[m[K’ does not name a type
+[5.161s]    28 |     [01;31m[KCloudTypePtr[m[K _cloud_in;
+[5.162s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[5.169s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[KCloudTypePtr[m[K’ does not name a type
+[5.169s]    29 |     [01;31m[KCloudTypePtr[m[K _corner_sharp;
+[5.169s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[5.176s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:30:5:[m[K [01;31m[Kerror: [m[K‘[01m[KCloudTypePtr[m[K’ does not name a type
+[5.176s]    30 |     [01;31m[KCloudTypePtr[m[K _corner_less_sharp;
+[5.176s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[5.183s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:31:5:[m[K [01;31m[Kerror: [m[K‘[01m[KCloudTypePtr[m[K’ does not name a type
+[5.183s]    31 |     [01;31m[KCloudTypePtr[m[K _surf_flat;
+[5.183s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[5.190s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[KCloudTypePtr[m[K’ does not name a type
+[5.190s]    32 |     [01;31m[KCloudTypePtr[m[K _surf_less_flat;
+[5.190s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[5.197s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[KCloudTypePtr[m[K’ does not name a type
+[5.197s]    33 |     [01;31m[KCloudTypePtr[m[K _segment_cloud;
+[5.197s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[5.204s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:34:5:[m[K [01;31m[Kerror: [m[K‘[01m[KCloudTypePtr[m[K’ does not name a type
+[5.204s]    34 |     [01;31m[KCloudTypePtr[m[K _ground_cloud;
+[5.204s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[5.210s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[KCloudTypePtr[m[K’ does not name a type
+[5.210s]    35 |     [01;31m[KCloudTypePtr[m[K _full_cloud;
+[5.211s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[5.218s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+[5.219s]    38 |     [01;31m[Ksensor_msgs[m[K::msg::PointCloud2 oneCloud;
+[5.219s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[5.219s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:41:5:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+[5.219s]    41 |     [01;31m[KEigen[m[K::MatrixXf _range_mat;
+[5.219s]       |     [01;31m[K^~~~~[m[K
+[5.221s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+[5.221s]    42 |     [01;31m[KEigen[m[K::MatrixXi _label_mat;
+[5.221s]       |     [01;31m[K^~~~~[m[K
+[5.223s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:43:5:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+[5.223s]    43 |     [01;31m[KEigen[m[K::MatrixXi _ground_mat;
+[5.224s]       |     [01;31m[K^~~~~[m[K
+[5.226s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:44:5:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+[5.226s]    44 |     [01;31m[KEigen[m[K::MatrixXi _corner_label;
+[5.226s]       |     [01;31m[K^~~~~[m[K
+[5.226s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:47:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[5.226s]    47 |     std::[01;31m[Kvector[m[K<smoothness> cloudCurvature;
+[5.226s]       |          [01;31m[K^~~~~~[m[K
+[5.226s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector[m[K’ is defined in header ‘[01m[K<vector>[m[K’; did you forget to ‘[01m[K#include <vector>[m[K’?
+[5.226s]   +++ |+[32m[K#include <vector>[m[K
+[5.226s]     1 | #ifndef _DATA_PROCESS_H
+[5.227s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:48:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[5.227s]    48 |     std::[01;31m[Kvector[m[K<int> str_index;
+[5.227s]       |          [01;31m[K^~~~~~[m[K
+[5.227s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:48:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector[m[K’ is defined in header ‘[01m[K<vector>[m[K’; did you forget to ‘[01m[K#include <vector>[m[K’?
+[5.227s]    48 |     [01;36m[Kstd[m[K::vector<int> str_index;
+[5.227s]       |     [01;36m[K^~~[m[K
+[5.227s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:49:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[5.227s]    49 |     std::[01;31m[Kvector[m[K<int> end_index;
+[5.227s]       |          [01;31m[K^~~~~~[m[K
+[5.227s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:49:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector[m[K’ is defined in header ‘[01m[K<vector>[m[K’; did you forget to ‘[01m[K#include <vector>[m[K’?
+[5.227s]    49 |     [01;36m[Kstd[m[K::vector<int> end_index;
+[5.228s]       |     [01;36m[K^~~[m[K
+[5.228s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:65:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kpublic[m[K’
+[5.228s]    65 | [01;31m[Kpublic[m[K:
+[5.228s]       | [01;31m[K^~~~~~[m[K
+[5.228s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:69:19:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K;[m[K’ token
+[5.228s]    69 |     ~DataProcess()[01;31m[K;[m[K
+[5.228s]       |                   [01;31m[K^[m[K
+[5.234s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:71:29:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+[5.234s]    71 |     void cloudHandler(const [01;31m[Ksensor_msgs[m[K::msg::PointCloud2 &laserCloudMsg);
+[5.234s]       |                             [01;31m[K^~~~~~~~~~~[m[K
+[5.234s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:71:45:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[5.234s]    71 |     void cloudHandler(const sensor_msgs::msg[01;31m[K::[m[KPointCloud2 &laserCloudMsg);
+[5.234s]       |                                             [01;31m[K^~[m[K
+[5.234s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:71:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[5.234s]    71 |     void cloudHandler[34m[K([m[Kconst sensor_msgs::msg[01;31m[K:[m[K[32m[K:[m[KPointCloud2 &laserCloudMsg);
+[5.234s]       |                      [34m[K~[m[K                      [01;31m[K^[m[K[32m[K~[m[K
+[5.234s]       |                                             [32m[K)[m[K
+[5.234s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:71:45:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+[5.234s]    71 |     void cloudHandler(const sensor_msgs::msg[01;31m[K::[m[KPointCloud2 &laserCloudMsg);
+[5.234s]       |                                             [01;31m[K^~[m[K
+[5.235s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:75:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[5.235s]    75 | [01;31m[Kprivate[m[K:
+[5.235s]       | [01;31m[K^~~~~~~[m[K
+[5.235s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:88:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[5.235s]    88 | [01;31m[K}[m[K // lidarslam
+[5.235s]       | [01;31m[K^[m[K
+[9.476s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:18:90:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.476s]    18 | DataProcess::DataProcess(const std::string &name, Channel<DataProcessOut> &output_channel[01;31m[K)[m[K
+[9.476s]       |                                                                                          [01;31m[K^[m[K
+[9.476s] In file included from [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1[m[K:
+[9.476s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.476s]     5 | class [01;36m[KDataProcess[m[K : public rclcpp::Node{
+[9.476s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[9.476s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:88:27:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.476s]    88 | DataProcess::~DataProcess([01;31m[K)[m[K{
+[9.477s]       |                           [01;31m[K^[m[K
+[9.477s] In file included from [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1[m[K:
+[9.477s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.477s]     5 | class [01;36m[KDataProcess[m[K : public rclcpp::Node{
+[9.477s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[9.477s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:92:82:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.477s]    92 | void DataProcess::cloudHandler(const sensor_msgs::msg::PointCloud2 &laserCloudMsg[01;31m[K)[m[K{
+[9.477s]       |                                                                                  [01;31m[K^[m[K
+[9.477s] In file included from [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1[m[K:
+[9.477s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.477s]     5 | class [01;36m[KDataProcess[m[K : public rclcpp::Node{
+[9.477s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[9.477s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:98:23:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.477s]    98 | void DataProcess::run([01;31m[K)[m[K{
+[9.477s]       |                       [01;31m[K^[m[K
+[9.478s] In file included from [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1[m[K:
+[9.478s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.478s]     5 | class [01;36m[KDataProcess[m[K : public rclcpp::Node{
+[9.478s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[9.478s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:123:35:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.478s]   123 | void DataProcess::resetParameters([01;31m[K)[m[K{
+[9.478s]       |                                   [01;31m[K^[m[K
+[9.478s] In file included from [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1[m[K:
+[9.478s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.478s]     5 | class [01;36m[KDataProcess[m[K : public rclcpp::Node{
+[9.478s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[9.478s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:156:37:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.478s]   156 | void DataProcess::projectPointCloud([01;31m[K)[m[K{
+[9.478s]       |                                     [01;31m[K^[m[K
+[9.478s] In file included from [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1[m[K:
+[9.479s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.479s]     5 | class [01;36m[KDataProcess[m[K : public rclcpp::Node{
+[9.479s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[9.479s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:199:33:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.479s]   199 | void DataProcess::groundRemoval([01;31m[K)[m[K{
+[9.479s]       |                                 [01;31m[K^[m[K
+[9.479s] In file included from [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1[m[K:
+[9.479s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.479s]     5 | class [01;36m[KDataProcess[m[K : public rclcpp::Node{
+[9.479s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[9.479s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:238:39:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.479s]   238 | void DataProcess::calculateSmoothness([01;31m[K)[m[K{
+[9.479s]       |                                       [01;31m[K^[m[K
+[9.479s] In file included from [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1[m[K:
+[9.480s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.480s]     5 | class [01;36m[KDataProcess[m[K : public rclcpp::Node{
+[9.480s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[9.480s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:264:36:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.480s]   264 | void DataProcess::markCornerPoints([01;31m[K)[m[K{
+[9.480s]       |                                    [01;31m[K^[m[K
+[9.480s] In file included from [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1[m[K:
+[9.480s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.480s]     5 | class [01;36m[KDataProcess[m[K : public rclcpp::Node{
+[9.480s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[9.480s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:300:62:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.480s]   300 | void DataProcess::labelVaildableCornerPoints(int row, int col[01;31m[K)[m[K{
+[9.480s]       |                                                              [01;31m[K^[m[K
+[9.480s] In file included from [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1[m[K:
+[9.480s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.481s]     5 | class [01;36m[KDataProcess[m[K : public rclcpp::Node{
+[9.481s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[9.481s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:373:43:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.481s]   373 | void DataProcess::cornerCloudSegmentation([01;31m[K)[m[K{
+[9.481s]       |                                           [01;31m[K^[m[K
+[9.481s] In file included from [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1[m[K:
+[9.481s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.481s]     5 | class [01;36m[KDataProcess[m[K : public rclcpp::Node{
+[9.481s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[9.481s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:403:32:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.481s]   403 | void DataProcess::publishCloud([01;31m[K)[m[K{
+[9.481s]       |                                [01;31m[K^[m[K
+[9.481s] In file included from [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1[m[K:
+[9.481s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass lidarslam::DataProcess[m[K’
+[9.481s]     5 | class [01;36m[KDataProcess[m[K : public rclcpp::Node{
+[9.482s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[10.370s] gmake[2]: *** [CMakeFiles/lidar_slam.dir/build.make:76: CMakeFiles/lidar_slam.dir/src/data_process.cpp.o] Error 1
+[10.370s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_slam.dir/all] Error 2
+[10.370s] gmake: *** [Makefile:146: all] Error 2
+[10.373s] Invoked command in '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam -- -j4 -l4

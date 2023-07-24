@@ -1,5 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target lego_loam_sr[0m
-[ 16%] [32mBuilding CXX object CMakeFiles/lego_loam_sr.dir/src/imageProjection.cpp.o[0m
-[ 33%] [32mBuilding CXX object CMakeFiles/lego_loam_sr.dir/src/featureAssociation.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/lego_loam_sr.dir/src/mapOptmization.cpp.o[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/lego_loam_sr.dir/src/transformFusion.cpp.o[0m

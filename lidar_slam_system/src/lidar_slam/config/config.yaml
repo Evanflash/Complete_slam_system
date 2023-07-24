@@ -1,0 +1,21 @@
+data_process:
+  ros__parameters:
+    laser:
+      vertical_scans: 32
+      horizontal_scans: 1080
+      ang_bottom: -30.67
+      ang_top: 10.67
+      sensor_mount_angle: 0.0
+      ground_scan_index: 20
+    projection:
+      segment_theta: 60.0
+      segment_valid_line_num: 3
+
+front_end:
+  ros__parameters:
+    param: 
+      vertical_scans: 32
+      edge_threshold: 0.1
+      surf_threshold: 0.1
+      distance: 5.0
+      map_frequency: 5

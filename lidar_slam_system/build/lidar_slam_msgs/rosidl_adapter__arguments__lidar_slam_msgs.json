@@ -1,0 +1,8 @@
+{
+  "package_name": "lidar_slam_msgs",
+  "non_idl_tuples": [
+    "/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam_msgs:msg/Point.msg",
+    "/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam_msgs:msg/Cloud.msg",
+    "/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam_msgs:msg/Cloud2.msg"
+  ]
+}

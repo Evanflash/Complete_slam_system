@@ -1,0 +1,734 @@
+[35m[1mConsolidate compiler generated dependencies of target lidar_slam[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/lidar_slam.dir/src/data_process.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/lidar_slam.dir/src/main.cpp.o[0m
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:3:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+    3 | static const std::[01;31m[Kstring[m[K PARAM_VERTICAL_SCANS = "laser.vertical_scans";
+      |                   [01;31m[K^~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string[m[K’ is defined in header ‘[01m[K<string>[m[K’; did you forget to ‘[01m[K#include <string>[m[K’?
+  +++ |+[32m[K#include <string>[m[K
+    1 | namespace lidarslam{
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:4:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+    4 | static const std::[01;31m[Kstring[m[K PARAM_HORIZONTAL_SCANS = "laser.horizontal_scans";
+      |                   [01;31m[K^~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:4:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string[m[K’ is defined in header ‘[01m[K<string>[m[K’; did you forget to ‘[01m[K#include <string>[m[K’?
+    4 | static const [01;36m[Kstd[m[K::string PARAM_HORIZONTAL_SCANS = "laser.horizontal_scans";
+      |              [01;36m[K^~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:5:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+    5 | static const std::[01;31m[Kstring[m[K PARAM_ANGLE_BOTTOM = "laser.ang_bottom";
+      |                   [01;31m[K^~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:5:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string[m[K’ is defined in header ‘[01m[K<string>[m[K’; did you forget to ‘[01m[K#include <string>[m[K’?
+    5 | static const [01;36m[Kstd[m[K::string PARAM_ANGLE_BOTTOM = "laser.ang_bottom";
+      |              [01;36m[K^~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:6:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+    6 | static const std::[01;31m[Kstring[m[K PARAM_ANGLE_TOP = "laser.ang_top";
+      |                   [01;31m[K^~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:6:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string[m[K’ is defined in header ‘[01m[K<string>[m[K’; did you forget to ‘[01m[K#include <string>[m[K’?
+    6 | static const [01;36m[Kstd[m[K::string PARAM_ANGLE_TOP = "laser.ang_top";
+      |              [01;36m[K^~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:7:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+    7 | static const std::[01;31m[Kstring[m[K PARAM_GROUND_INDEX = "laser.ground_scan_index";
+      |                   [01;31m[K^~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:7:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string[m[K’ is defined in header ‘[01m[K<string>[m[K’; did you forget to ‘[01m[K#include <string>[m[K’?
+    7 | static const [01;36m[Kstd[m[K::string PARAM_GROUND_INDEX = "laser.ground_scan_index";
+      |              [01;36m[K^~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:8:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+    8 | static const std::[01;31m[Kstring[m[K PARAM_SENSOR_ANGLE = "laser.sensor_mount_angle";
+      |                   [01;31m[K^~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:8:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string[m[K’ is defined in header ‘[01m[K<string>[m[K’; did you forget to ‘[01m[K#include <string>[m[K’?
+    8 | static const [01;36m[Kstd[m[K::string PARAM_SENSOR_ANGLE = "laser.sensor_mount_angle";
+      |              [01;36m[K^~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:9:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+    9 | static const std::[01;31m[Kstring[m[K PARAM_SEGMENT_THETA = "projection.segment_theta";
+      |                   [01;31m[K^~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:9:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string[m[K’ is defined in header ‘[01m[K<string>[m[K’; did you forget to ‘[01m[K#include <string>[m[K’?
+    9 | static const [01;36m[Kstd[m[K::string PARAM_SEGMENT_THETA = "projection.segment_theta";
+      |              [01;36m[K^~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:10:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+   10 | static const std::[01;31m[Kstring[m[K PARAM_SEGMENT_VALID_POINT_NUM = "projection.segment_valid_point_num";
+      |                   [01;31m[K^~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:10:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string[m[K’ is defined in header ‘[01m[K<string>[m[K’; did you forget to ‘[01m[K#include <string>[m[K’?
+   10 | static const [01;36m[Kstd[m[K::string PARAM_SEGMENT_VALID_POINT_NUM = "projection.segment_valid_point_num";
+      |              [01;36m[K^~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:11:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+   11 | static const std::[01;31m[Kstring[m[K PARAM_SEGMENT_VALID_LINE_NUM = "projection.segment_valid_line_num";
+      |                   [01;31m[K^~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:11:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string[m[K’ is defined in header ‘[01m[K<string>[m[K’; did you forget to ‘[01m[K#include <string>[m[K’?
+   11 | static const [01;36m[Kstd[m[K::string PARAM_SEGMENT_VALID_LINE_NUM = "projection.segment_valid_line_num";
+      |              [01;36m[K^~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:13:1:[m[K [01;31m[Kerror: [m[K‘[01m[KDataProcess[m[K’ does not name a type
+   13 | [01;31m[KDataProcess[m[K::DataProcess(const std::string &name, Channel<DataProcessOut> &output_channel)
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:83:1:[m[K [01;31m[Kerror: [m[K‘[01m[KDataProcess[m[K’ does not name a type
+   83 | [01;31m[KDataProcess[m[K::~DataProcess(){
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:87:6:[m[K [01;31m[Kerror: [m[K‘[01m[KDataProcess[m[K’ has not been declared
+   87 | void [01;31m[KDataProcess[m[K::cloudHandler(const sensor_msgs::msg::PointCloud2 &laserCloudMsg){
+      |      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:87:38:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ does not name a type
+   87 | void DataProcess::cloudHandler(const [01;31m[Ksensor_msgs[m[K::msg::PointCloud2 &laserCloudMsg){
+      |                                      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:87:54:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   87 | void DataProcess::cloudHandler(const sensor_msgs::msg[01;31m[K::[m[KPointCloud2 &laserCloudMsg){
+      |                                                      [01;31m[K^~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:87:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   87 | void DataProcess::cloudHandler[34m[K([m[Kconst sensor_msgs::msg[01;31m[K:[m[K[32m[K:[m[KPointCloud2 &laserCloudMsg){
+      |                               [34m[K~[m[K                      [01;31m[K^[m[K[32m[K~[m[K
+      |                                                      [32m[K)[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:87:54:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K::[m[K’ token
+   87 | void DataProcess::cloudHandler(const sensor_msgs::msg[01;31m[K::[m[KPointCloud2 &laserCloudMsg){
+      |                                                      [01;31m[K^~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:93:6:[m[K [01;31m[Kerror: [m[K‘[01m[KDataProcess[m[K’ has not been declared
+   93 | void [01;31m[KDataProcess[m[K::run(){
+      |      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:[m[K In function ‘[01m[Kvoid lidarslam::run()[m[K’:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:94:11:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   94 |     while([01;31m[Krclcpp[m[K::ok()){
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:95:12:[m[K [01;31m[Kerror: [m[K‘[01m[KqueClouds[m[K’ was not declared in this scope
+   95 |         if([01;31m[KqueClouds[m[K.empty()){
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:96:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksleep[m[K’ was not declared in this scope
+   96 |             [01;31m[Ksleep[m[K(1);
+      |             [01;31m[K^~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:99:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmtx[m[K’ was not declared in this scope
+   99 |         [01;31m[Kmtx[m[K.lock();
+      |         [01;31m[K^~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:100:9:[m[K [01;31m[Kerror: [m[K‘[01m[KoneCloud[m[K’ was not declared in this scope
+  100 |         [01;31m[KoneCloud[m[K = queClouds.front();
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:100:20:[m[K [01;31m[Kerror: [m[K‘[01m[KqueClouds[m[K’ was not declared in this scope
+  100 |         oneCloud = [01;31m[KqueClouds[m[K.front();
+      |                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:104:9:[m[K [01;31m[Kerror: [m[K‘[01m[KresetParameters[m[K’ was not declared in this scope
+  104 |         [01;31m[KresetParameters[m[K();
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:105:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl[m[K’ has not been declared
+  105 |         [01;31m[Kpcl[m[K::fromROSMsg(oneCloud, *_cloud_in);
+      |         [01;31m[K^~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:105:36:[m[K [01;31m[Kerror: [m[K‘[01m[K_cloud_in[m[K’ was not declared in this scope
+  105 |         pcl::fromROSMsg(oneCloud, *[01;31m[K_cloud_in[m[K);
+      |                                    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:106:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  106 |         std::[01;31m[Kvector[m[K<int> indices;
+      |              [01;31m[K^~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector[m[K’ is defined in header ‘[01m[K<vector>[m[K’; did you forget to ‘[01m[K#include <vector>[m[K’?
+  +++ |+[32m[K#include <vector>[m[K
+    1 | namespace lidarslam{
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:106:21:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+  106 |         std::vector<[01;31m[Kint[m[K> indices;
+      |                     [01;31m[K^~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:107:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl[m[K’ has not been declared
+  107 |         [01;31m[Kpcl[m[K::removeNaNFromPointCloud(*_cloud_in, *_cloud_in, indices);
+      |         [01;31m[K^~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:107:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kindices[m[K’ was not declared in this scope
+  107 |         pcl::removeNaNFromPointCloud(*_cloud_in, *_cloud_in, [01;31m[Kindices[m[K);
+      |                                                              [01;31m[K^~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:108:9:[m[K [01;31m[Kerror: [m[K‘[01m[KprojectPointCloud[m[K’ was not declared in this scope
+  108 |         [01;31m[KprojectPointCloud[m[K();
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:109:9:[m[K [01;31m[Kerror: [m[K‘[01m[KgroundRemoval[m[K’ was not declared in this scope
+  109 |         [01;31m[KgroundRemoval[m[K();
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:110:9:[m[K [01;31m[Kerror: [m[K‘[01m[KcalculateSmoothness[m[K’ was not declared in this scope
+  110 |         [01;31m[KcalculateSmoothness[m[K();
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:111:9:[m[K [01;31m[Kerror: [m[K‘[01m[KmarkCornerPoints[m[K’ was not declared in this scope
+  111 |         [01;31m[KmarkCornerPoints[m[K();
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:112:9:[m[K [01;31m[Kerror: [m[K‘[01m[KcornerCloudSegmentation[m[K’ was not declared in this scope
+  112 |         [01;31m[KcornerCloudSegmentation[m[K();
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:113:9:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishCloud[m[K’ was not declared in this scope
+  113 |         [01;31m[KpublishCloud[m[K();
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:[m[K At global scope:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:118:6:[m[K [01;31m[Kerror: [m[K‘[01m[KDataProcess[m[K’ has not been declared
+  118 | void [01;31m[KDataProcess[m[K::resetParameters(){
+      |      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:[m[K In function ‘[01m[Kvoid lidarslam::resetParameters()[m[K’:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:119:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_cloud_in[m[K’ was not declared in this scope
+  119 |     [01;31m[K_cloud_in[m[K -> clear();
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:120:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_corner_sharp[m[K’ was not declared in this scope
+  120 |     [01;31m[K_corner_sharp[m[K -> clear();
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:121:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_corner_less_sharp[m[K’ was not declared in this scope
+  121 |     [01;31m[K_corner_less_sharp[m[K -> clear();
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:122:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_surf_flat[m[K’ was not declared in this scope
+  122 |     [01;31m[K_surf_flat[m[K -> clear();
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:123:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_surf_less_flat[m[K’ was not declared in this scope
+  123 |     [01;31m[K_surf_less_flat[m[K -> clear();
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:124:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_segment_cloud[m[K’ was not declared in this scope
+  124 |     [01;31m[K_segment_cloud[m[K -> clear();
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:125:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_ground_cloud[m[K’ was not declared in this scope
+  125 |     [01;31m[K_ground_cloud[m[K -> clear();
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:126:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_full_cloud[m[K’ was not declared in this scope
+  126 |     [01;31m[K_full_cloud[m[K -> clear();
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:128:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+  128 |     const [01;31m[Ksize_t[m[K cloud_size = _vertical_scans * _horizontal_scans;
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+  +++ |+[32m[K#include <cstddef>[m[K
+    1 | namespace lidarslam{
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:129:5:[m[K [01;31m[Kerror: [m[K‘[01m[KPointType[m[K’ was not declared in this scope
+  129 |     [01;31m[KPointType[m[K nanPoint;
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:130:5:[m[K [01;31m[Kerror: [m[K‘[01m[KnanPoint[m[K’ was not declared in this scope
+  130 |     [01;31m[KnanPoint[m[K.x = std::numeric_limits<float>::quiet_NaN();
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:130:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knumeric_limits[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  130 |     nanPoint.x = std::[01;31m[Knumeric_limits[m[K<float>::quiet_NaN();
+      |                       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:130:38:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+  130 |     nanPoint.x = std::numeric_limits<[01;31m[Kfloat[m[K>::quiet_NaN();
+      |                                      [01;31m[K^~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:131:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knumeric_limits[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  131 |     nanPoint.y = std::[01;31m[Knumeric_limits[m[K<float>::quiet_NaN();
+      |                       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:131:38:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+  131 |     nanPoint.y = std::numeric_limits<[01;31m[Kfloat[m[K>::quiet_NaN();
+      |                                      [01;31m[K^~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:132:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knumeric_limits[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  132 |     nanPoint.z = std::[01;31m[Knumeric_limits[m[K<float>::quiet_NaN();
+      |                       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:132:38:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+  132 |     nanPoint.z = std::numeric_limits<[01;31m[Kfloat[m[K>::quiet_NaN();
+      |                                      [01;31m[K^~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:133:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kfill[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  133 |     std::[01;31m[Kfill[m[K(_full_cloud->points.begin(), _full_cloud->points.end(), nanPoint);
+      |          [01;31m[K^~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:135:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_range_mat[m[K’ was not declared in this scope
+  135 |     [01;31m[K_range_mat[m[K.resize(_vertical_scans, _horizontal_scans);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:135:23:[m[K [01;31m[Kerror: [m[K‘[01m[K_vertical_scans[m[K’ was not declared in this scope
+  135 |     _range_mat.resize([01;31m[K_vertical_scans[m[K, _horizontal_scans);
+      |                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:135:40:[m[K [01;31m[Kerror: [m[K‘[01m[K_horizontal_scans[m[K’ was not declared in this scope
+  135 |     _range_mat.resize(_vertical_scans, [01;31m[K_horizontal_scans[m[K);
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:136:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_ground_mat[m[K’ was not declared in this scope
+  136 |     [01;31m[K_ground_mat[m[K.resize(_vertical_scans, _horizontal_scans);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:137:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_label_mat[m[K’ was not declared in this scope
+  137 |     [01;31m[K_label_mat[m[K.resize(_vertical_scans, _horizontal_scans);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:138:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_corner_label[m[K’ was not declared in this scope
+  138 |     [01;31m[K_corner_label[m[K.resize(_vertical_scans, _horizontal_scans);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:140:21:[m[K [01;31m[Kerror: [m[K‘[01m[KFLT_MAX[m[K’ was not declared in this scope
+  140 |     _range_mat.fill([01;31m[KFLT_MAX[m[K);
+      |                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[KFLT_MAX[m[K’ is defined in header ‘[01m[K<cfloat>[m[K’; did you forget to ‘[01m[K#include <cfloat>[m[K’?
+  +++ |+[32m[K#include <cfloat>[m[K
+    1 | namespace lidarslam{
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:145:5:[m[K [01;31m[Kerror: [m[K‘[01m[KcloudCurvature[m[K’ was not declared in this scope
+  145 |     [01;31m[KcloudCurvature[m[K.clear();
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:146:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_size[m[K’ was not declared in this scope
+  146 |     cloudCurvature.reserve([01;31m[Kcloud_size[m[K);
+      |                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:147:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstr_index[m[K’ was not declared in this scope
+  147 |     [01;31m[Kstr_index[m[K.resize(_vertical_scans, 0);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:148:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_index[m[K’ was not declared in this scope
+  148 |     [01;31m[Kend_index[m[K.resize(_vertical_scans, 0);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:[m[K At global scope:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:151:6:[m[K [01;31m[Kerror: [m[K‘[01m[KDataProcess[m[K’ has not been declared
+  151 | void [01;31m[KDataProcess[m[K::projectPointCloud(){
+      |      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:[m[K In function ‘[01m[Kvoid lidarslam::projectPointCloud()[m[K’:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:152:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+  152 |     const [01;31m[Ksize_t[m[K cloudSize = _cloud_in -> size();
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:152:11:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:154:10:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ was not declared in this scope
+  154 |     for ([01;31m[Ksize_t[m[K i = 0; i < cloudSize; ++i) {
+      |          [01;31m[K^~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:154:10:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:154:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+  154 |     for (size_t i = 0; [01;31m[Ki[m[K < cloudSize; ++i) {
+      |                        [01;31m[K^[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:154:28:[m[K [01;31m[Kerror: [m[K‘[01m[KcloudSize[m[K’ was not declared in this scope
+  154 |     for (size_t i = 0; i < [01;31m[KcloudSize[m[K; ++i) {
+      |                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:155:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPointType[m[K’ was not declared in this scope
+  155 |         [01;31m[KPointType[m[K thisPoint = _cloud_in -> points[i];
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:157:28:[m[K [01;31m[Kerror: [m[K‘[01m[KthisPoint[m[K’ was not declared in this scope
+  157 |         float range = sqrt([01;31m[KthisPoint[m[K.x * thisPoint.x +
+      |                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:157:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ksqrt[m[K’ was not declared in this scope
+  157 |         float range = [01;31m[Ksqrt[m[K(thisPoint.x * thisPoint.x +
+      |                       [01;31m[K^~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:161:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kasin[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  161 |         float verticalAngle = std::[01;31m[Kasin[m[K(thisPoint.z / range);
+      |                                    [01;31m[K^~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:163:39:[m[K [01;31m[Kerror: [m[K‘[01m[K_ang_bottom[m[K’ was not declared in this scope
+  163 |         int rowIdn = (verticalAngle + [01;31m[K_ang_bottom[m[K) / _ang_resolution_Y;
+      |                                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:163:54:[m[K [01;31m[Kerror: [m[K‘[01m[K_ang_resolution_Y[m[K’ was not declared in this scope
+  163 |         int rowIdn = (verticalAngle + _ang_bottom) / [01;31m[K_ang_resolution_Y[m[K;
+      |                                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:164:37:[m[K [01;31m[Kerror: [m[K‘[01m[K_vertical_scans[m[K’ was not declared in this scope
+  164 |         if (rowIdn < 0 || rowIdn >= [01;31m[K_vertical_scans[m[K) {
+      |                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:168:35:[m[K [01;31m[Kerror: [m[K‘[01m[Katan2[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  168 |         float horizonAngle = std::[01;31m[Katan2[m[K(thisPoint.x, thisPoint.y);
+      |                                   [01;31m[K^~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:170:48:[m[K [01;31m[Kerror: [m[K‘[01m[KM_PI_2[m[K’ was not declared in this scope
+  170 |         int columnIdn = -round((horizonAngle - [01;31m[KM_PI_2[m[K) / _ang_resolution_X) + _horizontal_scans * 0.5;
+      |                                                [01;31m[K^~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:170:58:[m[K [01;31m[Kerror: [m[K‘[01m[K_ang_resolution_X[m[K’ was not declared in this scope
+  170 |         int columnIdn = -round((horizonAngle - M_PI_2) / [01;31m[K_ang_resolution_X[m[K) + _horizontal_scans * 0.5;
+      |                                                          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:170:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kround[m[K’ was not declared in this scope; did you mean ‘[01m[Krun[m[K’?
+  170 |         int columnIdn = -[01;31m[Kround[m[K((horizonAngle - M_PI_2) / _ang_resolution_X) + _horizontal_scans * 0.5;
+      |                          [01;31m[K^~~~~[m[K
+      |                          [32m[Krun[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:170:79:[m[K [01;31m[Kerror: [m[K‘[01m[K_horizontal_scans[m[K’ was not declared in this scope
+  170 |         int columnIdn = -round((horizonAngle - M_PI_2) / _ang_resolution_X) + [01;31m[K_horizontal_scans[m[K * 0.5;
+      |                                                                               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:184:9:[m[K [01;31m[Kerror: [m[K‘[01m[K_range_mat[m[K’ was not declared in this scope
+  184 |         [01;31m[K_range_mat[m[K(rowIdn, columnIdn) = range;
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:188:15:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kindex[m[K’
+  188 |         size_t[01;31m[K [m[K[32m[Kindex[m[K = columnIdn + rowIdn * _horizontal_scans;
+      |               [01;31m[K^[m[K[32m[K~~~~~[m[K
+      |               [32m[K;[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:190:9:[m[K [01;31m[Kerror: [m[K‘[01m[K_full_cloud[m[K’ was not declared in this scope
+  190 |         [01;31m[K_full_cloud[m[K -> points[index] = thisPoint;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:190:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kindex[m[K’ was not declared in this scope
+  190 |         _full_cloud -> points[[01;31m[Kindex[m[K] = thisPoint;
+      |                               [01;31m[K^~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:[m[K At global scope:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:194:6:[m[K [01;31m[Kerror: [m[K‘[01m[KDataProcess[m[K’ has not been declared
+  194 | void [01;31m[KDataProcess[m[K::groundRemoval(){
+      |      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:[m[K In function ‘[01m[Kvoid lidarslam::groundRemoval()[m[K’:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:195:25:[m[K [01;31m[Kerror: [m[K‘[01m[K_horizontal_scans[m[K’ was not declared in this scope
+  195 |     for (int j = 0; j < [01;31m[K_horizontal_scans[m[K; ++j) {
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:196:29:[m[K [01;31m[Kerror: [m[K‘[01m[K_ground_scan_index[m[K’ was not declared in this scope
+  196 |         for (int i = 0; i < [01;31m[K_ground_scan_index[m[K; ++i) {
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:200:17:[m[K [01;31m[Kerror: [m[K‘[01m[K_full_cloud[m[K’ was not declared in this scope
+  200 |             if ([01;31m[K_full_cloud[m[K->points[lowerInd].intensity == -1 ||
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:202:17:[m[K [01;31m[Kerror: [m[K‘[01m[K_ground_mat[m[K’ was not declared in this scope
+  202 |                 [01;31m[K_ground_mat[m[K(i, j) = -1;
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:207:17:[m[K [01;31m[Kerror: [m[K‘[01m[K_full_cloud[m[K’ was not declared in this scope
+  207 |                 [01;31m[K_full_cloud[m[K->points[upperInd].x - _full_cloud->points[lowerInd].x;
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:213:41:[m[K [01;31m[Kerror: [m[K‘[01m[Katan2[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  213 |             float vertical_angle = std::[01;31m[Katan2[m[K(dZ , sqrt(dX * dX + dY * dY + dZ * dZ));
+      |                                         [01;31m[K^~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:213:52:[m[K [01;31m[Kerror: [m[K‘[01m[Ksqrt[m[K’ was not declared in this scope
+  213 |             float vertical_angle = std::atan2(dZ , [01;31m[Ksqrt[m[K(dX * dX + dY * dY + dZ * dZ));
+      |                                                    [01;31m[K^~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:215:36:[m[K [01;31m[Kerror: [m[K‘[01m[K_sensor_mount_angle[m[K’ was not declared in this scope
+  215 |             if ( (vertical_angle - [01;31m[K_sensor_mount_angle[m[K) <= M_PI / 18.0) {
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:215:60:[m[K [01;31m[Kerror: [m[K‘[01m[KM_PI[m[K’ was not declared in this scope
+  215 |             if ( (vertical_angle - _sensor_mount_angle) <= [01;31m[KM_PI[m[K / 18.0) {
+      |                                                            [01;31m[K^~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:216:17:[m[K [01;31m[Kerror: [m[K‘[01m[K_ground_mat[m[K’ was not declared in this scope
+  216 |                 [01;31m[K_ground_mat[m[K(i, j) = 1;
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:223:25:[m[K [01;31m[Kerror: [m[K‘[01m[K_vertical_scans[m[K’ was not declared in this scope
+  223 |     for (int i = 0; i < [01;31m[K_vertical_scans[m[K; ++i) {
+      |                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:224:29:[m[K [01;31m[Kerror: [m[K‘[01m[K_horizontal_scans[m[K’ was not declared in this scope
+  224 |         for (int j = 0; j < [01;31m[K_horizontal_scans[m[K; ++j) {
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:225:17:[m[K [01;31m[Kerror: [m[K‘[01m[K_ground_mat[m[K’ was not declared in this scope
+  225 |             if ([01;31m[K_ground_mat[m[K(i, j) == 1 ||
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:226:17:[m[K [01;31m[Kerror: [m[K‘[01m[K_range_mat[m[K’ was not declared in this scope
+  226 |                 [01;31m[K_range_mat[m[K(i, j) == FLT_MAX) {
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:226:37:[m[K [01;31m[Kerror: [m[K‘[01m[KFLT_MAX[m[K’ was not declared in this scope
+  226 |                 _range_mat(i, j) == [01;31m[KFLT_MAX[m[K) {
+      |                                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:226:37:[m[K [01;36m[Knote: [m[K‘[01m[KFLT_MAX[m[K’ is defined in header ‘[01m[K<cfloat>[m[K’; did you forget to ‘[01m[K#include <cfloat>[m[K’?
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:227:17:[m[K [01;31m[Kerror: [m[K‘[01m[K_label_mat[m[K’ was not declared in this scope
+  227 |                 [01;31m[K_label_mat[m[K(i, j) = -1;
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:[m[K At global scope:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:233:6:[m[K [01;31m[Kerror: [m[K‘[01m[KDataProcess[m[K’ has not been declared
+  233 | void [01;31m[KDataProcess[m[K::calculateSmoothness(){
+      |      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:[m[K In function ‘[01m[Kvoid lidarslam::calculateSmoothness()[m[K’:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:234:24:[m[K [01;31m[Kerror: [m[K‘[01m[K_vertical_scans[m[K’ was not declared in this scope
+  234 |     for(int i = 0; i < [01;31m[K_vertical_scans[m[K; ++i){
+      |                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:235:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  235 |         std::[01;31m[Kvector[m[K<float> scan_range;
+      |              [01;31m[K^~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:235:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector[m[K’ is defined in header ‘[01m[K<vector>[m[K’; did you forget to ‘[01m[K#include <vector>[m[K’?
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:235:21:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+  235 |         std::vector<[01;31m[Kfloat[m[K> scan_range;
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:236:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  236 |         std::[01;31m[Kvector[m[K<int> scan_index;
+      |              [01;31m[K^~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:236:14:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector[m[K’ is defined in header ‘[01m[K<vector>[m[K’; did you forget to ‘[01m[K#include <vector>[m[K’?
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:236:21:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+  236 |         std::vector<[01;31m[Kint[m[K> scan_index;
+      |                     [01;31m[K^~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:237:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_range[m[K’ was not declared in this scope
+  237 |         [01;31m[Kscan_range[m[K.reserve(_horizontal_scans);
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:237:28:[m[K [01;31m[Kerror: [m[K‘[01m[K_horizontal_scans[m[K’ was not declared in this scope
+  237 |         scan_range.reserve([01;31m[K_horizontal_scans[m[K);
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:238:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kscan_index[m[K’ was not declared in this scope
+  238 |         [01;31m[Kscan_index[m[K.reserve(_horizontal_scans);
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:241:16:[m[K [01;31m[Kerror: [m[K‘[01m[K_range_mat[m[K’ was not declared in this scope
+  241 |             if([01;31m[K_range_mat[m[K(i, j) != FLT_MAX){
+      |                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:241:36:[m[K [01;31m[Kerror: [m[K‘[01m[KFLT_MAX[m[K’ was not declared in this scope
+  241 |             if(_range_mat(i, j) != [01;31m[KFLT_MAX[m[K){
+      |                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:241:36:[m[K [01;36m[Knote: [m[K‘[01m[KFLT_MAX[m[K’ is defined in header ‘[01m[K<cfloat>[m[K’; did you forget to ‘[01m[K#include <cfloat>[m[K’?
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:248:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstr_index[m[K’ was not declared in this scope
+  248 |         [01;31m[Kstr_index[m[K[i] = cloudCurvature.size();
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:248:24:[m[K [01;31m[Kerror: [m[K‘[01m[KcloudCurvature[m[K’ was not declared in this scope
+  248 |         str_index[i] = [01;31m[KcloudCurvature[m[K.size();
+      |                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:249:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ was not declared in this scope
+  249 |         for([01;31m[Ksize_t[m[K j = 5; j < scan_range.size() - 5; ++j){
+      |             [01;31m[K^~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:249:13:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:249:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kj[m[K’ was not declared in this scope
+  249 |         for(size_t j = 5; [01;31m[Kj[m[K < scan_range.size() - 5; ++j){
+      |                           [01;31m[K^[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:253:38:[m[K [01;31m[Kerror: [m[K‘[01m[Ksmoothness[m[K’ was not declared in this scope
+  253 |             cloudCurvature.push_back([01;31m[Ksmoothness[m[K(curvature, scan_index[j]));
+      |                                      [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:255:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_index[m[K’ was not declared in this scope
+  255 |         [01;31m[Kend_index[m[K[i] = cloudCurvature.size() - 1;
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:[m[K At global scope:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:259:6:[m[K [01;31m[Kerror: [m[K‘[01m[KDataProcess[m[K’ has not been declared
+  259 | void [01;31m[KDataProcess[m[K::markCornerPoints(){
+      |      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:[m[K In function ‘[01m[Kvoid lidarslam::markCornerPoints()[m[K’:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:260:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ksmoothness[m[K’ does not name a type
+  260 |     auto cmp = [](const [01;31m[Ksmoothness[m[K &l_val, const smoothness &r_val){
+      |                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:262:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  262 |     }[01;31m[K;[m[K
+      |      [01;31m[K^[m[K
+      |      [32m[K)[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:260:18:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  260 |     auto cmp = [][01;36m[K([m[Kconst smoothness &l_val, const smoothness &r_val){
+      |                  [01;36m[K^[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:[m[K In lambda function:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:262:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+  262 |     }[01;31m[K;[m[K
+      |      [01;31m[K^[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:[m[K In function ‘[01m[Kvoid lidarslam::markCornerPoints()[m[K’:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:264:24:[m[K [01;31m[Kerror: [m[K‘[01m[K_vertical_scans[m[K’ was not declared in this scope
+  264 |     for(int i = 0; i < [01;31m[K_vertical_scans[m[K; ++i){
+      |                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:265:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kstr_index[m[K’ was not declared in this scope
+  265 |         if([01;31m[Kstr_index[m[K[i] >= end_index[i]){
+      |            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:265:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_index[m[K’ was not declared in this scope
+  265 |         if(str_index[i] >= [01;31m[Kend_index[m[K[i]){
+      |                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:269:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kend_index[m[K’ was not declared in this scope
+  269 |         int length = [01;31m[Kend_index[m[K[i] - str_index[i];
+      |                      [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:269:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kstr_index[m[K’ was not declared in this scope
+  269 |         int length = end_index[i] - [01;31m[Kstr_index[m[K[i];
+      |                                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:275:18:[m[K [01;31m[Kerror: [m[K‘[01m[KcloudCurvature[m[K’ was not declared in this scope
+  275 |             sort([01;31m[KcloudCurvature[m[K.begin() + sp, cloudCurvature.begin() + ep, cmp);
+      |                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:275:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksort[m[K’ was not declared in this scope; did you mean ‘[01m[Kshort[m[K’?
+  275 |             [01;31m[Ksort[m[K(cloudCurvature.begin() + sp, cloudCurvature.begin() + ep, cmp);
+      |             [01;31m[K^~~~[m[K
+      |             [32m[Kshort[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:280:57:[m[K [01;31m[Kerror: [m[K‘[01m[K_ground_mat[m[K’ was not declared in this scope
+  280 |                 if(cloudCurvature[k].curvature > 0.1 && [01;31m[K_ground_mat[m[K(i, j) != 1){
+      |                                                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:282:25:[m[K [01;31m[Kerror: [m[K‘[01m[K_corner_label[m[K’ was not declared in this scope
+  282 |                         [01;31m[K_corner_label[m[K(i, ind) = 2;
+      |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:284:25:[m[K [01;31m[Kerror: [m[K‘[01m[K_corner_label[m[K’ was not declared in this scope
+  284 |                         [01;31m[K_corner_label[m[K(i, ind) = 1;
+      |                         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:[m[K At global scope:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:295:6:[m[K [01;31m[Kerror: [m[K‘[01m[KDataProcess[m[K’ has not been declared
+  295 | void [01;31m[KDataProcess[m[K::labelVaildableCornerPoints(int row, int col){
+      |      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:[m[K In function ‘[01m[Kvoid lidarslam::labelVaildableCornerPoints(int, int)[m[K’:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:296:45:[m[K [01;31m[Kerror: [m[K‘[01m[K_segment_theta[m[K’ was not declared in this scope
+  296 |     const float segmentThetaThreshold = tan([01;31m[K_segment_theta[m[K);
+      |                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:296:41:[m[K [01;31m[Kerror: [m[K‘[01m[Ktan[m[K’ was not declared in this scope
+  296 |     const float segmentThetaThreshold = [01;31m[Ktan[m[K(_segment_theta);
+      |                                         [01;31m[K^~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:298:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kunordered_set[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  298 |     std::[01;31m[Kunordered_set[m[K<int> lineCountFlag;
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::unordered_set[m[K’ is defined in header ‘[01m[K<unordered_set>[m[K’; did you forget to ‘[01m[K#include <unordered_set>[m[K’?
+  +++ |+[32m[K#include <unordered_set>[m[K
+    1 | namespace lidarslam{
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:298:24:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kint[m[K’
+  298 |     std::unordered_set<[01;31m[Kint[m[K> lineCountFlag;
+      |                        [01;31m[K^~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:299:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize_t[m[K’ does not name a type
+  299 |     const [01;31m[Ksize_t[m[K cloud_size = _vertical_scans * _horizontal_scans;
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:299:11:[m[K [01;36m[Knote: [m[K‘[01m[Ksize_t[m[K’ is defined in header ‘[01m[K<cstddef>[m[K’; did you forget to ‘[01m[K#include <cstddef>[m[K’?
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:300:21:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen[m[K’ does not name a type
+  300 |     using Coord2D = [01;31m[KEigen[m[K::Vector2i;
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:301:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kboost[m[K’ has not been declared
+  301 |     [01;31m[Kboost[m[K::circular_buffer<Coord2D> queue(cloud_size);
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:301:28:[m[K [01;31m[Kerror: [m[K‘[01m[KCoord2D[m[K’ was not declared in this scope
+  301 |     boost::circular_buffer<[01;31m[KCoord2D[m[K> queue(cloud_size);
+      |                            [01;31m[K^~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:301:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_size[m[K’ was not declared in this scope
+  301 |     boost::circular_buffer<Coord2D> queue([01;31m[Kcloud_size[m[K);
+      |                                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:301:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kqueue[m[K’ was not declared in this scope
+  301 |     boost::circular_buffer<Coord2D> [01;31m[Kqueue[m[K(cloud_size);
+      |                                     [01;31m[K^~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:302:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kboost[m[K’ has not been declared
+  302 |     [01;31m[Kboost[m[K::circular_buffer<Coord2D> all_pushed(cloud_size);
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:302:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kall_pushed[m[K’ was not declared in this scope
+  302 |     boost::circular_buffer<Coord2D> [01;31m[Kall_pushed[m[K(cloud_size);
+      |                                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:306:5:[m[K [01;31m[Kerror: [m[K‘[01m[KlineCountFlag[m[K’ was not declared in this scope
+  306 |     [01;31m[KlineCountFlag[m[K.insert(row);
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:308:11:[m[K [01;31m[Kerror: [m[K‘[01m[KCoord2D[m[K’ does not name a type
+  308 |     const [01;31m[KCoord2D[m[K neighborIterator[4] = {{1, 0}, {-1, 0}};
+      |           [01;31m[K^~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:311:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KfromInd[m[K’
+  311 |         Coord2D[01;31m[K [m[K[32m[KfromInd[m[K = queue.front();
+      |                [01;31m[K^[m[K[32m[K~~~~~~~[m[K
+      |                [32m[K;[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:314:33:[m[K [01;31m[Kerror: [m[K‘[01m[KneighborIterator[m[K’ was not declared in this scope
+  314 |         for (const auto& iter : [01;31m[KneighborIterator[m[K) {
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:315:28:[m[K [01;31m[Kerror: [m[K‘[01m[KfromInd[m[K’ was not declared in this scope
+  315 |             int thisIndX = [01;31m[KfromInd[m[K.x() + iter.x();
+      |                            [01;31m[K^~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:319:45:[m[K [01;31m[Kerror: [m[K‘[01m[K_vertical_scans[m[K’ was not declared in this scope
+  319 |             if (thisIndX < 0 || thisIndX >= [01;31m[K_vertical_scans[m[K){
+      |                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:324:17:[m[K [01;31m[Kerror: [m[K‘[01m[K_label_mat[m[K’ was not declared in this scope
+  324 |             if ([01;31m[K_label_mat[m[K(thisIndX, thisIndY) == -1){
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:333:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  333 |             float d1 = std::[01;31m[Kmax[m[K(_range_mat(fromInd.x(), fromInd.y()),
+      |                             [01;31m[K^~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:333:33:[m[K [01;31m[Kerror: [m[K‘[01m[K_range_mat[m[K’ was not declared in this scope
+  333 |             float d1 = std::max([01;31m[K_range_mat[m[K(fromInd.x(), fromInd.y()),
+      |                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:335:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  335 |             float d2 = std::[01;31m[Kmin[m[K(_range_mat(fromInd.x(), fromInd.y()),
+      |                             [01;31m[K^~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:338:27:[m[K [01;31m[Kerror: [m[K‘[01m[K_ang_resolution_Y[m[K’ was not declared in this scope
+  338 |             float alpha = [01;31m[K_ang_resolution_Y[m[K;
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:339:32:[m[K [01;31m[Kerror: [m[K‘[01m[Ksin[m[K’ was not declared in this scope
+  339 |             float tang = (d2 * [01;31m[Ksin[m[K(alpha) / (d1 - d2 * cos(alpha)));
+      |                                [01;31m[K^~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:339:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kcos[m[K’ was not declared in this scope; did you mean ‘[01m[Kcol[m[K’?
+  339 |             float tang = (d2 * sin(alpha) / (d1 - d2 * [01;31m[Kcos[m[K(alpha)));
+      |                                                        [01;31m[K^~~[m[K
+      |                                                        [32m[Kcol[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:349:31:[m[K [01;31m[Kerror: [m[K‘[01m[K_segment_valid_line_num[m[K’ was not declared in this scope
+  349 |     if(lineCountFlag.size() > [01;31m[K_segment_valid_line_num[m[K){
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:351:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kind[m[K’
+  351 |             Coord2D[01;31m[K [m[K[32m[Kind[m[K = all_pushed.front();
+      |                    [01;31m[K^[m[K[32m[K~~~[m[K
+      |                    [32m[K;[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:353:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kind[m[K’ was not declared in this scope; did you mean ‘[01m[Kint[m[K’?
+  353 |             if(_corner_label([01;31m[Kind[m[K.x(), ind.y()) == 2){
+      |                              [01;31m[K^~~[m[K
+      |                              [32m[Kint[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:353:16:[m[K [01;31m[Kerror: [m[K‘[01m[K_corner_label[m[K’ was not declared in this scope
+  353 |             if([01;31m[K_corner_label[m[K(ind.x(), ind.y()) == 2){
+      |                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:361:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kind[m[K’
+  361 |             Coord2D[01;31m[K [m[K[32m[Kind[m[K = all_pushed.front();
+      |                    [01;31m[K^[m[K[32m[K~~~[m[K
+      |                    [32m[K;[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:363:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kind[m[K’ was not declared in this scope; did you mean ‘[01m[Kint[m[K’?
+  363 |             _corner_label([01;31m[Kind[m[K.x(), ind.y()) = 0;
+      |                           [01;31m[K^~~[m[K
+      |                           [32m[Kint[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:363:13:[m[K [01;31m[Kerror: [m[K‘[01m[K_corner_label[m[K’ was not declared in this scope
+  363 |             [01;31m[K_corner_label[m[K(ind.x(), ind.y()) = 0;
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:[m[K At global scope:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:368:6:[m[K [01;31m[Kerror: [m[K‘[01m[KDataProcess[m[K’ has not been declared
+  368 | void [01;31m[KDataProcess[m[K::cornerCloudSegmentation(){
+      |      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:[m[K In function ‘[01m[Kvoid lidarslam::cornerCloudSegmentation()[m[K’:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:369:24:[m[K [01;31m[Kerror: [m[K‘[01m[K_vertical_scans[m[K’ was not declared in this scope
+  369 |     for(int i = 0; i < [01;31m[K_vertical_scans[m[K; ++i){
+      |                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:370:28:[m[K [01;31m[Kerror: [m[K‘[01m[K_horizontal_scans[m[K’ was not declared in this scope
+  370 |         for(int j = 0; j < [01;31m[K_horizontal_scans[m[K; ++j){
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:371:16:[m[K [01;31m[Kerror: [m[K‘[01m[K_corner_label[m[K’ was not declared in this scope
+  371 |             if([01;31m[K_corner_label[m[K(i, j) == 1 || _corner_label(i, j) == 2)
+      |                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:376:24:[m[K [01;31m[Kerror: [m[K‘[01m[K_vertical_scans[m[K’ was not declared in this scope
+  376 |     for(int i = 0; i < [01;31m[K_vertical_scans[m[K; ++i){
+      |                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:377:28:[m[K [01;31m[Kerror: [m[K‘[01m[K_horizontal_scans[m[K’ was not declared in this scope
+  377 |         for(int j = 0; j < [01;31m[K_horizontal_scans[m[K; ++j){
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:379:16:[m[K [01;31m[Kerror: [m[K‘[01m[K_corner_label[m[K’ was not declared in this scope
+  379 |             if([01;31m[K_corner_label[m[K(i, j) == 4){
+      |                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:380:17:[m[K [01;31m[Kerror: [m[K‘[01m[K_corner_sharp[m[K’ was not declared in this scope
+  380 |                 [01;31m[K_corner_sharp[m[K -> push_back(_full_cloud -> points[ind]);
+      |                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:380:44:[m[K [01;31m[Kerror: [m[K‘[01m[K_full_cloud[m[K’ was not declared in this scope
+  380 |                 _corner_sharp -> push_back([01;31m[K_full_cloud[m[K -> points[ind]);
+      |                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:381:17:[m[K [01;31m[Kerror: [m[K‘[01m[K_corner_less_sharp[m[K’ was not declared in this scope
+  381 |                 [01;31m[K_corner_less_sharp[m[K -> push_back(_full_cloud -> points[ind]);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:383:16:[m[K [01;31m[Kerror: [m[K‘[01m[K_corner_label[m[K’ was not declared in this scope
+  383 |             if([01;31m[K_corner_label[m[K(i, j) == 3){
+      |                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:384:17:[m[K [01;31m[Kerror: [m[K‘[01m[K_corner_less_sharp[m[K’ was not declared in this scope
+  384 |                 [01;31m[K_corner_less_sharp[m[K -> push_back(_full_cloud -> points[ind]);
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:384:49:[m[K [01;31m[Kerror: [m[K‘[01m[K_full_cloud[m[K’ was not declared in this scope
+  384 |                 _corner_less_sharp -> push_back([01;31m[K_full_cloud[m[K -> points[ind]);
+      |                                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:386:16:[m[K [01;31m[Kerror: [m[K‘[01m[K_label_mat[m[K’ was not declared in this scope
+  386 |             if([01;31m[K_label_mat[m[K(i, j) != -1){
+      |                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:387:20:[m[K [01;31m[Kerror: [m[K‘[01m[K_ground_mat[m[K’ was not declared in this scope
+  387 |                 if([01;31m[K_ground_mat[m[K(i, j) == 1){
+      |                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:388:21:[m[K [01;31m[Kerror: [m[K‘[01m[K_ground_cloud[m[K’ was not declared in this scope
+  388 |                     [01;31m[K_ground_cloud[m[K -> push_back(_full_cloud -> points[ind]);
+      |                     [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:388:48:[m[K [01;31m[Kerror: [m[K‘[01m[K_full_cloud[m[K’ was not declared in this scope
+  388 |                     _ground_cloud -> push_back([01;31m[K_full_cloud[m[K -> points[ind]);
+      |                                                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:390:21:[m[K [01;31m[Kerror: [m[K‘[01m[K_segment_cloud[m[K’ was not declared in this scope
+  390 |                     [01;31m[K_segment_cloud[m[K -> push_back(_full_cloud -> points[ind]);
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:390:49:[m[K [01;31m[Kerror: [m[K‘[01m[K_full_cloud[m[K’ was not declared in this scope
+  390 |                     _segment_cloud -> push_back([01;31m[K_full_cloud[m[K -> points[ind]);
+      |                                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:[m[K At global scope:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:398:6:[m[K [01;31m[Kerror: [m[K‘[01m[KDataProcess[m[K’ has not been declared
+  398 | void [01;31m[KDataProcess[m[K::publishCloud(){
+      |      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:[m[K In function ‘[01m[Kvoid lidarslam::publishCloud()[m[K’:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:399:24:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+  399 |     auto publish = [&]([01;31m[Krclcpp[m[K::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pub, CloudTypePtr cloud){
+      |                        [01;31m[K^~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:399:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K<[m[K’ token
+  399 |     auto publish = [&](rclcpp::Publisher[01;31m[K<[m[Ksensor_msgs::msg::PointCloud2>::SharedPtr pub, CloudTypePtr cloud){
+      |                                         [01;31m[K^[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:[m[K In lambda function:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:400:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ has not been declared
+  400 |         [01;31m[Ksensor_msgs[m[K::msg::PointCloud2 msg;
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:401:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl[m[K’ has not been declared
+  401 |         [01;31m[Kpcl[m[K::toROSMsg(*cloud, msg);
+      |         [01;31m[K^~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:401:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud[m[K’ was not declared in this scope
+  401 |         pcl::toROSMsg(*[01;31m[Kcloud[m[K, msg);
+      |                        [01;31m[K^~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:401:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+  401 |         pcl::toROSMsg(*cloud, [01;31m[Kmsg[m[K);
+      |                               [01;31m[K^~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:402:22:[m[K [01;31m[Kerror: [m[K‘[01m[KoneCloud[m[K’ was not declared in this scope
+  402 |         msg.header = [01;31m[KoneCloud[m[K.header;
+      |                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:404:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+  404 |         [01;31m[Kpub[m[K -> publish(msg);
+      |         [01;31m[K^~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:[m[K In function ‘[01m[Kvoid lidarslam::publishCloud()[m[K’:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:407:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_cloud_in[m[K’ was not declared in this scope
+  407 |     publish([01;31m[Kpub_cloud_in[m[K, _cloud_in);
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:407:27:[m[K [01;31m[Kerror: [m[K‘[01m[K_cloud_in[m[K’ was not declared in this scope
+  407 |     publish(pub_cloud_in, [01;31m[K_cloud_in[m[K);
+      |                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:408:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_corner_sharp[m[K’ was not declared in this scope
+  408 |     publish([01;31m[Kpub_corner_sharp[m[K, _corner_sharp);
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:408:31:[m[K [01;31m[Kerror: [m[K‘[01m[K_corner_sharp[m[K’ was not declared in this scope
+  408 |     publish(pub_corner_sharp, [01;31m[K_corner_sharp[m[K);
+      |                               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:409:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_corner_less_sharp[m[K’ was not declared in this scope
+  409 |     publish([01;31m[Kpub_corner_less_sharp[m[K, _corner_less_sharp);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:409:36:[m[K [01;31m[Kerror: [m[K‘[01m[K_corner_less_sharp[m[K’ was not declared in this scope
+  409 |     publish(pub_corner_less_sharp, [01;31m[K_corner_less_sharp[m[K);
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:410:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_surf_flat[m[K’ was not declared in this scope
+  410 |     publish([01;31m[Kpub_surf_flat[m[K, _surf_flat);
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:410:28:[m[K [01;31m[Kerror: [m[K‘[01m[K_surf_flat[m[K’ was not declared in this scope
+  410 |     publish(pub_surf_flat, [01;31m[K_surf_flat[m[K);
+      |                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:411:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_surf_less_flat[m[K’ was not declared in this scope
+  411 |     publish([01;31m[Kpub_surf_less_flat[m[K, _surf_less_flat);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:411:33:[m[K [01;31m[Kerror: [m[K‘[01m[K_surf_less_flat[m[K’ was not declared in this scope
+  411 |     publish(pub_surf_less_flat, [01;31m[K_surf_less_flat[m[K);
+      |                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:412:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_segment_cloud[m[K’ was not declared in this scope
+  412 |     publish([01;31m[Kpub_segment_cloud[m[K, _segment_cloud);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:412:32:[m[K [01;31m[Kerror: [m[K‘[01m[K_segment_cloud[m[K’ was not declared in this scope
+  412 |     publish(pub_segment_cloud, [01;31m[K_segment_cloud[m[K);
+      |                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:413:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_ground_cloud[m[K’ was not declared in this scope
+  413 |     publish([01;31m[Kpub_ground_cloud[m[K, _ground_cloud);
+      |             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:413:31:[m[K [01;31m[Kerror: [m[K‘[01m[K_ground_cloud[m[K’ was not declared in this scope
+  413 |     publish(pub_ground_cloud, [01;31m[K_ground_cloud[m[K);
+      |                               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:416:5:[m[K [01;31m[Kerror: [m[K‘[01m[KDataProcessOut[m[K’ was not declared in this scope
+  416 |     [01;31m[KDataProcessOut[m[K out;
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:417:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kout[m[K’ was not declared in this scope
+  417 |     [01;31m[Kout[m[K.corner_sharp.swap(_corner_sharp);
+      |     [01;31m[K^~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:423:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_output_channel[m[K’ was not declared in this scope
+  423 |     [01;31m[K_output_channel[m[K.send(std::move(out));
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:423:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  423 |     _output_channel.send(std::[01;31m[Kmove[m[K(out));
+      |                               [01;31m[K^~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::move[m[K’ is defined in header ‘[01m[K<utility>[m[K’; did you forget to ‘[01m[K#include <utility>[m[K’?
+  +++ |+[32m[K#include <utility>[m[K
+    1 | namespace lidarslam{
+gmake[2]: *** [CMakeFiles/lidar_slam.dir/build.make:76: CMakeFiles/lidar_slam.dir/src/data_process.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_slam.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from lidar_slam_msgs/msg/Cloud.msg
+// generated code does not contain a copyright notice
+
+#include "lidar_slam_msgs/msg/Point.idl"
+#include "std_msgs/msg/Header.idl"
+
+module lidar_slam_msgs {
+  module msg {
+    struct Cloud {
+      std_msgs::msg::Header header;
+
+      sequence<lidar_slam_msgs::msg::Point> corner_sharp;
+
+      sequence<lidar_slam_msgs::msg::Point> corner_less_sharp;
+
+      sequence<lidar_slam_msgs::msg::Point> surf_flat;
+
+      sequence<lidar_slam_msgs::msg::Point> surf_less_flat;
+
+      sequence<lidar_slam_msgs::msg::Point> segment_cloud;
+
+      sequence<lidar_slam_msgs::msg::Point> ground_cloud;
+    };
+  };
+};

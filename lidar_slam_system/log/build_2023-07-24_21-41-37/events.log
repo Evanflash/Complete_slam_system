@@ -1,0 +1,395 @@
+[0.000000] (-) TimerEvent: {}
+[0.000527] (-) JobUnselected: {'identifier': 'lidar_slam_msgs'}
+[0.000889] (lidar_slam) JobQueued: {'identifier': 'lidar_slam', 'dependencies': OrderedDict()}
+[0.000926] (lidar_slam) JobStarted: {'identifier': 'lidar_slam'}
+[0.022184] (lidar_slam) JobProgress: {'identifier': 'lidar_slam', 'progress': 'cmake'}
+[0.042673] (lidar_slam) JobProgress: {'identifier': 'lidar_slam', 'progress': 'build'}
+[0.042800] (lidar_slam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam', '--', '-j4', '-l4'], 'cwd': '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'evan'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/evan/code/Complete_slam_system/lego/install/other_msgs/lib:/home/evan/code/lidar_slam/lidar_slam/install/other_msgs/lib:/home/evan/code/lego-loam/lego/install/cloud_msgs/lib:/home/evan/code/ndt-loc/install/cloud_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib'), ('HOME', '/home/evan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/evan/code/Complete_slam_system/lidar_slam_system/src'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2050'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/evan/code/lidar_slam/lidar_slam/install:/home/evan/code/Complete_slam_system/lego/install:/home/evan/code/lego-loam/lego/install:/home/evan/code/ndt-loc/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'evan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'evan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/java/jdk1.6.0_45/bin:~/mycomd:/usr/lib/java/jdk1.6.0_45/bin:~/mycomd'), ('SESSION_MANAGER', 'local/evan-RESCUER-R720-15IKBN:@/tmp/.ICE-unix/2019,unix/evan-RESCUER-R720-15IKBN:/tmp/.ICE-unix/2019'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a388abde_5b43_4c21_a4ad_0a7f215df5b7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VESC81'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7fdec9274.sock'), ('GNOME_TERMINAL_SERVICE', ':1.135'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/evan/code/Complete_slam_system/lego/install/other_msgs:/home/evan/code/Complete_slam_system/lego/install/lego_loam_sr:/home/evan/code/lidar_slam/lidar_slam/install/slam_learn:/home/evan/code/lidar_slam/lidar_slam/install/other_msgs:/home/evan/code/lego-loam/lego/install/lego_loam_sr:/home/evan/code/lego-loam/lego/install/cloud_msgs:/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/java/jdk1.6.0_45'), ('PWD', '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/evan/code/Complete_slam_system/lego/install/other_msgs/local/lib/python3.10/dist-packages:/home/evan/code/lidar_slam/lidar_slam/install/other_msgs/local/lib/python3.10/dist-packages:/home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages:/home/evan/code/ndt-loc/install/cloud_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/evan/code/Complete_slam_system/lego/install/other_msgs:/home/evan/code/Complete_slam_system/lego/install/lego_loam_sr:/home/evan/code/lidar_slam/lidar_slam/install/slam_learn:/home/evan/code/lidar_slam/lidar_slam/install/other_msgs:/home/evan/code/lego-loam/lego/install/lego_loam_sr:/home/evan/code/lego-loam/lego/install/cloud_msgs:/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble')]), 'shell': False}
+[0.091472] (lidar_slam) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099644] (-) TimerEvent: {}
+[0.199936] (-) TimerEvent: {}
+[0.256709] (lidar_slam) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.301725] (-) TimerEvent: {}
+[0.349728] (lidar_slam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.352905] (lidar_slam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.360585] (lidar_slam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.375328] (lidar_slam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.401833] (-) TimerEvent: {}
+[0.411533] (lidar_slam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.490102] (lidar_slam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.492411] (lidar_slam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.501920] (-) TimerEvent: {}
+[0.602244] (-) TimerEvent: {}
+[0.661291] (lidar_slam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.702362] (-) TimerEvent: {}
+[0.802637] (-) TimerEvent: {}
+[0.859007] (lidar_slam) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.902760] (-) TimerEvent: {}
+[1.003038] (-) TimerEvent: {}
+[1.020289] (lidar_slam) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.103159] (-) TimerEvent: {}
+[1.125092] (lidar_slam) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[1.203281] (-) TimerEvent: {}
+[1.299895] (lidar_slam) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.303375] (-) TimerEvent: {}
+[1.312245] (lidar_slam) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[1.340839] (lidar_slam) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.403505] (-) TimerEvent: {}
+[1.503841] (-) TimerEvent: {}
+[1.604186] (-) TimerEvent: {}
+[1.704484] (-) TimerEvent: {}
+[1.804824] (-) TimerEvent: {}
+[1.905146] (-) TimerEvent: {}
+[1.999506] (lidar_slam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.005285] (-) TimerEvent: {}
+[2.006472] (lidar_slam) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.006836] (lidar_slam) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[2.105407] (-) TimerEvent: {}
+[2.183341] (lidar_slam) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.190385] (lidar_slam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.197922] (lidar_slam) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.205513] (-) TimerEvent: {}
+[2.305818] (-) TimerEvent: {}
+[2.371985] (lidar_slam) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.405940] (-) TimerEvent: {}
+[2.506268] (-) TimerEvent: {}
+[2.552893] (lidar_slam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.606386] (-) TimerEvent: {}
+[2.706688] (-) TimerEvent: {}
+[2.719031] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.719580] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[2.720359] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.720768] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[2.721308] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[2.721939] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[2.722441] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[2.723295] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[2.723546] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.723829] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[2.724676] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[2.725327] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[2.725985] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[2.726699] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[2.727181] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[2.727756] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[2.728345] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[2.728964] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[2.729614] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[2.730127] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[2.731160] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[2.731583] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[2.731929] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[2.732267] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[2.732893] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[2.752297] (lidar_slam) StdoutLine: {'line': b'-- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include\n'}
+[2.757183] (lidar_slam) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread serialization timer \n'}
+[2.806804] (-) TimerEvent: {}
+[2.907159] (-) TimerEvent: {}
+[2.924665] (lidar_slam) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.984664] (lidar_slam) StdoutLine: {'line': b'-- Generating done\n'}
+[2.999241] (lidar_slam) StdoutLine: {'line': b'-- Build files have been written to: /home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam\n'}
+[3.007299] (-) TimerEvent: {}
+[3.043647] (lidar_slam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_slam\x1b[0m\n'}
+[3.086329] (lidar_slam) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/lidar_slam.dir/src/data_process.cpp.o\x1b[0m\n'}
+[3.107416] (-) TimerEvent: {}
+[3.207745] (-) TimerEvent: {}
+[3.308052] (-) TimerEvent: {}
+[3.408378] (-) TimerEvent: {}
+[3.508688] (-) TimerEvent: {}
+[3.608997] (-) TimerEvent: {}
+[3.709309] (-) TimerEvent: {}
+[3.809620] (-) TimerEvent: {}
+[3.909916] (-) TimerEvent: {}
+[4.010229] (-) TimerEvent: {}
+[4.110548] (-) TimerEvent: {}
+[4.210858] (-) TimerEvent: {}
+[4.311192] (-) TimerEvent: {}
+[4.411568] (-) TimerEvent: {}
+[4.511878] (-) TimerEvent: {}
+[4.612191] (-) TimerEvent: {}
+[4.712491] (-) TimerEvent: {}
+[4.812851] (-) TimerEvent: {}
+[4.913161] (-) TimerEvent: {}
+[5.013518] (-) TimerEvent: {}
+[5.113833] (-) TimerEvent: {}
+[5.138912] (lidar_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1\x1b[m\x1b[K:\n'}
+[5.139168] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.139283] (lidar_slam) StderrLine: {'line': b'    5 | class DataProcess : public \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Node{\n'}
+[5.139363] (lidar_slam) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.139435] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KNode\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.139545] (lidar_slam) StderrLine: {'line': b'    5 | class DataProcess : public rclcpp::\x1b[01;31m\x1b[KNode\x1b[m\x1b[K{\n'}
+[5.139620] (lidar_slam) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.139686] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:6:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kprivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.139754] (lidar_slam) StderrLine: {'line': b'    6 | \x1b[01;31m\x1b[Kprivate\x1b[m\x1b[K:\n'}
+[5.139820] (lidar_slam) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.139886] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:6:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kprivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.139953] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.140020] (lidar_slam) StderrLine: {'line': b'    5 | class DataProcess : public rclcpp::Node\x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[5.140085] (lidar_slam) StderrLine: {'line': b'      |                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.141168] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:9:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.141312] (lidar_slam) StderrLine: {'line': b'    9 |     \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pub_cloud_in;\n'}
+[5.141395] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.143046] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:10:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.143218] (lidar_slam) StderrLine: {'line': b'   10 |     \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pub_corner_sharp;\n'}
+[5.143307] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.145190] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:11:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.145369] (lidar_slam) StderrLine: {'line': b'   11 |     \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pub_corner_less_sharp;\n'}
+[5.145448] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.146990] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:12:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.147131] (lidar_slam) StderrLine: {'line': b'   12 |     \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pub_surf_flat;\n'}
+[5.147207] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.148716] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:13:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.148889] (lidar_slam) StderrLine: {'line': b'   13 |     \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pub_surf_less_flat;\n'}
+[5.148965] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.150481] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:14:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.150643] (lidar_slam) StderrLine: {'line': b'   14 |     \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pub_segment_cloud;\n'}
+[5.150722] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.152331] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:15:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.152675] (lidar_slam) StderrLine: {'line': b'   15 |     \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pub_ground_cloud;\n'}
+[5.152767] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.152839] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:18:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kqueue\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[5.152918] (lidar_slam) StderrLine: {'line': b'   18 |     std::\x1b[01;31m\x1b[Kqueue\x1b[m\x1b[K<sensor_msgs::msg::PointCloud2> queClouds;\n'}
+[5.153006] (lidar_slam) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.153075] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::queue\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<queue>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <queue>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.153148] (lidar_slam) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <queue>\x1b[m\x1b[K\n'}
+[5.153216] (lidar_slam) StderrLine: {'line': b'    1 | #ifndef _DATA_PROCESS_H\n'}
+[5.153283] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:19:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmutex\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.153378] (lidar_slam) StderrLine: {'line': b'   19 |     std::\x1b[01;31m\x1b[Kmutex\x1b[m\x1b[K mtx;\n'}
+[5.153449] (lidar_slam) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.153516] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::mutex\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<mutex>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <mutex>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.153587] (lidar_slam) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <mutex>\x1b[m\x1b[K\n'}
+[5.153654] (lidar_slam) StderrLine: {'line': b'    1 | #ifndef _DATA_PROCESS_H\n'}
+[5.153726] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:22:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kthread\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.153796] (lidar_slam) StderrLine: {'line': b'   22 |     std::\x1b[01;31m\x1b[Kthread\x1b[m\x1b[K _run_thread;\n'}
+[5.153863] (lidar_slam) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.153930] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::thread\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<thread>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <thread>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.154001] (lidar_slam) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <thread>\x1b[m\x1b[K\n'}
+[5.154068] (lidar_slam) StderrLine: {'line': b'    1 | #ifndef _DATA_PROCESS_H\n'}
+[5.154431] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:25:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KChannel\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.154546] (lidar_slam) StderrLine: {'line': b'   25 |     \x1b[01;31m\x1b[KChannel\x1b[m\x1b[K<DataProcessOut>& _output_channel;\n'}
+[5.154624] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.162183] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:28:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCloudTypePtr\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.162353] (lidar_slam) StderrLine: {'line': b'   28 |     \x1b[01;31m\x1b[KCloudTypePtr\x1b[m\x1b[K _cloud_in;\n'}
+[5.162427] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.169508] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:29:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCloudTypePtr\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.169674] (lidar_slam) StderrLine: {'line': b'   29 |     \x1b[01;31m\x1b[KCloudTypePtr\x1b[m\x1b[K _corner_sharp;\n'}
+[5.169750] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.176459] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:30:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCloudTypePtr\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.176603] (lidar_slam) StderrLine: {'line': b'   30 |     \x1b[01;31m\x1b[KCloudTypePtr\x1b[m\x1b[K _corner_less_sharp;\n'}
+[5.176679] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.183582] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:31:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCloudTypePtr\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.183802] (lidar_slam) StderrLine: {'line': b'   31 |     \x1b[01;31m\x1b[KCloudTypePtr\x1b[m\x1b[K _surf_flat;\n'}
+[5.183879] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.190434] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:32:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCloudTypePtr\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.190587] (lidar_slam) StderrLine: {'line': b'   32 |     \x1b[01;31m\x1b[KCloudTypePtr\x1b[m\x1b[K _surf_less_flat;\n'}
+[5.190700] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.197481] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:33:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCloudTypePtr\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.197625] (lidar_slam) StderrLine: {'line': b'   33 |     \x1b[01;31m\x1b[KCloudTypePtr\x1b[m\x1b[K _segment_cloud;\n'}
+[5.197699] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.204387] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:34:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCloudTypePtr\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.204528] (lidar_slam) StderrLine: {'line': b'   34 |     \x1b[01;31m\x1b[KCloudTypePtr\x1b[m\x1b[K _ground_cloud;\n'}
+[5.204605] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.211177] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:35:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCloudTypePtr\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.211321] (lidar_slam) StderrLine: {'line': b'   35 |     \x1b[01;31m\x1b[KCloudTypePtr\x1b[m\x1b[K _full_cloud;\n'}
+[5.211396] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.213925] (-) TimerEvent: {}
+[5.218806] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:38:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.219629] (lidar_slam) StderrLine: {'line': b'   38 |     \x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::msg::PointCloud2 oneCloud;\n'}
+[5.219862] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.220054] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:41:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.220169] (lidar_slam) StderrLine: {'line': b'   41 |     \x1b[01;31m\x1b[KEigen\x1b[m\x1b[K::MatrixXf _range_mat;\n'}
+[5.220248] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.221967] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:42:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.222221] (lidar_slam) StderrLine: {'line': b'   42 |     \x1b[01;31m\x1b[KEigen\x1b[m\x1b[K::MatrixXi _label_mat;\n'}
+[5.222311] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.224128] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:43:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.224369] (lidar_slam) StderrLine: {'line': b'   43 |     \x1b[01;31m\x1b[KEigen\x1b[m\x1b[K::MatrixXi _ground_mat;\n'}
+[5.224458] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.226529] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:44:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.226820] (lidar_slam) StderrLine: {'line': b'   44 |     \x1b[01;31m\x1b[KEigen\x1b[m\x1b[K::MatrixXi _corner_label;\n'}
+[5.226917] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.226992] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:47:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvector\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[5.227067] (lidar_slam) StderrLine: {'line': b'   47 |     std::\x1b[01;31m\x1b[Kvector\x1b[m\x1b[K<smoothness> cloudCurvature;\n'}
+[5.227137] (lidar_slam) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.227206] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<vector>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <vector>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.227279] (lidar_slam) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <vector>\x1b[m\x1b[K\n'}
+[5.227347] (lidar_slam) StderrLine: {'line': b'    1 | #ifndef _DATA_PROCESS_H\n'}
+[5.227414] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:48:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvector\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[5.227512] (lidar_slam) StderrLine: {'line': b'   48 |     std::\x1b[01;31m\x1b[Kvector\x1b[m\x1b[K<int> str_index;\n'}
+[5.227581] (lidar_slam) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.227661] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:48:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<vector>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <vector>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.227773] (lidar_slam) StderrLine: {'line': b'   48 |     \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::vector<int> str_index;\n'}
+[5.227856] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.227936] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:49:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvector\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a template type\n'}
+[5.228048] (lidar_slam) StderrLine: {'line': b'   49 |     std::\x1b[01;31m\x1b[Kvector\x1b[m\x1b[K<int> end_index;\n'}
+[5.228146] (lidar_slam) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.228232] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:49:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<vector>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <vector>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.228330] (lidar_slam) StderrLine: {'line': b'   49 |     \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::vector<int> end_index;\n'}
+[5.228405] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.228492] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:65:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kpublic\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.228575] (lidar_slam) StderrLine: {'line': b'   65 | \x1b[01;31m\x1b[Kpublic\x1b[m\x1b[K:\n'}
+[5.228647] (lidar_slam) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.228714] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:69:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected constructor, destructor, or type conversion before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.228784] (lidar_slam) StderrLine: {'line': b'   69 |     ~DataProcess()\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[5.228955] (lidar_slam) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.234270] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:71:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.234569] (lidar_slam) StderrLine: {'line': b'   71 |     void cloudHandler(const \x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::msg::PointCloud2 &laserCloudMsg);\n'}
+[5.234672] (lidar_slam) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.234743] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:71:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.234811] (lidar_slam) StderrLine: {'line': b'   71 |     void cloudHandler(const sensor_msgs::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KPointCloud2 &laserCloudMsg);\n'}
+[5.234877] (lidar_slam) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.234941] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:71:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.235007] (lidar_slam) StderrLine: {'line': b'   71 |     void cloudHandler\x1b[34m\x1b[K(\x1b[m\x1b[Kconst sensor_msgs::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KPointCloud2 &laserCloudMsg);\n'}
+[5.235072] (lidar_slam) StderrLine: {'line': b'      |                      \x1b[34m\x1b[K~\x1b[m\x1b[K                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[5.235141] (lidar_slam) StderrLine: {'line': b'      |                                             \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[5.235205] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:71:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.235270] (lidar_slam) StderrLine: {'line': b'   71 |     void cloudHandler(const sensor_msgs::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KPointCloud2 &laserCloudMsg);\n'}
+[5.235333] (lidar_slam) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.235396] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:75:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kprivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.235496] (lidar_slam) StderrLine: {'line': b'   75 | \x1b[01;31m\x1b[Kprivate\x1b[m\x1b[K:\n'}
+[5.235574] (lidar_slam) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.235637] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:88:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.235701] (lidar_slam) StderrLine: {'line': b'   88 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K // lidarslam\n'}
+[5.235768] (lidar_slam) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.314042] (-) TimerEvent: {}
+[5.414377] (-) TimerEvent: {}
+[5.514676] (-) TimerEvent: {}
+[5.614995] (-) TimerEvent: {}
+[5.715310] (-) TimerEvent: {}
+[5.815592] (-) TimerEvent: {}
+[5.915904] (-) TimerEvent: {}
+[6.016231] (-) TimerEvent: {}
+[6.116543] (-) TimerEvent: {}
+[6.216856] (-) TimerEvent: {}
+[6.317165] (-) TimerEvent: {}
+[6.417477] (-) TimerEvent: {}
+[6.517820] (-) TimerEvent: {}
+[6.618130] (-) TimerEvent: {}
+[6.718439] (-) TimerEvent: {}
+[6.818750] (-) TimerEvent: {}
+[6.919055] (-) TimerEvent: {}
+[7.019353] (-) TimerEvent: {}
+[7.119674] (-) TimerEvent: {}
+[7.219984] (-) TimerEvent: {}
+[7.320292] (-) TimerEvent: {}
+[7.420612] (-) TimerEvent: {}
+[7.520921] (-) TimerEvent: {}
+[7.621236] (-) TimerEvent: {}
+[7.721543] (-) TimerEvent: {}
+[7.821872] (-) TimerEvent: {}
+[7.922183] (-) TimerEvent: {}
+[8.022512] (-) TimerEvent: {}
+[8.122838] (-) TimerEvent: {}
+[8.223148] (-) TimerEvent: {}
+[8.323484] (-) TimerEvent: {}
+[8.423785] (-) TimerEvent: {}
+[8.524097] (-) TimerEvent: {}
+[8.624408] (-) TimerEvent: {}
+[8.724709] (-) TimerEvent: {}
+[8.825020] (-) TimerEvent: {}
+[8.925326] (-) TimerEvent: {}
+[9.025632] (-) TimerEvent: {}
+[9.125978] (-) TimerEvent: {}
+[9.226328] (-) TimerEvent: {}
+[9.326635] (-) TimerEvent: {}
+[9.426939] (-) TimerEvent: {}
+[9.476282] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:18:90:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.476675] (lidar_slam) StderrLine: {'line': b'   18 | DataProcess::DataProcess(const std::string &name, Channel<DataProcessOut> &output_channel\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[9.476951] (lidar_slam) StderrLine: {'line': b'      |                                                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.477028] (lidar_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1\x1b[m\x1b[K:\n'}
+[9.477099] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.477171] (lidar_slam) StderrLine: {'line': b'    5 | class \x1b[01;36m\x1b[KDataProcess\x1b[m\x1b[K : public rclcpp::Node{\n'}
+[9.477238] (lidar_slam) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.477304] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:88:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.477372] (lidar_slam) StderrLine: {'line': b'   88 | DataProcess::~DataProcess(\x1b[01;31m\x1b[K)\x1b[m\x1b[K{\n'}
+[9.477448] (lidar_slam) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.477514] (lidar_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1\x1b[m\x1b[K:\n'}
+[9.477591] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.477659] (lidar_slam) StderrLine: {'line': b'    5 | class \x1b[01;36m\x1b[KDataProcess\x1b[m\x1b[K : public rclcpp::Node{\n'}
+[9.477724] (lidar_slam) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.477789] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:92:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.477854] (lidar_slam) StderrLine: {'line': b'   92 | void DataProcess::cloudHandler(const sensor_msgs::msg::PointCloud2 &laserCloudMsg\x1b[01;31m\x1b[K)\x1b[m\x1b[K{\n'}
+[9.477924] (lidar_slam) StderrLine: {'line': b'      |                                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.477989] (lidar_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1\x1b[m\x1b[K:\n'}
+[9.478054] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.478120] (lidar_slam) StderrLine: {'line': b'    5 | class \x1b[01;36m\x1b[KDataProcess\x1b[m\x1b[K : public rclcpp::Node{\n'}
+[9.478185] (lidar_slam) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.478249] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:98:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.478315] (lidar_slam) StderrLine: {'line': b'   98 | void DataProcess::run(\x1b[01;31m\x1b[K)\x1b[m\x1b[K{\n'}
+[9.478380] (lidar_slam) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.478444] (lidar_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1\x1b[m\x1b[K:\n'}
+[9.478509] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.478574] (lidar_slam) StderrLine: {'line': b'    5 | class \x1b[01;36m\x1b[KDataProcess\x1b[m\x1b[K : public rclcpp::Node{\n'}
+[9.478639] (lidar_slam) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.478703] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:123:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.478779] (lidar_slam) StderrLine: {'line': b'  123 | void DataProcess::resetParameters(\x1b[01;31m\x1b[K)\x1b[m\x1b[K{\n'}
+[9.478842] (lidar_slam) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.478905] (lidar_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1\x1b[m\x1b[K:\n'}
+[9.478977] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.479042] (lidar_slam) StderrLine: {'line': b'    5 | class \x1b[01;36m\x1b[KDataProcess\x1b[m\x1b[K : public rclcpp::Node{\n'}
+[9.479106] (lidar_slam) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.479170] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:156:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.479234] (lidar_slam) StderrLine: {'line': b'  156 | void DataProcess::projectPointCloud(\x1b[01;31m\x1b[K)\x1b[m\x1b[K{\n'}
+[9.479298] (lidar_slam) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.479362] (lidar_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1\x1b[m\x1b[K:\n'}
+[9.479425] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.479544] (lidar_slam) StderrLine: {'line': b'    5 | class \x1b[01;36m\x1b[KDataProcess\x1b[m\x1b[K : public rclcpp::Node{\n'}
+[9.479610] (lidar_slam) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.479673] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:199:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.479737] (lidar_slam) StderrLine: {'line': b'  199 | void DataProcess::groundRemoval(\x1b[01;31m\x1b[K)\x1b[m\x1b[K{\n'}
+[9.479802] (lidar_slam) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.479869] (lidar_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1\x1b[m\x1b[K:\n'}
+[9.479986] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.480051] (lidar_slam) StderrLine: {'line': b'    5 | class \x1b[01;36m\x1b[KDataProcess\x1b[m\x1b[K : public rclcpp::Node{\n'}
+[9.480114] (lidar_slam) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.480177] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:238:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.480241] (lidar_slam) StderrLine: {'line': b'  238 | void DataProcess::calculateSmoothness(\x1b[01;31m\x1b[K)\x1b[m\x1b[K{\n'}
+[9.480304] (lidar_slam) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.480373] (lidar_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1\x1b[m\x1b[K:\n'}
+[9.480440] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.480524] (lidar_slam) StderrLine: {'line': b'    5 | class \x1b[01;36m\x1b[KDataProcess\x1b[m\x1b[K : public rclcpp::Node{\n'}
+[9.480601] (lidar_slam) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.480664] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:264:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.480728] (lidar_slam) StderrLine: {'line': b'  264 | void DataProcess::markCornerPoints(\x1b[01;31m\x1b[K)\x1b[m\x1b[K{\n'}
+[9.480791] (lidar_slam) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.480854] (lidar_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1\x1b[m\x1b[K:\n'}
+[9.480918] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.480982] (lidar_slam) StderrLine: {'line': b'    5 | class \x1b[01;36m\x1b[KDataProcess\x1b[m\x1b[K : public rclcpp::Node{\n'}
+[9.481045] (lidar_slam) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.481109] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:300:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.481179] (lidar_slam) StderrLine: {'line': b'  300 | void DataProcess::labelVaildableCornerPoints(int row, int col\x1b[01;31m\x1b[K)\x1b[m\x1b[K{\n'}
+[9.481243] (lidar_slam) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.481306] (lidar_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1\x1b[m\x1b[K:\n'}
+[9.481369] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.481433] (lidar_slam) StderrLine: {'line': b'    5 | class \x1b[01;36m\x1b[KDataProcess\x1b[m\x1b[K : public rclcpp::Node{\n'}
+[9.481496] (lidar_slam) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.481562] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:373:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.481659] (lidar_slam) StderrLine: {'line': b'  373 | void DataProcess::cornerCloudSegmentation(\x1b[01;31m\x1b[K)\x1b[m\x1b[K{\n'}
+[9.481722] (lidar_slam) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.481785] (lidar_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1\x1b[m\x1b[K:\n'}
+[9.481849] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.481918] (lidar_slam) StderrLine: {'line': b'    5 | class \x1b[01;36m\x1b[KDataProcess\x1b[m\x1b[K : public rclcpp::Node{\n'}
+[9.481981] (lidar_slam) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.482044] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:403:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of incomplete type \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.482108] (lidar_slam) StderrLine: {'line': b'  403 | void DataProcess::publishCloud(\x1b[01;31m\x1b[K)\x1b[m\x1b[K{\n'}
+[9.482172] (lidar_slam) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.482235] (lidar_slam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1\x1b[m\x1b[K:\n'}
+[9.482304] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:5:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kforward declaration of \xe2\x80\x98\x1b[01m\x1b[Kclass lidarslam::DataProcess\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.482369] (lidar_slam) StderrLine: {'line': b'    5 | class \x1b[01;36m\x1b[KDataProcess\x1b[m\x1b[K : public rclcpp::Node{\n'}
+[9.482434] (lidar_slam) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.527059] (-) TimerEvent: {}
+[9.627372] (-) TimerEvent: {}
+[9.727694] (-) TimerEvent: {}
+[9.828003] (-) TimerEvent: {}
+[9.928316] (-) TimerEvent: {}
+[10.028627] (-) TimerEvent: {}
+[10.128967] (-) TimerEvent: {}
+[10.229313] (-) TimerEvent: {}
+[10.329628] (-) TimerEvent: {}
+[10.370322] (lidar_slam) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lidar_slam.dir/build.make:76: CMakeFiles/lidar_slam.dir/src/data_process.cpp.o] Error 1\n'}
+[10.370699] (lidar_slam) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_slam.dir/all] Error 2\n'}
+[10.371015] (lidar_slam) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.373880] (lidar_slam) CommandEnded: {'returncode': 2}
+[10.424159] (lidar_slam) JobEnded: {'identifier': 'lidar_slam', 'rc': 2}
+[10.429720] (-) TimerEvent: {}
+[10.435576] (-) EventReactorShutdown: {}

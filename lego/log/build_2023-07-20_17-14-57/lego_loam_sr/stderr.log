@@ -1,3 +1,0 @@
-gmake[2]: *** [CMakeFiles/lego_loam_sr.dir/build.make:76: CMakeFiles/lego_loam_sr.dir/src/imageProjection.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lego_loam_sr.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

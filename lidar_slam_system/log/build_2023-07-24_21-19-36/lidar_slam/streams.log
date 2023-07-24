@@ -1,0 +1,144 @@
+[0.150s] Invoking command in '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam -- -j4 -l4
+[0.513s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.394s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[1.685s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.714s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.748s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.835s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.929s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.185s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.204s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.681s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.731s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.789s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.883s] -- Looking for pthread.h
+[4.136s] -- Looking for pthread.h - found
+[4.162s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.278s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.279s] -- Found Threads: TRUE  
+[4.755s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.998s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.125s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[5.398s] -- Checking for module 'eigen3'
+[5.460s] --   Found eigen3, version 3.4.0
+[5.494s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[5.494s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.718s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[5.739s] -- Checking for module 'flann'
+[5.773s] --   Found flann, version 1.9.1
+[5.813s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[5.813s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[5.922s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[6.006s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[6.805s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[6.805s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[6.808s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[6.881s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[6.915s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[7.174s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[7.432s] -- Found X11: /usr/include   
+[7.445s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[7.589s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[7.590s] -- Looking for gethostbyname
+[7.671s] -- Looking for gethostbyname - found
+[7.671s] -- Looking for connect
+[7.746s] -- Looking for connect - found
+[7.746s] -- Looking for remove
+[7.819s] -- Looking for remove - found
+[7.819s] -- Looking for shmat
+[7.898s] -- Looking for shmat - found
+[7.899s] -- Looking for IceConnectionNumber in ICE
+[7.995s] -- Looking for IceConnectionNumber in ICE - found
+[8.095s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[8.098s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[8.101s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[8.103s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[8.155s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[8.173s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[8.178s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[8.203s] -- Found utf8cpp: /usr/include/utf8cpp  
+[8.370s] -- Checking for module 'libusb-1.0'
+[8.391s] --   Found libusb-1.0, version 1.0.25
+[8.435s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[8.438s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[8.439s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.540s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[8.540s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.540s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[8.721s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[8.730s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.738s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.008s] -- Found Qhull version 8.0.2
+[9.188s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.365s] -- looking for PCL_COMMON
+[9.366s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[9.366s] -- looking for PCL_KDTREE
+[9.367s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[9.368s] -- looking for PCL_OCTREE
+[9.369s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[9.369s] -- looking for PCL_SEARCH
+[9.370s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[9.370s] -- looking for PCL_SAMPLE_CONSENSUS
+[9.371s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[9.371s] -- looking for PCL_FILTERS
+[9.372s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[9.372s] -- looking for PCL_2D
+[9.372s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[9.373s] -- looking for PCL_GEOMETRY
+[9.373s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[9.373s] -- looking for PCL_IO
+[9.374s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[9.374s] -- looking for PCL_FEATURES
+[9.375s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[9.375s] -- looking for PCL_ML
+[9.376s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[9.376s] -- looking for PCL_SEGMENTATION
+[9.377s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[9.378s] -- looking for PCL_VISUALIZATION
+[9.378s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[9.379s] -- looking for PCL_SURFACE
+[9.380s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[9.380s] -- looking for PCL_REGISTRATION
+[9.381s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[9.381s] -- looking for PCL_KEYPOINTS
+[9.382s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[9.382s] -- looking for PCL_TRACKING
+[9.383s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[9.383s] -- looking for PCL_RECOGNITION
+[9.384s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[9.384s] -- looking for PCL_STEREO
+[9.385s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[9.385s] -- looking for PCL_APPS
+[9.386s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[9.387s] -- looking for PCL_IN_HAND_SCANNER
+[9.387s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[9.387s] -- looking for PCL_MODELER
+[9.388s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[9.388s] -- looking for PCL_POINT_CLOUD_EDITOR
+[9.388s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[9.389s] -- looking for PCL_OUTOFCORE
+[9.389s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[9.390s] -- looking for PCL_PEOPLE
+[9.391s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[9.391s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[9.616s] -- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include
+[9.621s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread serialization timer 
+[9.841s] -- Configuring done
+[11.181s] -- Generating done
+[11.184s] -- Build files have been written to: /home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam
+[11.231s] [ 66%] [32mBuilding CXX object CMakeFiles/lidar_slam.dir/src/main.cpp.o[0m
+[11.231s] [ 66%] [32mBuilding CXX object CMakeFiles/lidar_slam.dir/src/data_process.cpp.o[0m
+[11.971s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kdata_process.h: No such file or directory
+[11.971s]     1 | #include [01;31m[K"data_process.h"[m[K
+[11.971s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[11.971s] compilation terminated.
+[11.972s] gmake[2]: *** [CMakeFiles/lidar_slam.dir/build.make:76: CMakeFiles/lidar_slam.dir/src/data_process.cpp.o] Error 1
+[11.972s] gmake[2]: *** Waiting for unfinished jobs....
+[12.670s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/main.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kdata_process.h: No such file or directory
+[12.670s]     2 | #include [01;31m[K"data_process.h"[m[K
+[12.670s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[12.670s] compilation terminated.
+[12.674s] gmake[2]: *** [CMakeFiles/lidar_slam.dir/build.make:90: CMakeFiles/lidar_slam.dir/src/main.cpp.o] Error 1
+[12.674s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_slam.dir/all] Error 2
+[12.675s] gmake: *** [Makefile:146: all] Error 2
+[12.677s] Invoked command in '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam -- -j4 -l4

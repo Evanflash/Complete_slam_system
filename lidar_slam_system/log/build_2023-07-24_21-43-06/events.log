@@ -1,0 +1,838 @@
+[0.000000] (-) TimerEvent: {}
+[0.000252] (-) JobUnselected: {'identifier': 'lidar_slam_msgs'}
+[0.000293] (lidar_slam) JobQueued: {'identifier': 'lidar_slam', 'dependencies': OrderedDict()}
+[0.001068] (lidar_slam) JobStarted: {'identifier': 'lidar_slam'}
+[0.099853] (-) TimerEvent: {}
+[0.200238] (-) TimerEvent: {}
+[0.300672] (-) TimerEvent: {}
+[0.401027] (-) TimerEvent: {}
+[0.488639] (lidar_slam) JobProgress: {'identifier': 'lidar_slam', 'progress': 'cmake'}
+[0.501223] (-) TimerEvent: {}
+[0.601791] (-) TimerEvent: {}
+[0.702141] (-) TimerEvent: {}
+[0.725173] (lidar_slam) JobProgress: {'identifier': 'lidar_slam', 'progress': 'build'}
+[0.726426] (lidar_slam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam', '--', '-j4', '-l4'], 'cwd': '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'evan'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/evan/code/Complete_slam_system/lego/install/other_msgs/lib:/home/evan/code/lidar_slam/lidar_slam/install/other_msgs/lib:/home/evan/code/lego-loam/lego/install/cloud_msgs/lib:/home/evan/code/ndt-loc/install/cloud_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib'), ('HOME', '/home/evan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/evan/code/Complete_slam_system/lidar_slam_system/src'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2050'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/evan/code/lidar_slam/lidar_slam/install:/home/evan/code/Complete_slam_system/lego/install:/home/evan/code/lego-loam/lego/install:/home/evan/code/ndt-loc/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'evan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'evan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/java/jdk1.6.0_45/bin:~/mycomd:/usr/lib/java/jdk1.6.0_45/bin:~/mycomd'), ('SESSION_MANAGER', 'local/evan-RESCUER-R720-15IKBN:@/tmp/.ICE-unix/2019,unix/evan-RESCUER-R720-15IKBN:/tmp/.ICE-unix/2019'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a388abde_5b43_4c21_a4ad_0a7f215df5b7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VESC81'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7fdec9274.sock'), ('GNOME_TERMINAL_SERVICE', ':1.135'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/evan/code/Complete_slam_system/lego/install/other_msgs:/home/evan/code/Complete_slam_system/lego/install/lego_loam_sr:/home/evan/code/lidar_slam/lidar_slam/install/slam_learn:/home/evan/code/lidar_slam/lidar_slam/install/other_msgs:/home/evan/code/lego-loam/lego/install/lego_loam_sr:/home/evan/code/lego-loam/lego/install/cloud_msgs:/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/java/jdk1.6.0_45'), ('PWD', '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/evan/code/Complete_slam_system/lego/install/other_msgs/local/lib/python3.10/dist-packages:/home/evan/code/lidar_slam/lidar_slam/install/other_msgs/local/lib/python3.10/dist-packages:/home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages:/home/evan/code/ndt-loc/install/cloud_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/evan/code/Complete_slam_system/lego/install/other_msgs:/home/evan/code/Complete_slam_system/lego/install/lego_loam_sr:/home/evan/code/lidar_slam/lidar_slam/install/slam_learn:/home/evan/code/lidar_slam/lidar_slam/install/other_msgs:/home/evan/code/lego-loam/lego/install/lego_loam_sr:/home/evan/code/lego-loam/lego/install/cloud_msgs:/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble')]), 'shell': False}
+[0.784856] (lidar_slam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_slam\x1b[0m\n'}
+[0.802265] (-) TimerEvent: {}
+[0.902538] (-) TimerEvent: {}
+[0.927912] (lidar_slam) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/lidar_slam.dir/src/data_process.cpp.o\x1b[0m\n'}
+[0.930548] (lidar_slam) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/lidar_slam.dir/src/main.cpp.o\x1b[0m\n'}
+[0.939384] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:3:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstring\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.939704] (lidar_slam) StderrLine: {'line': b'    3 | static const std::\x1b[01;31m\x1b[Kstring\x1b[m\x1b[K PARAM_VERTICAL_SCANS = "laser.vertical_scans";\n'}
+[0.939801] (lidar_slam) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.939875] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<string>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <string>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.939950] (lidar_slam) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <string>\x1b[m\x1b[K\n'}
+[0.940020] (lidar_slam) StderrLine: {'line': b'    1 | namespace lidarslam{\n'}
+[0.940089] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:4:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstring\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.940230] (lidar_slam) StderrLine: {'line': b'    4 | static const std::\x1b[01;31m\x1b[Kstring\x1b[m\x1b[K PARAM_HORIZONTAL_SCANS = "laser.horizontal_scans";\n'}
+[0.940304] (lidar_slam) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.940373] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:4:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<string>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <string>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.940444] (lidar_slam) StderrLine: {'line': b'    4 | static const \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::string PARAM_HORIZONTAL_SCANS = "laser.horizontal_scans";\n'}
+[0.940513] (lidar_slam) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.940587] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:5:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstring\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.940659] (lidar_slam) StderrLine: {'line': b'    5 | static const std::\x1b[01;31m\x1b[Kstring\x1b[m\x1b[K PARAM_ANGLE_BOTTOM = "laser.ang_bottom";\n'}
+[0.940726] (lidar_slam) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.940791] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:5:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<string>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <string>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.940861] (lidar_slam) StderrLine: {'line': b'    5 | static const \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::string PARAM_ANGLE_BOTTOM = "laser.ang_bottom";\n'}
+[0.940928] (lidar_slam) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.940994] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:6:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstring\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.941194] (lidar_slam) StderrLine: {'line': b'    6 | static const std::\x1b[01;31m\x1b[Kstring\x1b[m\x1b[K PARAM_ANGLE_TOP = "laser.ang_top";\n'}
+[0.941265] (lidar_slam) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.941333] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:6:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<string>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <string>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.941403] (lidar_slam) StderrLine: {'line': b'    6 | static const \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::string PARAM_ANGLE_TOP = "laser.ang_top";\n'}
+[0.941470] (lidar_slam) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.941537] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:7:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstring\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.941605] (lidar_slam) StderrLine: {'line': b'    7 | static const std::\x1b[01;31m\x1b[Kstring\x1b[m\x1b[K PARAM_GROUND_INDEX = "laser.ground_scan_index";\n'}
+[0.941680] (lidar_slam) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.941746] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:7:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<string>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <string>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.941816] (lidar_slam) StderrLine: {'line': b'    7 | static const \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::string PARAM_GROUND_INDEX = "laser.ground_scan_index";\n'}
+[0.941883] (lidar_slam) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.941950] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:8:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstring\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.942023] (lidar_slam) StderrLine: {'line': b'    8 | static const std::\x1b[01;31m\x1b[Kstring\x1b[m\x1b[K PARAM_SENSOR_ANGLE = "laser.sensor_mount_angle";\n'}
+[0.942095] (lidar_slam) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.942162] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:8:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<string>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <string>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.942232] (lidar_slam) StderrLine: {'line': b'    8 | static const \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::string PARAM_SENSOR_ANGLE = "laser.sensor_mount_angle";\n'}
+[0.942299] (lidar_slam) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.942366] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:9:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstring\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.942439] (lidar_slam) StderrLine: {'line': b'    9 | static const std::\x1b[01;31m\x1b[Kstring\x1b[m\x1b[K PARAM_SEGMENT_THETA = "projection.segment_theta";\n'}
+[0.942506] (lidar_slam) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.942573] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:9:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<string>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <string>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.942641] (lidar_slam) StderrLine: {'line': b'    9 | static const \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::string PARAM_SEGMENT_THETA = "projection.segment_theta";\n'}
+[0.943068] (lidar_slam) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.943146] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:10:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstring\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.943216] (lidar_slam) StderrLine: {'line': b'   10 | static const std::\x1b[01;31m\x1b[Kstring\x1b[m\x1b[K PARAM_SEGMENT_VALID_POINT_NUM = "projection.segment_valid_point_num";\n'}
+[0.943285] (lidar_slam) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.943351] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:10:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<string>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <string>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.943450] (lidar_slam) StderrLine: {'line': b'   10 | static const \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::string PARAM_SEGMENT_VALID_POINT_NUM = "projection.segment_valid_point_num";\n'}
+[0.943526] (lidar_slam) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.943593] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:11:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstring\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.943662] (lidar_slam) StderrLine: {'line': b'   11 | static const std::\x1b[01;31m\x1b[Kstring\x1b[m\x1b[K PARAM_SEGMENT_VALID_LINE_NUM = "projection.segment_valid_line_num";\n'}
+[0.943729] (lidar_slam) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.943796] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:11:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<string>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <string>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.943864] (lidar_slam) StderrLine: {'line': b'   11 | static const \x1b[01;36m\x1b[Kstd\x1b[m\x1b[K::string PARAM_SEGMENT_VALID_LINE_NUM = "projection.segment_valid_line_num";\n'}
+[0.943932] (lidar_slam) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.943998] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:13:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDataProcess\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.945368] (lidar_slam) StderrLine: {'line': b'   13 | \x1b[01;31m\x1b[KDataProcess\x1b[m\x1b[K::DataProcess(const std::string &name, Channel<DataProcessOut> &output_channel)\n'}
+[0.945495] (lidar_slam) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.945573] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:83:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDataProcess\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.945646] (lidar_slam) StderrLine: {'line': b'   83 | \x1b[01;31m\x1b[KDataProcess\x1b[m\x1b[K::~DataProcess(){\n'}
+[0.945715] (lidar_slam) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.945783] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:87:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDataProcess\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.945851] (lidar_slam) StderrLine: {'line': b'   87 | void \x1b[01;31m\x1b[KDataProcess\x1b[m\x1b[K::cloudHandler(const sensor_msgs::msg::PointCloud2 &laserCloudMsg){\n'}
+[0.945920] (lidar_slam) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.946045] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:87:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.946117] (lidar_slam) StderrLine: {'line': b'   87 | void DataProcess::cloudHandler(const \x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::msg::PointCloud2 &laserCloudMsg){\n'}
+[0.946190] (lidar_slam) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.946257] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:87:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.946325] (lidar_slam) StderrLine: {'line': b'   87 | void DataProcess::cloudHandler(const sensor_msgs::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KPointCloud2 &laserCloudMsg){\n'}
+[0.946392] (lidar_slam) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[0.946498] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:87:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.946570] (lidar_slam) StderrLine: {'line': b'   87 | void DataProcess::cloudHandler\x1b[34m\x1b[K(\x1b[m\x1b[Kconst sensor_msgs::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KPointCloud2 &laserCloudMsg){\n'}
+[0.946636] (lidar_slam) StderrLine: {'line': b'      |                               \x1b[34m\x1b[K~\x1b[m\x1b[K                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[0.946702] (lidar_slam) StderrLine: {'line': b'      |                                                      \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[0.946769] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:87:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.946836] (lidar_slam) StderrLine: {'line': b'   87 | void DataProcess::cloudHandler(const sensor_msgs::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KPointCloud2 &laserCloudMsg){\n'}
+[0.946902] (lidar_slam) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[0.947023] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:93:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDataProcess\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.947093] (lidar_slam) StderrLine: {'line': b'   93 | void \x1b[01;31m\x1b[KDataProcess\x1b[m\x1b[K::run(){\n'}
+[0.947160] (lidar_slam) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.947226] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid lidarslam::run()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.947293] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:94:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.947360] (lidar_slam) StderrLine: {'line': b'   94 |     while(\x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::ok()){\n'}
+[0.947426] (lidar_slam) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.947492] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:95:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KqueClouds\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.947559] (lidar_slam) StderrLine: {'line': b'   95 |         if(\x1b[01;31m\x1b[KqueClouds\x1b[m\x1b[K.empty()){\n'}
+[0.947624] (lidar_slam) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.947689] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:96:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksleep\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.947756] (lidar_slam) StderrLine: {'line': b'   96 |             \x1b[01;31m\x1b[Ksleep\x1b[m\x1b[K(1);\n'}
+[0.947820] (lidar_slam) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.947886] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:99:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmtx\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.947961] (lidar_slam) StderrLine: {'line': b'   99 |         \x1b[01;31m\x1b[Kmtx\x1b[m\x1b[K.lock();\n'}
+[0.948027] (lidar_slam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.948092] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:100:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KoneCloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.948159] (lidar_slam) StderrLine: {'line': b'  100 |         \x1b[01;31m\x1b[KoneCloud\x1b[m\x1b[K = queClouds.front();\n'}
+[0.948294] (lidar_slam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.948363] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:100:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KqueClouds\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.948432] (lidar_slam) StderrLine: {'line': b'  100 |         oneCloud = \x1b[01;31m\x1b[KqueClouds\x1b[m\x1b[K.front();\n'}
+[0.950033] (lidar_slam) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.950214] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:104:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KresetParameters\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.950297] (lidar_slam) StderrLine: {'line': b'  104 |         \x1b[01;31m\x1b[KresetParameters\x1b[m\x1b[K();\n'}
+[0.950371] (lidar_slam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.950437] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:105:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpcl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.950511] (lidar_slam) StderrLine: {'line': b'  105 |         \x1b[01;31m\x1b[Kpcl\x1b[m\x1b[K::fromROSMsg(oneCloud, *_cloud_in);\n'}
+[0.950577] (lidar_slam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.950643] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:105:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_cloud_in\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.950709] (lidar_slam) StderrLine: {'line': b'  105 |         pcl::fromROSMsg(oneCloud, *\x1b[01;31m\x1b[K_cloud_in\x1b[m\x1b[K);\n'}
+[0.950774] (lidar_slam) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.950838] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:106:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvector\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.950951] (lidar_slam) StderrLine: {'line': b'  106 |         std::\x1b[01;31m\x1b[Kvector\x1b[m\x1b[K<int> indices;\n'}
+[0.951020] (lidar_slam) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.951106] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<vector>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <vector>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.951183] (lidar_slam) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <vector>\x1b[m\x1b[K\n'}
+[0.951251] (lidar_slam) StderrLine: {'line': b'    1 | namespace lidarslam{\n'}
+[0.951317] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:106:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.951385] (lidar_slam) StderrLine: {'line': b'  106 |         std::vector<\x1b[01;31m\x1b[Kint\x1b[m\x1b[K> indices;\n'}
+[0.951450] (lidar_slam) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.951516] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:107:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpcl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.951582] (lidar_slam) StderrLine: {'line': b'  107 |         \x1b[01;31m\x1b[Kpcl\x1b[m\x1b[K::removeNaNFromPointCloud(*_cloud_in, *_cloud_in, indices);\n'}
+[0.951647] (lidar_slam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.951712] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:107:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kindices\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.951778] (lidar_slam) StderrLine: {'line': b'  107 |         pcl::removeNaNFromPointCloud(*_cloud_in, *_cloud_in, \x1b[01;31m\x1b[Kindices\x1b[m\x1b[K);\n'}
+[0.951850] (lidar_slam) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.951916] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:108:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KprojectPointCloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.951983] (lidar_slam) StderrLine: {'line': b'  108 |         \x1b[01;31m\x1b[KprojectPointCloud\x1b[m\x1b[K();\n'}
+[0.952051] (lidar_slam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.952121] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:109:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KgroundRemoval\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.952190] (lidar_slam) StderrLine: {'line': b'  109 |         \x1b[01;31m\x1b[KgroundRemoval\x1b[m\x1b[K();\n'}
+[0.952257] (lidar_slam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.952324] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:110:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcalculateSmoothness\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.952392] (lidar_slam) StderrLine: {'line': b'  110 |         \x1b[01;31m\x1b[KcalculateSmoothness\x1b[m\x1b[K();\n'}
+[0.952459] (lidar_slam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.952525] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:111:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KmarkCornerPoints\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.952611] (lidar_slam) StderrLine: {'line': b'  111 |         \x1b[01;31m\x1b[KmarkCornerPoints\x1b[m\x1b[K();\n'}
+[0.952681] (lidar_slam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.952799] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:112:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcornerCloudSegmentation\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.952870] (lidar_slam) StderrLine: {'line': b'  112 |         \x1b[01;31m\x1b[KcornerCloudSegmentation\x1b[m\x1b[K();\n'}
+[0.952937] (lidar_slam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.953004] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:113:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KpublishCloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.953076] (lidar_slam) StderrLine: {'line': b'  113 |         \x1b[01;31m\x1b[KpublishCloud\x1b[m\x1b[K();\n'}
+[0.953143] (lidar_slam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.953209] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:\x1b[m\x1b[K At global scope:\n'}
+[0.953281] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:118:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDataProcess\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.953347] (lidar_slam) StderrLine: {'line': b'  118 | void \x1b[01;31m\x1b[KDataProcess\x1b[m\x1b[K::resetParameters(){\n'}
+[0.953418] (lidar_slam) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.953484] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid lidarslam::resetParameters()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.953551] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:119:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_cloud_in\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.953617] (lidar_slam) StderrLine: {'line': b'  119 |     \x1b[01;31m\x1b[K_cloud_in\x1b[m\x1b[K -> clear();\n'}
+[0.953683] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.953748] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:120:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_corner_sharp\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.953816] (lidar_slam) StderrLine: {'line': b'  120 |     \x1b[01;31m\x1b[K_corner_sharp\x1b[m\x1b[K -> clear();\n'}
+[0.953882] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.954874] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:121:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_corner_less_sharp\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.954952] (lidar_slam) StderrLine: {'line': b'  121 |     \x1b[01;31m\x1b[K_corner_less_sharp\x1b[m\x1b[K -> clear();\n'}
+[0.955019] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.956094] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:122:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_surf_flat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.956168] (lidar_slam) StderrLine: {'line': b'  122 |     \x1b[01;31m\x1b[K_surf_flat\x1b[m\x1b[K -> clear();\n'}
+[0.956235] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.958052] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:123:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_surf_less_flat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.958166] (lidar_slam) StderrLine: {'line': b'  123 |     \x1b[01;31m\x1b[K_surf_less_flat\x1b[m\x1b[K -> clear();\n'}
+[0.958244] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.959740] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:124:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_segment_cloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.959853] (lidar_slam) StderrLine: {'line': b'  124 |     \x1b[01;31m\x1b[K_segment_cloud\x1b[m\x1b[K -> clear();\n'}
+[0.959931] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.962408] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:125:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_ground_cloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.962595] (lidar_slam) StderrLine: {'line': b'  125 |     \x1b[01;31m\x1b[K_ground_cloud\x1b[m\x1b[K -> clear();\n'}
+[0.962677] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.963080] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:126:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_full_cloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.963193] (lidar_slam) StderrLine: {'line': b'  126 |     \x1b[01;31m\x1b[K_full_cloud\x1b[m\x1b[K -> clear();\n'}
+[0.963270] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.963343] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:128:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.963415] (lidar_slam) StderrLine: {'line': b'  128 |     const \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K cloud_size = _vertical_scans * _horizontal_scans;\n'}
+[0.963483] (lidar_slam) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.963550] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.963681] (lidar_slam) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <cstddef>\x1b[m\x1b[K\n'}
+[0.963754] (lidar_slam) StderrLine: {'line': b'    1 | namespace lidarslam{\n'}
+[0.963821] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:129:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPointType\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.963890] (lidar_slam) StderrLine: {'line': b'  129 |     \x1b[01;31m\x1b[KPointType\x1b[m\x1b[K nanPoint;\n'}
+[0.963956] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.964148] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:130:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KnanPoint\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.964381] (lidar_slam) StderrLine: {'line': b'  130 |     \x1b[01;31m\x1b[KnanPoint\x1b[m\x1b[K.x = std::numeric_limits<float>::quiet_NaN();\n'}
+[0.964604] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.964685] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:130:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knumeric_limits\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.964758] (lidar_slam) StderrLine: {'line': b'  130 |     nanPoint.x = std::\x1b[01;31m\x1b[Knumeric_limits\x1b[m\x1b[K<float>::quiet_NaN();\n'}
+[0.964828] (lidar_slam) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.964896] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:130:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.964967] (lidar_slam) StderrLine: {'line': b'  130 |     nanPoint.x = std::numeric_limits<\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K>::quiet_NaN();\n'}
+[0.965035] (lidar_slam) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.965102] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:131:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knumeric_limits\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.965219] (lidar_slam) StderrLine: {'line': b'  131 |     nanPoint.y = std::\x1b[01;31m\x1b[Knumeric_limits\x1b[m\x1b[K<float>::quiet_NaN();\n'}
+[0.965287] (lidar_slam) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.965729] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:131:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.965857] (lidar_slam) StderrLine: {'line': b'  131 |     nanPoint.y = std::numeric_limits<\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K>::quiet_NaN();\n'}
+[0.965931] (lidar_slam) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.966000] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:132:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knumeric_limits\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.966072] (lidar_slam) StderrLine: {'line': b'  132 |     nanPoint.z = std::\x1b[01;31m\x1b[Knumeric_limits\x1b[m\x1b[K<float>::quiet_NaN();\n'}
+[0.966141] (lidar_slam) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.966215] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:132:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.966285] (lidar_slam) StderrLine: {'line': b'  132 |     nanPoint.z = std::numeric_limits<\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K>::quiet_NaN();\n'}
+[0.966354] (lidar_slam) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.966422] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:133:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfill\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.966491] (lidar_slam) StderrLine: {'line': b'  133 |     std::\x1b[01;31m\x1b[Kfill\x1b[m\x1b[K(_full_cloud->points.begin(), _full_cloud->points.end(), nanPoint);\n'}
+[0.966561] (lidar_slam) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.966628] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:135:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_range_mat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.966697] (lidar_slam) StderrLine: {'line': b'  135 |     \x1b[01;31m\x1b[K_range_mat\x1b[m\x1b[K.resize(_vertical_scans, _horizontal_scans);\n'}
+[0.966765] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.967592] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:135:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_vertical_scans\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.967674] (lidar_slam) StderrLine: {'line': b'  135 |     _range_mat.resize(\x1b[01;31m\x1b[K_vertical_scans\x1b[m\x1b[K, _horizontal_scans);\n'}
+[0.967743] (lidar_slam) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.969627] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:135:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_horizontal_scans\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.969715] (lidar_slam) StderrLine: {'line': b'  135 |     _range_mat.resize(_vertical_scans, \x1b[01;31m\x1b[K_horizontal_scans\x1b[m\x1b[K);\n'}
+[0.969783] (lidar_slam) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.971054] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:136:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_ground_mat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.971161] (lidar_slam) StderrLine: {'line': b'  136 |     \x1b[01;31m\x1b[K_ground_mat\x1b[m\x1b[K.resize(_vertical_scans, _horizontal_scans);\n'}
+[0.971239] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.972275] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:137:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_label_mat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.972359] (lidar_slam) StderrLine: {'line': b'  137 |     \x1b[01;31m\x1b[K_label_mat\x1b[m\x1b[K.resize(_vertical_scans, _horizontal_scans);\n'}
+[0.972436] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.973981] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:138:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_corner_label\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.974141] (lidar_slam) StderrLine: {'line': b'  138 |     \x1b[01;31m\x1b[K_corner_label\x1b[m\x1b[K.resize(_vertical_scans, _horizontal_scans);\n'}
+[0.974221] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.974292] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:140:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLT_MAX\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.974362] (lidar_slam) StderrLine: {'line': b'  140 |     _range_mat.fill(\x1b[01;31m\x1b[KFLT_MAX\x1b[m\x1b[K);\n'}
+[0.974430] (lidar_slam) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.974550] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLT_MAX\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cfloat>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cfloat>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.974626] (lidar_slam) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <cfloat>\x1b[m\x1b[K\n'}
+[0.974695] (lidar_slam) StderrLine: {'line': b'    1 | namespace lidarslam{\n'}
+[0.974762] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:145:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcloudCurvature\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.974832] (lidar_slam) StderrLine: {'line': b'  145 |     \x1b[01;31m\x1b[KcloudCurvature\x1b[m\x1b[K.clear();\n'}
+[0.974913] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.975017] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:146:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcloud_size\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.976296] (lidar_slam) StderrLine: {'line': b'  146 |     cloudCurvature.reserve(\x1b[01;31m\x1b[Kcloud_size\x1b[m\x1b[K);\n'}
+[0.976419] (lidar_slam) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.976494] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:147:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstr_index\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.976567] (lidar_slam) StderrLine: {'line': b'  147 |     \x1b[01;31m\x1b[Kstr_index\x1b[m\x1b[K.resize(_vertical_scans, 0);\n'}
+[0.976653] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.977145] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:148:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kend_index\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.977288] (lidar_slam) StderrLine: {'line': b'  148 |     \x1b[01;31m\x1b[Kend_index\x1b[m\x1b[K.resize(_vertical_scans, 0);\n'}
+[0.977405] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.977481] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:\x1b[m\x1b[K At global scope:\n'}
+[0.977556] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:151:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDataProcess\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.977630] (lidar_slam) StderrLine: {'line': b'  151 | void \x1b[01;31m\x1b[KDataProcess\x1b[m\x1b[K::projectPointCloud(){\n'}
+[0.977706] (lidar_slam) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.977827] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid lidarslam::projectPointCloud()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.977904] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:152:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.977977] (lidar_slam) StderrLine: {'line': b'  152 |     const \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K cloudSize = _cloud_in -> size();\n'}
+[0.978047] (lidar_slam) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.978116] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:152:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.978239] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:154:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.978361] (lidar_slam) StderrLine: {'line': b'  154 |     for (\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K i = 0; i < cloudSize; ++i) {\n'}
+[0.978433] (lidar_slam) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.978504] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:154:10:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.978596] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:154:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ki\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.978670] (lidar_slam) StderrLine: {'line': b'  154 |     for (size_t i = 0; \x1b[01;31m\x1b[Ki\x1b[m\x1b[K < cloudSize; ++i) {\n'}
+[0.978736] (lidar_slam) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.978801] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:154:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcloudSize\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.978869] (lidar_slam) StderrLine: {'line': b'  154 |     for (size_t i = 0; i < \x1b[01;31m\x1b[KcloudSize\x1b[m\x1b[K; ++i) {\n'}
+[0.978935] (lidar_slam) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.979003] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:155:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPointType\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.979071] (lidar_slam) StderrLine: {'line': b'  155 |         \x1b[01;31m\x1b[KPointType\x1b[m\x1b[K thisPoint = _cloud_in -> points[i];\n'}
+[0.979136] (lidar_slam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.979202] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:157:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KthisPoint\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.979269] (lidar_slam) StderrLine: {'line': b'  157 |         float range = sqrt(\x1b[01;31m\x1b[KthisPoint\x1b[m\x1b[K.x * thisPoint.x +\n'}
+[0.979338] (lidar_slam) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.979404] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:157:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksqrt\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.979470] (lidar_slam) StderrLine: {'line': b'  157 |         float range = \x1b[01;31m\x1b[Ksqrt\x1b[m\x1b[K(thisPoint.x * thisPoint.x +\n'}
+[0.979535] (lidar_slam) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.979600] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:161:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kasin\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.979682] (lidar_slam) StderrLine: {'line': b'  161 |         float verticalAngle = std::\x1b[01;31m\x1b[Kasin\x1b[m\x1b[K(thisPoint.z / range);\n'}
+[0.979788] (lidar_slam) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.979854] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:163:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_ang_bottom\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.979920] (lidar_slam) StderrLine: {'line': b'  163 |         int rowIdn = (verticalAngle + \x1b[01;31m\x1b[K_ang_bottom\x1b[m\x1b[K) / _ang_resolution_Y;\n'}
+[0.979993] (lidar_slam) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.981776] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:163:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_ang_resolution_Y\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.981860] (lidar_slam) StderrLine: {'line': b'  163 |         int rowIdn = (verticalAngle + _ang_bottom) / \x1b[01;31m\x1b[K_ang_resolution_Y\x1b[m\x1b[K;\n'}
+[0.981929] (lidar_slam) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.983578] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:164:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_vertical_scans\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.983728] (lidar_slam) StderrLine: {'line': b'  164 |         if (rowIdn < 0 || rowIdn >= \x1b[01;31m\x1b[K_vertical_scans\x1b[m\x1b[K) {\n'}
+[0.983806] (lidar_slam) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.983878] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:168:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Katan2\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.983949] (lidar_slam) StderrLine: {'line': b'  168 |         float horizonAngle = std::\x1b[01;31m\x1b[Katan2\x1b[m\x1b[K(thisPoint.x, thisPoint.y);\n'}
+[0.984018] (lidar_slam) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.984138] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:170:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KM_PI_2\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.984210] (lidar_slam) StderrLine: {'line': b'  170 |         int columnIdn = -round((horizonAngle - \x1b[01;31m\x1b[KM_PI_2\x1b[m\x1b[K) / _ang_resolution_X) + _horizontal_scans * 0.5;\n'}
+[0.984278] (lidar_slam) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.986925] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:170:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_ang_resolution_X\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.987068] (lidar_slam) StderrLine: {'line': b'  170 |         int columnIdn = -round((horizonAngle - M_PI_2) / \x1b[01;31m\x1b[K_ang_resolution_X\x1b[m\x1b[K) + _horizontal_scans * 0.5;\n'}
+[0.987153] (lidar_slam) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.987227] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:170:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kround\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krun\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.987300] (lidar_slam) StderrLine: {'line': b'  170 |         int columnIdn = -\x1b[01;31m\x1b[Kround\x1b[m\x1b[K((horizonAngle - M_PI_2) / _ang_resolution_X) + _horizontal_scans * 0.5;\n'}
+[0.987369] (lidar_slam) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.987437] (lidar_slam) StderrLine: {'line': b'      |                          \x1b[32m\x1b[Krun\x1b[m\x1b[K\n'}
+[0.988699] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:170:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_horizontal_scans\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.988818] (lidar_slam) StderrLine: {'line': b'  170 |         int columnIdn = -round((horizonAngle - M_PI_2) / _ang_resolution_X) + \x1b[01;31m\x1b[K_horizontal_scans\x1b[m\x1b[K * 0.5;\n'}
+[0.988895] (lidar_slam) StderrLine: {'line': b'      |                                                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.989759] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:184:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_range_mat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.989921] (lidar_slam) StderrLine: {'line': b'  184 |         \x1b[01;31m\x1b[K_range_mat\x1b[m\x1b[K(rowIdn, columnIdn) = range;\n'}
+[0.989995] (lidar_slam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.990064] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:188:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kindex\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.990131] (lidar_slam) StderrLine: {'line': b'  188 |         size_t\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kindex\x1b[m\x1b[K = columnIdn + rowIdn * _horizontal_scans;\n'}
+[0.990197] (lidar_slam) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[0.990293] (lidar_slam) StderrLine: {'line': b'      |               \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[0.991206] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:190:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_full_cloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.991297] (lidar_slam) StderrLine: {'line': b'  190 |         \x1b[01;31m\x1b[K_full_cloud\x1b[m\x1b[K -> points[index] = thisPoint;\n'}
+[0.991370] (lidar_slam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.991660] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:190:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kindex\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.991794] (lidar_slam) StderrLine: {'line': b'  190 |         _full_cloud -> points[\x1b[01;31m\x1b[Kindex\x1b[m\x1b[K] = thisPoint;\n'}
+[0.991867] (lidar_slam) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.991960] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:\x1b[m\x1b[K At global scope:\n'}
+[0.992027] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:194:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDataProcess\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.992094] (lidar_slam) StderrLine: {'line': b'  194 | void \x1b[01;31m\x1b[KDataProcess\x1b[m\x1b[K::groundRemoval(){\n'}
+[0.992179] (lidar_slam) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.993852] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid lidarslam::groundRemoval()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.993965] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:195:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_horizontal_scans\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.994053] (lidar_slam) StderrLine: {'line': b'  195 |     for (int j = 0; j < \x1b[01;31m\x1b[K_horizontal_scans\x1b[m\x1b[K; ++j) {\n'}
+[0.994125] (lidar_slam) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.995972] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:196:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_ground_scan_index\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.996078] (lidar_slam) StderrLine: {'line': b'  196 |         for (int i = 0; i < \x1b[01;31m\x1b[K_ground_scan_index\x1b[m\x1b[K; ++i) {\n'}
+[0.996155] (lidar_slam) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.997384] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:200:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_full_cloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.997478] (lidar_slam) StderrLine: {'line': b'  200 |             if (\x1b[01;31m\x1b[K_full_cloud\x1b[m\x1b[K->points[lowerInd].intensity == -1 ||\n'}
+[0.997549] (lidar_slam) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.000510] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:202:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_ground_mat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.000725] (lidar_slam) StderrLine: {'line': b'  202 |                 \x1b[01;31m\x1b[K_ground_mat\x1b[m\x1b[K(i, j) = -1;\n'}
+[1.000813] (lidar_slam) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.000956] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:207:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_full_cloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.001032] (lidar_slam) StderrLine: {'line': b'  207 |                 \x1b[01;31m\x1b[K_full_cloud\x1b[m\x1b[K->points[upperInd].x - _full_cloud->points[lowerInd].x;\n'}
+[1.001115] (lidar_slam) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.001185] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:213:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Katan2\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.001255] (lidar_slam) StderrLine: {'line': b'  213 |             float vertical_angle = std::\x1b[01;31m\x1b[Katan2\x1b[m\x1b[K(dZ , sqrt(dX * dX + dY * dY + dZ * dZ));\n'}
+[1.001324] (lidar_slam) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.001392] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:213:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksqrt\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.001461] (lidar_slam) StderrLine: {'line': b'  213 |             float vertical_angle = std::atan2(dZ , \x1b[01;31m\x1b[Ksqrt\x1b[m\x1b[K(dX * dX + dY * dY + dZ * dZ));\n'}
+[1.001528] (lidar_slam) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.002615] (-) TimerEvent: {}
+[1.004012] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:215:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_sensor_mount_angle\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.004280] (lidar_slam) StderrLine: {'line': b'  215 |             if ( (vertical_angle - \x1b[01;31m\x1b[K_sensor_mount_angle\x1b[m\x1b[K) <= M_PI / 18.0) {\n'}
+[1.004424] (lidar_slam) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.005261] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:215:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KM_PI\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.005426] (lidar_slam) StderrLine: {'line': b'  215 |             if ( (vertical_angle - _sensor_mount_angle) <= \x1b[01;31m\x1b[KM_PI\x1b[m\x1b[K / 18.0) {\n'}
+[1.005545] (lidar_slam) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.006856] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:216:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_ground_mat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.006994] (lidar_slam) StderrLine: {'line': b'  216 |                 \x1b[01;31m\x1b[K_ground_mat\x1b[m\x1b[K(i, j) = 1;\n'}
+[1.007132] (lidar_slam) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.009909] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:223:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_vertical_scans\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.010079] (lidar_slam) StderrLine: {'line': b'  223 |     for (int i = 0; i < \x1b[01;31m\x1b[K_vertical_scans\x1b[m\x1b[K; ++i) {\n'}
+[1.010163] (lidar_slam) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.012381] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:224:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_horizontal_scans\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.012469] (lidar_slam) StderrLine: {'line': b'  224 |         for (int j = 0; j < \x1b[01;31m\x1b[K_horizontal_scans\x1b[m\x1b[K; ++j) {\n'}
+[1.012540] (lidar_slam) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.013651] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:225:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_ground_mat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.013761] (lidar_slam) StderrLine: {'line': b'  225 |             if (\x1b[01;31m\x1b[K_ground_mat\x1b[m\x1b[K(i, j) == 1 ||\n'}
+[1.013838] (lidar_slam) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.014920] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:226:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_range_mat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.015045] (lidar_slam) StderrLine: {'line': b'  226 |                 \x1b[01;31m\x1b[K_range_mat\x1b[m\x1b[K(i, j) == FLT_MAX) {\n'}
+[1.015117] (lidar_slam) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.015194] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:226:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLT_MAX\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.015272] (lidar_slam) StderrLine: {'line': b'  226 |                 _range_mat(i, j) == \x1b[01;31m\x1b[KFLT_MAX\x1b[m\x1b[K) {\n'}
+[1.015338] (lidar_slam) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.015404] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:226:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLT_MAX\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cfloat>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cfloat>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.016887] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:227:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_label_mat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.017080] (lidar_slam) StderrLine: {'line': b'  227 |                 \x1b[01;31m\x1b[K_label_mat\x1b[m\x1b[K(i, j) = -1;\n'}
+[1.017228] (lidar_slam) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.018171] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.018361] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:233:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDataProcess\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.018496] (lidar_slam) StderrLine: {'line': b'  233 | void \x1b[01;31m\x1b[KDataProcess\x1b[m\x1b[K::calculateSmoothness(){\n'}
+[1.018618] (lidar_slam) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.021054] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid lidarslam::calculateSmoothness()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.021277] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:234:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_vertical_scans\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.021411] (lidar_slam) StderrLine: {'line': b'  234 |     for(int i = 0; i < \x1b[01;31m\x1b[K_vertical_scans\x1b[m\x1b[K; ++i){\n'}
+[1.021533] (lidar_slam) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.021750] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:235:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvector\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.021877] (lidar_slam) StderrLine: {'line': b'  235 |         std::\x1b[01;31m\x1b[Kvector\x1b[m\x1b[K<float> scan_range;\n'}
+[1.021992] (lidar_slam) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.022132] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:235:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<vector>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <vector>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.022317] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:235:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.022459] (lidar_slam) StderrLine: {'line': b'  235 |         std::vector<\x1b[01;31m\x1b[Kfloat\x1b[m\x1b[K> scan_range;\n'}
+[1.022575] (lidar_slam) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.022723] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:236:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvector\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.022843] (lidar_slam) StderrLine: {'line': b'  236 |         std::\x1b[01;31m\x1b[Kvector\x1b[m\x1b[K<int> scan_index;\n'}
+[1.022958] (lidar_slam) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.023092] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:236:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<vector>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <vector>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.023233] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:236:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.023351] (lidar_slam) StderrLine: {'line': b'  236 |         std::vector<\x1b[01;31m\x1b[Kint\x1b[m\x1b[K> scan_index;\n'}
+[1.023465] (lidar_slam) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.024244] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:237:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kscan_range\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.024383] (lidar_slam) StderrLine: {'line': b'  237 |         \x1b[01;31m\x1b[Kscan_range\x1b[m\x1b[K.reserve(_horizontal_scans);\n'}
+[1.024503] (lidar_slam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.026807] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:237:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_horizontal_scans\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.027011] (lidar_slam) StderrLine: {'line': b'  237 |         scan_range.reserve(\x1b[01;31m\x1b[K_horizontal_scans\x1b[m\x1b[K);\n'}
+[1.027142] (lidar_slam) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.027939] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:238:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kscan_index\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.028114] (lidar_slam) StderrLine: {'line': b'  238 |         \x1b[01;31m\x1b[Kscan_index\x1b[m\x1b[K.reserve(_horizontal_scans);\n'}
+[1.028238] (lidar_slam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.029889] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:241:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_range_mat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.030099] (lidar_slam) StderrLine: {'line': b'  241 |             if(\x1b[01;31m\x1b[K_range_mat\x1b[m\x1b[K(i, j) != FLT_MAX){\n'}
+[1.030238] (lidar_slam) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.030566] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:241:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLT_MAX\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.030699] (lidar_slam) StderrLine: {'line': b'  241 |             if(_range_mat(i, j) != \x1b[01;31m\x1b[KFLT_MAX\x1b[m\x1b[K){\n'}
+[1.030812] (lidar_slam) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.030948] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:241:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFLT_MAX\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cfloat>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cfloat>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.031805] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:248:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstr_index\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.031993] (lidar_slam) StderrLine: {'line': b'  248 |         \x1b[01;31m\x1b[Kstr_index\x1b[m\x1b[K[i] = cloudCurvature.size();\n'}
+[1.032124] (lidar_slam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.032970] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:248:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcloudCurvature\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.033127] (lidar_slam) StderrLine: {'line': b'  248 |         str_index[i] = \x1b[01;31m\x1b[KcloudCurvature\x1b[m\x1b[K.size();\n'}
+[1.033254] (lidar_slam) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.033488] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:249:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.033618] (lidar_slam) StderrLine: {'line': b'  249 |         for(\x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K j = 5; j < scan_range.size() - 5; ++j){\n'}
+[1.033738] (lidar_slam) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.033877] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:249:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.034458] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:249:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kj\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.034596] (lidar_slam) StderrLine: {'line': b'  249 |         for(size_t j = 5; \x1b[01;31m\x1b[Kj\x1b[m\x1b[K < scan_range.size() - 5; ++j){\n'}
+[1.034742] (lidar_slam) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.035399] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:253:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksmoothness\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.035549] (lidar_slam) StderrLine: {'line': b'  253 |             cloudCurvature.push_back(\x1b[01;31m\x1b[Ksmoothness\x1b[m\x1b[K(curvature, scan_index[j]));\n'}
+[1.035669] (lidar_slam) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.036242] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:255:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kend_index\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.036379] (lidar_slam) StderrLine: {'line': b'  255 |         \x1b[01;31m\x1b[Kend_index\x1b[m\x1b[K[i] = cloudCurvature.size() - 1;\n'}
+[1.036496] (lidar_slam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.036723] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.036852] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:259:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDataProcess\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.036985] (lidar_slam) StderrLine: {'line': b'  259 | void \x1b[01;31m\x1b[KDataProcess\x1b[m\x1b[K::markCornerPoints(){\n'}
+[1.037131] (lidar_slam) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.102713] (-) TimerEvent: {}
+[1.144806] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid lidarslam::markCornerPoints()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.145049] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:260:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksmoothness\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.145132] (lidar_slam) StderrLine: {'line': b'  260 |     auto cmp = [](const \x1b[01;31m\x1b[Ksmoothness\x1b[m\x1b[K &l_val, const smoothness &r_val){\n'}
+[1.145207] (lidar_slam) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.145278] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:262:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.145348] (lidar_slam) StderrLine: {'line': b'  262 |     }\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[1.145415] (lidar_slam) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.145481] (lidar_slam) StderrLine: {'line': b'      |      \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.145545] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:260:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.145612] (lidar_slam) StderrLine: {'line': b'  260 |     auto cmp = []\x1b[01;36m\x1b[K(\x1b[m\x1b[Kconst smoothness &l_val, const smoothness &r_val){\n'}
+[1.145677] (lidar_slam) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[1.145743] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[1.145807] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:262:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.145879] (lidar_slam) StderrLine: {'line': b'  262 |     }\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[1.145943] (lidar_slam) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.146952] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid lidarslam::markCornerPoints()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.147036] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:264:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_vertical_scans\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.147106] (lidar_slam) StderrLine: {'line': b'  264 |     for(int i = 0; i < \x1b[01;31m\x1b[K_vertical_scans\x1b[m\x1b[K; ++i){\n'}
+[1.147172] (lidar_slam) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.148491] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:265:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstr_index\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.148641] (lidar_slam) StderrLine: {'line': b'  265 |         if(\x1b[01;31m\x1b[Kstr_index\x1b[m\x1b[K[i] >= end_index[i]){\n'}
+[1.148723] (lidar_slam) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.148839] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:265:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kend_index\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.148914] (lidar_slam) StderrLine: {'line': b'  265 |         if(str_index[i] >= \x1b[01;31m\x1b[Kend_index\x1b[m\x1b[K[i]){\n'}
+[1.148983] (lidar_slam) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.149051] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:269:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kend_index\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.149119] (lidar_slam) StderrLine: {'line': b'  269 |         int length = \x1b[01;31m\x1b[Kend_index\x1b[m\x1b[K[i] - str_index[i];\n'}
+[1.149185] (lidar_slam) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.149251] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:269:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstr_index\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.149318] (lidar_slam) StderrLine: {'line': b'  269 |         int length = end_index[i] - \x1b[01;31m\x1b[Kstr_index\x1b[m\x1b[K[i];\n'}
+[1.149442] (lidar_slam) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.149510] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:275:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KcloudCurvature\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.149579] (lidar_slam) StderrLine: {'line': b'  275 |             sort(\x1b[01;31m\x1b[KcloudCurvature\x1b[m\x1b[K.begin() + sp, cloudCurvature.begin() + ep, cmp);\n'}
+[1.149649] (lidar_slam) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.149844] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:275:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksort\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kshort\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.149937] (lidar_slam) StderrLine: {'line': b'  275 |             \x1b[01;31m\x1b[Ksort\x1b[m\x1b[K(cloudCurvature.begin() + sp, cloudCurvature.begin() + ep, cmp);\n'}
+[1.150013] (lidar_slam) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.150080] (lidar_slam) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kshort\x1b[m\x1b[K\n'}
+[1.151036] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:280:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_ground_mat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.151118] (lidar_slam) StderrLine: {'line': b'  280 |                 if(cloudCurvature[k].curvature > 0.1 && \x1b[01;31m\x1b[K_ground_mat\x1b[m\x1b[K(i, j) != 1){\n'}
+[1.151187] (lidar_slam) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.152718] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:282:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_corner_label\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.152813] (lidar_slam) StderrLine: {'line': b'  282 |                         \x1b[01;31m\x1b[K_corner_label\x1b[m\x1b[K(i, ind) = 2;\n'}
+[1.152883] (lidar_slam) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.154356] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:284:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_corner_label\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.154483] (lidar_slam) StderrLine: {'line': b'  284 |                         \x1b[01;31m\x1b[K_corner_label\x1b[m\x1b[K(i, ind) = 1;\n'}
+[1.154556] (lidar_slam) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.154624] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.154693] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:295:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDataProcess\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.154760] (lidar_slam) StderrLine: {'line': b'  295 | void \x1b[01;31m\x1b[KDataProcess\x1b[m\x1b[K::labelVaildableCornerPoints(int row, int col){\n'}
+[1.154826] (lidar_slam) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.156667] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid lidarslam::labelVaildableCornerPoints(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.156757] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:296:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_segment_theta\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.156828] (lidar_slam) StderrLine: {'line': b'  296 |     const float segmentThetaThreshold = tan(\x1b[01;31m\x1b[K_segment_theta\x1b[m\x1b[K);\n'}
+[1.156897] (lidar_slam) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.157101] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:296:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktan\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.157247] (lidar_slam) StderrLine: {'line': b'  296 |     const float segmentThetaThreshold = \x1b[01;31m\x1b[Ktan\x1b[m\x1b[K(_segment_theta);\n'}
+[1.157416] (lidar_slam) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.157527] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:298:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kunordered_set\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.157597] (lidar_slam) StderrLine: {'line': b'  298 |     std::\x1b[01;31m\x1b[Kunordered_set\x1b[m\x1b[K<int> lineCountFlag;\n'}
+[1.157679] (lidar_slam) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.157804] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::unordered_set\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<unordered_set>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <unordered_set>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.157874] (lidar_slam) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <unordered_set>\x1b[m\x1b[K\n'}
+[1.157940] (lidar_slam) StderrLine: {'line': b'    1 | namespace lidarslam{\n'}
+[1.158005] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:298:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.158072] (lidar_slam) StderrLine: {'line': b'  298 |     std::unordered_set<\x1b[01;31m\x1b[Kint\x1b[m\x1b[K> lineCountFlag;\n'}
+[1.158145] (lidar_slam) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.158210] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:299:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.158331] (lidar_slam) StderrLine: {'line': b'  299 |     const \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K cloud_size = _vertical_scans * _horizontal_scans;\n'}
+[1.158397] (lidar_slam) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.158462] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:299:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.158537] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:300:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.158608] (lidar_slam) StderrLine: {'line': b'  300 |     using Coord2D = \x1b[01;31m\x1b[KEigen\x1b[m\x1b[K::Vector2i;\n'}
+[1.158673] (lidar_slam) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.158738] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:301:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kboost\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.158903] (lidar_slam) StderrLine: {'line': b'  301 |     \x1b[01;31m\x1b[Kboost\x1b[m\x1b[K::circular_buffer<Coord2D> queue(cloud_size);\n'}
+[1.158974] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.159039] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:301:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCoord2D\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.159105] (lidar_slam) StderrLine: {'line': b'  301 |     boost::circular_buffer<\x1b[01;31m\x1b[KCoord2D\x1b[m\x1b[K> queue(cloud_size);\n'}
+[1.159171] (lidar_slam) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.159236] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:301:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcloud_size\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.159358] (lidar_slam) StderrLine: {'line': b'  301 |     boost::circular_buffer<Coord2D> queue(\x1b[01;31m\x1b[Kcloud_size\x1b[m\x1b[K);\n'}
+[1.159455] (lidar_slam) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.159520] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:301:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kqueue\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.159587] (lidar_slam) StderrLine: {'line': b'  301 |     boost::circular_buffer<Coord2D> \x1b[01;31m\x1b[Kqueue\x1b[m\x1b[K(cloud_size);\n'}
+[1.159652] (lidar_slam) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.159717] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:302:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kboost\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.159783] (lidar_slam) StderrLine: {'line': b'  302 |     \x1b[01;31m\x1b[Kboost\x1b[m\x1b[K::circular_buffer<Coord2D> all_pushed(cloud_size);\n'}
+[1.159848] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.159947] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:302:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kall_pushed\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.160015] (lidar_slam) StderrLine: {'line': b'  302 |     boost::circular_buffer<Coord2D> \x1b[01;31m\x1b[Kall_pushed\x1b[m\x1b[K(cloud_size);\n'}
+[1.160081] (lidar_slam) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.160428] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:306:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KlineCountFlag\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.160529] (lidar_slam) StderrLine: {'line': b'  306 |     \x1b[01;31m\x1b[KlineCountFlag\x1b[m\x1b[K.insert(row);\n'}
+[1.160614] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.160726] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:308:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCoord2D\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.160873] (lidar_slam) StderrLine: {'line': b'  308 |     const \x1b[01;31m\x1b[KCoord2D\x1b[m\x1b[K neighborIterator[4] = {{1, 0}, {-1, 0}};\n'}
+[1.160941] (lidar_slam) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.161014] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:311:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KfromInd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.161080] (lidar_slam) StderrLine: {'line': b'  311 |         Coord2D\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[KfromInd\x1b[m\x1b[K = queue.front();\n'}
+[1.161148] (lidar_slam) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~~\x1b[m\x1b[K\n'}
+[1.161213] (lidar_slam) StderrLine: {'line': b'      |                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.161395] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:314:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KneighborIterator\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.161506] (lidar_slam) StderrLine: {'line': b'  314 |         for (const auto& iter : \x1b[01;31m\x1b[KneighborIterator\x1b[m\x1b[K) {\n'}
+[1.161576] (lidar_slam) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.161946] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:315:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KfromInd\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.162055] (lidar_slam) StderrLine: {'line': b'  315 |             int thisIndX = \x1b[01;31m\x1b[KfromInd\x1b[m\x1b[K.x() + iter.x();\n'}
+[1.162121] (lidar_slam) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.163894] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:319:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_vertical_scans\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.164010] (lidar_slam) StderrLine: {'line': b'  319 |             if (thisIndX < 0 || thisIndX >= \x1b[01;31m\x1b[K_vertical_scans\x1b[m\x1b[K){\n'}
+[1.164083] (lidar_slam) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.165774] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:324:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_label_mat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.166160] (lidar_slam) StderrLine: {'line': b'  324 |             if (\x1b[01;31m\x1b[K_label_mat\x1b[m\x1b[K(thisIndX, thisIndY) == -1){\n'}
+[1.166268] (lidar_slam) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.166954] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:333:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmax\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.167104] (lidar_slam) StderrLine: {'line': b'  333 |             float d1 = std::\x1b[01;31m\x1b[Kmax\x1b[m\x1b[K(_range_mat(fromInd.x(), fromInd.y()),\n'}
+[1.167186] (lidar_slam) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.167936] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:333:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_range_mat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.168075] (lidar_slam) StderrLine: {'line': b'  333 |             float d1 = std::max(\x1b[01;31m\x1b[K_range_mat\x1b[m\x1b[K(fromInd.x(), fromInd.y()),\n'}
+[1.168163] (lidar_slam) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.168282] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:335:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmin\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.168357] (lidar_slam) StderrLine: {'line': b'  335 |             float d2 = std::\x1b[01;31m\x1b[Kmin\x1b[m\x1b[K(_range_mat(fromInd.x(), fromInd.y()),\n'}
+[1.168425] (lidar_slam) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.170551] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:338:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_ang_resolution_Y\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.170682] (lidar_slam) StderrLine: {'line': b'  338 |             float alpha = \x1b[01;31m\x1b[K_ang_resolution_Y\x1b[m\x1b[K;\n'}
+[1.170756] (lidar_slam) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.171185] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:339:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksin\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.171292] (lidar_slam) StderrLine: {'line': b'  339 |             float tang = (d2 * \x1b[01;31m\x1b[Ksin\x1b[m\x1b[K(alpha) / (d1 - d2 * cos(alpha)));\n'}
+[1.171361] (lidar_slam) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.171747] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:339:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcos\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcol\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.171876] (lidar_slam) StderrLine: {'line': b'  339 |             float tang = (d2 * sin(alpha) / (d1 - d2 * \x1b[01;31m\x1b[Kcos\x1b[m\x1b[K(alpha)));\n'}
+[1.171944] (lidar_slam) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.172133] (lidar_slam) StderrLine: {'line': b'      |                                                        \x1b[32m\x1b[Kcol\x1b[m\x1b[K\n'}
+[1.174548] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:349:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_segment_valid_line_num\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.174715] (lidar_slam) StderrLine: {'line': b'  349 |     if(lineCountFlag.size() > \x1b[01;31m\x1b[K_segment_valid_line_num\x1b[m\x1b[K){\n'}
+[1.174788] (lidar_slam) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.174856] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:351:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kind\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.174924] (lidar_slam) StderrLine: {'line': b'  351 |             Coord2D\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kind\x1b[m\x1b[K = all_pushed.front();\n'}
+[1.175000] (lidar_slam) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[1.175068] (lidar_slam) StderrLine: {'line': b'      |                    \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.175221] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:353:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kind\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.175339] (lidar_slam) StderrLine: {'line': b'  353 |             if(_corner_label(\x1b[01;31m\x1b[Kind\x1b[m\x1b[K.x(), ind.y()) == 2){\n'}
+[1.175407] (lidar_slam) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.175474] (lidar_slam) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Kint\x1b[m\x1b[K\n'}
+[1.178168] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:353:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_corner_label\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.178375] (lidar_slam) StderrLine: {'line': b'  353 |             if(\x1b[01;31m\x1b[K_corner_label\x1b[m\x1b[K(ind.x(), ind.y()) == 2){\n'}
+[1.178458] (lidar_slam) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.178526] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:361:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kind\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.178594] (lidar_slam) StderrLine: {'line': b'  361 |             Coord2D\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kind\x1b[m\x1b[K = all_pushed.front();\n'}
+[1.178660] (lidar_slam) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[1.178726] (lidar_slam) StderrLine: {'line': b'      |                    \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.178857] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:363:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kind\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.178990] (lidar_slam) StderrLine: {'line': b'  363 |             _corner_label(\x1b[01;31m\x1b[Kind\x1b[m\x1b[K.x(), ind.y()) = 0;\n'}
+[1.179061] (lidar_slam) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.179127] (lidar_slam) StderrLine: {'line': b'      |                           \x1b[32m\x1b[Kint\x1b[m\x1b[K\n'}
+[1.180548] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:363:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_corner_label\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.182218] (lidar_slam) StderrLine: {'line': b'  363 |             \x1b[01;31m\x1b[K_corner_label\x1b[m\x1b[K(ind.x(), ind.y()) = 0;\n'}
+[1.182348] (lidar_slam) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.182425] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.182536] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:368:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDataProcess\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.182609] (lidar_slam) StderrLine: {'line': b'  368 | void \x1b[01;31m\x1b[KDataProcess\x1b[m\x1b[K::cornerCloudSegmentation(){\n'}
+[1.182677] (lidar_slam) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.183006] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid lidarslam::cornerCloudSegmentation()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.183086] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:369:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_vertical_scans\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.183157] (lidar_slam) StderrLine: {'line': b'  369 |     for(int i = 0; i < \x1b[01;31m\x1b[K_vertical_scans\x1b[m\x1b[K; ++i){\n'}
+[1.183227] (lidar_slam) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.185482] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:370:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_horizontal_scans\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.185584] (lidar_slam) StderrLine: {'line': b'  370 |         for(int j = 0; j < \x1b[01;31m\x1b[K_horizontal_scans\x1b[m\x1b[K; ++j){\n'}
+[1.185654] (lidar_slam) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.187308] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:371:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_corner_label\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.187384] (lidar_slam) StderrLine: {'line': b'  371 |             if(\x1b[01;31m\x1b[K_corner_label\x1b[m\x1b[K(i, j) == 1 || _corner_label(i, j) == 2)\n'}
+[1.187453] (lidar_slam) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.189281] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:376:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_vertical_scans\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.189416] (lidar_slam) StderrLine: {'line': b'  376 |     for(int i = 0; i < \x1b[01;31m\x1b[K_vertical_scans\x1b[m\x1b[K; ++i){\n'}
+[1.189493] (lidar_slam) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.191892] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:377:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_horizontal_scans\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.192642] (lidar_slam) StderrLine: {'line': b'  377 |         for(int j = 0; j < \x1b[01;31m\x1b[K_horizontal_scans\x1b[m\x1b[K; ++j){\n'}
+[1.192791] (lidar_slam) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.194145] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:379:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_corner_label\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.194287] (lidar_slam) StderrLine: {'line': b'  379 |             if(\x1b[01;31m\x1b[K_corner_label\x1b[m\x1b[K(i, j) == 4){\n'}
+[1.194363] (lidar_slam) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.196013] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:380:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_corner_sharp\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.196596] (lidar_slam) StderrLine: {'line': b'  380 |                 \x1b[01;31m\x1b[K_corner_sharp\x1b[m\x1b[K -> push_back(_full_cloud -> points[ind]);\n'}
+[1.196713] (lidar_slam) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.198004] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:380:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_full_cloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.198152] (lidar_slam) StderrLine: {'line': b'  380 |                 _corner_sharp -> push_back(\x1b[01;31m\x1b[K_full_cloud\x1b[m\x1b[K -> points[ind]);\n'}
+[1.199233] (lidar_slam) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.202037] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:381:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_corner_less_sharp\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.202255] (lidar_slam) StderrLine: {'line': b'  381 |                 \x1b[01;31m\x1b[K_corner_less_sharp\x1b[m\x1b[K -> push_back(_full_cloud -> points[ind]);\n'}
+[1.202392] (lidar_slam) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.202775] (-) TimerEvent: {}
+[1.206189] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:383:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_corner_label\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.206406] (lidar_slam) StderrLine: {'line': b'  383 |             if(\x1b[01;31m\x1b[K_corner_label\x1b[m\x1b[K(i, j) == 3){\n'}
+[1.206541] (lidar_slam) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.209177] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:384:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_corner_less_sharp\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.209371] (lidar_slam) StderrLine: {'line': b'  384 |                 \x1b[01;31m\x1b[K_corner_less_sharp\x1b[m\x1b[K -> push_back(_full_cloud -> points[ind]);\n'}
+[1.209497] (lidar_slam) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.211260] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:384:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_full_cloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.211427] (lidar_slam) StderrLine: {'line': b'  384 |                 _corner_less_sharp -> push_back(\x1b[01;31m\x1b[K_full_cloud\x1b[m\x1b[K -> points[ind]);\n'}
+[1.211553] (lidar_slam) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.213078] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:386:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_label_mat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.213250] (lidar_slam) StderrLine: {'line': b'  386 |             if(\x1b[01;31m\x1b[K_label_mat\x1b[m\x1b[K(i, j) != -1){\n'}
+[1.213376] (lidar_slam) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.214867] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:387:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_ground_mat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.215126] (lidar_slam) StderrLine: {'line': b'  387 |                 if(\x1b[01;31m\x1b[K_ground_mat\x1b[m\x1b[K(i, j) == 1){\n'}
+[1.215266] (lidar_slam) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.219905] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:388:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_ground_cloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.220125] (lidar_slam) StderrLine: {'line': b'  388 |                     \x1b[01;31m\x1b[K_ground_cloud\x1b[m\x1b[K -> push_back(_full_cloud -> points[ind]);\n'}
+[1.220254] (lidar_slam) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.222071] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:388:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_full_cloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.222347] (lidar_slam) StderrLine: {'line': b'  388 |                     _ground_cloud -> push_back(\x1b[01;31m\x1b[K_full_cloud\x1b[m\x1b[K -> points[ind]);\n'}
+[1.222501] (lidar_slam) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.225023] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:390:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_segment_cloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.225246] (lidar_slam) StderrLine: {'line': b'  390 |                     \x1b[01;31m\x1b[K_segment_cloud\x1b[m\x1b[K -> push_back(_full_cloud -> points[ind]);\n'}
+[1.225392] (lidar_slam) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.227334] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:390:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_full_cloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.227529] (lidar_slam) StderrLine: {'line': b'  390 |                     _segment_cloud -> push_back(\x1b[01;31m\x1b[K_full_cloud\x1b[m\x1b[K -> points[ind]);\n'}
+[1.227662] (lidar_slam) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.227929] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.228070] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:398:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDataProcess\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.228195] (lidar_slam) StderrLine: {'line': b'  398 | void \x1b[01;31m\x1b[KDataProcess\x1b[m\x1b[K::publishCloud(){\n'}
+[1.228314] (lidar_slam) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.228503] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid lidarslam::publishCloud()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.228641] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:399:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.228765] (lidar_slam) StderrLine: {'line': b'  399 |     auto publish = [&](\x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pub, CloudTypePtr cloud){\n'}
+[1.228890] (lidar_slam) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.229046] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:399:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K...\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K<\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.229172] (lidar_slam) StderrLine: {'line': b'  399 |     auto publish = [&](rclcpp::Publisher\x1b[01;31m\x1b[K<\x1b[m\x1b[Ksensor_msgs::msg::PointCloud2>::SharedPtr pub, CloudTypePtr cloud){\n'}
+[1.229288] (lidar_slam) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.229469] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[1.229597] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:400:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.229714] (lidar_slam) StderrLine: {'line': b'  400 |         \x1b[01;31m\x1b[Ksensor_msgs\x1b[m\x1b[K::msg::PointCloud2 msg;\n'}
+[1.229835] (lidar_slam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.229981] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:401:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpcl\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.230103] (lidar_slam) StderrLine: {'line': b'  401 |         \x1b[01;31m\x1b[Kpcl\x1b[m\x1b[K::toROSMsg(*cloud, msg);\n'}
+[1.230269] (lidar_slam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.231321] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:401:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.231477] (lidar_slam) StderrLine: {'line': b'  401 |         pcl::toROSMsg(*\x1b[01;31m\x1b[Kcloud\x1b[m\x1b[K, msg);\n'}
+[1.231601] (lidar_slam) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.234185] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:401:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.234547] (lidar_slam) StderrLine: {'line': b'  401 |         pcl::toROSMsg(*cloud, \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K);\n'}
+[1.234705] (lidar_slam) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.235929] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:402:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KoneCloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.236160] (lidar_slam) StderrLine: {'line': b'  402 |         msg.header = \x1b[01;31m\x1b[KoneCloud\x1b[m\x1b[K.header;\n'}
+[1.236293] (lidar_slam) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.237475] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:404:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.237675] (lidar_slam) StderrLine: {'line': b'  404 |         \x1b[01;31m\x1b[Kpub\x1b[m\x1b[K -> publish(msg);\n'}
+[1.237826] (lidar_slam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.238860] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid lidarslam::publishCloud()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.239046] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:407:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub_cloud_in\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.239182] (lidar_slam) StderrLine: {'line': b'  407 |     publish(\x1b[01;31m\x1b[Kpub_cloud_in\x1b[m\x1b[K, _cloud_in);\n'}
+[1.239305] (lidar_slam) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.240749] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:407:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_cloud_in\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.240917] (lidar_slam) StderrLine: {'line': b'  407 |     publish(pub_cloud_in, \x1b[01;31m\x1b[K_cloud_in\x1b[m\x1b[K);\n'}
+[1.241042] (lidar_slam) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.241785] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:408:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub_corner_sharp\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.241938] (lidar_slam) StderrLine: {'line': b'  408 |     publish(\x1b[01;31m\x1b[Kpub_corner_sharp\x1b[m\x1b[K, _corner_sharp);\n'}
+[1.242086] (lidar_slam) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.243930] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:408:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_corner_sharp\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.244091] (lidar_slam) StderrLine: {'line': b'  408 |     publish(pub_corner_sharp, \x1b[01;31m\x1b[K_corner_sharp\x1b[m\x1b[K);\n'}
+[1.244215] (lidar_slam) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.244981] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:409:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub_corner_less_sharp\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.245136] (lidar_slam) StderrLine: {'line': b'  409 |     publish(\x1b[01;31m\x1b[Kpub_corner_less_sharp\x1b[m\x1b[K, _corner_less_sharp);\n'}
+[1.245259] (lidar_slam) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.247641] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:409:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_corner_less_sharp\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.247821] (lidar_slam) StderrLine: {'line': b'  409 |     publish(pub_corner_less_sharp, \x1b[01;31m\x1b[K_corner_less_sharp\x1b[m\x1b[K);\n'}
+[1.247959] (lidar_slam) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.248776] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:410:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub_surf_flat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.251490] (lidar_slam) StderrLine: {'line': b'  410 |     publish(\x1b[01;31m\x1b[Kpub_surf_flat\x1b[m\x1b[K, _surf_flat);\n'}
+[1.251737] (lidar_slam) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.253565] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:410:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_surf_flat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.253797] (lidar_slam) StderrLine: {'line': b'  410 |     publish(pub_surf_flat, \x1b[01;31m\x1b[K_surf_flat\x1b[m\x1b[K);\n'}
+[1.253925] (lidar_slam) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.254826] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:411:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub_surf_less_flat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.254980] (lidar_slam) StderrLine: {'line': b'  411 |     publish(\x1b[01;31m\x1b[Kpub_surf_less_flat\x1b[m\x1b[K, _surf_less_flat);\n'}
+[1.255108] (lidar_slam) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.257150] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:411:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_surf_less_flat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.257331] (lidar_slam) StderrLine: {'line': b'  411 |     publish(pub_surf_less_flat, \x1b[01;31m\x1b[K_surf_less_flat\x1b[m\x1b[K);\n'}
+[1.257457] (lidar_slam) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.258224] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:412:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub_segment_cloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.258379] (lidar_slam) StderrLine: {'line': b'  412 |     publish(\x1b[01;31m\x1b[Kpub_segment_cloud\x1b[m\x1b[K, _segment_cloud);\n'}
+[1.258506] (lidar_slam) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.260707] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:412:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_segment_cloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.260890] (lidar_slam) StderrLine: {'line': b'  412 |     publish(pub_segment_cloud, \x1b[01;31m\x1b[K_segment_cloud\x1b[m\x1b[K);\n'}
+[1.261017] (lidar_slam) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.261773] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:413:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub_ground_cloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.261923] (lidar_slam) StderrLine: {'line': b'  413 |     publish(\x1b[01;31m\x1b[Kpub_ground_cloud\x1b[m\x1b[K, _ground_cloud);\n'}
+[1.262047] (lidar_slam) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.265121] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:413:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_ground_cloud\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.265361] (lidar_slam) StderrLine: {'line': b'  413 |     publish(pub_ground_cloud, \x1b[01;31m\x1b[K_ground_cloud\x1b[m\x1b[K);\n'}
+[1.265499] (lidar_slam) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.266963] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:416:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDataProcessOut\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.267133] (lidar_slam) StderrLine: {'line': b'  416 |     \x1b[01;31m\x1b[KDataProcessOut\x1b[m\x1b[K out;\n'}
+[1.267261] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.267905] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:417:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kout\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.268206] (lidar_slam) StderrLine: {'line': b'  417 |     \x1b[01;31m\x1b[Kout\x1b[m\x1b[K.corner_sharp.swap(_corner_sharp);\n'}
+[1.268333] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.270331] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:423:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_output_channel\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.270479] (lidar_slam) StderrLine: {'line': b'  423 |     \x1b[01;31m\x1b[K_output_channel\x1b[m\x1b[K.send(std::move(out));\n'}
+[1.270603] (lidar_slam) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.270758] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:423:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmove\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.270881] (lidar_slam) StderrLine: {'line': b'  423 |     _output_channel.send(std::\x1b[01;31m\x1b[Kmove\x1b[m\x1b[K(out));\n'}
+[1.271011] (lidar_slam) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.271156] (lidar_slam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::move\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<utility>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <utility>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.271281] (lidar_slam) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <utility>\x1b[m\x1b[K\n'}
+[1.271395] (lidar_slam) StderrLine: {'line': b'    1 | namespace lidarslam{\n'}
+[1.302923] (-) TimerEvent: {}
+[1.387355] (lidar_slam) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lidar_slam.dir/build.make:76: CMakeFiles/lidar_slam.dir/src/data_process.cpp.o] Error 1\n'}
+[1.387514] (lidar_slam) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[1.403051] (-) TimerEvent: {}
+[1.503402] (-) TimerEvent: {}
+[1.603778] (-) TimerEvent: {}
+[1.704113] (-) TimerEvent: {}
+[1.804470] (-) TimerEvent: {}
+[1.904741] (-) TimerEvent: {}
+[2.004990] (-) TimerEvent: {}
+[2.105271] (-) TimerEvent: {}
+[2.205567] (-) TimerEvent: {}
+[2.305854] (-) TimerEvent: {}
+[2.406153] (-) TimerEvent: {}
+[2.506441] (-) TimerEvent: {}
+[2.606721] (-) TimerEvent: {}
+[2.707048] (-) TimerEvent: {}
+[2.807324] (-) TimerEvent: {}
+[2.907636] (-) TimerEvent: {}
+[3.007947] (-) TimerEvent: {}
+[3.108240] (-) TimerEvent: {}
+[3.208542] (-) TimerEvent: {}
+[3.308880] (-) TimerEvent: {}
+[3.409213] (-) TimerEvent: {}
+[3.509521] (-) TimerEvent: {}
+[3.609820] (-) TimerEvent: {}
+[3.710074] (-) TimerEvent: {}
+[3.810333] (-) TimerEvent: {}
+[3.910600] (-) TimerEvent: {}
+[4.010901] (-) TimerEvent: {}
+[4.111185] (-) TimerEvent: {}
+[4.211464] (-) TimerEvent: {}
+[4.311789] (-) TimerEvent: {}
+[4.412145] (-) TimerEvent: {}
+[4.512521] (-) TimerEvent: {}
+[4.612952] (-) TimerEvent: {}
+[4.713313] (-) TimerEvent: {}
+[4.813662] (-) TimerEvent: {}
+[4.914571] (-) TimerEvent: {}
+[5.014882] (-) TimerEvent: {}
+[5.115218] (-) TimerEvent: {}
+[5.215582] (-) TimerEvent: {}
+[5.315951] (-) TimerEvent: {}
+[5.416290] (-) TimerEvent: {}
+[5.516641] (-) TimerEvent: {}
+[5.616913] (-) TimerEvent: {}
+[5.717190] (-) TimerEvent: {}
+[5.817452] (-) TimerEvent: {}
+[5.917704] (-) TimerEvent: {}
+[6.018047] (-) TimerEvent: {}
+[6.118315] (-) TimerEvent: {}
+[6.218683] (-) TimerEvent: {}
+[6.319089] (-) TimerEvent: {}
+[6.419501] (-) TimerEvent: {}
+[6.519825] (-) TimerEvent: {}
+[6.620116] (-) TimerEvent: {}
+[6.720397] (-) TimerEvent: {}
+[6.820700] (-) TimerEvent: {}
+[6.920996] (-) TimerEvent: {}
+[7.021339] (-) TimerEvent: {}
+[7.121689] (-) TimerEvent: {}
+[7.221991] (-) TimerEvent: {}
+[7.322264] (-) TimerEvent: {}
+[7.422536] (-) TimerEvent: {}
+[7.522870] (-) TimerEvent: {}
+[7.623250] (-) TimerEvent: {}
+[7.723596] (-) TimerEvent: {}
+[7.823863] (-) TimerEvent: {}
+[7.924203] (-) TimerEvent: {}
+[8.024534] (-) TimerEvent: {}
+[8.124869] (-) TimerEvent: {}
+[8.225188] (-) TimerEvent: {}
+[8.325475] (-) TimerEvent: {}
+[8.425756] (-) TimerEvent: {}
+[8.526036] (-) TimerEvent: {}
+[8.626381] (-) TimerEvent: {}
+[8.726631] (-) TimerEvent: {}
+[8.826928] (-) TimerEvent: {}
+[8.927191] (-) TimerEvent: {}
+[8.930951] (lidar_slam) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_slam.dir/all] Error 2\n'}
+[8.931345] (lidar_slam) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.934527] (lidar_slam) CommandEnded: {'returncode': 2}
+[9.027496] (-) TimerEvent: {}
+[9.127890] (-) TimerEvent: {}
+[9.228400] (-) TimerEvent: {}
+[9.328856] (-) TimerEvent: {}
+[9.429222] (-) TimerEvent: {}
+[9.493942] (lidar_slam) JobEnded: {'identifier': 'lidar_slam', 'rc': 2}
+[9.510155] (-) EventReactorShutdown: {}

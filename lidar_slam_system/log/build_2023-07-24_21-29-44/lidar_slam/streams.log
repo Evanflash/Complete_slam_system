@@ -1,0 +1,17 @@
+[0.022s] Invoking command in '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam -- -j4 -l4
+[0.188s] [ 66%] [32mBuilding CXX object CMakeFiles/lidar_slam.dir/src/data_process.cpp.o[0m
+[0.188s] [ 66%] [32mBuilding CXX object CMakeFiles/lidar_slam.dir/src/main.cpp.o[0m
+[0.198s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kdata_process.h: No such file or directory
+[0.198s]     1 | #include [01;31m[K"data_process.h"[m[K
+[0.198s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.198s] compilation terminated.
+[0.223s] gmake[2]: *** [CMakeFiles/lidar_slam.dir/build.make:76: CMakeFiles/lidar_slam.dir/src/data_process.cpp.o] Error 1
+[0.223s] gmake[2]: *** Waiting for unfinished jobs....
+[0.598s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/main.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kchannel.h: No such file or directory
+[0.598s]     2 | #include [01;31m[K"channel.h"[m[K
+[0.598s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[0.598s] compilation terminated.
+[0.609s] gmake[2]: *** [CMakeFiles/lidar_slam.dir/build.make:90: CMakeFiles/lidar_slam.dir/src/main.cpp.o] Error 1
+[0.610s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_slam.dir/all] Error 2
+[0.610s] gmake: *** [Makefile:146: all] Error 2
+[0.613s] Invoked command in '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam -- -j4 -l4
