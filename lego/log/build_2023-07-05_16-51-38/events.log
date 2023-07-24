@@ -1,0 +1,1030 @@
+[0.000000] (-) TimerEvent: {}
+[0.000235] (cloud_msgs) JobQueued: {'identifier': 'cloud_msgs', 'dependencies': OrderedDict()}
+[0.000363] (lego_loam_sr) JobQueued: {'identifier': 'lego_loam_sr', 'dependencies': OrderedDict([('cloud_msgs', '/home/evan/code/lego-loam/lego/install/cloud_msgs')])}
+[0.001042] (cloud_msgs) JobStarted: {'identifier': 'cloud_msgs'}
+[0.099812] (-) TimerEvent: {}
+[0.200268] (-) TimerEvent: {}
+[0.300593] (-) TimerEvent: {}
+[0.400921] (-) TimerEvent: {}
+[0.501205] (-) TimerEvent: {}
+[0.601693] (-) TimerEvent: {}
+[0.702251] (-) TimerEvent: {}
+[0.802540] (-) TimerEvent: {}
+[0.884033] (cloud_msgs) JobProgress: {'identifier': 'cloud_msgs', 'progress': 'cmake'}
+[0.902640] (-) TimerEvent: {}
+[1.002936] (-) TimerEvent: {}
+[1.103216] (-) TimerEvent: {}
+[1.193738] (cloud_msgs) JobProgress: {'identifier': 'cloud_msgs', 'progress': 'build'}
+[1.194824] (cloud_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/evan/code/lego-loam/lego/build/cloud_msgs', '--', '-j4', '-l4'], 'cwd': '/home/evan/code/lego-loam/lego/build/cloud_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'evan'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/evan/code/lego-loam/lego/install/cloud_msgs/lib:/home/evan/code/ndt-loc/install/cloud_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/evan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/evan/code/lego-loam'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/evan/code/lego-loam/lego/install:/home/evan/code/ndt-loc/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'evan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'evan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/java/jdk1.6.0_45/bin:~/mycomd:/usr/lib/java/jdk1.6.0_45/bin:~/mycomd'), ('SESSION_MANAGER', 'local/evan-RESCUER-R720-15IKBN:@/tmp/.ICE-unix/2196,unix/evan-RESCUER-R720-15IKBN:/tmp/.ICE-unix/2196'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/076607f0_34b0_43ac_83ec_93e9a8216c46'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H1FK71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-217ca35d79.sock'), ('GNOME_TERMINAL_SERVICE', ':1.174'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/evan/code/lego-loam/lego/install/cloud_msgs:/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/java/jdk1.6.0_45'), ('PWD', '/home/evan/code/lego-loam/lego/build/cloud_msgs'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages:/home/evan/code/ndt-loc/install/cloud_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/evan/code/lego-loam/lego/install/cloud_msgs:/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble')]), 'shell': False}
+[1.203322] (-) TimerEvent: {}
+[1.303663] (-) TimerEvent: {}
+[1.404114] (-) TimerEvent: {}
+[1.504472] (-) TimerEvent: {}
+[1.604845] (-) TimerEvent: {}
+[1.697773] (cloud_msgs) StdoutLine: {'line': b'[  3%] Built target cloud_msgs__cpp\n'}
+[1.704941] (-) TimerEvent: {}
+[1.722596] (cloud_msgs) StdoutLine: {'line': b'[ 12%] Built target cloud_msgs__rosidl_typesupport_cpp\n'}
+[1.805050] (-) TimerEvent: {}
+[1.905299] (-) TimerEvent: {}
+[2.005614] (-) TimerEvent: {}
+[2.016397] (cloud_msgs) StdoutLine: {'line': b'[ 22%] Built target cloud_msgs__rosidl_generator_c\n'}
+[2.052649] (cloud_msgs) StdoutLine: {'line': b'[ 32%] Built target cloud_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.105711] (-) TimerEvent: {}
+[2.206045] (-) TimerEvent: {}
+[2.306370] (-) TimerEvent: {}
+[2.335345] (cloud_msgs) StdoutLine: {'line': b'[ 41%] Built target cloud_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.406440] (-) TimerEvent: {}
+[2.506728] (-) TimerEvent: {}
+[2.537941] (cloud_msgs) StdoutLine: {'line': b'[ 51%] Built target cloud_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.606820] (-) TimerEvent: {}
+[2.695697] (cloud_msgs) StdoutLine: {'line': b'[ 61%] Built target cloud_msgs__rosidl_typesupport_c\n'}
+[2.698859] (cloud_msgs) StdoutLine: {'line': b'[ 70%] Built target cloud_msgs__rosidl_typesupport_introspection_c\n'}
+[2.706947] (-) TimerEvent: {}
+[2.738086] (cloud_msgs) StdoutLine: {'line': b'[ 70%] Built target cloud_msgs\n'}
+[2.807074] (-) TimerEvent: {}
+[2.813868] (cloud_msgs) StdoutLine: {'line': b'[ 74%] Built target cloud_msgs__py\n'}
+[2.907242] (-) TimerEvent: {}
+[3.007628] (-) TimerEvent: {}
+[3.108034] (-) TimerEvent: {}
+[3.208388] (-) TimerEvent: {}
+[3.249794] (cloud_msgs) StdoutLine: {'line': b'[ 80%] Built target cloud_msgs__rosidl_generator_py\n'}
+[3.270682] (cloud_msgs) StdoutLine: {'line': b'[ 80%] Built target ament_cmake_python_copy_cloud_msgs\n'}
+[3.308607] (-) TimerEvent: {}
+[3.408963] (-) TimerEvent: {}
+[3.509261] (-) TimerEvent: {}
+[3.609548] (-) TimerEvent: {}
+[3.624596] (cloud_msgs) StdoutLine: {'line': b'[ 90%] Built target cloud_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.625340] (cloud_msgs) StdoutLine: {'line': b'[ 93%] Built target cloud_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.627351] (cloud_msgs) StdoutLine: {'line': b'[100%] Built target cloud_msgs__rosidl_typesupport_c__pyext\n'}
+[3.709665] (-) TimerEvent: {}
+[3.810041] (-) TimerEvent: {}
+[3.910381] (-) TimerEvent: {}
+[4.010683] (-) TimerEvent: {}
+[4.110985] (-) TimerEvent: {}
+[4.211306] (-) TimerEvent: {}
+[4.311714] (-) TimerEvent: {}
+[4.412044] (-) TimerEvent: {}
+[4.512346] (-) TimerEvent: {}
+[4.612715] (-) TimerEvent: {}
+[4.713071] (-) TimerEvent: {}
+[4.813497] (-) TimerEvent: {}
+[4.913863] (-) TimerEvent: {}
+[4.979156] (cloud_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.980033] (cloud_msgs) StdoutLine: {'line': b'writing cloud_msgs.egg-info/PKG-INFO\n'}
+[5.006795] (cloud_msgs) StdoutLine: {'line': b'writing dependency_links to cloud_msgs.egg-info/dependency_links.txt\n'}
+[5.014137] (-) TimerEvent: {}
+[5.060312] (cloud_msgs) StdoutLine: {'line': b'writing top-level names to cloud_msgs.egg-info/top_level.txt\n'}
+[5.114235] (-) TimerEvent: {}
+[5.214532] (-) TimerEvent: {}
+[5.243269] (cloud_msgs) StdoutLine: {'line': b"reading manifest file 'cloud_msgs.egg-info/SOURCES.txt'\n"}
+[5.314667] (-) TimerEvent: {}
+[5.415187] (-) TimerEvent: {}
+[5.515503] (-) TimerEvent: {}
+[5.536688] (cloud_msgs) StdoutLine: {'line': b"writing manifest file 'cloud_msgs.egg-info/SOURCES.txt'\n"}
+[5.587022] (cloud_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_cloud_msgs_egg\n'}
+[5.601424] (cloud_msgs) CommandEnded: {'returncode': 0}
+[5.615600] (-) TimerEvent: {}
+[5.684701] (cloud_msgs) JobProgress: {'identifier': 'cloud_msgs', 'progress': 'install'}
+[5.695366] (cloud_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/evan/code/lego-loam/lego/build/cloud_msgs'], 'cwd': '/home/evan/code/lego-loam/lego/build/cloud_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'evan'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/evan/code/lego-loam/lego/install/cloud_msgs/lib:/home/evan/code/ndt-loc/install/cloud_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/evan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/evan/code/lego-loam'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/evan/code/lego-loam/lego/install:/home/evan/code/ndt-loc/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'evan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'evan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/java/jdk1.6.0_45/bin:~/mycomd:/usr/lib/java/jdk1.6.0_45/bin:~/mycomd'), ('SESSION_MANAGER', 'local/evan-RESCUER-R720-15IKBN:@/tmp/.ICE-unix/2196,unix/evan-RESCUER-R720-15IKBN:/tmp/.ICE-unix/2196'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/076607f0_34b0_43ac_83ec_93e9a8216c46'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H1FK71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-217ca35d79.sock'), ('GNOME_TERMINAL_SERVICE', ':1.174'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/evan/code/lego-loam/lego/install/cloud_msgs:/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/java/jdk1.6.0_45'), ('PWD', '/home/evan/code/lego-loam/lego/build/cloud_msgs'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages:/home/evan/code/ndt-loc/install/cloud_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/evan/code/lego-loam/lego/install/cloud_msgs:/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble')]), 'shell': False}
+[5.715734] (-) TimerEvent: {}
+[5.816052] (-) TimerEvent: {}
+[5.916332] (-) TimerEvent: {}
+[6.016649] (-) TimerEvent: {}
+[6.117061] (-) TimerEvent: {}
+[6.159970] (cloud_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.160214] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/ament_index/resource_index/rosidl_interfaces/cloud_msgs\n'}
+[6.160319] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs\n'}
+[6.160407] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg\n'}
+[6.162498] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail\n'}
+[6.162757] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__functions.c\n'}
+[6.162880] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__struct.h\n'}
+[6.162963] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__functions.h\n'}
+[6.163039] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__type_support.h\n'}
+[6.163114] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/cloud_info.h\n'}
+[6.163187] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.163378] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/environment/library_path.sh\n'}
+[6.163486] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/environment/library_path.dsv\n'}
+[6.163825] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/lib/libcloud_msgs__rosidl_generator_c.so\n'}
+[6.163912] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs\n'}
+[6.163992] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg\n'}
+[6.164070] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail\n'}
+[6.164146] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h\n'}
+[6.164236] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.164310] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/lib/libcloud_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[6.164383] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs\n'}
+[6.164455] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg\n'}
+[6.164526] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail\n'}
+[6.164603] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__builder.hpp\n'}
+[6.164672] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__traits.hpp\n'}
+[6.164758] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__struct.hpp\n'}
+[6.164836] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/cloud_info.hpp\n'}
+[6.164928] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs\n'}
+[6.164998] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg\n'}
+[6.165066] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail\n'}
+[6.165167] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/dds_fastrtps\n'}
+[6.165252] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.165377] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.165448] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/lib/libcloud_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.165515] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs\n'}
+[6.165585] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg\n'}
+[6.165653] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail\n'}
+[6.165720] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h\n'}
+[6.165787] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__type_support.c\n'}
+[6.165983] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.166081] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/lib/libcloud_msgs__rosidl_typesupport_introspection_c.so\n'}
+[6.166157] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/lib/libcloud_msgs__rosidl_typesupport_c.so\n'}
+[6.166231] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs\n'}
+[6.166301] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg\n'}
+[6.166371] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail\n'}
+[6.166440] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__type_support.cpp\n'}
+[6.166508] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.166590] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/lib/libcloud_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[6.166659] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/lib/libcloud_msgs__rosidl_typesupport_cpp.so\n'}
+[6.168094] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/environment/pythonpath.sh\n'}
+[6.168257] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/environment/pythonpath.dsv\n'}
+[6.168336] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs-1.0.0-py3.10.egg-info\n'}
+[6.168423] (cloud_msgs) StdoutLine: {'line': b'-- Installing: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[6.168491] (cloud_msgs) StdoutLine: {'line': b'-- Installing: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[6.168565] (cloud_msgs) StdoutLine: {'line': b'-- Installing: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[6.168631] (cloud_msgs) StdoutLine: {'line': b'-- Installing: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[6.168719] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs\n'}
+[6.168786] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/msg\n'}
+[6.168853] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/msg/_cloud_info.py\n'}
+[6.168934] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/msg/__init__.py\n'}
+[6.169001] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/msg/_cloud_info_s.c\n'}
+[6.169070] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/_cloud_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[6.169136] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/libcloud_msgs__rosidl_generator_py.so\n'}
+[6.169203] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/_cloud_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.169271] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/cloud_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.169340] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/cloud_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.169408] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/_cloud_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.169476] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/__init__.py\n'}
+[6.169549] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/cloud_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.217193] (-) TimerEvent: {}
+[6.317472] (-) TimerEvent: {}
+[6.417728] (-) TimerEvent: {}
+[6.426027] (cloud_msgs) StdoutLine: {'line': b"Listing '/home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs'...\n"}
+[6.426332] (cloud_msgs) StdoutLine: {'line': b"Listing '/home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/msg'...\n"}
+[6.435826] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/cloud_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.461372] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/cloud_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.461803] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/cloud_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.462208] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/lib/libcloud_msgs__rosidl_generator_py.so\n'}
+[6.462439] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/msg/CloudInfo.idl\n'}
+[6.462566] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/msg/CloudInfo.msg\n'}
+[6.462674] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/ament_index/resource_index/package_run_dependencies/cloud_msgs\n'}
+[6.462782] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/ament_index/resource_index/parent_prefix_path/cloud_msgs\n'}
+[6.462885] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/environment/ament_prefix_path.sh\n'}
+[6.462988] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/environment/ament_prefix_path.dsv\n'}
+[6.463091] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/environment/path.sh\n'}
+[6.463163] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/environment/path.dsv\n'}
+[6.463235] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/local_setup.bash\n'}
+[6.463305] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/local_setup.sh\n'}
+[6.463374] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/local_setup.zsh\n'}
+[6.463445] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/local_setup.dsv\n'}
+[6.463514] (cloud_msgs) StdoutLine: {'line': b'-- Installing: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/package.dsv\n'}
+[6.517844] (-) TimerEvent: {}
+[6.618109] (-) TimerEvent: {}
+[6.631151] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/ament_index/resource_index/packages/cloud_msgs\n'}
+[6.669622] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_generator_cExport.cmake\n'}
+[6.669803] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.672178] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.672330] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.718202] (-) TimerEvent: {}
+[6.813372] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_generator_cppExport.cmake\n'}
+[6.818372] (-) TimerEvent: {}
+[6.823738] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.824039] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.826408] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.826591] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.829094] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_cExport.cmake\n'}
+[6.829273] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.834305] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.834421] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.860954] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[6.861269] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.861411] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_generator_pyExport.cmake\n'}
+[6.861548] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.861656] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[6.861784] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.861877] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.861947] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.862016] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.862084] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.862160] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.862228] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgsConfig.cmake\n'}
+[6.862297] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgsConfig-version.cmake\n'}
+[6.862365] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/package.xml\n'}
+[6.918449] (-) TimerEvent: {}
+[7.018751] (-) TimerEvent: {}
+[7.066375] (cloud_msgs) CommandEnded: {'returncode': 0}
+[7.118846] (-) TimerEvent: {}
+[7.219149] (-) TimerEvent: {}
+[7.319451] (-) TimerEvent: {}
+[7.419741] (-) TimerEvent: {}
+[7.520076] (-) TimerEvent: {}
+[7.620362] (-) TimerEvent: {}
+[7.720692] (-) TimerEvent: {}
+[7.821074] (-) TimerEvent: {}
+[7.921518] (-) TimerEvent: {}
+[8.022056] (-) TimerEvent: {}
+[8.122354] (-) TimerEvent: {}
+[8.222861] (-) TimerEvent: {}
+[8.323211] (-) TimerEvent: {}
+[8.423569] (-) TimerEvent: {}
+[8.523991] (-) TimerEvent: {}
+[8.624267] (-) TimerEvent: {}
+[8.724548] (-) TimerEvent: {}
+[8.824839] (-) TimerEvent: {}
+[8.925151] (-) TimerEvent: {}
+[9.025521] (-) TimerEvent: {}
+[9.125851] (-) TimerEvent: {}
+[9.226251] (-) TimerEvent: {}
+[9.326766] (-) TimerEvent: {}
+[9.400315] (cloud_msgs) JobEnded: {'identifier': 'cloud_msgs', 'rc': 0}
+[9.405545] (lego_loam_sr) JobStarted: {'identifier': 'lego_loam_sr'}
+[9.426898] (-) TimerEvent: {}
+[9.527212] (-) TimerEvent: {}
+[9.627623] (-) TimerEvent: {}
+[9.728093] (-) TimerEvent: {}
+[9.828473] (-) TimerEvent: {}
+[9.928887] (-) TimerEvent: {}
+[10.029442] (-) TimerEvent: {}
+[10.083522] (lego_loam_sr) JobProgress: {'identifier': 'lego_loam_sr', 'progress': 'cmake'}
+[10.128465] (lego_loam_sr) Command: {'cmd': ['/usr/bin/cmake', '/home/evan/code/lego-loam/lego/src/LeGO-LOAM', '-DCMAKE_INSTALL_PREFIX=/home/evan/code/lego-loam/lego/install/lego_loam_sr'], 'cwd': '/home/evan/code/lego-loam/lego/build/lego_loam_sr', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'evan'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/evan/code/lego-loam/lego/install/cloud_msgs/lib:/home/evan/code/ndt-loc/install/cloud_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/evan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/evan/code/lego-loam'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/evan/code/lego-loam/lego/install:/home/evan/code/ndt-loc/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'evan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'evan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/java/jdk1.6.0_45/bin:~/mycomd:/usr/lib/java/jdk1.6.0_45/bin:~/mycomd'), ('SESSION_MANAGER', 'local/evan-RESCUER-R720-15IKBN:@/tmp/.ICE-unix/2196,unix/evan-RESCUER-R720-15IKBN:/tmp/.ICE-unix/2196'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/076607f0_34b0_43ac_83ec_93e9a8216c46'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H1FK71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-217ca35d79.sock'), ('GNOME_TERMINAL_SERVICE', ':1.174'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/evan/code/lego-loam/lego/install/cloud_msgs:/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/java/jdk1.6.0_45'), ('PWD', '/home/evan/code/lego-loam/lego/build/lego_loam_sr'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages:/home/evan/code/ndt-loc/install/cloud_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/evan/code/lego-loam/lego/install/cloud_msgs:/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble')]), 'shell': False}
+[10.130363] (-) TimerEvent: {}
+[10.230576] (-) TimerEvent: {}
+[10.330909] (-) TimerEvent: {}
+[10.431540] (-) TimerEvent: {}
+[10.531874] (-) TimerEvent: {}
+[10.632199] (-) TimerEvent: {}
+[10.732556] (-) TimerEvent: {}
+[10.832869] (-) TimerEvent: {}
+[10.921393] (lego_loam_sr) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[10.933046] (-) TimerEvent: {}
+[11.033390] (-) TimerEvent: {}
+[11.133838] (-) TimerEvent: {}
+[11.234251] (-) TimerEvent: {}
+[11.334620] (-) TimerEvent: {}
+[11.435016] (-) TimerEvent: {}
+[11.535423] (-) TimerEvent: {}
+[11.635854] (-) TimerEvent: {}
+[11.736215] (-) TimerEvent: {}
+[11.836555] (-) TimerEvent: {}
+[11.936865] (-) TimerEvent: {}
+[12.037193] (-) TimerEvent: {}
+[12.137549] (-) TimerEvent: {}
+[12.323306] (-) TimerEvent: {}
+[12.424210] (-) TimerEvent: {}
+[12.524521] (-) TimerEvent: {}
+[12.624881] (-) TimerEvent: {}
+[12.725260] (-) TimerEvent: {}
+[12.825672] (-) TimerEvent: {}
+[12.926197] (-) TimerEvent: {}
+[13.026477] (-) TimerEvent: {}
+[13.126818] (-) TimerEvent: {}
+[13.227210] (-) TimerEvent: {}
+[13.327756] (-) TimerEvent: {}
+[13.428136] (-) TimerEvent: {}
+[13.528451] (-) TimerEvent: {}
+[13.628758] (-) TimerEvent: {}
+[13.729093] (-) TimerEvent: {}
+[13.829391] (-) TimerEvent: {}
+[13.929708] (-) TimerEvent: {}
+[14.030176] (-) TimerEvent: {}
+[14.130544] (-) TimerEvent: {}
+[14.230943] (-) TimerEvent: {}
+[14.331364] (-) TimerEvent: {}
+[14.431870] (-) TimerEvent: {}
+[14.532275] (-) TimerEvent: {}
+[14.632718] (-) TimerEvent: {}
+[14.733097] (-) TimerEvent: {}
+[14.833502] (-) TimerEvent: {}
+[14.933794] (-) TimerEvent: {}
+[15.034117] (-) TimerEvent: {}
+[15.134451] (-) TimerEvent: {}
+[15.234737] (-) TimerEvent: {}
+[15.335041] (-) TimerEvent: {}
+[15.435339] (-) TimerEvent: {}
+[15.535731] (-) TimerEvent: {}
+[15.636117] (-) TimerEvent: {}
+[15.736432] (-) TimerEvent: {}
+[15.836766] (-) TimerEvent: {}
+[15.937061] (-) TimerEvent: {}
+[16.037420] (-) TimerEvent: {}
+[16.137792] (-) TimerEvent: {}
+[16.238168] (-) TimerEvent: {}
+[16.338586] (-) TimerEvent: {}
+[16.438961] (-) TimerEvent: {}
+[16.539393] (-) TimerEvent: {}
+[16.639755] (-) TimerEvent: {}
+[16.740083] (-) TimerEvent: {}
+[16.745646] (lego_loam_sr) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[16.840202] (-) TimerEvent: {}
+[16.940611] (-) TimerEvent: {}
+[17.040927] (-) TimerEvent: {}
+[17.141315] (-) TimerEvent: {}
+[17.241859] (-) TimerEvent: {}
+[17.342346] (-) TimerEvent: {}
+[17.442676] (-) TimerEvent: {}
+[17.542972] (-) TimerEvent: {}
+[17.572437] (lego_loam_sr) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[17.615500] (lego_loam_sr) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[17.643061] (-) TimerEvent: {}
+[17.674675] (lego_loam_sr) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[17.743406] (-) TimerEvent: {}
+[17.842306] (lego_loam_sr) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[17.843501] (-) TimerEvent: {}
+[17.943755] (-) TimerEvent: {}
+[18.044504] (-) TimerEvent: {}
+[18.058784] (lego_loam_sr) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[18.144692] (-) TimerEvent: {}
+[18.244967] (-) TimerEvent: {}
+[18.345238] (-) TimerEvent: {}
+[18.445744] (-) TimerEvent: {}
+[18.546140] (-) TimerEvent: {}
+[18.610601] (lego_loam_sr) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[18.646333] (-) TimerEvent: {}
+[18.671324] (lego_loam_sr) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[18.746409] (-) TimerEvent: {}
+[18.846709] (-) TimerEvent: {}
+[18.947316] (-) TimerEvent: {}
+[18.996785] (lego_loam_sr) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[19.047480] (-) TimerEvent: {}
+[19.147961] (-) TimerEvent: {}
+[19.248316] (-) TimerEvent: {}
+[19.348602] (-) TimerEvent: {}
+[19.448980] (-) TimerEvent: {}
+[19.549301] (-) TimerEvent: {}
+[19.600359] (lego_loam_sr) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[19.649432] (-) TimerEvent: {}
+[19.749733] (-) TimerEvent: {}
+[19.850067] (-) TimerEvent: {}
+[19.872116] (lego_loam_sr) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[19.950139] (-) TimerEvent: {}
+[19.996755] (lego_loam_sr) StdoutLine: {'line': b'-- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)\n'}
+[20.028488] (lego_loam_sr) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[20.050237] (-) TimerEvent: {}
+[20.150532] (-) TimerEvent: {}
+[20.250857] (-) TimerEvent: {}
+[20.351292] (-) TimerEvent: {}
+[20.451725] (-) TimerEvent: {}
+[20.552020] (-) TimerEvent: {}
+[20.652280] (-) TimerEvent: {}
+[20.673075] (lego_loam_sr) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[20.709614] (lego_loam_sr) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[20.736411] (lego_loam_sr) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[20.736624] (lego_loam_sr) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[20.752401] (-) TimerEvent: {}
+[20.760185] (lego_loam_sr) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[20.852540] (-) TimerEvent: {}
+[20.948418] (lego_loam_sr) StdoutLine: {'line': b'-- Found cloud_msgs: 1.0.0 (/home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake)\n'}
+[20.952640] (-) TimerEvent: {}
+[21.034428] (lego_loam_sr) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[21.052767] (-) TimerEvent: {}
+[21.076470] (lego_loam_sr) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[21.152862] (-) TimerEvent: {}
+[21.253214] (-) TimerEvent: {}
+[21.353522] (-) TimerEvent: {}
+[21.453824] (-) TimerEvent: {}
+[21.554087] (-) TimerEvent: {}
+[21.654355] (-) TimerEvent: {}
+[21.754637] (-) TimerEvent: {}
+[21.854907] (-) TimerEvent: {}
+[21.901037] (lego_loam_sr) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[21.955001] (-) TimerEvent: {}
+[22.055272] (-) TimerEvent: {}
+[22.126125] (lego_loam_sr) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[22.134967] (lego_loam_sr) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[22.135930] (lego_loam_sr) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[22.155432] (-) TimerEvent: {}
+[22.255726] (-) TimerEvent: {}
+[22.356104] (-) TimerEvent: {}
+[22.367036] (lego_loam_sr) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[22.376234] (lego_loam_sr) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[22.386981] (lego_loam_sr) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[22.456195] (-) TimerEvent: {}
+[22.556464] (-) TimerEvent: {}
+[22.641649] (lego_loam_sr) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[22.656562] (-) TimerEvent: {}
+[22.756829] (-) TimerEvent: {}
+[22.857315] (-) TimerEvent: {}
+[22.861456] (lego_loam_sr) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[22.957422] (-) TimerEvent: {}
+[23.057763] (-) TimerEvent: {}
+[23.071809] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[23.072292] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[23.072769] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[23.073234] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[23.073709] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[23.074161] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[23.074707] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[23.075155] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[23.075551] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[23.076325] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[23.076988] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[23.080666] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[23.080851] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[23.080942] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[23.081700] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[23.081836] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[23.081924] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[23.082047] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[23.082317] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[23.082772] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[23.084165] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[23.084516] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[23.084852] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[23.085185] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[23.085665] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[23.157858] (-) TimerEvent: {}
+[23.258212] (-) TimerEvent: {}
+[23.358486] (-) TimerEvent: {}
+[23.458795] (-) TimerEvent: {}
+[23.559095] (-) TimerEvent: {}
+[23.648726] (lego_loam_sr) StdoutLine: {'line': b'-- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include\n'}
+[23.653955] (lego_loam_sr) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread serialization timer \n'}
+[23.659195] (-) TimerEvent: {}
+[23.759476] (-) TimerEvent: {}
+[23.859827] (-) TimerEvent: {}
+[23.960108] (-) TimerEvent: {}
+[23.978077] (lego_loam_sr) StdoutLine: {'line': b'-- Configuring done\n'}
+[24.060237] (-) TimerEvent: {}
+[24.160540] (-) TimerEvent: {}
+[24.260828] (-) TimerEvent: {}
+[24.361127] (-) TimerEvent: {}
+[24.461401] (-) TimerEvent: {}
+[24.561673] (-) TimerEvent: {}
+[24.661963] (-) TimerEvent: {}
+[24.762271] (-) TimerEvent: {}
+[24.862570] (-) TimerEvent: {}
+[24.962888] (-) TimerEvent: {}
+[25.063249] (-) TimerEvent: {}
+[25.163531] (-) TimerEvent: {}
+[25.263861] (-) TimerEvent: {}
+[25.364176] (-) TimerEvent: {}
+[25.464524] (-) TimerEvent: {}
+[25.564855] (-) TimerEvent: {}
+[25.665138] (-) TimerEvent: {}
+[25.765423] (-) TimerEvent: {}
+[25.865856] (-) TimerEvent: {}
+[25.966151] (-) TimerEvent: {}
+[26.066448] (-) TimerEvent: {}
+[26.166823] (-) TimerEvent: {}
+[26.267183] (-) TimerEvent: {}
+[26.367516] (-) TimerEvent: {}
+[26.467929] (-) TimerEvent: {}
+[26.568241] (-) TimerEvent: {}
+[26.668562] (-) TimerEvent: {}
+[26.768910] (-) TimerEvent: {}
+[26.869251] (-) TimerEvent: {}
+[26.969576] (-) TimerEvent: {}
+[27.069922] (-) TimerEvent: {}
+[27.170215] (-) TimerEvent: {}
+[27.270505] (-) TimerEvent: {}
+[27.370796] (-) TimerEvent: {}
+[27.471132] (-) TimerEvent: {}
+[27.571450] (-) TimerEvent: {}
+[27.635849] (lego_loam_sr) StdoutLine: {'line': b'-- Generating done\n'}
+[27.643074] (lego_loam_sr) StdoutLine: {'line': b'-- Build files have been written to: /home/evan/code/lego-loam/lego/build/lego_loam_sr\n'}
+[27.671401] (lego_loam_sr) CommandEnded: {'returncode': 0}
+[27.671925] (-) TimerEvent: {}
+[27.672046] (lego_loam_sr) JobProgress: {'identifier': 'lego_loam_sr', 'progress': 'build'}
+[27.672099] (lego_loam_sr) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/evan/code/lego-loam/lego/build/lego_loam_sr', '--', '-j4', '-l4'], 'cwd': '/home/evan/code/lego-loam/lego/build/lego_loam_sr', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'evan'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/evan/code/lego-loam/lego/install/cloud_msgs/lib:/home/evan/code/ndt-loc/install/cloud_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/evan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/evan/code/lego-loam'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/evan/code/lego-loam/lego/install:/home/evan/code/ndt-loc/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'evan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'evan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/java/jdk1.6.0_45/bin:~/mycomd:/usr/lib/java/jdk1.6.0_45/bin:~/mycomd'), ('SESSION_MANAGER', 'local/evan-RESCUER-R720-15IKBN:@/tmp/.ICE-unix/2196,unix/evan-RESCUER-R720-15IKBN:/tmp/.ICE-unix/2196'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/076607f0_34b0_43ac_83ec_93e9a8216c46'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H1FK71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-217ca35d79.sock'), ('GNOME_TERMINAL_SERVICE', ':1.174'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/evan/code/lego-loam/lego/install/cloud_msgs:/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/java/jdk1.6.0_45'), ('PWD', '/home/evan/code/lego-loam/lego/build/lego_loam_sr'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages:/home/evan/code/ndt-loc/install/cloud_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/evan/code/lego-loam/lego/install/cloud_msgs:/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble')]), 'shell': False}
+[27.743882] (lego_loam_sr) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/lego_loam_sr.dir/src/imageProjection.cpp.o\x1b[0m\n'}
+[27.772075] (-) TimerEvent: {}
+[27.872408] (-) TimerEvent: {}
+[27.972668] (-) TimerEvent: {}
+[28.072979] (-) TimerEvent: {}
+[28.173291] (-) TimerEvent: {}
+[28.273688] (-) TimerEvent: {}
+[28.373955] (-) TimerEvent: {}
+[28.474258] (-) TimerEvent: {}
+[28.574575] (-) TimerEvent: {}
+[28.674863] (-) TimerEvent: {}
+[28.775140] (-) TimerEvent: {}
+[28.875451] (-) TimerEvent: {}
+[28.975721] (-) TimerEvent: {}
+[29.076046] (-) TimerEvent: {}
+[29.176392] (-) TimerEvent: {}
+[29.277013] (-) TimerEvent: {}
+[29.377561] (-) TimerEvent: {}
+[29.477814] (-) TimerEvent: {}
+[29.578088] (-) TimerEvent: {}
+[29.678417] (-) TimerEvent: {}
+[29.778787] (-) TimerEvent: {}
+[29.879090] (-) TimerEvent: {}
+[29.979397] (-) TimerEvent: {}
+[30.079726] (-) TimerEvent: {}
+[30.179995] (-) TimerEvent: {}
+[30.280297] (-) TimerEvent: {}
+[30.380583] (-) TimerEvent: {}
+[30.480893] (-) TimerEvent: {}
+[30.581202] (-) TimerEvent: {}
+[30.681480] (-) TimerEvent: {}
+[30.781754] (-) TimerEvent: {}
+[30.882061] (-) TimerEvent: {}
+[30.982369] (-) TimerEvent: {}
+[31.082684] (-) TimerEvent: {}
+[31.183032] (-) TimerEvent: {}
+[31.283333] (-) TimerEvent: {}
+[31.383646] (-) TimerEvent: {}
+[31.483947] (-) TimerEvent: {}
+[31.584273] (-) TimerEvent: {}
+[31.684578] (-) TimerEvent: {}
+[31.784885] (-) TimerEvent: {}
+[31.885177] (-) TimerEvent: {}
+[31.985462] (-) TimerEvent: {}
+[32.085748] (-) TimerEvent: {}
+[32.186020] (-) TimerEvent: {}
+[32.286307] (-) TimerEvent: {}
+[32.386601] (-) TimerEvent: {}
+[32.486894] (-) TimerEvent: {}
+[32.587218] (-) TimerEvent: {}
+[32.687551] (-) TimerEvent: {}
+[32.787850] (-) TimerEvent: {}
+[32.888152] (-) TimerEvent: {}
+[32.988460] (-) TimerEvent: {}
+[33.088776] (-) TimerEvent: {}
+[33.189091] (-) TimerEvent: {}
+[33.289418] (-) TimerEvent: {}
+[33.389705] (-) TimerEvent: {}
+[33.490022] (-) TimerEvent: {}
+[33.590334] (-) TimerEvent: {}
+[33.690666] (-) TimerEvent: {}
+[33.790983] (-) TimerEvent: {}
+[33.891288] (-) TimerEvent: {}
+[33.991607] (-) TimerEvent: {}
+[34.091889] (-) TimerEvent: {}
+[34.192190] (-) TimerEvent: {}
+[34.292492] (-) TimerEvent: {}
+[34.392794] (-) TimerEvent: {}
+[34.493159] (-) TimerEvent: {}
+[34.593486] (-) TimerEvent: {}
+[34.693797] (-) TimerEvent: {}
+[34.794115] (-) TimerEvent: {}
+[34.894531] (-) TimerEvent: {}
+[34.994856] (-) TimerEvent: {}
+[35.095172] (-) TimerEvent: {}
+[35.195493] (-) TimerEvent: {}
+[35.295860] (-) TimerEvent: {}
+[35.396191] (-) TimerEvent: {}
+[35.496525] (-) TimerEvent: {}
+[35.596850] (-) TimerEvent: {}
+[35.697168] (-) TimerEvent: {}
+[35.762844] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KImageProjection::ImageProjection(const string&, Channel<ProjectionOut>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[35.764212] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:57:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KImageProjection::declare_parameter(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.764688] (lego_loam_sr) StderrLine: {'line': b'   57 |   \x1b[01;31m\x1b[Kthis->declare_parameter(PARAM_VERTICAL_SCANS)\x1b[m\x1b[K;\n'}
+[35.764782] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.764859] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.764936] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.765005] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.765073] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.765140] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.765208] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.765275] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.765343] (lego_loam_sr) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.765412] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.765479] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[35.765546] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:57:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.765614] (lego_loam_sr) StderrLine: {'line': b'   57 |   \x1b[01;36m\x1b[Kthis->declare_parameter(PARAM_VERTICAL_SCANS)\x1b[m\x1b[K;\n'}
+[35.765698] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.765763] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.765828] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.765893] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.765963] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.766028] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.766094] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.766160] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.766228] (lego_loam_sr) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.766295] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.766366] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[35.766446] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:57:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.766526] (lego_loam_sr) StderrLine: {'line': b'   57 |   \x1b[01;36m\x1b[Kthis->declare_parameter(PARAM_VERTICAL_SCANS)\x1b[m\x1b[K;\n'}
+[35.766590] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.766654] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.766718] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.766786] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.766851] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.766933] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.766999] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.767065] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.767139] (lego_loam_sr) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.767206] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.767272] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.767350] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.767423] (lego_loam_sr) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.767486] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.767550] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.767614] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:58:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KImageProjection::declare_parameter(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.767678] (lego_loam_sr) StderrLine: {'line': b'   58 |   \x1b[01;31m\x1b[Kthis->declare_parameter(PARAM_HORIZONTAL_SCANS)\x1b[m\x1b[K;\n'}
+[35.767742] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.767829] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.767910] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.767974] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.768038] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.768103] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.768169] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.768233] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.768299] (lego_loam_sr) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.768362] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.768426] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[35.768491] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:58:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.768555] (lego_loam_sr) StderrLine: {'line': b'   58 |   \x1b[01;36m\x1b[Kthis->declare_parameter(PARAM_HORIZONTAL_SCANS)\x1b[m\x1b[K;\n'}
+[35.768624] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.768688] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.768752] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.768816] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.768880] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.768950] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.769015] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.769080] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.769146] (lego_loam_sr) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.769210] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.769273] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[35.769338] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:58:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.769403] (lego_loam_sr) StderrLine: {'line': b'   58 |   \x1b[01;36m\x1b[Kthis->declare_parameter(PARAM_HORIZONTAL_SCANS)\x1b[m\x1b[K;\n'}
+[35.769472] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.769535] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.769600] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.769663] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.769727] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.769791] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.769892] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.769956] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.770034] (lego_loam_sr) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.770100] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.770178] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.770242] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.770308] (lego_loam_sr) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.770378] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.770443] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.770507] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:59:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KImageProjection::declare_parameter(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.770573] (lego_loam_sr) StderrLine: {'line': b'   59 |   \x1b[01;31m\x1b[Kthis->declare_parameter(PARAM_ANGLE_BOTTOM)\x1b[m\x1b[K;\n'}
+[35.770637] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.770701] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.770764] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.770829] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.770896] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.770961] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.771024] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.771087] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.771153] (lego_loam_sr) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.771219] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.771283] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[35.771347] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:59:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.771412] (lego_loam_sr) StderrLine: {'line': b'   59 |   \x1b[01;36m\x1b[Kthis->declare_parameter(PARAM_ANGLE_BOTTOM)\x1b[m\x1b[K;\n'}
+[35.771476] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.771540] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.771604] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.771669] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.771734] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.771822] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.771913] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.771978] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.772048] (lego_loam_sr) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.772217] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.772289] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[35.772368] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:59:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.772442] (lego_loam_sr) StderrLine: {'line': b'   59 |   \x1b[01;36m\x1b[Kthis->declare_parameter(PARAM_ANGLE_BOTTOM)\x1b[m\x1b[K;\n'}
+[35.772508] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.772574] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.772638] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.772703] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.772768] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.772833] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.772897] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.772961] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.773028] (lego_loam_sr) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.773092] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.773156] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.773221] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.773291] (lego_loam_sr) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.773357] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.773421] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.773494] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:60:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KImageProjection::declare_parameter(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.773561] (lego_loam_sr) StderrLine: {'line': b'   60 |   \x1b[01;31m\x1b[Kthis->declare_parameter(PARAM_ANGLE_TOP)\x1b[m\x1b[K;\n'}
+[35.773626] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.773690] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.773774] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.773842] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.773967] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.774037] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.774105] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.774172] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.774241] (lego_loam_sr) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.774307] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.774374] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[35.774443] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:60:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.774672] (lego_loam_sr) StderrLine: {'line': b'   60 |   \x1b[01;36m\x1b[Kthis->declare_parameter(PARAM_ANGLE_TOP)\x1b[m\x1b[K;\n'}
+[35.774741] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.774818] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.774886] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.774954] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.775020] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.775086] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.775158] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.775237] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.775308] (lego_loam_sr) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.775372] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.775436] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[35.775501] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:60:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.775566] (lego_loam_sr) StderrLine: {'line': b'   60 |   \x1b[01;36m\x1b[Kthis->declare_parameter(PARAM_ANGLE_TOP)\x1b[m\x1b[K;\n'}
+[35.775630] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.775692] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.775777] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.775872] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.775957] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.776024] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.776092] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.776159] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.776228] (lego_loam_sr) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.776294] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.776361] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.776429] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.776498] (lego_loam_sr) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.776577] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.776643] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.776708] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:61:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KImageProjection::declare_parameter(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.776781] (lego_loam_sr) StderrLine: {'line': b'   61 |   \x1b[01;31m\x1b[Kthis->declare_parameter(PARAM_GROUND_INDEX)\x1b[m\x1b[K;\n'}
+[35.776847] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.776912] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.776990] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.777058] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.777135] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.777200] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.777265] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.777343] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.777416] (lego_loam_sr) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.777483] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.777550] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[35.777618] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:61:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.777722] (lego_loam_sr) StderrLine: {'line': b'   61 |   \x1b[01;36m\x1b[Kthis->declare_parameter(PARAM_GROUND_INDEX)\x1b[m\x1b[K;\n'}
+[35.777789] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.777855] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.777923] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.777991] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.778069] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.778133] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.778198] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.778276] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.778348] (lego_loam_sr) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.778413] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.778476] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[35.778540] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:61:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.778606] (lego_loam_sr) StderrLine: {'line': b'   61 |   \x1b[01;36m\x1b[Kthis->declare_parameter(PARAM_GROUND_INDEX)\x1b[m\x1b[K;\n'}
+[35.778670] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.778735] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.778799] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.778863] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.778927] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.778991] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.779055] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.779119] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.779185] (lego_loam_sr) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.779249] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.779314] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.779379] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.779444] (lego_loam_sr) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.779507] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.779571] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.779634] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:62:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KImageProjection::declare_parameter(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.779700] (lego_loam_sr) StderrLine: {'line': b'   62 |   \x1b[01;31m\x1b[Kthis->declare_parameter(PARAM_SENSOR_ANGLE)\x1b[m\x1b[K;\n'}
+[35.779769] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.779870] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.779951] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.780034] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.780100] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.780166] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.780236] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.780313] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.780377] (lego_loam_sr) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.780443] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.780511] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[35.780576] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:62:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.780640] (lego_loam_sr) StderrLine: {'line': b'   62 |   \x1b[01;36m\x1b[Kthis->declare_parameter(PARAM_SENSOR_ANGLE)\x1b[m\x1b[K;\n'}
+[35.780703] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.780766] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.780829] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.780892] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.780955] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.781019] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.781081] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.781145] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.781209] (lego_loam_sr) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.781271] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.781339] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[35.781402] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:62:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.781469] (lego_loam_sr) StderrLine: {'line': b'   62 |   \x1b[01;36m\x1b[Kthis->declare_parameter(PARAM_SENSOR_ANGLE)\x1b[m\x1b[K;\n'}
+[35.781533] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.781596] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.781658] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.781721] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.781784] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.781847] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.781911] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.781973] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.782038] (lego_loam_sr) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.782102] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.782164] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.782228] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.782297] (lego_loam_sr) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.782360] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.782423] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.782488] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:63:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KImageProjection::declare_parameter(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.782557] (lego_loam_sr) StderrLine: {'line': b'   63 |   \x1b[01;31m\x1b[Kthis->declare_parameter(PARAM_SEGMENT_THETA)\x1b[m\x1b[K;\n'}
+[35.782625] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.782689] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.782759] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.782823] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.782886] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.782950] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.783013] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.783078] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.783143] (lego_loam_sr) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.783206] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.783268] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[35.783332] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:63:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.783396] (lego_loam_sr) StderrLine: {'line': b'   63 |   \x1b[01;36m\x1b[Kthis->declare_parameter(PARAM_SEGMENT_THETA)\x1b[m\x1b[K;\n'}
+[35.783460] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.783526] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.783591] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.783656] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.783720] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.783785] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.783891] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.783956] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.784022] (lego_loam_sr) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.784086] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.784151] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[35.784216] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:63:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.784286] (lego_loam_sr) StderrLine: {'line': b'   63 |   \x1b[01;36m\x1b[Kthis->declare_parameter(PARAM_SEGMENT_THETA)\x1b[m\x1b[K;\n'}
+[35.784351] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.784414] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.784479] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.784543] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.784610] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.784674] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.784738] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.784808] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.784878] (lego_loam_sr) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.784943] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.785008] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.785077] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.785144] (lego_loam_sr) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.785208] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.785304] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.785369] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:64:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KImageProjection::declare_parameter(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.785436] (lego_loam_sr) StderrLine: {'line': b'   64 |   \x1b[01;31m\x1b[Kthis->declare_parameter(PARAM_SEGMENT_POINT)\x1b[m\x1b[K;\n'}
+[35.785500] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.785564] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.785628] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.785699] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.785764] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.785848] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.785926] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.785990] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.786055] (lego_loam_sr) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.786118] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.786181] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[35.786266] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:64:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.786334] (lego_loam_sr) StderrLine: {'line': b'   64 |   \x1b[01;36m\x1b[Kthis->declare_parameter(PARAM_SEGMENT_POINT)\x1b[m\x1b[K;\n'}
+[35.786401] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.786467] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.786534] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.786600] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.786667] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.786734] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.786803] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.786895] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.786964] (lego_loam_sr) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.787032] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.787098] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[35.787165] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:64:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.787251] (lego_loam_sr) StderrLine: {'line': b'   64 |   \x1b[01;36m\x1b[Kthis->declare_parameter(PARAM_SEGMENT_POINT)\x1b[m\x1b[K;\n'}
+[35.787319] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.787386] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.787453] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.787520] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.787587] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.787659] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.787726] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.787798] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.787882] (lego_loam_sr) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.787949] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.788014] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.788078] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.788143] (lego_loam_sr) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.788207] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.788271] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.788335] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:65:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KImageProjection::declare_parameter(const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.788401] (lego_loam_sr) StderrLine: {'line': b'   65 |   \x1b[01;31m\x1b[Kthis->declare_parameter(PARAM_SEGMENT_LINE)\x1b[m\x1b[K;\n'}
+[35.788465] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.788529] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.788593] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.788657] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.788720] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.788790] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.788854] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.788918] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.788984] (lego_loam_sr) StderrLine: {'line': b'  421 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.789047] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.789111] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[35.789194] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:65:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.789345] (lego_loam_sr) StderrLine: {'line': b'   65 |   \x1b[01;36m\x1b[Kthis->declare_parameter(PARAM_SEGMENT_LINE)\x1b[m\x1b[K;\n'}
+[35.789414] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.789491] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.789555] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.789624] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.789689] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.789753] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.789817] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.789885] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.789952] (lego_loam_sr) StderrLine: {'line': b'  434 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.790048] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.790112] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[35.790183] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:65:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KParameterT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.790250] (lego_loam_sr) StderrLine: {'line': b'   65 |   \x1b[01;36m\x1b[Kthis->declare_parameter(PARAM_SEGMENT_LINE)\x1b[m\x1b[K;\n'}
+[35.790327] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.790410] (lego_loam_sr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[35.790475] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[35.790538] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[35.790601] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/include/lego_loam/utility.h:5\x1b[m\x1b[K,\n'}
+[35.790702] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.h:4\x1b[m\x1b[K,\n'}
+[35.790766] (lego_loam_sr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/imageProjection.cpp:30\x1b[m\x1b[K:\n'}
+[35.790829] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.790895] (lego_loam_sr) StderrLine: {'line': b'  366 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.790959] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.791024] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.791088] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.791153] (lego_loam_sr) StderrLine: {'line': b'  391 |   \x1b[01;36m\x1b[Kdeclare_parameter\x1b[m\x1b[K(\n'}
+[35.791217] (lego_loam_sr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[35.791281] (lego_loam_sr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 1 provided\n'}
+[35.797296] (-) TimerEvent: {}
+[35.897573] (-) TimerEvent: {}
+[35.997936] (-) TimerEvent: {}
+[36.098271] (-) TimerEvent: {}
+[36.198601] (-) TimerEvent: {}
+[36.298915] (-) TimerEvent: {}
+[36.399288] (-) TimerEvent: {}
+[36.499610] (-) TimerEvent: {}
+[36.599893] (-) TimerEvent: {}
+[36.700195] (-) TimerEvent: {}
+[36.800501] (-) TimerEvent: {}
+[36.900819] (-) TimerEvent: {}
+[37.001107] (-) TimerEvent: {}
+[37.101393] (-) TimerEvent: {}
+[37.201679] (-) TimerEvent: {}
+[37.301964] (-) TimerEvent: {}
+[37.402264] (-) TimerEvent: {}
+[37.502608] (-) TimerEvent: {}
+[37.602886] (-) TimerEvent: {}
+[37.703197] (-) TimerEvent: {}
+[37.803543] (-) TimerEvent: {}
+[37.903937] (-) TimerEvent: {}
+[38.004260] (-) TimerEvent: {}
+[38.104607] (-) TimerEvent: {}
+[38.204930] (-) TimerEvent: {}
+[38.305248] (-) TimerEvent: {}
+[38.405585] (-) TimerEvent: {}
+[38.505923] (-) TimerEvent: {}
+[38.606198] (-) TimerEvent: {}
+[38.706530] (-) TimerEvent: {}
+[38.806847] (-) TimerEvent: {}
+[38.907131] (-) TimerEvent: {}
+[39.007407] (-) TimerEvent: {}
+[39.107714] (-) TimerEvent: {}
+[39.208031] (-) TimerEvent: {}
+[39.308312] (-) TimerEvent: {}
+[39.408649] (-) TimerEvent: {}
+[39.508916] (-) TimerEvent: {}
+[39.609197] (-) TimerEvent: {}
+[39.709513] (-) TimerEvent: {}
+[39.809828] (-) TimerEvent: {}
+[39.910154] (-) TimerEvent: {}
+[40.010507] (-) TimerEvent: {}
+[40.110832] (-) TimerEvent: {}
+[40.211169] (-) TimerEvent: {}
+[40.311495] (-) TimerEvent: {}
+[40.411842] (-) TimerEvent: {}
+[40.512198] (-) TimerEvent: {}
+[40.612507] (-) TimerEvent: {}
+[40.712847] (-) TimerEvent: {}
+[40.813162] (-) TimerEvent: {}
+[40.913484] (-) TimerEvent: {}
+[41.013800] (-) TimerEvent: {}
+[41.114138] (-) TimerEvent: {}
+[41.214468] (-) TimerEvent: {}
+[41.314763] (-) TimerEvent: {}
+[41.415108] (-) TimerEvent: {}
+[41.515476] (-) TimerEvent: {}
+[41.615906] (-) TimerEvent: {}
+[41.716216] (-) TimerEvent: {}
+[41.816534] (-) TimerEvent: {}
+[41.916859] (-) TimerEvent: {}
+[41.957647] (lego_loam_sr) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lego_loam_sr.dir/build.make:76: CMakeFiles/lego_loam_sr.dir/src/imageProjection.cpp.o] Error 1\n'}
+[41.957980] (lego_loam_sr) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lego_loam_sr.dir/all] Error 2\n'}
+[41.958124] (lego_loam_sr) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[41.961174] (lego_loam_sr) CommandEnded: {'returncode': 2}
+[42.010425] (lego_loam_sr) JobEnded: {'identifier': 'lego_loam_sr', 'rc': 2}
+[42.016968] (-) TimerEvent: {}
+[42.021140] (-) EventReactorShutdown: {}

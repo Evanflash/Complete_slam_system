@@ -1,0 +1,440 @@
+[0.000000] (-) TimerEvent: {}
+[0.000636] (cloud_msgs) JobQueued: {'identifier': 'cloud_msgs', 'dependencies': OrderedDict()}
+[0.000713] (lego_loam_sr) JobQueued: {'identifier': 'lego_loam_sr', 'dependencies': OrderedDict([('cloud_msgs', '/home/evan/code/lego-loam/lego/install/cloud_msgs')])}
+[0.001642] (cloud_msgs) JobStarted: {'identifier': 'cloud_msgs'}
+[0.099975] (-) TimerEvent: {}
+[0.200366] (-) TimerEvent: {}
+[0.269109] (cloud_msgs) JobProgress: {'identifier': 'cloud_msgs', 'progress': 'cmake'}
+[0.300490] (-) TimerEvent: {}
+[0.400842] (-) TimerEvent: {}
+[0.476851] (cloud_msgs) JobProgress: {'identifier': 'cloud_msgs', 'progress': 'build'}
+[0.477992] (cloud_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/evan/code/lego-loam/lego/build/cloud_msgs', '--', '-j4', '-l4'], 'cwd': '/home/evan/code/lego-loam/lego/build/cloud_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'evan'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/evan/code/ndt-loc/install/cloud_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/evan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/evan/code/lego-loam'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2244'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/evan/code/ndt-loc/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'evan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'evan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/java/jdk1.6.0_45/bin:~/mycomd:/usr/lib/java/jdk1.6.0_45/bin:~/mycomd'), ('SESSION_MANAGER', 'local/evan-RESCUER-R720-15IKBN:@/tmp/.ICE-unix/2038,unix/evan-RESCUER-R720-15IKBN:/tmp/.ICE-unix/2038'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fd11accf_f03a_4e59_bd7d_83ebd2212417'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9MBS71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-217ca35d79.sock'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/java/jdk1.6.0_45'), ('PWD', '/home/evan/code/lego-loam/lego/build/cloud_msgs'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/evan/code/ndt-loc/install/cloud_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble')]), 'shell': False}
+[0.500957] (-) TimerEvent: {}
+[0.601319] (-) TimerEvent: {}
+[0.701815] (-) TimerEvent: {}
+[0.802327] (-) TimerEvent: {}
+[0.902675] (-) TimerEvent: {}
+[1.002985] (-) TimerEvent: {}
+[1.103717] (-) TimerEvent: {}
+[1.204099] (-) TimerEvent: {}
+[1.304437] (-) TimerEvent: {}
+[1.404762] (-) TimerEvent: {}
+[1.505089] (-) TimerEvent: {}
+[1.605527] (-) TimerEvent: {}
+[1.706134] (-) TimerEvent: {}
+[1.806505] (-) TimerEvent: {}
+[1.906787] (-) TimerEvent: {}
+[2.007176] (-) TimerEvent: {}
+[2.107805] (-) TimerEvent: {}
+[2.298988] (-) TimerEvent: {}
+[2.399376] (-) TimerEvent: {}
+[2.499699] (-) TimerEvent: {}
+[2.599992] (-) TimerEvent: {}
+[2.700276] (-) TimerEvent: {}
+[2.800648] (-) TimerEvent: {}
+[2.901024] (-) TimerEvent: {}
+[3.001326] (-) TimerEvent: {}
+[3.101612] (-) TimerEvent: {}
+[3.201957] (-) TimerEvent: {}
+[3.215905] (cloud_msgs) StdoutLine: {'line': b'[  3%] Built target cloud_msgs__cpp\n'}
+[3.302047] (-) TimerEvent: {}
+[3.402301] (-) TimerEvent: {}
+[3.475130] (cloud_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cloud_msgs__rosidl_generator_c\x1b[0m\n'}
+[3.502416] (-) TimerEvent: {}
+[3.567920] (cloud_msgs) StdoutLine: {'line': b'[ 12%] Built target cloud_msgs__rosidl_generator_c\n'}
+[3.602506] (-) TimerEvent: {}
+[3.702795] (-) TimerEvent: {}
+[3.791722] (cloud_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_cloud_msgs\n'}
+[3.802902] (-) TimerEvent: {}
+[3.854129] (cloud_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cloud_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.865925] (cloud_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cloud_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.883668] (cloud_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/cloud_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cloud_msgs/msg/detail/dds_fastrtps/cloud_info__type_support.cpp.o\x1b[0m\n'}
+[3.903005] (-) TimerEvent: {}
+[4.003616] (-) TimerEvent: {}
+[4.014280] (cloud_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/cloud_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cloud_msgs/msg/cloud_info__type_support.cpp.o\x1b[0m\n'}
+[4.098324] (cloud_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cloud_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.105139] (-) TimerEvent: {}
+[4.112705] (cloud_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cloud_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.206351] (-) TimerEvent: {}
+[4.307136] (-) TimerEvent: {}
+[4.598175] (cloud_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/cloud_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cloud_msgs/msg/detail/cloud_info__type_support.cpp.o\x1b[0m\n'}
+[4.598356] (-) TimerEvent: {}
+[4.598467] (cloud_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/cloud_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cloud_msgs/msg/detail/cloud_info__type_support_c.cpp.o\x1b[0m\n'}
+[4.622848] (cloud_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libcloud_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.699602] (-) TimerEvent: {}
+[4.800388] (-) TimerEvent: {}
+[4.900748] (-) TimerEvent: {}
+[5.003689] (-) TimerEvent: {}
+[5.084524] (cloud_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library libcloud_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.104216] (-) TimerEvent: {}
+[5.204748] (-) TimerEvent: {}
+[5.331750] (-) TimerEvent: {}
+[5.345270] (cloud_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libcloud_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.360373] (cloud_msgs) StdoutLine: {'line': b'[ 38%] Built target cloud_msgs__rosidl_typesupport_cpp\n'}
+[5.431874] (-) TimerEvent: {}
+[5.532158] (-) TimerEvent: {}
+[5.549661] (cloud_msgs) StdoutLine: {'line': b'[ 41%] Built target cloud_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.632283] (-) TimerEvent: {}
+[5.731374] (cloud_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libcloud_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.732372] (-) TimerEvent: {}
+[5.832658] (-) TimerEvent: {}
+[5.932956] (-) TimerEvent: {}
+[5.972323] (cloud_msgs) StdoutLine: {'line': b'[ 48%] Built target cloud_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.978076] (cloud_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cloud_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.033080] (-) TimerEvent: {}
+[6.133501] (-) TimerEvent: {}
+[6.144520] (cloud_msgs) StdoutLine: {'line': b'[ 51%] Built target cloud_msgs__rosidl_typesupport_introspection_cpp\n'}
+[6.158673] (cloud_msgs) StdoutLine: {'line': b'[ 61%] Built target cloud_msgs__rosidl_typesupport_introspection_c\n'}
+[6.234539] (-) TimerEvent: {}
+[6.334859] (-) TimerEvent: {}
+[6.355660] (cloud_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cloud_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[6.434966] (-) TimerEvent: {}
+[6.535340] (-) TimerEvent: {}
+[6.657076] (cloud_msgs) StdoutLine: {'line': b'[ 70%] Built target cloud_msgs__rosidl_typesupport_c\n'}
+[6.657246] (-) TimerEvent: {}
+[6.757446] (-) TimerEvent: {}
+[6.857745] (-) TimerEvent: {}
+[6.972373] (-) TimerEvent: {}
+[7.063096] (cloud_msgs) StdoutLine: {'line': b'[ 70%] Built target cloud_msgs\n'}
+[7.072484] (-) TimerEvent: {}
+[7.172880] (-) TimerEvent: {}
+[7.273231] (-) TimerEvent: {}
+[7.567541] (-) TimerEvent: {}
+[7.667853] (-) TimerEvent: {}
+[7.768187] (-) TimerEvent: {}
+[7.863127] (cloud_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[7.866765] (cloud_msgs) StdoutLine: {'line': b'writing cloud_msgs.egg-info/PKG-INFO\n'}
+[7.868304] (-) TimerEvent: {}
+[7.872033] (cloud_msgs) StdoutLine: {'line': b'[ 74%] Built target cloud_msgs__py\n'}
+[7.968417] (-) TimerEvent: {}
+[8.053370] (cloud_msgs) StdoutLine: {'line': b'writing dependency_links to cloud_msgs.egg-info/dependency_links.txt\n'}
+[8.150812] (-) TimerEvent: {}
+[8.251054] (-) TimerEvent: {}
+[8.280518] (cloud_msgs) StdoutLine: {'line': b'writing top-level names to cloud_msgs.egg-info/top_level.txt\n'}
+[8.351157] (-) TimerEvent: {}
+[8.451428] (-) TimerEvent: {}
+[8.551706] (-) TimerEvent: {}
+[8.651997] (-) TimerEvent: {}
+[8.724138] (cloud_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cloud_msgs__rosidl_generator_py\x1b[0m\n'}
+[8.724953] (cloud_msgs) StdoutLine: {'line': b"reading manifest file 'cloud_msgs.egg-info/SOURCES.txt'\n"}
+[8.747231] (cloud_msgs) StdoutLine: {'line': b"writing manifest file 'cloud_msgs.egg-info/SOURCES.txt'\n"}
+[8.752103] (-) TimerEvent: {}
+[8.852382] (-) TimerEvent: {}
+[8.952716] (-) TimerEvent: {}
+[8.970899] (cloud_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/cloud_msgs__rosidl_generator_py.dir/rosidl_generator_py/cloud_msgs/msg/_cloud_info_s.c.o\x1b[0m\n'}
+[8.993674] (cloud_msgs) StdoutLine: {'line': b'[ 77%] Built target ament_cmake_python_build_cloud_msgs_egg\n'}
+[9.052818] (-) TimerEvent: {}
+[9.153115] (-) TimerEvent: {}
+[9.253426] (-) TimerEvent: {}
+[9.353745] (-) TimerEvent: {}
+[9.454001] (-) TimerEvent: {}
+[9.554424] (-) TimerEvent: {}
+[9.654783] (-) TimerEvent: {}
+[9.755118] (-) TimerEvent: {}
+[9.855398] (-) TimerEvent: {}
+[9.955721] (-) TimerEvent: {}
+[10.056083] (-) TimerEvent: {}
+[10.156520] (-) TimerEvent: {}
+[10.256971] (-) TimerEvent: {}
+[10.357298] (-) TimerEvent: {}
+[10.457595] (-) TimerEvent: {}
+[10.557960] (-) TimerEvent: {}
+[10.637900] (cloud_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cloud_msgs/libcloud_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[10.658238] (-) TimerEvent: {}
+[10.710227] (cloud_msgs) StdoutLine: {'line': b'[ 80%] Built target cloud_msgs__rosidl_generator_py\n'}
+[10.726405] (cloud_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cloud_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[10.726647] (cloud_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cloud_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[10.727979] (cloud_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cloud_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[10.741306] (cloud_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/cloud_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cloud_msgs/_cloud_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.741692] (cloud_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/cloud_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cloud_msgs/_cloud_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.743487] (cloud_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/cloud_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cloud_msgs/_cloud_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.758345] (-) TimerEvent: {}
+[10.860757] (-) TimerEvent: {}
+[10.873393] (cloud_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cloud_msgs/cloud_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.890918] (cloud_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cloud_msgs/cloud_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.905120] (cloud_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/cloud_msgs/cloud_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.926152] (cloud_msgs) StdoutLine: {'line': b'[100%] Built target cloud_msgs__rosidl_typesupport_c__pyext\n'}
+[10.955163] (cloud_msgs) StdoutLine: {'line': b'[100%] Built target cloud_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.960835] (-) TimerEvent: {}
+[10.970851] (cloud_msgs) StdoutLine: {'line': b'[100%] Built target cloud_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[10.984580] (cloud_msgs) CommandEnded: {'returncode': 0}
+[11.051520] (cloud_msgs) JobProgress: {'identifier': 'cloud_msgs', 'progress': 'install'}
+[11.061142] (cloud_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/evan/code/lego-loam/lego/build/cloud_msgs'], 'cwd': '/home/evan/code/lego-loam/lego/build/cloud_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'evan'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/evan/code/ndt-loc/install/cloud_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/evan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/evan/code/lego-loam'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2244'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/evan/code/ndt-loc/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'evan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'evan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/java/jdk1.6.0_45/bin:~/mycomd:/usr/lib/java/jdk1.6.0_45/bin:~/mycomd'), ('SESSION_MANAGER', 'local/evan-RESCUER-R720-15IKBN:@/tmp/.ICE-unix/2038,unix/evan-RESCUER-R720-15IKBN:/tmp/.ICE-unix/2038'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fd11accf_f03a_4e59_bd7d_83ebd2212417'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9MBS71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-217ca35d79.sock'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/java/jdk1.6.0_45'), ('PWD', '/home/evan/code/lego-loam/lego/build/cloud_msgs'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/evan/code/ndt-loc/install/cloud_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble')]), 'shell': False}
+[11.061879] (-) TimerEvent: {}
+[11.070800] (cloud_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.071219] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/ament_index/resource_index/rosidl_interfaces/cloud_msgs\n'}
+[11.071424] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs\n'}
+[11.071504] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg\n'}
+[11.071576] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail\n'}
+[11.071666] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__functions.c\n'}
+[11.071738] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__struct.h\n'}
+[11.071818] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__functions.h\n'}
+[11.071889] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__type_support.h\n'}
+[11.071984] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/cloud_info.h\n'}
+[11.072053] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.072201] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/environment/library_path.sh\n'}
+[11.072280] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/environment/library_path.dsv\n'}
+[11.072349] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/lib/libcloud_msgs__rosidl_generator_c.so\n'}
+[11.072466] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs\n'}
+[11.072606] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg\n'}
+[11.072711] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail\n'}
+[11.072781] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h\n'}
+[11.072884] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.073420] (cloud_msgs) StdoutLine: {'line': b'-- Installing: /home/evan/code/lego-loam/lego/install/cloud_msgs/lib/libcloud_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[11.074023] (cloud_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/evan/code/lego-loam/lego/install/cloud_msgs/lib/libcloud_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.074204] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs\n'}
+[11.074501] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg\n'}
+[11.074658] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail\n'}
+[11.074735] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__builder.hpp\n'}
+[11.074806] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__traits.hpp\n'}
+[11.074875] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__struct.hpp\n'}
+[11.074943] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/cloud_info.hpp\n'}
+[11.075011] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs\n'}
+[11.075078] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg\n'}
+[11.075145] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail\n'}
+[11.075223] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/dds_fastrtps\n'}
+[11.075290] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.075357] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.107276] (cloud_msgs) StdoutLine: {'line': b'-- Installing: /home/evan/code/lego-loam/lego/install/cloud_msgs/lib/libcloud_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.108476] (cloud_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/evan/code/lego-loam/lego/install/cloud_msgs/lib/libcloud_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.108638] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs\n'}
+[11.108752] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg\n'}
+[11.108825] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail\n'}
+[11.108894] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h\n'}
+[11.108962] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__type_support.c\n'}
+[11.109028] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.109688] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/lib/libcloud_msgs__rosidl_typesupport_introspection_c.so\n'}
+[11.110290] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/lib/libcloud_msgs__rosidl_typesupport_c.so\n'}
+[11.110552] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs\n'}
+[11.110744] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg\n'}
+[11.110825] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail\n'}
+[11.110896] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__type_support.cpp\n'}
+[11.110967] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/include/cloud_msgs/cloud_msgs/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.142036] (cloud_msgs) StdoutLine: {'line': b'-- Installing: /home/evan/code/lego-loam/lego/install/cloud_msgs/lib/libcloud_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[11.143013] (cloud_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/evan/code/lego-loam/lego/install/cloud_msgs/lib/libcloud_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.143830] (cloud_msgs) StdoutLine: {'line': b'-- Installing: /home/evan/code/lego-loam/lego/install/cloud_msgs/lib/libcloud_msgs__rosidl_typesupport_cpp.so\n'}
+[11.144461] (cloud_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/evan/code/lego-loam/lego/install/cloud_msgs/lib/libcloud_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[11.144675] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/environment/pythonpath.sh\n'}
+[11.144904] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/environment/pythonpath.dsv\n'}
+[11.145093] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs-1.0.0-py3.10.egg-info\n'}
+[11.145295] (cloud_msgs) StdoutLine: {'line': b'-- Installing: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[11.145586] (cloud_msgs) StdoutLine: {'line': b'-- Installing: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[11.145867] (cloud_msgs) StdoutLine: {'line': b'-- Installing: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[11.146159] (cloud_msgs) StdoutLine: {'line': b'-- Installing: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[11.146480] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs\n'}
+[11.146656] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/msg\n'}
+[11.146797] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/msg/_cloud_info.py\n'}
+[11.147073] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/msg/__init__.py\n'}
+[11.147179] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/msg/_cloud_info_s.c\n'}
+[11.147249] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/_cloud_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[11.147317] (cloud_msgs) StdoutLine: {'line': b'-- Installing: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/libcloud_msgs__rosidl_generator_py.so\n'}
+[11.147614] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/_cloud_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.147772] (cloud_msgs) StdoutLine: {'line': b'-- Installing: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/cloud_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.148072] (cloud_msgs) StdoutLine: {'line': b'-- Installing: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/cloud_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.149643] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/_cloud_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.149866] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/__init__.py\n'}
+[11.149954] (cloud_msgs) StdoutLine: {'line': b'-- Installing: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/cloud_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.161972] (-) TimerEvent: {}
+[11.186896] (cloud_msgs) StdoutLine: {'line': b"Listing '/home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs'...\n"}
+[11.187136] (cloud_msgs) StdoutLine: {'line': b"Listing '/home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/msg'...\n"}
+[11.193278] (cloud_msgs) StdoutLine: {'line': b'-- Installing: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/cloud_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.193973] (cloud_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/cloud_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.194421] (cloud_msgs) StdoutLine: {'line': b'-- Installing: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/cloud_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.195041] (cloud_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/cloud_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.195501] (cloud_msgs) StdoutLine: {'line': b'-- Installing: /home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/cloud_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.196091] (cloud_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages/cloud_msgs/cloud_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.197627] (cloud_msgs) StdoutLine: {'line': b'-- Installing: /home/evan/code/lego-loam/lego/install/cloud_msgs/lib/libcloud_msgs__rosidl_generator_py.so\n'}
+[11.199339] (cloud_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/evan/code/lego-loam/lego/install/cloud_msgs/lib/libcloud_msgs__rosidl_generator_py.so" to ""\n'}
+[11.199649] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/msg/CloudInfo.idl\n'}
+[11.199920] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/msg/CloudInfo.msg\n'}
+[11.200141] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/ament_index/resource_index/package_run_dependencies/cloud_msgs\n'}
+[11.200364] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/ament_index/resource_index/parent_prefix_path/cloud_msgs\n'}
+[11.200462] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/environment/ament_prefix_path.sh\n'}
+[11.200534] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/environment/ament_prefix_path.dsv\n'}
+[11.200603] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/environment/path.sh\n'}
+[11.200686] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/environment/path.dsv\n'}
+[11.200756] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/local_setup.bash\n'}
+[11.200836] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/local_setup.sh\n'}
+[11.201027] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/local_setup.zsh\n'}
+[11.201177] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/local_setup.dsv\n'}
+[11.201250] (cloud_msgs) StdoutLine: {'line': b'-- Installing: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/package.dsv\n'}
+[11.201319] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/ament_index/resource_index/packages/cloud_msgs\n'}
+[11.201388] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_generator_cExport.cmake\n'}
+[11.201457] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.202381] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.202627] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.202760] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_generator_cppExport.cmake\n'}
+[11.203072] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.203212] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.203696] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.203846] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.204440] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_cExport.cmake\n'}
+[11.204586] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.204887] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.205024] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.205282] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[11.205405] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.205750] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_generator_pyExport.cmake\n'}
+[11.205975] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/export_cloud_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.206138] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[11.206317] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.206392] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.206465] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.206537] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.206609] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.206679] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.206748] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgsConfig.cmake\n'}
+[11.206820] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake/cloud_msgsConfig-version.cmake\n'}
+[11.206905] (cloud_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/package.xml\n'}
+[11.209510] (cloud_msgs) CommandEnded: {'returncode': 0}
+[11.262387] (-) TimerEvent: {}
+[11.316998] (cloud_msgs) JobEnded: {'identifier': 'cloud_msgs', 'rc': 0}
+[11.320149] (lego_loam_sr) JobStarted: {'identifier': 'lego_loam_sr'}
+[11.344892] (lego_loam_sr) JobProgress: {'identifier': 'lego_loam_sr', 'progress': 'cmake'}
+[11.358425] (lego_loam_sr) Command: {'cmd': ['/usr/bin/cmake', '/home/evan/code/lego-loam/lego/src/LeGO-LOAM', '-DCMAKE_INSTALL_PREFIX=/home/evan/code/lego-loam/lego/install/lego_loam_sr'], 'cwd': '/home/evan/code/lego-loam/lego/build/lego_loam_sr', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'evan'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/evan/code/lego-loam/lego/install/cloud_msgs/lib:/home/evan/code/ndt-loc/install/cloud_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/evan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/evan/code/lego-loam'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2244'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/evan/code/ndt-loc/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'evan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'evan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/java/jdk1.6.0_45/bin:~/mycomd:/usr/lib/java/jdk1.6.0_45/bin:~/mycomd'), ('SESSION_MANAGER', 'local/evan-RESCUER-R720-15IKBN:@/tmp/.ICE-unix/2038,unix/evan-RESCUER-R720-15IKBN:/tmp/.ICE-unix/2038'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fd11accf_f03a_4e59_bd7d_83ebd2212417'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9MBS71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-217ca35d79.sock'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/evan/code/lego-loam/lego/install/cloud_msgs:/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/java/jdk1.6.0_45'), ('PWD', '/home/evan/code/lego-loam/lego/build/lego_loam_sr'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages:/home/evan/code/ndt-loc/install/cloud_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/evan/code/lego-loam/lego/install/cloud_msgs:/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble')]), 'shell': False}
+[11.362487] (-) TimerEvent: {}
+[11.462891] (-) TimerEvent: {}
+[11.527538] (lego_loam_sr) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[11.563004] (-) TimerEvent: {}
+[11.663297] (-) TimerEvent: {}
+[11.763594] (-) TimerEvent: {}
+[11.863894] (-) TimerEvent: {}
+[11.964211] (-) TimerEvent: {}
+[12.064527] (-) TimerEvent: {}
+[12.139918] (lego_loam_sr) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[12.164684] (-) TimerEvent: {}
+[12.264995] (-) TimerEvent: {}
+[12.353317] (lego_loam_sr) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[12.365131] (-) TimerEvent: {}
+[12.371714] (lego_loam_sr) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[12.434519] (lego_loam_sr) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[12.465326] (-) TimerEvent: {}
+[12.502985] (lego_loam_sr) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.565419] (-) TimerEvent: {}
+[12.593789] (lego_loam_sr) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.665517] (-) TimerEvent: {}
+[12.765836] (-) TimerEvent: {}
+[12.856334] (lego_loam_sr) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[12.865911] (-) TimerEvent: {}
+[12.891115] (lego_loam_sr) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[12.966038] (-) TimerEvent: {}
+[13.066429] (-) TimerEvent: {}
+[13.168947] (-) TimerEvent: {}
+[13.269276] (-) TimerEvent: {}
+[13.369655] (-) TimerEvent: {}
+[13.442841] (lego_loam_sr) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[13.469795] (-) TimerEvent: {}
+[13.570128] (-) TimerEvent: {}
+[13.670467] (-) TimerEvent: {}
+[13.770827] (-) TimerEvent: {}
+[13.860999] (lego_loam_sr) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[13.870927] (-) TimerEvent: {}
+[13.971330] (-) TimerEvent: {}
+[14.071876] (-) TimerEvent: {}
+[14.095287] (lego_loam_sr) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[14.171994] (-) TimerEvent: {}
+[14.219540] (lego_loam_sr) StdoutLine: {'line': b'-- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)\n'}
+[14.272324] (-) TimerEvent: {}
+[14.275182] (lego_loam_sr) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[14.372458] (-) TimerEvent: {}
+[14.472754] (-) TimerEvent: {}
+[14.573041] (-) TimerEvent: {}
+[14.673361] (-) TimerEvent: {}
+[14.773722] (-) TimerEvent: {}
+[14.874063] (-) TimerEvent: {}
+[14.969981] (lego_loam_sr) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[14.974248] (-) TimerEvent: {}
+[15.074690] (-) TimerEvent: {}
+[15.088832] (lego_loam_sr) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[15.091331] (lego_loam_sr) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[15.091663] (lego_loam_sr) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[15.174941] (-) TimerEvent: {}
+[15.185866] (lego_loam_sr) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[15.275088] (-) TimerEvent: {}
+[15.373303] (lego_loam_sr) StdoutLine: {'line': b'-- Found cloud_msgs: 1.0.0 (/home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake)\n'}
+[15.375157] (-) TimerEvent: {}
+[15.459436] (lego_loam_sr) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[15.475459] (-) TimerEvent: {}
+[15.575776] (-) TimerEvent: {}
+[15.591517] (lego_loam_sr) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[15.675893] (-) TimerEvent: {}
+[15.776371] (-) TimerEvent: {}
+[15.876933] (-) TimerEvent: {}
+[15.977444] (-) TimerEvent: {}
+[16.077950] (-) TimerEvent: {}
+[16.178246] (-) TimerEvent: {}
+[16.278584] (-) TimerEvent: {}
+[16.378918] (-) TimerEvent: {}
+[16.479182] (-) TimerEvent: {}
+[16.579449] (-) TimerEvent: {}
+[16.679746] (-) TimerEvent: {}
+[16.768445] (lego_loam_sr) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[16.779841] (-) TimerEvent: {}
+[16.880153] (-) TimerEvent: {}
+[16.980452] (-) TimerEvent: {}
+[17.080729] (-) TimerEvent: {}
+[17.180981] (-) TimerEvent: {}
+[17.200510] (lego_loam_sr) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[17.222637] (lego_loam_sr) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[17.223376] (lego_loam_sr) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[17.281261] (-) TimerEvent: {}
+[17.383652] (-) TimerEvent: {}
+[17.441927] (lego_loam_sr) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[17.450244] (lego_loam_sr) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[17.459979] (lego_loam_sr) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[17.483753] (-) TimerEvent: {}
+[17.584157] (-) TimerEvent: {}
+[17.655558] (lego_loam_sr) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[17.684263] (-) TimerEvent: {}
+[17.784706] (-) TimerEvent: {}
+[17.849161] (lego_loam_sr) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[17.884781] (-) TimerEvent: {}
+[17.985084] (-) TimerEvent: {}
+[18.027862] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[18.028285] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[18.028772] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[18.029211] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[18.029630] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[18.030057] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[18.030492] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[18.030875] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[18.031170] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[18.031618] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[18.032283] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[18.032616] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[18.033169] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[18.033726] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[18.034374] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[18.034959] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[18.035559] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[18.036088] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[18.036730] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[18.037411] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[18.038415] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[18.038881] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[18.039225] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[18.039614] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[18.040168] (lego_loam_sr) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[18.054605] (lego_loam_sr) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:28 (find_package):\n'}
+[18.055009] (lego_loam_sr) StderrLine: {'line': b'  By not providing "FindGTSAM.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[18.055100] (lego_loam_sr) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "GTSAM", but\n'}
+[18.055196] (lego_loam_sr) StderrLine: {'line': b'  CMake did not find one.\n'}
+[18.055284] (lego_loam_sr) StderrLine: {'line': b'\n'}
+[18.055353] (lego_loam_sr) StderrLine: {'line': b'  Could not find a package configuration file provided by "GTSAM" with any of\n'}
+[18.055420] (lego_loam_sr) StderrLine: {'line': b'  the following names:\n'}
+[18.055485] (lego_loam_sr) StderrLine: {'line': b'\n'}
+[18.055550] (lego_loam_sr) StderrLine: {'line': b'    GTSAMConfig.cmake\n'}
+[18.055616] (lego_loam_sr) StderrLine: {'line': b'    gtsam-config.cmake\n'}
+[18.055708] (lego_loam_sr) StderrLine: {'line': b'\n'}
+[18.055776] (lego_loam_sr) StderrLine: {'line': b'  Add the installation prefix of "GTSAM" to CMAKE_PREFIX_PATH or set\n'}
+[18.055847] (lego_loam_sr) StderrLine: {'line': b'  "GTSAM_DIR" to a directory containing one of the above files.  If "GTSAM"\n'}
+[18.055914] (lego_loam_sr) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[18.055982] (lego_loam_sr) StderrLine: {'line': b'  installed.\n'}
+[18.056056] (lego_loam_sr) StderrLine: {'line': b'\n'}
+[18.056136] (lego_loam_sr) StderrLine: {'line': b'\x1b[0m\n'}
+[18.056224] (lego_loam_sr) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[18.056308] (lego_loam_sr) StdoutLine: {'line': b'See also "/home/evan/code/lego-loam/lego/build/lego_loam_sr/CMakeFiles/CMakeOutput.log".\n'}
+[18.073943] (lego_loam_sr) CommandEnded: {'returncode': 1}
+[18.085238] (-) TimerEvent: {}
+[18.097181] (lego_loam_sr) JobEnded: {'identifier': 'lego_loam_sr', 'rc': 1}
+[18.107911] (-) EventReactorShutdown: {}

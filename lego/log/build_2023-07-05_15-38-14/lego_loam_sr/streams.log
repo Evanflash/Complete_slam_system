@@ -1,0 +1,77 @@
+[0.044s] Invoking command in '/home/evan/code/lego-loam/lego/build/lego_loam_sr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/evan/code/lego-loam/lego/src/LeGO-LOAM -DCMAKE_INSTALL_PREFIX=/home/evan/code/lego-loam/lego/install/lego_loam_sr
+[0.118s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.697s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.949s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.966s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.038s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.090s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.210s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.528s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.556s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.966s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.385s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.590s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.792s] -- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)
+[2.902s] -- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.624s] -- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[3.729s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.740s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.740s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.790s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[3.969s] -- Found cloud_msgs: 1.0.0 (/home/evan/code/lego-loam/lego/install/cloud_msgs/share/cloud_msgs/cmake)
+[4.055s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.118s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[5.081s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[5.522s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.551s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[5.551s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[5.746s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.756s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.766s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[6.065s] -- Found Qhull version 8.0.2
+[6.244s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.417s] -- looking for PCL_COMMON
+[6.418s] -- looking for PCL_KDTREE
+[6.418s] -- looking for PCL_OCTREE
+[6.419s] -- looking for PCL_SEARCH
+[6.419s] -- looking for PCL_SAMPLE_CONSENSUS
+[6.419s] -- looking for PCL_FILTERS
+[6.420s] -- looking for PCL_2D
+[6.420s] -- looking for PCL_GEOMETRY
+[6.421s] -- looking for PCL_IO
+[6.421s] -- looking for PCL_FEATURES
+[6.422s] -- looking for PCL_ML
+[6.422s] -- looking for PCL_SEGMENTATION
+[6.423s] -- looking for PCL_VISUALIZATION
+[6.423s] -- looking for PCL_SURFACE
+[6.424s] -- looking for PCL_REGISTRATION
+[6.424s] -- looking for PCL_KEYPOINTS
+[6.425s] -- looking for PCL_TRACKING
+[6.426s] -- looking for PCL_RECOGNITION
+[6.426s] -- looking for PCL_STEREO
+[6.427s] -- looking for PCL_APPS
+[6.427s] -- looking for PCL_IN_HAND_SCANNER
+[6.428s] -- looking for PCL_MODELER
+[6.428s] -- looking for PCL_POINT_CLOUD_EDITOR
+[6.429s] -- looking for PCL_OUTOFCORE
+[6.429s] -- looking for PCL_PEOPLE
+[6.444s] [31mCMake Error at CMakeLists.txt:28 (find_package):
+[6.444s]   By not providing "FindGTSAM.cmake" in CMAKE_MODULE_PATH this project has
+[6.444s]   asked CMake to find a package configuration file provided by "GTSAM", but
+[6.444s]   CMake did not find one.
+[6.444s] 
+[6.444s]   Could not find a package configuration file provided by "GTSAM" with any of
+[6.444s]   the following names:
+[6.444s] 
+[6.444s]     GTSAMConfig.cmake
+[6.444s]     gtsam-config.cmake
+[6.444s] 
+[6.445s]   Add the installation prefix of "GTSAM" to CMAKE_PREFIX_PATH or set
+[6.445s]   "GTSAM_DIR" to a directory containing one of the above files.  If "GTSAM"
+[6.445s]   provides a separate development package or SDK, be sure it has been
+[6.445s]   installed.
+[6.445s] 
+[6.445s] [0m
+[6.445s] -- Configuring incomplete, errors occurred!
+[6.445s] See also "/home/evan/code/lego-loam/lego/build/lego_loam_sr/CMakeFiles/CMakeOutput.log".
+[6.468s] Invoked command in '/home/evan/code/lego-loam/lego/build/lego_loam_sr' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/evan/code/lego-loam/lego/src/LeGO-LOAM -DCMAKE_INSTALL_PREFIX=/home/evan/code/lego-loam/lego/install/lego_loam_sr

@@ -1,0 +1,41 @@
+[0.024s] Invoking command in '/home/evan/code/lego-loam/lego/build/lego_loam_sr': CMAKE_PREFIX_PATH=/home/evan/code/lego-loam/lego/install/cloud_msgs:/home/evan/code/lidar_slam/lidar_slam/install/slam_learn:/home/evan/code/lidar_slam/lidar_slam/install/other_msgs:/home/evan/code/lego-loam/lego/install/lego_loam_sr:/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/code/lego-loam/lego/install/cloud_msgs/lib:/home/evan/code/lidar_slam/lidar_slam/install/other_msgs/lib:/home/evan/code/ndt-loc/install/cloud_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib /usr/bin/cmake --build /home/evan/code/lego-loam/lego/build/lego_loam_sr -- -j4 -l4
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target lego_loam_sr[0m
+[0.214s] [ 16%] [32mBuilding CXX object CMakeFiles/lego_loam_sr.dir/src/imageProjection.cpp.o[0m
+[23.267s] [ 33%] [32m[1mLinking CXX executable lego_loam_sr[0m
+[24.856s] [100%] Built target lego_loam_sr
+[24.872s] Invoked command in '/home/evan/code/lego-loam/lego/build/lego_loam_sr' returned '0': CMAKE_PREFIX_PATH=/home/evan/code/lego-loam/lego/install/cloud_msgs:/home/evan/code/lidar_slam/lidar_slam/install/slam_learn:/home/evan/code/lidar_slam/lidar_slam/install/other_msgs:/home/evan/code/lego-loam/lego/install/lego_loam_sr:/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/code/lego-loam/lego/install/cloud_msgs/lib:/home/evan/code/lidar_slam/lidar_slam/install/other_msgs/lib:/home/evan/code/ndt-loc/install/cloud_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib /usr/bin/cmake --build /home/evan/code/lego-loam/lego/build/lego_loam_sr -- -j4 -l4
+[24.931s] Invoking command in '/home/evan/code/lego-loam/lego/build/lego_loam_sr': CMAKE_PREFIX_PATH=/home/evan/code/lego-loam/lego/install/cloud_msgs:/home/evan/code/lidar_slam/lidar_slam/install/slam_learn:/home/evan/code/lidar_slam/lidar_slam/install/other_msgs:/home/evan/code/lego-loam/lego/install/lego_loam_sr:/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/code/lego-loam/lego/install/cloud_msgs/lib:/home/evan/code/lidar_slam/lidar_slam/install/other_msgs/lib:/home/evan/code/ndt-loc/install/cloud_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib /usr/bin/cmake --install /home/evan/code/lego-loam/lego/build/lego_loam_sr
+[24.939s] -- Install configuration: ""
+[24.939s] -- Installing: /home/evan/code/lego-loam/lego/install/lego_loam_sr/lib/lego_loam_sr/lego_loam_sr
+[24.944s] -- Set runtime path of "/home/evan/code/lego-loam/lego/install/lego_loam_sr/lib/lego_loam_sr/lego_loam_sr" to ""
+[24.945s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/config
+[24.945s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/config/loam_config.yaml
+[24.945s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/launch
+[24.945s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/launch/__pycache__
+[24.945s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/launch/__pycache__/run.launch.cpython-310.pyc
+[24.945s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/launch/block.png
+[24.945s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/launch/odometry.jpg
+[24.945s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/launch/run.launch.py
+[24.946s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/launch/dataset-demo.gif
+[24.946s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/launch/demo.gif
+[24.946s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/launch/seg-total.jpg
+[24.946s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/launch/google-earth.png
+[24.946s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/rviz
+[24.946s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/rviz/test.rviz
+[24.946s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/ament_index/resource_index/package_run_dependencies/lego_loam_sr
+[24.946s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/ament_index/resource_index/parent_prefix_path/lego_loam_sr
+[24.946s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/environment/ament_prefix_path.sh
+[24.946s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/environment/ament_prefix_path.dsv
+[24.947s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/environment/path.sh
+[24.947s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/environment/path.dsv
+[24.948s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/local_setup.bash
+[24.949s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/local_setup.sh
+[24.949s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/local_setup.zsh
+[24.950s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/local_setup.dsv
+[24.950s] -- Installing: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/package.dsv
+[24.950s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/ament_index/resource_index/packages/lego_loam_sr
+[24.951s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.951s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/cmake/lego_loam_srConfig.cmake
+[24.951s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/cmake/lego_loam_srConfig-version.cmake
+[24.951s] -- Up-to-date: /home/evan/code/lego-loam/lego/install/lego_loam_sr/share/lego_loam_sr/package.xml
+[24.952s] Invoked command in '/home/evan/code/lego-loam/lego/build/lego_loam_sr' returned '0': CMAKE_PREFIX_PATH=/home/evan/code/lego-loam/lego/install/cloud_msgs:/home/evan/code/lidar_slam/lidar_slam/install/slam_learn:/home/evan/code/lidar_slam/lidar_slam/install/other_msgs:/home/evan/code/lego-loam/lego/install/lego_loam_sr:/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble LD_LIBRARY_PATH=/home/evan/code/lego-loam/lego/install/cloud_msgs/lib:/home/evan/code/lidar_slam/lidar_slam/install/other_msgs/lib:/home/evan/code/ndt-loc/install/cloud_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib /usr/bin/cmake --install /home/evan/code/lego-loam/lego/build/lego_loam_sr

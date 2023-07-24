@@ -1,0 +1,1 @@
+Invoking command in '/home/evan/code/lego-loam/lego/build/lego_loam_sr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/evan/code/lego-loam/lego/build/lego_loam_sr -- -j4 -l4

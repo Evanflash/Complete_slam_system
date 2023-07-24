@@ -1,0 +1,25 @@
+[0.117s] Invoking command in '/home/evan/code/lego-loam/lego/build/lego_loam_sr': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/evan/code/lego-loam/lego/build/lego_loam_sr -- -j4 -l4
+[1.018s] [35m[1mConsolidate compiler generated dependencies of target lego_loam_sr[0m
+[1.161s] [ 16%] [32mBuilding CXX object CMakeFiles/lego_loam_sr.dir/src/imageProjection.cpp.o[0m
+[1.162s] [ 33%] [32mBuilding CXX object CMakeFiles/lego_loam_sr.dir/src/featureAssociation.cpp.o[0m
+[1.168s] [ 50%] [32mBuilding CXX object CMakeFiles/lego_loam_sr.dir/src/mapOptmization.cpp.o[0m
+[2.198s] [ 66%] [32mBuilding CXX object CMakeFiles/lego_loam_sr.dir/src/transformFusion.cpp.o[0m
+[12.433s] [01m[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/featureAssociation.cpp:[m[K In destructor ‘[01m[Kvirtual FeatureAssociation::~FeatureAssociation()[m[K’:
+[12.434s] [01m[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/featureAssociation.cpp:110:22:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kcloud_msgs::msg::CloudInfo[m[K’ {aka ‘[01m[Kcloud_msgs::msg::CloudInfo_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Kcloud_msgs::msg::CloudInfo_<ContainerAllocator>::CloudInfo_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+[12.434s]   110 |   [01;35m[K_input_channel.send({})[m[K;
+[12.435s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[12.441s] [01m[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/featureAssociation.cpp:110:22:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[14.655s] In file included from [01m[K/usr/local/include/gtsam/base/Matrix.h:28[m[K,
+[14.655s]                  from [01m[K/usr/local/include/gtsam/base/Manifold.h:22[m[K,
+[14.656s]                  from [01m[K/usr/local/include/gtsam/geometry/BearingRange.h:21[m[K,
+[14.656s]                  from [01m[K/usr/local/include/gtsam/geometry/Pose3.h:22[m[K,
+[14.657s]                  from [01m[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/mapOptimization.h:8[m[K,
+[14.657s]                  from [01m[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/mapOptmization.cpp:37[m[K:
+[14.658s] [01m[K/usr/local/include/gtsam/base/Vector.h:76:30:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: Error: GTSAM was built against a different version of Eigen
+[14.658s]    76 |     GTSAM_EIGEN_VERSION_MAJOR[01;31m[K=[m[K=EIGEN_MAJOR_VERSION,
+[14.659s]       |                              [01;31m[K^[m[K
+[23.095s] [01m[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/mapOptmization.cpp:[m[K In destructor ‘[01m[Kvirtual MapOptimization::~MapOptimization()[m[K’:
+[23.095s] [01m[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/mapOptmization.cpp:128:22:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Knav_msgs::msg::Odometry[m[K’ {aka ‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Knav_msgs::msg::Odometry_<ContainerAllocator>::Odometry_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+[23.096s]   128 |   [01;35m[K_input_channel.send({})[m[K;
+[23.096s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[23.096s] [01m[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/mapOptmization.cpp:128:22:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit

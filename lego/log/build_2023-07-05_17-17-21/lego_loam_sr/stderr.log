@@ -1,0 +1,17 @@
+[01m[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/featureAssociation.cpp:[m[K In destructor ‘[01m[Kvirtual FeatureAssociation::~FeatureAssociation()[m[K’:
+[01m[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/featureAssociation.cpp:110:22:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kcloud_msgs::msg::CloudInfo[m[K’ {aka ‘[01m[Kcloud_msgs::msg::CloudInfo_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Kcloud_msgs::msg::CloudInfo_<ContainerAllocator>::CloudInfo_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+  110 |   [01;35m[K_input_channel.send({})[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/featureAssociation.cpp:110:22:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+In file included from [01m[K/usr/local/include/gtsam/base/Matrix.h:28[m[K,
+                 from [01m[K/usr/local/include/gtsam/base/Manifold.h:22[m[K,
+                 from [01m[K/usr/local/include/gtsam/geometry/BearingRange.h:21[m[K,
+                 from [01m[K/usr/local/include/gtsam/geometry/Pose3.h:22[m[K,
+                 from [01m[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/mapOptimization.h:8[m[K,
+                 from [01m[K/home/evan/code/lego-loam/lego/src/LeGO-LOAM/src/main.cpp:4[m[K:
+[01m[K/usr/local/include/gtsam/base/Vector.h:76:30:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: Error: GTSAM was built against a different version of Eigen
+   76 |     GTSAM_EIGEN_VERSION_MAJOR[01;31m[K=[m[K=EIGEN_MAJOR_VERSION,
+      |                              [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/lego_loam_sr.dir/build.make:132: CMakeFiles/lego_loam_sr.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lego_loam_sr.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
