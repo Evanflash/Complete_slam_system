@@ -59,6 +59,10 @@ struct DataProcessOut{
     CloudTypePtr ground_cloud;
 };
 
+struct FrontEndOut{
+
+};
+
 
 }
 

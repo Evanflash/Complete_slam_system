@@ -1,0 +1,9 @@
+[0.022s] Invoking command in '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam -- -j4 -l4
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target lidar_slam[0m
+[0.124s] [ 33%] [32mBuilding CXX object CMakeFiles/lidar_slam.dir/src/data_process.cpp.o[0m
+[15.544s] [ 66%] [32m[1mLinking CXX executable lidar_slam[0m
+[15.889s] gmake[2]: *** Deleting file 'lidar_slam'
+[15.891s] gmake[2]: *** [CMakeFiles/lidar_slam.dir/build.make:327: lidar_slam] Interrupt
+[15.891s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_slam.dir/all] Interrupt
+[15.891s] gmake: *** [Makefile:146: all] Interrupt
+[15.895s] Invoked command in '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam -- -j4 -l4

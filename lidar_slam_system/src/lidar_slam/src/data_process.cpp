@@ -74,6 +74,11 @@ DataProcess::DataProcess(const std::string &name, Channel<DataProcessOut> &outpu
     _cloud_in.reset(new CloudType());
     _full_cloud.reset(new CloudType());
     _full_cloud -> resize(_vertical_scans * _horizontal_scans);
+
+    cornerDownSampleFilter.reset(new pcl::VoxelGrid<PointType>());
+    cornerDownSampleFilter -> setLeafSize(0.2, 0.2, 0.2);
+    surfDownSampleFilter.reset(new pcl::VoxelGrid<PointType>());
+    surfDownSampleFilter -> setLeafSize(0.4, 0.4, 0.4);
 }
 
 DataProcess::~DataProcess(){
@@ -127,6 +132,7 @@ void DataProcess::resetParameters(){
     nanPoint.x = std::numeric_limits<float>::quiet_NaN();
     nanPoint.y = std::numeric_limits<float>::quiet_NaN();
     nanPoint.z = std::numeric_limits<float>::quiet_NaN();
+    nanPoint.intensity = -1;
     std::fill(_full_cloud->points.begin(), _full_cloud->points.end(), nanPoint);
 
     _range_mat.resize(_vertical_scans, _horizontal_scans);
@@ -173,7 +179,7 @@ void DataProcess::projectPointCloud(){
             continue;
         }
 
-        if (range < 0.1){
+        if (range < 2){
             continue;
         }
 
@@ -247,7 +253,7 @@ void DataProcess::calculateSmoothness(){
             float curvature = scan_range[j - 5] + scan_range[j - 4] + scan_range[j - 3] + scan_range[j - 2] + scan_range[j - 1] +
                                 scan_range[j + 5] + scan_range[j + 4] + scan_range[j + 3] + scan_range[j + 2] + scan_range[j + 1] -
                                 scan_range[j] * 10;
-            cloudCurvature.push_back(smoothness(curvature, scan_index[j]));
+            cloudCurvature.push_back(smoothness(curvature * curvature, scan_index[j]));
         }
         end_index[i] = cloudCurvature.size() - 1;
     }
@@ -265,6 +271,7 @@ void DataProcess::markCornerPoints(){
 
         int length = end_index[i] - str_index[i];
         length /= 6;
+        CloudTypePtr tempGroundCloud(new CloudType());
         for(int j = 0; j < 6; ++j){
             int sp = str_index[i] + j * length;
             int ep = sp + length - 1;
@@ -284,8 +291,25 @@ void DataProcess::markCornerPoints(){
                 }
             }
 
+            int min_num = 0;
+            for(int k = sp; k <= ep; ++k){
+                int ind = cloudCurvature[k].index;
+                if(cloudCurvature[k].curvature < 0.1 && _ground_mat(i, j) == 1){
+                    int index = i * _horizontal_scans + ind;
+                    if(min_num <= 4){
+                        _surf_flat -> push_back(_full_cloud -> points[index]);
+                        min_num++;
+                    }
+                    tempGroundCloud -> push_back(_full_cloud -> points[index]);
+                } else {
+                    break;
+                }
+            }
         }
+        downsample(tempGroundCloud, surfDownSampleFilter);
+        *_surf_less_flat += *tempGroundCloud;
     }
+    downsample(_surf_flat, surfDownSampleFilter);
 }
 
 void DataProcess::labelVaildableCornerPoints(int row, int col){
@@ -297,8 +321,8 @@ void DataProcess::labelVaildableCornerPoints(int row, int col){
     boost::circular_buffer<Coord2D> queue(cloud_size);
     boost::circular_buffer<Coord2D> all_pushed(cloud_size);
 
-    queue.push_back({ row,col } );
-    all_pushed.push_back({ row,col } );
+    queue.push_back({row, col});
+    all_pushed.push_back({row, col});
     lineCountFlag.insert(row);
 
     const Coord2D neighborIterator[2] = {{1, 0}, {-1, 0}};
@@ -348,16 +372,15 @@ void DataProcess::labelVaildableCornerPoints(int row, int col){
         int y_ind = all_pushed.front().y();
         while(!all_pushed.empty()){
             Coord2D ind = all_pushed.front();
-            all_pushed.pop_back();
+            all_pushed.pop_front();
             _corner_label(ind.x(), ind.y()) = 2;
             sum_ind += ind.x();
-            RCLCPP_INFO(this -> get_logger(), "???");
         }
         _corner_label(int(sum_ind / size), y_ind) = 3;
     }else {
         while(!all_pushed.empty()){
             Coord2D ind = all_pushed.front();
-            all_pushed.pop_back();
+            all_pushed.pop_front();
             _corner_label(ind.x(), ind.y()) = 0;
         }
     }
@@ -388,6 +411,8 @@ void DataProcess::cornerCloudSegmentation(){
         }
     }
 
+    downsample(_corner_sharp, cornerDownSampleFilter);
+    downsample(_corner_less_sharp, cornerDownSampleFilter);
 }
 
 void DataProcess::publishCloud(){
@@ -418,6 +443,12 @@ void DataProcess::publishCloud(){
     // _output_channel.send(std::move(out));
 }
 
-
+// 下采样
+void DataProcess::downsample(CloudTypePtr cloud, pcl::VoxelGrid<PointType>::Ptr downSampleFilter){
+    CloudTypePtr temp(new CloudType());
+    cloud -> swap(*temp);
+    downSampleFilter -> setInputCloud(temp);
+    downSampleFilter -> filter(*cloud);
+}
 
 } // lidarslam

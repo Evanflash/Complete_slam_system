@@ -1,0 +1,4 @@
+gmake[2]: *** Deleting file 'lidar_slam'
+gmake[2]: *** [CMakeFiles/lidar_slam.dir/build.make:327: lidar_slam] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_slam.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

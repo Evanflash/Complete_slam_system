@@ -37,6 +37,10 @@ private:
     CloudTypePtr _ground_cloud;
     CloudTypePtr _full_cloud;
 
+    // 体素滤波
+    pcl::VoxelGrid<PointType>::Ptr cornerDownSampleFilter;
+    pcl::VoxelGrid<PointType>::Ptr surfDownSampleFilter;
+
     // 消息
     sensor_msgs::msg::PointCloud2 oneCloud;
 
@@ -84,7 +88,7 @@ private:
     void labelVaildableCornerPoints(int row, int col);
     void cornerCloudSegmentation();
     void publishCloud();
-
+    void downsample(CloudTypePtr cloud, pcl::VoxelGrid<PointType>::Ptr downSampleFilter);
 
 }; // DataProcess
 
