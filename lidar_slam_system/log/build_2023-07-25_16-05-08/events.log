@@ -1,0 +1,333 @@
+[0.000000] (-) TimerEvent: {}
+[0.000752] (-) JobUnselected: {'identifier': 'lidar_slam_msgs'}
+[0.001392] (lidar_slam) JobQueued: {'identifier': 'lidar_slam', 'dependencies': OrderedDict()}
+[0.001543] (lidar_slam) JobStarted: {'identifier': 'lidar_slam'}
+[0.019660] (lidar_slam) JobProgress: {'identifier': 'lidar_slam', 'progress': 'cmake'}
+[0.022399] (lidar_slam) JobProgress: {'identifier': 'lidar_slam', 'progress': 'build'}
+[0.022535] (lidar_slam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam', '--', '-j4', '-l4'], 'cwd': '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'evan'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam_msgs/lib:/home/evan/code/lidar_slam/lidar_slam/install/other_msgs/lib:/home/evan/code/lego-loam/lego/install/cloud_msgs/lib:/home/evan/code/ndt-loc/install/cloud_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib'), ('HOME', '/home/evan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/evan/code/Complete_slam_system'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2050'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/evan/code/lidar_slam/lidar_slam/install:/home/evan/code/Complete_slam_system/lidar_slam_system/install:/home/evan/code/lego-loam/lego/install:/home/evan/code/ndt-loc/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'evan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'evan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/java/jdk1.6.0_45/bin:~/mycomd:/usr/lib/java/jdk1.6.0_45/bin:~/mycomd'), ('SESSION_MANAGER', 'local/evan-RESCUER-R720-15IKBN:@/tmp/.ICE-unix/2019,unix/evan-RESCUER-R720-15IKBN:/tmp/.ICE-unix/2019'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a388abde_5b43_4c21_a4ad_0a7f215df5b7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VESC81'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7fdec9274.sock'), ('GNOME_TERMINAL_SERVICE', ':1.135'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam_msgs:/home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam:/home/evan/code/lidar_slam/lidar_slam/install/slam_learn:/home/evan/code/lidar_slam/lidar_slam/install/other_msgs:/home/evan/code/lego-loam/lego/install/lego_loam_sr:/home/evan/code/lego-loam/lego/install/cloud_msgs:/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/java/jdk1.6.0_45'), ('PWD', '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam_msgs/local/lib/python3.10/dist-packages:/home/evan/code/lidar_slam/lidar_slam/install/other_msgs/local/lib/python3.10/dist-packages:/home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages:/home/evan/code/ndt-loc/install/cloud_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam_msgs:/home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam:/home/evan/code/lidar_slam/lidar_slam/install/slam_learn:/home/evan/code/lidar_slam/lidar_slam/install/other_msgs:/home/evan/code/lego-loam/lego/install/lego_loam_sr:/home/evan/code/lego-loam/lego/install/cloud_msgs:/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble')]), 'shell': False}
+[0.084007] (lidar_slam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_slam\x1b[0m\n'}
+[0.099673] (-) TimerEvent: {}
+[0.199943] (-) TimerEvent: {}
+[0.207158] (lidar_slam) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/lidar_slam.dir/src/front_end.cpp.o\x1b[0m\n'}
+[0.209691] (lidar_slam) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lidar_slam.dir/src/main.cpp.o\x1b[0m\n'}
+[0.214809] (lidar_slam) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lidar_slam.dir/src/data_process.cpp.o\x1b[0m\n'}
+[0.300044] (-) TimerEvent: {}
+[0.400329] (-) TimerEvent: {}
+[0.500729] (-) TimerEvent: {}
+[0.601059] (-) TimerEvent: {}
+[0.701341] (-) TimerEvent: {}
+[0.801609] (-) TimerEvent: {}
+[0.901902] (-) TimerEvent: {}
+[1.002186] (-) TimerEvent: {}
+[1.103069] (-) TimerEvent: {}
+[1.203391] (-) TimerEvent: {}
+[1.303659] (-) TimerEvent: {}
+[1.403929] (-) TimerEvent: {}
+[1.504190] (-) TimerEvent: {}
+[1.604449] (-) TimerEvent: {}
+[1.704728] (-) TimerEvent: {}
+[1.805012] (-) TimerEvent: {}
+[1.905298] (-) TimerEvent: {}
+[2.005566] (-) TimerEvent: {}
+[2.107929] (-) TimerEvent: {}
+[2.209362] (-) TimerEvent: {}
+[2.309635] (-) TimerEvent: {}
+[2.410139] (-) TimerEvent: {}
+[2.510496] (-) TimerEvent: {}
+[2.610763] (-) TimerEvent: {}
+[2.711054] (-) TimerEvent: {}
+[2.811440] (-) TimerEvent: {}
+[2.911716] (-) TimerEvent: {}
+[3.011995] (-) TimerEvent: {}
+[3.112550] (-) TimerEvent: {}
+[3.212933] (-) TimerEvent: {}
+[3.313321] (-) TimerEvent: {}
+[3.413690] (-) TimerEvent: {}
+[3.514075] (-) TimerEvent: {}
+[3.614884] (-) TimerEvent: {}
+[3.715270] (-) TimerEvent: {}
+[3.815657] (-) TimerEvent: {}
+[3.916040] (-) TimerEvent: {}
+[4.017419] (-) TimerEvent: {}
+[4.117701] (-) TimerEvent: {}
+[4.218117] (-) TimerEvent: {}
+[4.318517] (-) TimerEvent: {}
+[4.418958] (-) TimerEvent: {}
+[4.519616] (-) TimerEvent: {}
+[4.620593] (-) TimerEvent: {}
+[4.720908] (-) TimerEvent: {}
+[4.822438] (-) TimerEvent: {}
+[4.923470] (-) TimerEvent: {}
+[5.024529] (-) TimerEvent: {}
+[5.124865] (-) TimerEvent: {}
+[5.225153] (-) TimerEvent: {}
+[5.325436] (-) TimerEvent: {}
+[5.425741] (-) TimerEvent: {}
+[5.526088] (-) TimerEvent: {}
+[5.626506] (-) TimerEvent: {}
+[5.726842] (-) TimerEvent: {}
+[5.827228] (-) TimerEvent: {}
+[5.928400] (-) TimerEvent: {}
+[6.029348] (-) TimerEvent: {}
+[6.130312] (-) TimerEvent: {}
+[6.230629] (-) TimerEvent: {}
+[6.330925] (-) TimerEvent: {}
+[6.431192] (-) TimerEvent: {}
+[6.532400] (-) TimerEvent: {}
+[6.633608] (-) TimerEvent: {}
+[6.733890] (-) TimerEvent: {}
+[6.834289] (-) TimerEvent: {}
+[6.934553] (-) TimerEvent: {}
+[7.034955] (-) TimerEvent: {}
+[7.138231] (-) TimerEvent: {}
+[7.238521] (-) TimerEvent: {}
+[7.338899] (-) TimerEvent: {}
+[7.439972] (-) TimerEvent: {}
+[7.540291] (-) TimerEvent: {}
+[7.640588] (-) TimerEvent: {}
+[7.741009] (-) TimerEvent: {}
+[7.841413] (-) TimerEvent: {}
+[7.941710] (-) TimerEvent: {}
+[8.043214] (-) TimerEvent: {}
+[8.143488] (-) TimerEvent: {}
+[8.243862] (-) TimerEvent: {}
+[8.344260] (-) TimerEvent: {}
+[8.445000] (-) TimerEvent: {}
+[8.545384] (-) TimerEvent: {}
+[8.645755] (-) TimerEvent: {}
+[8.746133] (-) TimerEvent: {}
+[8.846506] (-) TimerEvent: {}
+[8.946896] (-) TimerEvent: {}
+[9.047238] (-) TimerEvent: {}
+[9.147613] (-) TimerEvent: {}
+[9.248009] (-) TimerEvent: {}
+[9.348282] (-) TimerEvent: {}
+[9.448683] (-) TimerEvent: {}
+[9.549078] (-) TimerEvent: {}
+[9.649495] (-) TimerEvent: {}
+[9.749760] (-) TimerEvent: {}
+[9.850160] (-) TimerEvent: {}
+[9.950528] (-) TimerEvent: {}
+[10.050888] (-) TimerEvent: {}
+[10.151310] (-) TimerEvent: {}
+[10.251612] (-) TimerEvent: {}
+[10.351894] (-) TimerEvent: {}
+[10.452250] (-) TimerEvent: {}
+[10.552732] (-) TimerEvent: {}
+[10.653209] (-) TimerEvent: {}
+[10.753531] (-) TimerEvent: {}
+[10.853882] (-) TimerEvent: {}
+[10.954209] (-) TimerEvent: {}
+[11.054489] (-) TimerEvent: {}
+[11.154860] (-) TimerEvent: {}
+[11.255143] (-) TimerEvent: {}
+[11.355422] (-) TimerEvent: {}
+[11.455695] (-) TimerEvent: {}
+[11.555973] (-) TimerEvent: {}
+[11.656244] (-) TimerEvent: {}
+[11.756526] (-) TimerEvent: {}
+[11.856804] (-) TimerEvent: {}
+[11.957087] (-) TimerEvent: {}
+[12.057386] (-) TimerEvent: {}
+[12.157707] (-) TimerEvent: {}
+[12.258011] (-) TimerEvent: {}
+[12.358334] (-) TimerEvent: {}
+[12.458651] (-) TimerEvent: {}
+[12.558977] (-) TimerEvent: {}
+[12.659273] (-) TimerEvent: {}
+[12.759546] (-) TimerEvent: {}
+[12.859864] (-) TimerEvent: {}
+[12.960172] (-) TimerEvent: {}
+[13.060501] (-) TimerEvent: {}
+[13.160801] (-) TimerEvent: {}
+[13.261091] (-) TimerEvent: {}
+[13.361401] (-) TimerEvent: {}
+[13.461707] (-) TimerEvent: {}
+[13.562020] (-) TimerEvent: {}
+[13.662330] (-) TimerEvent: {}
+[13.762653] (-) TimerEvent: {}
+[13.862929] (-) TimerEvent: {}
+[13.963220] (-) TimerEvent: {}
+[14.063535] (-) TimerEvent: {}
+[14.163817] (-) TimerEvent: {}
+[14.264111] (-) TimerEvent: {}
+[14.364421] (-) TimerEvent: {}
+[14.464667] (-) TimerEvent: {}
+[14.565022] (-) TimerEvent: {}
+[14.665343] (-) TimerEvent: {}
+[14.765664] (-) TimerEvent: {}
+[14.865949] (-) TimerEvent: {}
+[14.966270] (-) TimerEvent: {}
+[15.066552] (-) TimerEvent: {}
+[15.166871] (-) TimerEvent: {}
+[15.267159] (-) TimerEvent: {}
+[15.367434] (-) TimerEvent: {}
+[15.467715] (-) TimerEvent: {}
+[15.568003] (-) TimerEvent: {}
+[15.668312] (-) TimerEvent: {}
+[15.768623] (-) TimerEvent: {}
+[15.868928] (-) TimerEvent: {}
+[15.969208] (-) TimerEvent: {}
+[16.069515] (-) TimerEvent: {}
+[16.169837] (-) TimerEvent: {}
+[16.270181] (-) TimerEvent: {}
+[16.370488] (-) TimerEvent: {}
+[16.470903] (-) TimerEvent: {}
+[16.571325] (-) TimerEvent: {}
+[16.671623] (-) TimerEvent: {}
+[16.771892] (-) TimerEvent: {}
+[16.872167] (-) TimerEvent: {}
+[16.972643] (-) TimerEvent: {}
+[17.072953] (-) TimerEvent: {}
+[17.173305] (-) TimerEvent: {}
+[17.273588] (-) TimerEvent: {}
+[17.373954] (-) TimerEvent: {}
+[17.474315] (-) TimerEvent: {}
+[17.574598] (-) TimerEvent: {}
+[17.674882] (-) TimerEvent: {}
+[17.775238] (-) TimerEvent: {}
+[17.875582] (-) TimerEvent: {}
+[17.975891] (-) TimerEvent: {}
+[18.076232] (-) TimerEvent: {}
+[18.176549] (-) TimerEvent: {}
+[18.277332] (-) TimerEvent: {}
+[18.286437] (lidar_slam) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lidar_slam\x1b[0m\n'}
+[18.377304] (-) TimerEvent: {}
+[18.477727] (-) TimerEvent: {}
+[18.579198] (-) TimerEvent: {}
+[18.681987] (-) TimerEvent: {}
+[18.782265] (-) TimerEvent: {}
+[18.882587] (-) TimerEvent: {}
+[18.983016] (-) TimerEvent: {}
+[19.083861] (-) TimerEvent: {}
+[19.222112] (-) TimerEvent: {}
+[19.322469] (-) TimerEvent: {}
+[19.422797] (-) TimerEvent: {}
+[19.523088] (-) TimerEvent: {}
+[19.623402] (-) TimerEvent: {}
+[19.723680] (-) TimerEvent: {}
+[19.823941] (-) TimerEvent: {}
+[19.924221] (-) TimerEvent: {}
+[20.026937] (-) TimerEvent: {}
+[20.127346] (-) TimerEvent: {}
+[20.133111] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: in function `lidarslam::FrontEnd::odometry()':\n"}
+[20.133295] (lidar_slam) StderrLine: {'line': b"front_end.cpp:(.text+0x1af0): undefined reference to `ceres::Problem::Problem(ceres::Problem::Options const&)'\n"}
+[20.133508] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text+0x1b31): undefined reference to `ceres::Problem::AddParameterBlock(double*, int, ceres::Manifold*)'\n"}
+[20.133907] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text+0x1b4f): undefined reference to `ceres::Problem::AddParameterBlock(double*, int)'\n"}
+[20.134297] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text+0x2e9c): undefined reference to `ceres::Solve(ceres::Solver::Options const&, ceres::Problem*, ceres::Solver::Summary*)'\n"}
+[20.134726] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text+0x2ee7): undefined reference to `ceres::Problem::~Problem()'\n"}
+[20.135187] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text+0x318b): undefined reference to `ceres::Problem::~Problem()'\n"}
+[20.136366] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: in function `ceres::LossFunction::LossFunction()':\n"}
+[20.136527] (lidar_slam) StderrLine: {'line': b"front_end.cpp:(.text._ZN5ceres12LossFunctionC2Ev[_ZN5ceres12LossFunctionC5Ev]+0xf): undefined reference to `vtable for ceres::LossFunction'\n"}
+[20.136994] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: in function `ceres::HuberLoss::HuberLoss(double)':\n"}
+[20.137095] (lidar_slam) StderrLine: {'line': b"front_end.cpp:(.text._ZN5ceres9HuberLossC2Ed[_ZN5ceres9HuberLossC5Ed]+0x24): undefined reference to `vtable for ceres::HuberLoss'\n"}
+[20.137772] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: in function `ceres::Manifold::Manifold()':\n"}
+[20.137936] (lidar_slam) StderrLine: {'line': b"front_end.cpp:(.text._ZN5ceres8ManifoldC2Ev[_ZN5ceres8ManifoldC5Ev]+0xf): undefined reference to `vtable for ceres::Manifold'\n"}
+[20.138359] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: in function `ceres::EigenQuaternionManifold::EigenQuaternionManifold()':\n"}
+[20.138508] (lidar_slam) StderrLine: {'line': b"front_end.cpp:(.text._ZN5ceres23EigenQuaternionManifoldC2Ev[_ZN5ceres23EigenQuaternionManifoldC5Ev]+0x1f): undefined reference to `vtable for ceres::EigenQuaternionManifold'\n"}
+[20.139047] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: in function `ceres::SizedCostFunction<3, 4, 3>::~SizedCostFunction()':\n"}
+[20.139168] (lidar_slam) StderrLine: {'line': b"front_end.cpp:(.text._ZN5ceres17SizedCostFunctionILi3EJLi4ELi3EEED2Ev[_ZN5ceres17SizedCostFunctionILi3EJLi4ELi3EEED5Ev]+0x2a): undefined reference to `ceres::CostFunction::~CostFunction()'\n"}
+[20.139613] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: in function `ceres::SizedCostFunction<1, 4, 3>::~SizedCostFunction()':\n"}
+[20.139752] (lidar_slam) StderrLine: {'line': b"front_end.cpp:(.text._ZN5ceres17SizedCostFunctionILi1EJLi4ELi3EEED2Ev[_ZN5ceres17SizedCostFunctionILi1EJLi4ELi3EEED5Ev]+0x2a): undefined reference to `ceres::CostFunction::~CostFunction()'\n"}
+[20.140351] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: in function `ceres::internal::ResidualBlock* ceres::Problem::AddResidualBlock<double>(ceres::CostFunction*, ceres::LossFunction*, double*, double*)':\n"}
+[20.140505] (lidar_slam) StderrLine: {'line': b"front_end.cpp:(.text._ZN5ceres7Problem16AddResidualBlockIJdEEEPNS_8internal13ResidualBlockEPNS_12CostFunctionEPNS_12LossFunctionEPdDpPT_[_ZN5ceres7Problem16AddResidualBlockIJdEEEPNS_8internal13ResidualBlockEPNS_12CostFunctionEPNS_12LossFunctionEPdDpPT_]+0x70): undefined reference to `ceres::Problem::AddResidualBlock(ceres::CostFunction*, ceres::LossFunction*, double* const*, int)'\n"}
+[20.140978] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: in function `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* google::MakeCheckOpString<int, int>(int const&, int const&, char const*)':\n"}
+[20.141147] (lidar_slam) StderrLine: {'line': b"front_end.cpp:(.text._ZN6google17MakeCheckOpStringIiiEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc[_ZN6google17MakeCheckOpStringIiiEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc]+0x37): undefined reference to `google::base::CheckOpMessageBuilder::CheckOpMessageBuilder(char const*)'\n"}
+[20.141385] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN6google17MakeCheckOpStringIiiEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc[_ZN6google17MakeCheckOpStringIiiEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc]+0x61): undefined reference to `google::base::CheckOpMessageBuilder::ForVar2()'\n"}
+[20.141670] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN6google17MakeCheckOpStringIiiEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc[_ZN6google17MakeCheckOpStringIiiEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc]+0x7f): undefined reference to `google::base::CheckOpMessageBuilder::NewString[abi:cxx11]()'\n"}
+[20.141952] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN6google17MakeCheckOpStringIiiEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc[_ZN6google17MakeCheckOpStringIiiEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc]+0x8f): undefined reference to `google::base::CheckOpMessageBuilder::~CheckOpMessageBuilder()'\n"}
+[20.142205] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN6google17MakeCheckOpStringIiiEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc[_ZN6google17MakeCheckOpStringIiiEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc]+0xb6): undefined reference to `google::base::CheckOpMessageBuilder::~CheckOpMessageBuilder()'\n"}
+[20.142563] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: in function `ceres::SizedCostFunction<3, 4, 3>::SizedCostFunction()':\n"}
+[20.142660] (lidar_slam) StderrLine: {'line': b"front_end.cpp:(.text._ZN5ceres17SizedCostFunctionILi3EJLi4ELi3EEEC2Ev[_ZN5ceres17SizedCostFunctionILi3EJLi4ELi3EEEC5Ev]+0x2c): undefined reference to `ceres::CostFunction::CostFunction()'\n"}
+[20.142824] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres17SizedCostFunctionILi3EJLi4ELi3EEEC2Ev[_ZN5ceres17SizedCostFunctionILi3EJLi4ELi3EEEC5Ev]+0x102): undefined reference to `ceres::CostFunction::~CostFunction()'\n"}
+[20.143339] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: in function `ceres::SizedCostFunction<1, 4, 3>::SizedCostFunction()':\n"}
+[20.143453] (lidar_slam) StderrLine: {'line': b"front_end.cpp:(.text._ZN5ceres17SizedCostFunctionILi1EJLi4ELi3EEEC2Ev[_ZN5ceres17SizedCostFunctionILi1EJLi4ELi3EEEC5Ev]+0x2c): undefined reference to `ceres::CostFunction::CostFunction()'\n"}
+[20.143599] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres17SizedCostFunctionILi1EJLi4ELi3EEEC2Ev[_ZN5ceres17SizedCostFunctionILi1EJLi4ELi3EEEC5Ev]+0x102): undefined reference to `ceres::CostFunction::~CostFunction()'\n"}
+[20.147550] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o:(.data.rel.ro._ZTIN5ceres17SizedCostFunctionILi1EJLi4ELi3EEEE[_ZTIN5ceres17SizedCostFunctionILi1EJLi4ELi3EEEE]+0x10): undefined reference to `typeinfo for ceres::CostFunction'\n"}
+[20.148122] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o:(.data.rel.ro._ZTIN5ceres17SizedCostFunctionILi3EJLi4ELi3EEEE[_ZTIN5ceres17SizedCostFunctionILi3EJLi4ELi3EEEE]+0x10): undefined reference to `typeinfo for ceres::CostFunction'\n"}
+[20.149017] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: in function `bool ceres::internal::AutoDifferentiate<1, ceres::internal::ParameterDims<false, 4, 3>, LidarPlaneFactor, double>(LidarPlaneFactor const&, double const* const*, int, double*, double**)':\n"}
+[20.149150] (lidar_slam) StderrLine: {'line': b"front_end.cpp:(.text._ZN5ceres8internal17AutoDifferentiateILi1ENS0_13ParameterDimsILb0EJLi4ELi3EEEE16LidarPlaneFactordEEbRKT1_PKPKT2_iPS8_PSD_[_ZN5ceres8internal17AutoDifferentiateILi1ENS0_13ParameterDimsILb0EJLi4ELi3EEEE16LidarPlaneFactordEEbRKT1_PKPKT2_iPS8_PSD_]+0xba): undefined reference to `google::LogMessageFatal::LogMessageFatal(char const*, int, google::CheckOpString const&)'\n"}
+[20.149457] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal17AutoDifferentiateILi1ENS0_13ParameterDimsILb0EJLi4ELi3EEEE16LidarPlaneFactordEEbRKT1_PKPKT2_iPS8_PSD_[_ZN5ceres8internal17AutoDifferentiateILi1ENS0_13ParameterDimsILb0EJLi4ELi3EEEE16LidarPlaneFactordEEbRKT1_PKPKT2_iPS8_PSD_]+0xc9): undefined reference to `google::LogMessage::stream()'\n"}
+[20.149819] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal17AutoDifferentiateILi1ENS0_13ParameterDimsILb0EJLi4ELi3EEEE16LidarPlaneFactordEEbRKT1_PKPKT2_iPS8_PSD_[_ZN5ceres8internal17AutoDifferentiateILi1ENS0_13ParameterDimsILb0EJLi4ELi3EEEE16LidarPlaneFactordEEbRKT1_PKPKT2_iPS8_PSD_]+0xd8): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.150077] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal17AutoDifferentiateILi1ENS0_13ParameterDimsILb0EJLi4ELi3EEEE16LidarPlaneFactordEEbRKT1_PKPKT2_iPS8_PSD_[_ZN5ceres8internal17AutoDifferentiateILi1ENS0_13ParameterDimsILb0EJLi4ELi3EEEE16LidarPlaneFactordEEbRKT1_PKPKT2_iPS8_PSD_]+0x195): undefined reference to `google::LogMessageFatal::LogMessageFatal(char const*, int, google::CheckOpString const&)'\n"}
+[20.150268] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal17AutoDifferentiateILi1ENS0_13ParameterDimsILb0EJLi4ELi3EEEE16LidarPlaneFactordEEbRKT1_PKPKT2_iPS8_PSD_[_ZN5ceres8internal17AutoDifferentiateILi1ENS0_13ParameterDimsILb0EJLi4ELi3EEEE16LidarPlaneFactordEEbRKT1_PKPKT2_iPS8_PSD_]+0x1a4): undefined reference to `google::LogMessage::stream()'\n"}
+[20.150486] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal17AutoDifferentiateILi1ENS0_13ParameterDimsILb0EJLi4ELi3EEEE16LidarPlaneFactordEEbRKT1_PKPKT2_iPS8_PSD_[_ZN5ceres8internal17AutoDifferentiateILi1ENS0_13ParameterDimsILb0EJLi4ELi3EEEE16LidarPlaneFactordEEbRKT1_PKPKT2_iPS8_PSD_]+0x1b3): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.150712] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal17AutoDifferentiateILi1ENS0_13ParameterDimsILb0EJLi4ELi3EEEE16LidarPlaneFactordEEbRKT1_PKPKT2_iPS8_PSD_[_ZN5ceres8internal17AutoDifferentiateILi1ENS0_13ParameterDimsILb0EJLi4ELi3EEEE16LidarPlaneFactordEEbRKT1_PKPKT2_iPS8_PSD_]+0x321): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.150918] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal17AutoDifferentiateILi1ENS0_13ParameterDimsILb0EJLi4ELi3EEEE16LidarPlaneFactordEEbRKT1_PKPKT2_iPS8_PSD_[_ZN5ceres8internal17AutoDifferentiateILi1ENS0_13ParameterDimsILb0EJLi4ELi3EEEE16LidarPlaneFactordEEbRKT1_PKPKT2_iPS8_PSD_]+0x334): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.151228] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: in function `bool ceres::internal::AutoDifferentiate<3, ceres::internal::ParameterDims<false, 4, 3>, LidarEdgeFactor, double>(LidarEdgeFactor const&, double const* const*, int, double*, double**)':\n"}
+[20.151324] (lidar_slam) StderrLine: {'line': b"front_end.cpp:(.text._ZN5ceres8internal17AutoDifferentiateILi3ENS0_13ParameterDimsILb0EJLi4ELi3EEEE15LidarEdgeFactordEEbRKT1_PKPKT2_iPS8_PSD_[_ZN5ceres8internal17AutoDifferentiateILi3ENS0_13ParameterDimsILb0EJLi4ELi3EEEE15LidarEdgeFactordEEbRKT1_PKPKT2_iPS8_PSD_]+0xba): undefined reference to `google::LogMessageFatal::LogMessageFatal(char const*, int, google::CheckOpString const&)'\n"}
+[20.151468] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal17AutoDifferentiateILi3ENS0_13ParameterDimsILb0EJLi4ELi3EEEE15LidarEdgeFactordEEbRKT1_PKPKT2_iPS8_PSD_[_ZN5ceres8internal17AutoDifferentiateILi3ENS0_13ParameterDimsILb0EJLi4ELi3EEEE15LidarEdgeFactordEEbRKT1_PKPKT2_iPS8_PSD_]+0xc9): undefined reference to `google::LogMessage::stream()'\n"}
+[20.151690] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal17AutoDifferentiateILi3ENS0_13ParameterDimsILb0EJLi4ELi3EEEE15LidarEdgeFactordEEbRKT1_PKPKT2_iPS8_PSD_[_ZN5ceres8internal17AutoDifferentiateILi3ENS0_13ParameterDimsILb0EJLi4ELi3EEEE15LidarEdgeFactordEEbRKT1_PKPKT2_iPS8_PSD_]+0xd8): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.151901] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal17AutoDifferentiateILi3ENS0_13ParameterDimsILb0EJLi4ELi3EEEE15LidarEdgeFactordEEbRKT1_PKPKT2_iPS8_PSD_[_ZN5ceres8internal17AutoDifferentiateILi3ENS0_13ParameterDimsILb0EJLi4ELi3EEEE15LidarEdgeFactordEEbRKT1_PKPKT2_iPS8_PSD_]+0x195): undefined reference to `google::LogMessageFatal::LogMessageFatal(char const*, int, google::CheckOpString const&)'\n"}
+[20.152104] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal17AutoDifferentiateILi3ENS0_13ParameterDimsILb0EJLi4ELi3EEEE15LidarEdgeFactordEEbRKT1_PKPKT2_iPS8_PSD_[_ZN5ceres8internal17AutoDifferentiateILi3ENS0_13ParameterDimsILb0EJLi4ELi3EEEE15LidarEdgeFactordEEbRKT1_PKPKT2_iPS8_PSD_]+0x1a4): undefined reference to `google::LogMessage::stream()'\n"}
+[20.152291] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal17AutoDifferentiateILi3ENS0_13ParameterDimsILb0EJLi4ELi3EEEE15LidarEdgeFactordEEbRKT1_PKPKT2_iPS8_PSD_[_ZN5ceres8internal17AutoDifferentiateILi3ENS0_13ParameterDimsILb0EJLi4ELi3EEEE15LidarEdgeFactordEEbRKT1_PKPKT2_iPS8_PSD_]+0x1b3): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.152483] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal17AutoDifferentiateILi3ENS0_13ParameterDimsILb0EJLi4ELi3EEEE15LidarEdgeFactordEEbRKT1_PKPKT2_iPS8_PSD_[_ZN5ceres8internal17AutoDifferentiateILi3ENS0_13ParameterDimsILb0EJLi4ELi3EEEE15LidarEdgeFactordEEbRKT1_PKPKT2_iPS8_PSD_]+0x321): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.152672] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal17AutoDifferentiateILi3ENS0_13ParameterDimsILb0EJLi4ELi3EEEE15LidarEdgeFactordEEbRKT1_PKPKT2_iPS8_PSD_[_ZN5ceres8internal17AutoDifferentiateILi3ENS0_13ParameterDimsILb0EJLi4ELi3EEEE15LidarEdgeFactordEEbRKT1_PKPKT2_iPS8_PSD_]+0x334): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.153707] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: in function `ceres::internal::ArraySelector<ceres::Jet<double, 7>, 7, 50, false, true>::ArraySelector(int)':\n"}
+[20.153851] (lidar_slam) StderrLine: {'line': b"front_end.cpp:(.text._ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi7ELi50ELb0ELb1EEC2Ei[_ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi7ELi50ELb0ELb1EEC5Ei]+0x93): undefined reference to `google::LogMessageFatal::LogMessageFatal(char const*, int, google::CheckOpString const&)'\n"}
+[20.154223] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi7ELi50ELb0ELb1EEC2Ei[_ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi7ELi50ELb0ELb1EEC5Ei]+0x9f): undefined reference to `google::LogMessage::stream()'\n"}
+[20.154319] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi7ELi50ELb0ELb1EEC2Ei[_ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi7ELi50ELb0ELb1EEC5Ei]+0xab): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.154902] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi7ELi50ELb0ELb1EEC2Ei[_ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi7ELi50ELb0ELb1EEC5Ei]+0xbb): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.155016] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: in function `ceres::internal::ArraySelector<ceres::Jet<double, 7>, 3, 20, false, true>::ArraySelector(int)':\n"}
+[20.155099] (lidar_slam) StderrLine: {'line': b"front_end.cpp:(.text._ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi3ELi20ELb0ELb1EEC2Ei[_ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi3ELi20ELb0ELb1EEC5Ei]+0x93): undefined reference to `google::LogMessageFatal::LogMessageFatal(char const*, int, google::CheckOpString const&)'\n"}
+[20.155364] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi3ELi20ELb0ELb1EEC2Ei[_ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi3ELi20ELb0ELb1EEC5Ei]+0x9f): undefined reference to `google::LogMessage::stream()'\n"}
+[20.155518] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi3ELi20ELb0ELb1EEC2Ei[_ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi3ELi20ELb0ELb1EEC5Ei]+0xab): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.155605] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi3ELi20ELb0ELb1EEC2Ei[_ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi3ELi20ELb0ELb1EEC5Ei]+0xbb): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.155898] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: in function `void ceres::internal::Take0thOrderPart<ceres::Jet<double, 7>, double*>(int, ceres::Jet<double, 7> const*, double*)':\n"}
+[20.156066] (lidar_slam) StderrLine: {'line': b"front_end.cpp:(.text._ZN5ceres8internal16Take0thOrderPartINS_3JetIdLi7EEEPdEEviPKT_T0_[_ZN5ceres8internal16Take0thOrderPartINS_3JetIdLi7EEEPdEEviPKT_T0_]+0x55): undefined reference to `google::LogMessageFatal::LogMessageFatal(char const*, int)'\n"}
+[20.156239] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal16Take0thOrderPartINS_3JetIdLi7EEEPdEEviPKT_T0_[_ZN5ceres8internal16Take0thOrderPartINS_3JetIdLi7EEEPdEEviPKT_T0_]+0x66): undefined reference to `google::LogMessage::stream()'\n"}
+[20.156462] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal16Take0thOrderPartINS_3JetIdLi7EEEPdEEviPKT_T0_[_ZN5ceres8internal16Take0thOrderPartINS_3JetIdLi7EEEPdEEviPKT_T0_]+0xa9): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.156686] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal16Take0thOrderPartINS_3JetIdLi7EEEPdEEviPKT_T0_[_ZN5ceres8internal16Take0thOrderPartINS_3JetIdLi7EEEPdEEviPKT_T0_]+0x103): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.157029] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: in function `ceres::internal::ArraySelector<ceres::Jet<double, 7>, 1, 20, false, true>::ArraySelector(int)':\n"}
+[20.157151] (lidar_slam) StderrLine: {'line': b"front_end.cpp:(.text._ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi1ELi20ELb0ELb1EEC2Ei[_ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi1ELi20ELb0ELb1EEC5Ei]+0x93): undefined reference to `google::LogMessageFatal::LogMessageFatal(char const*, int, google::CheckOpString const&)'\n"}
+[20.157287] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi1ELi20ELb0ELb1EEC2Ei[_ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi1ELi20ELb0ELb1EEC5Ei]+0x9f): undefined reference to `google::LogMessage::stream()'\n"}
+[20.157493] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi1ELi20ELb0ELb1EEC2Ei[_ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi1ELi20ELb0ELb1EEC5Ei]+0xab): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.157682] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi1ELi20ELb0ELb1EEC2Ei[_ZN5ceres8internal13ArraySelectorINS_3JetIdLi7EEELi1ELi20ELb0ELb1EEC5Ei]+0xbb): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.158028] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: in function `ceres::internal::Make1stOrderPerturbation<0, 4, 0, double, ceres::Jet<double, 7> >::Apply(double const*, ceres::Jet<double, 7>*)':\n"}
+[20.158115] (lidar_slam) StderrLine: {'line': b"front_end.cpp:(.text._ZN5ceres8internal24Make1stOrderPerturbationILi0ELi4ELi0EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_[_ZN5ceres8internal24Make1stOrderPerturbationILi0ELi4ELi0EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_]+0x5b): undefined reference to `google::LogMessageFatal::LogMessageFatal(char const*, int)'\n"}
+[20.158266] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal24Make1stOrderPerturbationILi0ELi4ELi0EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_[_ZN5ceres8internal24Make1stOrderPerturbationILi0ELi4ELi0EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_]+0x6c): undefined reference to `google::LogMessage::stream()'\n"}
+[20.158545] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal24Make1stOrderPerturbationILi0ELi4ELi0EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_[_ZN5ceres8internal24Make1stOrderPerturbationILi0ELi4ELi0EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_]+0xaf): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.158729] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal24Make1stOrderPerturbationILi0ELi4ELi0EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_[_ZN5ceres8internal24Make1stOrderPerturbationILi0ELi4ELi0EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_]+0xe2): undefined reference to `google::LogMessageFatal::LogMessageFatal(char const*, int)'\n"}
+[20.158931] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal24Make1stOrderPerturbationILi0ELi4ELi0EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_[_ZN5ceres8internal24Make1stOrderPerturbationILi0ELi4ELi0EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_]+0xf3): undefined reference to `google::LogMessage::stream()'\n"}
+[20.159130] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal24Make1stOrderPerturbationILi0ELi4ELi0EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_[_ZN5ceres8internal24Make1stOrderPerturbationILi0ELi4ELi0EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_]+0x136): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.159326] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal24Make1stOrderPerturbationILi0ELi4ELi0EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_[_ZN5ceres8internal24Make1stOrderPerturbationILi0ELi4ELi0EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_]+0x1a6): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.159529] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal24Make1stOrderPerturbationILi0ELi4ELi0EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_[_ZN5ceres8internal24Make1stOrderPerturbationILi0ELi4ELi0EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_]+0x1c2): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.159824] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: in function `void ceres::internal::Take1stOrderPart<0, 4, ceres::Jet<double, 7>, double>(int, ceres::Jet<double, 7> const*, double*)':\n"}
+[20.159915] (lidar_slam) StderrLine: {'line': b"front_end.cpp:(.text._ZN5ceres8internal16Take1stOrderPartILi0ELi4ENS_3JetIdLi7EEEdEEviPKT1_PT2_[_ZN5ceres8internal16Take1stOrderPartILi0ELi4ENS_3JetIdLi7EEEdEEviPKT1_PT2_]+0x58): undefined reference to `google::LogMessageFatal::LogMessageFatal(char const*, int)'\n"}
+[20.160041] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal16Take1stOrderPartILi0ELi4ENS_3JetIdLi7EEEdEEviPKT1_PT2_[_ZN5ceres8internal16Take1stOrderPartILi0ELi4ENS_3JetIdLi7EEEdEEviPKT1_PT2_]+0x69): undefined reference to `google::LogMessage::stream()'\n"}
+[20.160258] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal16Take1stOrderPartILi0ELi4ENS_3JetIdLi7EEEdEEviPKT1_PT2_[_ZN5ceres8internal16Take1stOrderPartILi0ELi4ENS_3JetIdLi7EEEdEEviPKT1_PT2_]+0xac): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.160448] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal16Take1stOrderPartILi0ELi4ENS_3JetIdLi7EEEdEEviPKT1_PT2_[_ZN5ceres8internal16Take1stOrderPartILi0ELi4ENS_3JetIdLi7EEEdEEviPKT1_PT2_]+0xdf): undefined reference to `google::LogMessageFatal::LogMessageFatal(char const*, int)'\n"}
+[20.160630] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal16Take1stOrderPartILi0ELi4ENS_3JetIdLi7EEEdEEviPKT1_PT2_[_ZN5ceres8internal16Take1stOrderPartILi0ELi4ENS_3JetIdLi7EEEdEEviPKT1_PT2_]+0xf0): undefined reference to `google::LogMessage::stream()'\n"}
+[20.160807] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal16Take1stOrderPartILi0ELi4ENS_3JetIdLi7EEEdEEviPKT1_PT2_[_ZN5ceres8internal16Take1stOrderPartILi0ELi4ENS_3JetIdLi7EEEdEEviPKT1_PT2_]+0x133): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.160981] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal16Take1stOrderPartILi0ELi4ENS_3JetIdLi7EEEdEEviPKT1_PT2_[_ZN5ceres8internal16Take1stOrderPartILi0ELi4ENS_3JetIdLi7EEEdEEviPKT1_PT2_]+0x1e4): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.161151] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal16Take1stOrderPartILi0ELi4ENS_3JetIdLi7EEEdEEviPKT1_PT2_[_ZN5ceres8internal16Take1stOrderPartILi0ELi4ENS_3JetIdLi7EEEdEEviPKT1_PT2_]+0x200): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.161518] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: in function `ceres::internal::Make1stOrderPerturbation<0, 3, 4, double, ceres::Jet<double, 7> >::Apply(double const*, ceres::Jet<double, 7>*)':\n"}
+[20.161603] (lidar_slam) StderrLine: {'line': b"front_end.cpp:(.text._ZN5ceres8internal24Make1stOrderPerturbationILi0ELi3ELi4EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_[_ZN5ceres8internal24Make1stOrderPerturbationILi0ELi3ELi4EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_]+0x5b): undefined reference to `google::LogMessageFatal::LogMessageFatal(char const*, int)'\n"}
+[20.161754] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal24Make1stOrderPerturbationILi0ELi3ELi4EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_[_ZN5ceres8internal24Make1stOrderPerturbationILi0ELi3ELi4EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_]+0x6c): undefined reference to `google::LogMessage::stream()'\n"}
+[20.161973] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal24Make1stOrderPerturbationILi0ELi3ELi4EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_[_ZN5ceres8internal24Make1stOrderPerturbationILi0ELi3ELi4EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_]+0xaf): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.162164] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal24Make1stOrderPerturbationILi0ELi3ELi4EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_[_ZN5ceres8internal24Make1stOrderPerturbationILi0ELi3ELi4EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_]+0xe2): undefined reference to `google::LogMessageFatal::LogMessageFatal(char const*, int)'\n"}
+[20.162347] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal24Make1stOrderPerturbationILi0ELi3ELi4EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_[_ZN5ceres8internal24Make1stOrderPerturbationILi0ELi3ELi4EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_]+0xf3): undefined reference to `google::LogMessage::stream()'\n"}
+[20.162539] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal24Make1stOrderPerturbationILi0ELi3ELi4EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_[_ZN5ceres8internal24Make1stOrderPerturbationILi0ELi3ELi4EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_]+0x136): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.162741] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal24Make1stOrderPerturbationILi0ELi3ELi4EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_[_ZN5ceres8internal24Make1stOrderPerturbationILi0ELi3ELi4EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_]+0x1a6): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.162952] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal24Make1stOrderPerturbationILi0ELi3ELi4EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_[_ZN5ceres8internal24Make1stOrderPerturbationILi0ELi3ELi4EdNS_3JetIdLi7EEEE5ApplyEPKdPS3_]+0x1c2): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.163316] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: in function `void ceres::internal::Take1stOrderPart<4, 3, ceres::Jet<double, 7>, double>(int, ceres::Jet<double, 7> const*, double*)':\n"}
+[20.163425] (lidar_slam) StderrLine: {'line': b"front_end.cpp:(.text._ZN5ceres8internal16Take1stOrderPartILi4ELi3ENS_3JetIdLi7EEEdEEviPKT1_PT2_[_ZN5ceres8internal16Take1stOrderPartILi4ELi3ENS_3JetIdLi7EEEdEEviPKT1_PT2_]+0x58): undefined reference to `google::LogMessageFatal::LogMessageFatal(char const*, int)'\n"}
+[20.163562] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal16Take1stOrderPartILi4ELi3ENS_3JetIdLi7EEEdEEviPKT1_PT2_[_ZN5ceres8internal16Take1stOrderPartILi4ELi3ENS_3JetIdLi7EEEdEEviPKT1_PT2_]+0x69): undefined reference to `google::LogMessage::stream()'\n"}
+[20.163786] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal16Take1stOrderPartILi4ELi3ENS_3JetIdLi7EEEdEEviPKT1_PT2_[_ZN5ceres8internal16Take1stOrderPartILi4ELi3ENS_3JetIdLi7EEEdEEviPKT1_PT2_]+0xac): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.163977] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal16Take1stOrderPartILi4ELi3ENS_3JetIdLi7EEEdEEviPKT1_PT2_[_ZN5ceres8internal16Take1stOrderPartILi4ELi3ENS_3JetIdLi7EEEdEEviPKT1_PT2_]+0xdf): undefined reference to `google::LogMessageFatal::LogMessageFatal(char const*, int)'\n"}
+[20.164169] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal16Take1stOrderPartILi4ELi3ENS_3JetIdLi7EEEdEEviPKT1_PT2_[_ZN5ceres8internal16Take1stOrderPartILi4ELi3ENS_3JetIdLi7EEEdEEviPKT1_PT2_]+0xf0): undefined reference to `google::LogMessage::stream()'\n"}
+[20.164353] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal16Take1stOrderPartILi4ELi3ENS_3JetIdLi7EEEdEEviPKT1_PT2_[_ZN5ceres8internal16Take1stOrderPartILi4ELi3ENS_3JetIdLi7EEEdEEviPKT1_PT2_]+0x133): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.164532] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal16Take1stOrderPartILi4ELi3ENS_3JetIdLi7EEEdEEviPKT1_PT2_[_ZN5ceres8internal16Take1stOrderPartILi4ELi3ENS_3JetIdLi7EEEdEEviPKT1_PT2_]+0x1e7): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.164711] (lidar_slam) StderrLine: {'line': b"/usr/bin/ld: front_end.cpp:(.text._ZN5ceres8internal16Take1stOrderPartILi4ELi3ENS_3JetIdLi7EEEdEEviPKT1_PT2_[_ZN5ceres8internal16Take1stOrderPartILi4ELi3ENS_3JetIdLi7EEEdEEviPKT1_PT2_]+0x203): undefined reference to `google::LogMessageFatal::~LogMessageFatal()'\n"}
+[20.226232] (lidar_slam) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[20.227439] (-) TimerEvent: {}
+[20.228387] (lidar_slam) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lidar_slam.dir/build.make:343: lidar_slam] Error 1\n'}
+[20.228833] (lidar_slam) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_slam.dir/all] Error 2\n'}
+[20.229120] (lidar_slam) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[20.231302] (lidar_slam) CommandEnded: {'returncode': 2}
+[20.327519] (-) TimerEvent: {}
+[20.491114] (-) TimerEvent: {}
+[20.591447] (-) TimerEvent: {}
+[20.613868] (lidar_slam) JobEnded: {'identifier': 'lidar_slam', 'rc': 2}
+[24.948926] (-) TimerEvent: {}
+[24.949056] (-) EventReactorShutdown: {}

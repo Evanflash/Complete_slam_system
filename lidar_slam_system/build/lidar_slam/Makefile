@@ -234,6 +234,30 @@ src/data_process.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_slam.dir/build.make CMakeFiles/lidar_slam.dir/src/data_process.cpp.s
 .PHONY : src/data_process.cpp.s
 
+src/front_end.o: src/front_end.cpp.o
+.PHONY : src/front_end.o
+
+# target to build an object file
+src/front_end.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_slam.dir/build.make CMakeFiles/lidar_slam.dir/src/front_end.cpp.o
+.PHONY : src/front_end.cpp.o
+
+src/front_end.i: src/front_end.cpp.i
+.PHONY : src/front_end.i
+
+# target to preprocess a source file
+src/front_end.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_slam.dir/build.make CMakeFiles/lidar_slam.dir/src/front_end.cpp.i
+.PHONY : src/front_end.cpp.i
+
+src/front_end.s: src/front_end.cpp.s
+.PHONY : src/front_end.s
+
+# target to generate assembly for a file
+src/front_end.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_slam.dir/build.make CMakeFiles/lidar_slam.dir/src/front_end.cpp.s
+.PHONY : src/front_end.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -277,6 +301,9 @@ help:
 	@echo "... src/data_process.o"
 	@echo "... src/data_process.i"
 	@echo "... src/data_process.s"
+	@echo "... src/front_end.o"
+	@echo "... src/front_end.i"
+	@echo "... src/front_end.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

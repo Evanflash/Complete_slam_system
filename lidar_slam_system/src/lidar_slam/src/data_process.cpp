@@ -440,7 +440,7 @@ void DataProcess::publishCloud(){
     out.surf_less_flat.swap(_surf_less_flat);
     out.segment_cloud.swap(_segment_cloud);
     out.ground_cloud.swap(_ground_cloud);
-    // _output_channel.send(std::move(out));
+    _output_channel.send(std::move(out));
 }
 
 // 下采样

@@ -1,0 +1,35 @@
+[0.025s] Invoking command in '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam -- -j4 -l4
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target lidar_slam[0m
+[0.143s] [ 25%] [32mBuilding CXX object CMakeFiles/lidar_slam.dir/src/front_end.cpp.o[0m
+[12.080s] [ 50%] [32m[1mLinking CXX executable lidar_slam[0m
+[14.530s] [100%] Built target lidar_slam
+[14.548s] Invoked command in '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam -- -j4 -l4
+[14.601s] Invoking command in '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam
+[14.609s] -- Install configuration: ""
+[14.609s] -- Installing: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/lib/lidar_slam/lidar_slam
+[14.627s] -- Set runtime path of "/home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/lib/lidar_slam/lidar_slam" to ""
+[14.627s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/lidar_slam/config
+[14.627s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/lidar_slam/config/config.yaml
+[14.627s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/lidar_slam/launch
+[14.627s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/lidar_slam/launch/__pycache__
+[14.627s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/lidar_slam/launch/__pycache__/run.cpython-310.pyc
+[14.627s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/lidar_slam/launch/run.py
+[14.628s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/lidar_slam/rviz
+[14.628s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/lidar_slam/rviz/test.rviz
+[14.628s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/ament_index/resource_index/package_run_dependencies/lidar_slam
+[14.628s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/ament_index/resource_index/parent_prefix_path/lidar_slam
+[14.628s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/lidar_slam/environment/ament_prefix_path.sh
+[14.628s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/lidar_slam/environment/ament_prefix_path.dsv
+[14.628s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/lidar_slam/environment/path.sh
+[14.628s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/lidar_slam/environment/path.dsv
+[14.628s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/lidar_slam/local_setup.bash
+[14.628s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/lidar_slam/local_setup.sh
+[14.628s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/lidar_slam/local_setup.zsh
+[14.628s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/lidar_slam/local_setup.dsv
+[14.628s] -- Installing: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/lidar_slam/package.dsv
+[14.629s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/ament_index/resource_index/packages/lidar_slam
+[14.629s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/lidar_slam/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.629s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/lidar_slam/cmake/lidar_slamConfig.cmake
+[14.629s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/lidar_slam/cmake/lidar_slamConfig-version.cmake
+[14.629s] -- Up-to-date: /home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam/share/lidar_slam/package.xml
+[14.630s] Invoked command in '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam

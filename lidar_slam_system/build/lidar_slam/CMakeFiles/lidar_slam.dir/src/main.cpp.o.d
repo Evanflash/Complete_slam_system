@@ -601,150 +601,13 @@ CMakeFiles/lidar_slam.dir/src/main.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
  /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/channel.h \
  /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/slam_utils.h \
- /usr/include/c++/11/queue /usr/include/c++/11/deque \
- /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
- /usr/include/c++/11/bits/stl_queue.h \
- /usr/include/boost/circular_buffer.hpp \
- /usr/include/boost/circular_buffer_fwd.hpp /usr/include/boost/config.hpp \
- /usr/include/boost/config/user.hpp \
- /usr/include/boost/config/detail/select_compiler_config.hpp \
- /usr/include/boost/config/compiler/gcc.hpp /usr/include/c++/11/cstddef \
- /usr/include/boost/config/detail/select_stdlib_config.hpp \
- /usr/include/c++/11/version \
- /usr/include/boost/config/stdlib/libstdcpp3.hpp \
- /usr/include/boost/config/detail/select_platform_config.hpp \
- /usr/include/boost/config/platform/linux.hpp \
- /usr/include/boost/config/detail/posix_features.hpp \
- /usr/include/boost/config/detail/suffix.hpp \
- /usr/include/boost/config/helper_macros.hpp \
- /usr/include/boost/config/workaround.hpp \
- /usr/include/boost/static_assert.hpp \
- /usr/include/boost/detail/workaround.hpp \
- /usr/include/boost/type_traits/is_convertible.hpp \
- /usr/include/boost/type_traits/intrinsics.hpp \
- /usr/include/boost/type_traits/detail/config.hpp \
- /usr/include/boost/version.hpp \
- /usr/include/boost/type_traits/integral_constant.hpp \
- /usr/include/boost/type_traits/is_complete.hpp \
- /usr/include/boost/type_traits/declval.hpp \
- /usr/include/boost/type_traits/add_rvalue_reference.hpp \
- /usr/include/boost/type_traits/is_void.hpp \
- /usr/include/boost/type_traits/is_reference.hpp \
- /usr/include/boost/type_traits/is_lvalue_reference.hpp \
- /usr/include/boost/type_traits/is_rvalue_reference.hpp \
- /usr/include/boost/type_traits/remove_reference.hpp \
- /usr/include/boost/type_traits/is_function.hpp \
- /usr/include/boost/type_traits/detail/is_function_cxx_11.hpp \
- /usr/include/boost/type_traits/detail/yes_no_type.hpp \
- /usr/include/boost/type_traits/is_array.hpp \
- /usr/include/boost/type_traits/is_arithmetic.hpp \
- /usr/include/boost/type_traits/is_integral.hpp \
- /usr/include/boost/type_traits/is_floating_point.hpp \
- /usr/include/boost/type_traits/is_abstract.hpp \
- /usr/include/boost/type_traits/add_lvalue_reference.hpp \
- /usr/include/boost/type_traits/add_reference.hpp \
- /usr/include/boost/circular_buffer/debug.hpp \
- /usr/include/boost/circular_buffer/details.hpp \
- /usr/include/boost/throw_exception.hpp \
- /usr/include/boost/assert/source_location.hpp \
- /usr/include/boost/current_function.hpp /usr/include/boost/cstdint.hpp \
- /usr/include/boost/exception/exception.hpp \
- /usr/include/boost/core/allocator_access.hpp \
- /usr/include/boost/core/pointer_traits.hpp \
- /usr/include/boost/move/move.hpp \
- /usr/include/boost/move/detail/config_begin.hpp \
- /usr/include/boost/move/utility.hpp \
- /usr/include/boost/move/detail/workaround.hpp \
- /usr/include/boost/move/utility_core.hpp \
- /usr/include/boost/move/core.hpp \
- /usr/include/boost/move/detail/config_end.hpp \
- /usr/include/boost/move/detail/meta_utils.hpp \
- /usr/include/boost/move/detail/meta_utils_core.hpp \
- /usr/include/boost/move/traits.hpp \
- /usr/include/boost/move/detail/type_traits.hpp \
- /usr/include/boost/assert.hpp /usr/include/boost/move/iterator.hpp \
- /usr/include/boost/move/detail/iterator_traits.hpp \
- /usr/include/boost/move/detail/std_ns_begin.hpp \
- /usr/include/boost/move/detail/std_ns_end.hpp \
- /usr/include/boost/move/algorithm.hpp \
- /usr/include/boost/move/algo/move.hpp \
- /usr/include/boost/move/detail/iterator_to_raw_pointer.hpp \
- /usr/include/boost/move/detail/to_raw_pointer.hpp \
- /usr/include/boost/move/detail/pointer_element.hpp \
- /usr/include/boost/core/no_exceptions_support.hpp \
- /usr/include/boost/type_traits/is_nothrow_move_constructible.hpp \
- /usr/include/boost/type_traits/enable_if.hpp \
- /usr/include/boost/circular_buffer/base.hpp \
- /usr/include/boost/concept_check.hpp \
- /usr/include/boost/concept/assert.hpp \
- /usr/include/boost/concept/detail/general.hpp \
- /usr/include/boost/preprocessor/cat.hpp \
- /usr/include/boost/preprocessor/config/config.hpp \
- /usr/include/boost/concept/detail/backward_compatibility.hpp \
- /usr/include/boost/concept/detail/has_constraints.hpp \
- /usr/include/boost/type_traits/conditional.hpp \
- /usr/include/boost/type_traits/conversion_traits.hpp \
- /usr/include/boost/type_traits/is_same.hpp \
- /usr/include/boost/concept/usage.hpp \
- /usr/include/boost/concept/detail/concept_def.hpp \
- /usr/include/boost/preprocessor/seq/for_each_i.hpp \
- /usr/include/boost/preprocessor/arithmetic/dec.hpp \
- /usr/include/boost/preprocessor/arithmetic/inc.hpp \
- /usr/include/boost/preprocessor/control/if.hpp \
- /usr/include/boost/preprocessor/control/iif.hpp \
- /usr/include/boost/preprocessor/logical/bool.hpp \
- /usr/include/boost/preprocessor/repetition/for.hpp \
- /usr/include/boost/preprocessor/debug/error.hpp \
- /usr/include/boost/preprocessor/facilities/empty.hpp \
- /usr/include/boost/preprocessor/detail/auto_rec.hpp \
- /usr/include/boost/preprocessor/repetition/detail/for.hpp \
- /usr/include/boost/preprocessor/control/expr_iif.hpp \
- /usr/include/boost/preprocessor/tuple/eat.hpp \
- /usr/include/boost/preprocessor/seq/seq.hpp \
- /usr/include/boost/preprocessor/seq/elem.hpp \
- /usr/include/boost/preprocessor/seq/size.hpp \
- /usr/include/boost/preprocessor/seq/detail/is_empty.hpp \
- /usr/include/boost/preprocessor/logical/compl.hpp \
- /usr/include/boost/preprocessor/tuple/elem.hpp \
- /usr/include/boost/preprocessor/facilities/expand.hpp \
- /usr/include/boost/preprocessor/facilities/overload.hpp \
- /usr/include/boost/preprocessor/variadic/size.hpp \
- /usr/include/boost/preprocessor/tuple/rem.hpp \
- /usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
- /usr/include/boost/preprocessor/variadic/elem.hpp \
- /usr/include/boost/preprocessor/seq/enum.hpp \
- /usr/include/boost/preprocessor/comma_if.hpp \
- /usr/include/boost/preprocessor/punctuation/comma_if.hpp \
- /usr/include/boost/preprocessor/punctuation/comma.hpp \
- /usr/include/boost/concept/detail/concept_undef.hpp \
- /usr/include/boost/limits.hpp /usr/include/boost/core/empty_value.hpp \
- /usr/include/boost/type_traits/is_stateless.hpp \
- /usr/include/boost/type_traits/has_trivial_constructor.hpp \
- /usr/include/boost/type_traits/is_pod.hpp \
- /usr/include/boost/type_traits/is_scalar.hpp \
- /usr/include/boost/type_traits/is_enum.hpp \
- /usr/include/boost/type_traits/is_pointer.hpp \
- /usr/include/boost/type_traits/is_member_pointer.hpp \
- /usr/include/boost/type_traits/is_member_function_pointer.hpp \
- /usr/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp \
- /usr/include/boost/type_traits/is_default_constructible.hpp \
- /usr/include/boost/type_traits/is_volatile.hpp \
- /usr/include/boost/type_traits/has_trivial_copy.hpp \
- /usr/include/boost/type_traits/is_copy_constructible.hpp \
- /usr/include/boost/type_traits/is_constructible.hpp \
- /usr/include/boost/type_traits/is_destructible.hpp \
- /usr/include/boost/type_traits/has_trivial_destructor.hpp \
- /usr/include/boost/type_traits/is_class.hpp \
- /usr/include/boost/type_traits/is_empty.hpp \
- /usr/include/boost/type_traits/remove_cv.hpp \
- /usr/include/boost/type_traits/is_nothrow_move_assignable.hpp \
- /usr/include/boost/type_traits/has_trivial_move_assign.hpp \
- /usr/include/boost/type_traits/is_assignable.hpp \
- /usr/include/boost/type_traits/has_nothrow_assign.hpp \
- /usr/include/boost/type_traits/is_const.hpp \
- /usr/include/boost/move/adl_move_swap.hpp \
- /usr/include/boost/circular_buffer/space_optimized.hpp \
- /usr/include/eigen3/Eigen/Dense /usr/include/eigen3/Eigen/Core \
+ /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/lidar_factor.hpp \
+ /usr/local/include/ceres/ceres.h \
+ /usr/local/include/ceres/autodiff_cost_function.h \
+ /usr/local/include/ceres/internal/autodiff.h /usr/include/c++/11/cstddef \
+ /usr/local/include/ceres/internal/array_selector.h \
+ /usr/local/include/ceres/internal/fixed_array.h \
+ /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
  /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
  /usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
@@ -886,6 +749,40 @@ CMakeFiles/lidar_slam.dir/src/main.cpp.o: \
  /usr/include/eigen3/Eigen/src/Core/StlIterators.h \
  /usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h \
  /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+ /usr/local/include/ceres/internal/memory.h /usr/include/glog/logging.h \
+ /usr/include/inttypes.h /usr/include/gflags/gflags.h \
+ /usr/include/gflags/gflags_declare.h /usr/include/gflags/gflags_gflags.h \
+ /usr/include/glog/log_severity.h /usr/include/glog/vlog_is_on.h \
+ /usr/local/include/ceres/types.h \
+ /usr/local/include/ceres/internal/disable_warnings.h \
+ /usr/local/include/ceres/internal/export.h \
+ /usr/local/include/ceres/internal/reenable_warnings.h \
+ /usr/local/include/ceres/internal/eigen.h \
+ /usr/local/include/ceres/internal/parameter_dims.h \
+ /usr/local/include/ceres/internal/integer_sequence_algorithm.h \
+ /usr/local/include/ceres/jet_fwd.h \
+ /usr/local/include/ceres/internal/variadic_evaluate.h \
+ /usr/local/include/ceres/cost_function.h /usr/local/include/ceres/jet.h \
+ /usr/local/include/ceres/internal/jet_traits.h \
+ /usr/local/include/ceres/internal/port.h \
+ /usr/local/include/ceres/sized_cost_function.h \
+ /usr/local/include/ceres/internal/parameter_dims.h \
+ /usr/local/include/ceres/autodiff_first_order_function.h \
+ /usr/local/include/ceres/first_order_function.h \
+ /usr/local/include/ceres/autodiff_manifold.h \
+ /usr/local/include/ceres/manifold.h \
+ /usr/local/include/ceres/conditioned_cost_function.h \
+ /usr/local/include/ceres/context.h \
+ /usr/local/include/ceres/cost_function_to_functor.h \
+ /usr/local/include/ceres/dynamic_cost_function_to_functor.h \
+ /usr/local/include/ceres/dynamic_cost_function.h \
+ /usr/local/include/ceres/covariance.h \
+ /usr/local/include/ceres/internal/config.h \
+ /usr/local/include/ceres/crs_matrix.h \
+ /usr/local/include/ceres/dynamic_autodiff_cost_function.h \
+ /usr/local/include/ceres/dynamic_numeric_diff_cost_function.h \
+ /usr/local/include/ceres/internal/numeric_diff.h \
+ /usr/include/eigen3/Eigen/Dense /usr/include/eigen3/Eigen/Core \
  /usr/include/eigen3/Eigen/LU /usr/include/eigen3/Eigen/src/misc/Kernel.h \
  /usr/include/eigen3/Eigen/src/misc/Image.h \
  /usr/include/eigen3/Eigen/src/LU/FullPivLU.h \
@@ -944,6 +841,172 @@ CMakeFiles/lidar_slam.dir/src/main.cpp.o: \
  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+ /usr/include/eigen3/Eigen/StdVector \
+ /usr/include/eigen3/Eigen/src/StlSupport/StdVector.h \
+ /usr/include/eigen3/Eigen/src/StlSupport/details.h \
+ /usr/local/include/ceres/numeric_diff_options.h \
+ /usr/local/include/ceres/evaluation_callback.h \
+ /usr/local/include/ceres/gradient_checker.h \
+ /usr/local/include/ceres/gradient_problem.h \
+ /usr/local/include/ceres/gradient_problem_solver.h \
+ /usr/local/include/ceres/iteration_callback.h \
+ /usr/local/include/ceres/line_manifold.h \
+ /usr/local/include/ceres/internal/householder_vector.h \
+ /usr/local/include/ceres/internal/sphere_manifold_functions.h \
+ /usr/local/include/ceres/loss_function.h \
+ /usr/local/include/ceres/numeric_diff_cost_function.h \
+ /usr/local/include/ceres/numeric_diff_first_order_function.h \
+ /usr/local/include/ceres/ordered_groups.h \
+ /usr/local/include/ceres/problem.h \
+ /usr/local/include/ceres/product_manifold.h \
+ /usr/local/include/ceres/solver.h \
+ /usr/local/include/ceres/sphere_manifold.h \
+ /usr/local/include/ceres/version.h /usr/local/include/ceres/rotation.h \
+ /usr/local/include/ceres/constants.h \
+ /usr/local/include/ceres/internal/euler_angles.h \
+ /usr/include/eigen3/Eigen/Dense /usr/include/c++/11/queue \
+ /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
+ /usr/include/c++/11/bits/deque.tcc /usr/include/c++/11/bits/stl_queue.h \
+ /usr/include/boost/circular_buffer.hpp \
+ /usr/include/boost/circular_buffer_fwd.hpp /usr/include/boost/config.hpp \
+ /usr/include/boost/config/user.hpp \
+ /usr/include/boost/config/detail/select_compiler_config.hpp \
+ /usr/include/boost/config/compiler/gcc.hpp \
+ /usr/include/boost/config/detail/select_stdlib_config.hpp \
+ /usr/include/c++/11/version \
+ /usr/include/boost/config/stdlib/libstdcpp3.hpp \
+ /usr/include/boost/config/detail/select_platform_config.hpp \
+ /usr/include/boost/config/platform/linux.hpp \
+ /usr/include/boost/config/detail/posix_features.hpp \
+ /usr/include/boost/config/detail/suffix.hpp \
+ /usr/include/boost/config/helper_macros.hpp \
+ /usr/include/boost/config/workaround.hpp \
+ /usr/include/boost/static_assert.hpp \
+ /usr/include/boost/detail/workaround.hpp \
+ /usr/include/boost/type_traits/is_convertible.hpp \
+ /usr/include/boost/type_traits/intrinsics.hpp \
+ /usr/include/boost/type_traits/detail/config.hpp \
+ /usr/include/boost/version.hpp \
+ /usr/include/boost/type_traits/integral_constant.hpp \
+ /usr/include/boost/type_traits/is_complete.hpp \
+ /usr/include/boost/type_traits/declval.hpp \
+ /usr/include/boost/type_traits/add_rvalue_reference.hpp \
+ /usr/include/boost/type_traits/is_void.hpp \
+ /usr/include/boost/type_traits/is_reference.hpp \
+ /usr/include/boost/type_traits/is_lvalue_reference.hpp \
+ /usr/include/boost/type_traits/is_rvalue_reference.hpp \
+ /usr/include/boost/type_traits/remove_reference.hpp \
+ /usr/include/boost/type_traits/is_function.hpp \
+ /usr/include/boost/type_traits/detail/is_function_cxx_11.hpp \
+ /usr/include/boost/type_traits/detail/yes_no_type.hpp \
+ /usr/include/boost/type_traits/is_array.hpp \
+ /usr/include/boost/type_traits/is_arithmetic.hpp \
+ /usr/include/boost/type_traits/is_integral.hpp \
+ /usr/include/boost/type_traits/is_floating_point.hpp \
+ /usr/include/boost/type_traits/is_abstract.hpp \
+ /usr/include/boost/type_traits/add_lvalue_reference.hpp \
+ /usr/include/boost/type_traits/add_reference.hpp \
+ /usr/include/boost/circular_buffer/debug.hpp \
+ /usr/include/boost/circular_buffer/details.hpp \
+ /usr/include/boost/throw_exception.hpp \
+ /usr/include/boost/assert/source_location.hpp \
+ /usr/include/boost/current_function.hpp /usr/include/boost/cstdint.hpp \
+ /usr/include/boost/exception/exception.hpp \
+ /usr/include/boost/core/allocator_access.hpp \
+ /usr/include/boost/core/pointer_traits.hpp \
+ /usr/include/boost/move/move.hpp \
+ /usr/include/boost/move/detail/config_begin.hpp \
+ /usr/include/boost/move/utility.hpp \
+ /usr/include/boost/move/detail/workaround.hpp \
+ /usr/include/boost/move/utility_core.hpp \
+ /usr/include/boost/move/core.hpp \
+ /usr/include/boost/move/detail/config_end.hpp \
+ /usr/include/boost/move/detail/meta_utils.hpp \
+ /usr/include/boost/move/detail/meta_utils_core.hpp \
+ /usr/include/boost/move/traits.hpp \
+ /usr/include/boost/move/detail/type_traits.hpp \
+ /usr/include/boost/assert.hpp /usr/include/boost/move/iterator.hpp \
+ /usr/include/boost/move/detail/iterator_traits.hpp \
+ /usr/include/boost/move/detail/std_ns_begin.hpp \
+ /usr/include/boost/move/detail/std_ns_end.hpp \
+ /usr/include/boost/move/algorithm.hpp \
+ /usr/include/boost/move/algo/move.hpp \
+ /usr/include/boost/move/detail/iterator_to_raw_pointer.hpp \
+ /usr/include/boost/move/detail/to_raw_pointer.hpp \
+ /usr/include/boost/move/detail/pointer_element.hpp \
+ /usr/include/boost/core/no_exceptions_support.hpp \
+ /usr/include/boost/type_traits/is_nothrow_move_constructible.hpp \
+ /usr/include/boost/type_traits/enable_if.hpp \
+ /usr/include/boost/circular_buffer/base.hpp \
+ /usr/include/boost/concept_check.hpp \
+ /usr/include/boost/concept/assert.hpp \
+ /usr/include/boost/concept/detail/general.hpp \
+ /usr/include/boost/preprocessor/cat.hpp \
+ /usr/include/boost/preprocessor/config/config.hpp \
+ /usr/include/boost/concept/detail/backward_compatibility.hpp \
+ /usr/include/boost/concept/detail/has_constraints.hpp \
+ /usr/include/boost/type_traits/conditional.hpp \
+ /usr/include/boost/type_traits/conversion_traits.hpp \
+ /usr/include/boost/type_traits/is_same.hpp \
+ /usr/include/boost/concept/usage.hpp \
+ /usr/include/boost/concept/detail/concept_def.hpp \
+ /usr/include/boost/preprocessor/seq/for_each_i.hpp \
+ /usr/include/boost/preprocessor/arithmetic/dec.hpp \
+ /usr/include/boost/preprocessor/arithmetic/inc.hpp \
+ /usr/include/boost/preprocessor/control/if.hpp \
+ /usr/include/boost/preprocessor/control/iif.hpp \
+ /usr/include/boost/preprocessor/logical/bool.hpp \
+ /usr/include/boost/preprocessor/repetition/for.hpp \
+ /usr/include/boost/preprocessor/debug/error.hpp \
+ /usr/include/boost/preprocessor/facilities/empty.hpp \
+ /usr/include/boost/preprocessor/detail/auto_rec.hpp \
+ /usr/include/boost/preprocessor/repetition/detail/for.hpp \
+ /usr/include/boost/preprocessor/control/expr_iif.hpp \
+ /usr/include/boost/preprocessor/tuple/eat.hpp \
+ /usr/include/boost/preprocessor/seq/seq.hpp \
+ /usr/include/boost/preprocessor/seq/elem.hpp \
+ /usr/include/boost/preprocessor/seq/size.hpp \
+ /usr/include/boost/preprocessor/seq/detail/is_empty.hpp \
+ /usr/include/boost/preprocessor/logical/compl.hpp \
+ /usr/include/boost/preprocessor/tuple/elem.hpp \
+ /usr/include/boost/preprocessor/facilities/expand.hpp \
+ /usr/include/boost/preprocessor/facilities/overload.hpp \
+ /usr/include/boost/preprocessor/variadic/size.hpp \
+ /usr/include/boost/preprocessor/tuple/rem.hpp \
+ /usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
+ /usr/include/boost/preprocessor/variadic/elem.hpp \
+ /usr/include/boost/preprocessor/seq/enum.hpp \
+ /usr/include/boost/preprocessor/comma_if.hpp \
+ /usr/include/boost/preprocessor/punctuation/comma_if.hpp \
+ /usr/include/boost/preprocessor/punctuation/comma.hpp \
+ /usr/include/boost/concept/detail/concept_undef.hpp \
+ /usr/include/boost/limits.hpp /usr/include/boost/core/empty_value.hpp \
+ /usr/include/boost/type_traits/is_stateless.hpp \
+ /usr/include/boost/type_traits/has_trivial_constructor.hpp \
+ /usr/include/boost/type_traits/is_pod.hpp \
+ /usr/include/boost/type_traits/is_scalar.hpp \
+ /usr/include/boost/type_traits/is_enum.hpp \
+ /usr/include/boost/type_traits/is_pointer.hpp \
+ /usr/include/boost/type_traits/is_member_pointer.hpp \
+ /usr/include/boost/type_traits/is_member_function_pointer.hpp \
+ /usr/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp \
+ /usr/include/boost/type_traits/is_default_constructible.hpp \
+ /usr/include/boost/type_traits/is_volatile.hpp \
+ /usr/include/boost/type_traits/has_trivial_copy.hpp \
+ /usr/include/boost/type_traits/is_copy_constructible.hpp \
+ /usr/include/boost/type_traits/is_constructible.hpp \
+ /usr/include/boost/type_traits/is_destructible.hpp \
+ /usr/include/boost/type_traits/has_trivial_destructor.hpp \
+ /usr/include/boost/type_traits/is_class.hpp \
+ /usr/include/boost/type_traits/is_empty.hpp \
+ /usr/include/boost/type_traits/remove_cv.hpp \
+ /usr/include/boost/type_traits/is_nothrow_move_assignable.hpp \
+ /usr/include/boost/type_traits/has_trivial_move_assign.hpp \
+ /usr/include/boost/type_traits/is_assignable.hpp \
+ /usr/include/boost/type_traits/has_nothrow_assign.hpp \
+ /usr/include/boost/type_traits/is_const.hpp \
+ /usr/include/boost/move/adl_move_swap.hpp \
+ /usr/include/boost/circular_buffer/space_optimized.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
@@ -983,9 +1046,6 @@ CMakeFiles/lidar_slam.dir/src/main.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/header.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__builder.hpp \
  /usr/include/pcl-1.12/pcl/point_cloud.h \
- /usr/include/eigen3/Eigen/StdVector \
- /usr/include/eigen3/Eigen/src/StlSupport/StdVector.h \
- /usr/include/eigen3/Eigen/src/StlSupport/details.h \
  /usr/include/eigen3/Eigen/Geometry /usr/include/pcl-1.12/pcl/PCLHeader.h \
  /usr/include/pcl-1.12/pcl/memory.h \
  /usr/include/pcl-1.12/pcl/type_traits.h \
@@ -1130,7 +1190,7 @@ CMakeFiles/lidar_slam.dir/src/main.cpp.o: \
  /usr/include/boost/mpl/vector/aux_/preprocessed/typeof_based/vector10.hpp \
  /usr/include/boost/mpl/vector/aux_/preprocessed/typeof_based/vector20.hpp \
  /usr/include/boost/mpl/aux_/preprocessed/gcc/vector.hpp \
- /usr/include/eigen3/Eigen/Core /usr/include/pcl-1.12/pcl/exceptions.h \
+ /usr/include/pcl-1.12/pcl/exceptions.h \
  /usr/include/pcl-1.12/pcl/pcl_macros.h \
  /usr/include/pcl-1.12/pcl/pcl_config.h \
  /usr/include/boost/preprocessor/comparison/equal.hpp \
@@ -1526,94 +1586,7 @@ CMakeFiles/lidar_slam.dir/src/main.cpp.o: \
  /usr/include/pcl-1.12/pcl/filters/voxel_grid.h \
  /usr/include/c++/11/cfloat \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h \
- /usr/include/pcl-1.12/pcl/sample_consensus/ransac.h \
- /usr/include/pcl-1.12/pcl/sample_consensus/sac.h \
- /usr/include/pcl-1.12/pcl/sample_consensus/sac_model.h \
- /usr/include/boost/random/mersenne_twister.hpp \
- /usr/include/boost/integer/integer_mask.hpp \
- /usr/include/boost/integer_fwd.hpp /usr/include/boost/integer.hpp \
- /usr/include/boost/integer_traits.hpp \
- /usr/include/boost/random/detail/config.hpp \
- /usr/include/boost/random/detail/ptr_helper.hpp \
- /usr/include/boost/random/detail/seed.hpp \
- /usr/include/boost/random/detail/seed_impl.hpp \
- /usr/include/boost/integer/static_log2.hpp \
- /usr/include/boost/random/traits.hpp \
- /usr/include/boost/random/detail/const_mod.hpp \
- /usr/include/boost/random/detail/large_arithmetic.hpp \
- /usr/include/boost/random/detail/integer_log2.hpp \
- /usr/include/boost/integer/integer_log2.hpp \
- /usr/include/boost/random/detail/disable_warnings.hpp \
- /usr/include/boost/random/detail/enable_warnings.hpp \
- /usr/include/boost/random/detail/signed_unsigned_tools.hpp \
- /usr/include/boost/random/detail/generator_bits.hpp \
- /usr/include/boost/random/detail/generator_seed_seq.hpp \
- /usr/include/boost/random/detail/polynomial.hpp \
- /usr/include/boost/random/uniform_int.hpp \
- /usr/include/boost/random/uniform_int_distribution.hpp \
- /usr/include/boost/random/detail/operators.hpp \
- /usr/include/boost/random/detail/uniform_int_float.hpp \
- /usr/include/boost/random/variate_generator.hpp \
- /usr/include/pcl-1.12/pcl/sample_consensus/model_types.h \
- /usr/include/pcl-1.12/pcl/search/search.h \
- /usr/include/boost/random/uniform_01.hpp \
- /usr/include/pcl-1.12/pcl/sample_consensus/sac_model_plane.h \
- /usr/local/include/ceres/ceres.h \
- /usr/local/include/ceres/autodiff_cost_function.h \
- /usr/local/include/ceres/internal/autodiff.h \
- /usr/local/include/ceres/internal/array_selector.h \
- /usr/local/include/ceres/internal/fixed_array.h \
- /usr/local/include/ceres/internal/memory.h /usr/include/glog/logging.h \
- /usr/include/inttypes.h /usr/include/gflags/gflags.h \
- /usr/include/gflags/gflags_declare.h /usr/include/gflags/gflags_gflags.h \
- /usr/include/glog/log_severity.h /usr/include/glog/vlog_is_on.h \
- /usr/local/include/ceres/types.h \
- /usr/local/include/ceres/internal/disable_warnings.h \
- /usr/local/include/ceres/internal/export.h \
- /usr/local/include/ceres/internal/reenable_warnings.h \
- /usr/local/include/ceres/internal/eigen.h \
- /usr/local/include/ceres/internal/parameter_dims.h \
- /usr/local/include/ceres/internal/integer_sequence_algorithm.h \
- /usr/local/include/ceres/jet_fwd.h \
- /usr/local/include/ceres/internal/variadic_evaluate.h \
- /usr/local/include/ceres/cost_function.h /usr/local/include/ceres/jet.h \
- /usr/local/include/ceres/internal/jet_traits.h \
- /usr/local/include/ceres/internal/port.h \
- /usr/local/include/ceres/sized_cost_function.h \
- /usr/local/include/ceres/internal/parameter_dims.h \
- /usr/local/include/ceres/autodiff_first_order_function.h \
- /usr/local/include/ceres/first_order_function.h \
- /usr/local/include/ceres/autodiff_manifold.h \
- /usr/local/include/ceres/manifold.h \
- /usr/local/include/ceres/conditioned_cost_function.h \
- /usr/local/include/ceres/context.h \
- /usr/local/include/ceres/cost_function_to_functor.h \
- /usr/local/include/ceres/dynamic_cost_function_to_functor.h \
- /usr/local/include/ceres/dynamic_cost_function.h \
- /usr/local/include/ceres/covariance.h \
- /usr/local/include/ceres/internal/config.h \
- /usr/local/include/ceres/crs_matrix.h \
- /usr/local/include/ceres/dynamic_autodiff_cost_function.h \
- /usr/local/include/ceres/dynamic_numeric_diff_cost_function.h \
- /usr/local/include/ceres/internal/numeric_diff.h \
- /usr/local/include/ceres/numeric_diff_options.h \
- /usr/local/include/ceres/evaluation_callback.h \
- /usr/local/include/ceres/gradient_checker.h \
- /usr/local/include/ceres/gradient_problem.h \
- /usr/local/include/ceres/gradient_problem_solver.h \
- /usr/local/include/ceres/iteration_callback.h \
- /usr/local/include/ceres/line_manifold.h \
- /usr/local/include/ceres/internal/householder_vector.h \
- /usr/local/include/ceres/internal/sphere_manifold_functions.h \
- /usr/local/include/ceres/loss_function.h \
- /usr/local/include/ceres/numeric_diff_cost_function.h \
- /usr/local/include/ceres/numeric_diff_first_order_function.h \
- /usr/local/include/ceres/ordered_groups.h \
- /usr/local/include/ceres/problem.h \
- /usr/local/include/ceres/product_manifold.h \
- /usr/local/include/ceres/solver.h \
- /usr/local/include/ceres/sphere_manifold.h \
- /usr/local/include/ceres/version.h \
  /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h \
  /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/slam_utils.h \
- /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/channel.h
+ /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/channel.h \
+ /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/front_end.h

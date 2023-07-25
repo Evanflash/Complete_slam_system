@@ -51,8 +51,8 @@ def generate_launch_description():
 
   ld = LaunchDescription()
   # Set environment variables
-  ld.add_action(stdout_linebuf_envvar)
-  ld.add_action(stdout_colorized_envvar)
+  # ld.add_action(stdout_linebuf_envvar)
+  # ld.add_action(stdout_colorized_envvar)
   # Add nodes
   ld.add_action(data)
   ld.add_action(lidar_slam_node)

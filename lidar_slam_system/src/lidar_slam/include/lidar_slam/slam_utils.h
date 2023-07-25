@@ -1,6 +1,8 @@
 #ifndef _LIDAR_SLAM_UTILS_H
 #define _LIDAR_SLAM_UTILS_H
 
+#include "lidar_factor.hpp"
+
 #include <string>
 #include <vector>
 #include <queue>
@@ -24,8 +26,6 @@
 #include <pcl/filters/filter.h>
 #include <pcl/kdtree/kdtree_flann.h>
 #include <pcl/filters/voxel_grid.h>
-#include <pcl/sample_consensus/ransac.h>
-#include <pcl/sample_consensus/sac_model_plane.h>
 
 #include <ceres/ceres.h>
 
@@ -60,9 +60,17 @@ struct DataProcessOut{
 };
 
 struct FrontEndOut{
-
+    nav_msgs::msg::Odometry laserOdometry;
+    CloudTypePtr cornerLast;
+    CloudTypePtr surfLast;
+    CloudTypePtr segment_cloud;
+    CloudTypePtr ground_cloud;
 };
 
+struct pose{
+    Eigen::Quaterniond q;
+    Eigen::Vector3d t;
+};
 
 }
 

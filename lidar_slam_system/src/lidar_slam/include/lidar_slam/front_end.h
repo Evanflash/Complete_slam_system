@@ -13,6 +13,7 @@ private:
 
     // 发布消息
     rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPtr pub_laser_odometry;
+    rclcpp::Publisher<nav_msgs::msg::Path>::SharedPtr pub_laser_path;
 
     // 线程
     std::thread _run_thread;
@@ -20,6 +21,8 @@ private:
     // 点云
     CloudTypePtr cornerKeyPoints;
     CloudTypePtr surfKeyPoints;
+    CloudTypePtr cornerLessSharp;
+    CloudTypePtr surfLessFlat;
     CloudTypePtr laserCloudCornerLast;
     CloudTypePtr laserCloudSurfLast;
     CloudTypePtr segmentCloud;
@@ -33,8 +36,14 @@ private:
     Eigen::Quaterniond q_w_last;
     Eigen::Vector3d t_w_last;
 
+    // 里程计消息
+    nav_msgs::msg::Odometry laserOdometry;
+    nav_msgs::msg::Path laserPath;
+
     // 超参
-    
+    bool isFirstFrame;
+    float nearest_feature_dist_sqr;
+    int map_frequency;
 
 public:
     FrontEnd(const std::string &name, Channel<DataProcessOut> &channel_in, Channel<FrontEndOut> &channel_out);
@@ -44,7 +53,7 @@ public:
     void run();
     void resetParameters();
     void odometry();
-    void publishCloud();
+    void publishOdometry();
 
 }; // class FrontEnd
     

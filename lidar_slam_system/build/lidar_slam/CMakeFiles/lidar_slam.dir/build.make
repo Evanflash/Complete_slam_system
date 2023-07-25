@@ -83,10 +83,24 @@ CMakeFiles/lidar_slam.dir/src/data_process.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lidar_slam.dir/src/data_process.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp -o CMakeFiles/lidar_slam.dir/src/data_process.cpp.s
 
+CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: CMakeFiles/lidar_slam.dir/flags.make
+CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/front_end.cpp
+CMakeFiles/lidar_slam.dir/src/front_end.cpp.o: CMakeFiles/lidar_slam.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lidar_slam.dir/src/front_end.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lidar_slam.dir/src/front_end.cpp.o -MF CMakeFiles/lidar_slam.dir/src/front_end.cpp.o.d -o CMakeFiles/lidar_slam.dir/src/front_end.cpp.o -c /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/front_end.cpp
+
+CMakeFiles/lidar_slam.dir/src/front_end.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lidar_slam.dir/src/front_end.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/front_end.cpp > CMakeFiles/lidar_slam.dir/src/front_end.cpp.i
+
+CMakeFiles/lidar_slam.dir/src/front_end.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lidar_slam.dir/src/front_end.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/front_end.cpp -o CMakeFiles/lidar_slam.dir/src/front_end.cpp.s
+
 CMakeFiles/lidar_slam.dir/src/main.cpp.o: CMakeFiles/lidar_slam.dir/flags.make
 CMakeFiles/lidar_slam.dir/src/main.cpp.o: /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/main.cpp
 CMakeFiles/lidar_slam.dir/src/main.cpp.o: CMakeFiles/lidar_slam.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lidar_slam.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lidar_slam.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lidar_slam.dir/src/main.cpp.o -MF CMakeFiles/lidar_slam.dir/src/main.cpp.o.d -o CMakeFiles/lidar_slam.dir/src/main.cpp.o -c /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/main.cpp
 
 CMakeFiles/lidar_slam.dir/src/main.cpp.i: cmake_force
@@ -100,12 +114,14 @@ CMakeFiles/lidar_slam.dir/src/main.cpp.s: cmake_force
 # Object files for target lidar_slam
 lidar_slam_OBJECTS = \
 "CMakeFiles/lidar_slam.dir/src/data_process.cpp.o" \
+"CMakeFiles/lidar_slam.dir/src/front_end.cpp.o" \
 "CMakeFiles/lidar_slam.dir/src/main.cpp.o"
 
 # External object files for target lidar_slam
 lidar_slam_EXTERNAL_OBJECTS =
 
 lidar_slam: CMakeFiles/lidar_slam.dir/src/data_process.cpp.o
+lidar_slam: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o
 lidar_slam: CMakeFiles/lidar_slam.dir/src/main.cpp.o
 lidar_slam: CMakeFiles/lidar_slam.dir/build.make
 lidar_slam: /usr/lib/x86_64-linux-gnu/libpcl_apps.so
@@ -116,6 +132,7 @@ lidar_slam: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
 lidar_slam: /usr/lib/x86_64-linux-gnu/libOpenNI2.so
 lidar_slam: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
 lidar_slam: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
+lidar_slam: /usr/local/lib/libceres.a
 lidar_slam: /usr/local/lib/libgtsam.so.4.2.0
 lidar_slam: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so
 lidar_slam: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -271,11 +288,23 @@ lidar_slam: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
 lidar_slam: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 lidar_slam: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 lidar_slam: /usr/lib/x86_64-linux-gnu/libvtkCommonCore-9.1.so.9.1.0
-lidar_slam: /usr/lib/x86_64-linux-gnu/libtbb.so.12.5
 lidar_slam: /usr/lib/x86_64-linux-gnu/libvtksys-9.1.so.9.1.0
 lidar_slam: /usr/lib/x86_64-linux-gnu/libpcl_common.so
 lidar_slam: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.74.0
 lidar_slam: /usr/lib/x86_64-linux-gnu/libqhull_r.so.8.0.2
+lidar_slam: /usr/lib/x86_64-linux-gnu/libglog.so.0.4.0
+lidar_slam: /usr/lib/x86_64-linux-gnu/libunwind.so
+lidar_slam: /usr/lib/x86_64-linux-gnu/libgflags.so.2.2.2
+lidar_slam: /usr/lib/x86_64-linux-gnu/libspqr.so
+lidar_slam: /usr/lib/x86_64-linux-gnu/libtbb.so.12.5
+lidar_slam: /usr/lib/x86_64-linux-gnu/libcholmod.so
+lidar_slam: /usr/lib/x86_64-linux-gnu/libamd.so
+lidar_slam: /usr/lib/x86_64-linux-gnu/libcamd.so
+lidar_slam: /usr/lib/x86_64-linux-gnu/libccolamd.so
+lidar_slam: /usr/lib/x86_64-linux-gnu/libcolamd.so
+lidar_slam: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+lidar_slam: /usr/lib/x86_64-linux-gnu/liblapack.so
+lidar_slam: /usr/lib/x86_64-linux-gnu/libblas.so
 lidar_slam: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0
 lidar_slam: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.74.0
 lidar_slam: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.74.0
@@ -323,7 +352,7 @@ lidar_slam: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 lidar_slam: /opt/ros/humble/lib/librosidl_runtime_c.so
 lidar_slam: /opt/ros/humble/lib/librcutils.so
 lidar_slam: CMakeFiles/lidar_slam.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lidar_slam"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable lidar_slam"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lidar_slam.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
