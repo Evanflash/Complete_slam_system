@@ -26,6 +26,7 @@
 #include <pcl/filters/filter.h>
 #include <pcl/kdtree/kdtree_flann.h>
 #include <pcl/filters/voxel_grid.h>
+#include <pcl/registration/icp.h>
 
 #include <ceres/ceres.h>
 
@@ -34,7 +35,6 @@ namespace lidarslam{
 using PointType = pcl::PointXYZI;
 using CloudType = pcl::PointCloud<PointType>;
 using CloudTypePtr = pcl::PointCloud<PointType>::Ptr;
-
 
 struct smoothness{
     float curvature;

@@ -20,6 +20,8 @@ class BackEnd : public rclcpp::Node{
 private:
     Channel<FrontEndOut> &_input_channel;
 
+    nav_msgs::msg::Odometry odom;
+
     // 全局地图
     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pub_global_map;
     CloudTypePtr globalMap;
@@ -40,8 +42,8 @@ private:
     CloudTypePtr subMapSurf;
 
     // 滑动窗口
-    std::queue<int> queCorner;
-    std::queue<int> queSurf;
+    std::deque<int> queCorner;
+    std::deque<int> queSurf;
 
     // kd tree
     pcl::KdTreeFLANN<PointType>::Ptr kdtreeCorner;
@@ -50,6 +52,8 @@ private:
     // 下采样
     pcl::VoxelGrid<PointType>::Ptr downSampleCorner;
     pcl::VoxelGrid<PointType>::Ptr downSampleSurf;
+    pcl::VoxelGrid<PointType>::Ptr downSampleCornerFromMap;
+    pcl::VoxelGrid<PointType>::Ptr downSampleSurfFromMap;
     pcl::VoxelGrid<PointType>::Ptr downSampleGlobalMap;
 
     // 全局位姿
@@ -64,6 +68,10 @@ private:
     // 互斥锁
     std::mutex mtx;
 
+    // 显示
+    CloudTypePtr segmentCloud;
+    CloudTypePtr groundCloud;
+
     // 所有点云
     std::vector<CloudTypePtr> allCornerCloud;
     std::vector<CloudTypePtr> allSurfCloud;
@@ -71,13 +79,17 @@ private:
     std::vector<CloudTypePtr> allGroundCloud;
 
     // 位姿
-    Eigen::Quaterniond q_w_last;
-    Eigen::Vector3d t_w_last;
+    Eigen::Map<Eigen::Quaterniond> q_w_last;
+    Eigen::Map<Eigen::Vector3d> t_w_last;
 
-    // 上一帧位置
+    // 上一关键帧位置
     PointType previousPosPoint;
     Eigen::Quaterniond q_keyframe_last;
     Eigen::Vector3d t_keyframe_last;
+
+    // 上一帧位置
+    Eigen::Quaterniond q_pre;
+    Eigen::Vector3d t_pre;
 
 public:
     BackEnd(const std::string &name, Channel<FrontEndOut> &channel_in);
@@ -85,6 +97,7 @@ public:
     ~BackEnd();
 
     void run();
+    void extractSurroundingKeyFrames();
     void scan2MapOptimization();
     void saveKeyFramesAndFactor();
     void publishGlobalMap();

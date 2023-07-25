@@ -27,7 +27,7 @@ set(dependencies
   pcl_conversions
 )
 
-add_executable(${PROJECT_NAME} src/data_process.cpp src/front_end.cpp src/main.cpp)
+add_executable(${PROJECT_NAME} src/data_process.cpp src/front_end.cpp  src/back_end.cpp src/main.cpp)
 target_link_libraries(${PROJECT_NAME} ${PCL_LIBRARIES} ${CERES_LIBRARIES} gtsam)
 ament_target_dependencies(${PROJECT_NAME} ${dependencies} Eigen3)
 

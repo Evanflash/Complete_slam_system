@@ -1,0 +1,10 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+In file included from [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/data_process.h:4[m[K,
+                 from [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/data_process.cpp:1[m[K:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/slam_utils.h:40:28:[m[K [01;31m[Kerror: [m[K‘[01m[KPointXYZIRPYT[m[K’ in namespace ‘[01m[Kpcl[m[K’ does not name a type; did you mean ‘[01m[KPointXYZRGBL[m[K’?
+   40 | using PointTypePose = pcl::[01;31m[KPointXYZIRPYT[m[K;
+      |                            [01;31m[K^~~~~~~~~~~~~[m[K
+      |                            [32m[KPointXYZRGBL[m[K
+gmake[2]: *** [CMakeFiles/lidar_slam.dir/build.make:76: CMakeFiles/lidar_slam.dir/src/data_process.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_slam.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

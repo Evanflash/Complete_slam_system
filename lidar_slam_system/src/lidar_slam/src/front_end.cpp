@@ -76,6 +76,7 @@ void FrontEnd::run(){
             out.laserOdometry = laserOdometry;
 
             _output_channel.send(std::move(out));
+            _cycle_count = 0;
         }
     }
 }
@@ -112,7 +113,7 @@ void FrontEnd::odometry(){
     }else{
         int cornerSharpNum = cornerKeyPoints -> size();
         int surfFlatNum = surfKeyPoints -> size();
-        RCLCPP_INFO_STREAM(this -> get_logger(), "###########################");
+        // RCLCPP_INFO_STREAM(this -> get_logger(), "###########################");
         for(size_t opti_counter = 0; opti_counter < 5; ++opti_counter){
             ceres::LossFunction *loss_function = new ceres::HuberLoss(0.1);
             ceres::Problem::Options problem_options;
@@ -250,7 +251,7 @@ void FrontEnd::odometry(){
             options.minimizer_progress_to_stdout = false;
             ceres::Solver::Summary summary;
             ceres::Solve(options, &problem, &summary);
-            RCLCPP_INFO_STREAM(this -> get_logger(), summary.BriefReport());
+            // RCLCPP_INFO_STREAM(this -> get_logger(), summary.BriefReport());
         }
 
     }
