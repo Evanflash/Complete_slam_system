@@ -58,7 +58,11 @@ void FrontEnd::run(){
         surfLessFlat = in.surf_less_flat;
         segmentCloud = in.segment_cloud;
         groundCloud = in.ground_cloud;
+        std::chrono::time_point<std::chrono::system_clock> t1 = std::chrono::system_clock::now();
         odometry();
+        std::chrono::time_point<std::chrono::system_clock> t2 = std::chrono::system_clock::now();
+        std::chrono::duration<double> elapsed_seconds = t2 - t1;
+        // RCLCPP_INFO(this -> get_logger(), "odometry time: %fms", elapsed_seconds.count() * 1000);
         publishOdometry();
 
         //-----------------
@@ -114,7 +118,9 @@ void FrontEnd::odometry(){
         int cornerSharpNum = cornerKeyPoints -> size();
         int surfFlatNum = surfKeyPoints -> size();
         // RCLCPP_INFO_STREAM(this -> get_logger(), "###########################");
-        for(size_t opti_counter = 0; opti_counter < 5; ++opti_counter){
+        // RCLCPP_INFO(this -> get_logger(), "corner sharp num: %d, corner less sharp num: %ld, surf flat num: %d, surf less flat num: %ld", 
+        //    cornerSharpNum, laserCloudCornerLast -> size(), surfFlatNum, laserCloudSurfLast -> size());
+        for(size_t opti_counter = 0; opti_counter < 2; ++opti_counter){
             ceres::LossFunction *loss_function = new ceres::HuberLoss(0.1);
             ceres::Problem::Options problem_options;
 

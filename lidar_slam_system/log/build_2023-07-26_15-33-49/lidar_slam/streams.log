@@ -1,0 +1,105 @@
+[0.039s] Invoking command in '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evan/code/lego-loam/lego/install/cloud_msgs:/opt/ros/humble /usr/bin/cmake --build /home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam -- -j4 -l4
+[0.073s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.242s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.276s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.279s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.285s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.299s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.319s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.390s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.392s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.548s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.744s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.898s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.153s] -- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)
+[1.292s] -- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.327s] -- Found tf2_geometry_msgs: 0.25.2 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.536s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.540s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.540s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.550s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.716s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.726s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[2.752s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.948s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[3.086s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.093s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.094s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[3.270s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.277s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.284s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.456s] -- Found Qhull version 8.0.2
+[3.660s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.853s] -- looking for PCL_COMMON
+[3.854s] -- looking for PCL_KDTREE
+[3.854s] -- looking for PCL_OCTREE
+[3.855s] -- looking for PCL_SEARCH
+[3.855s] -- looking for PCL_SAMPLE_CONSENSUS
+[3.856s] -- looking for PCL_FILTERS
+[3.856s] -- looking for PCL_2D
+[3.857s] -- looking for PCL_GEOMETRY
+[3.857s] -- looking for PCL_IO
+[3.857s] -- looking for PCL_FEATURES
+[3.858s] -- looking for PCL_ML
+[3.858s] -- looking for PCL_SEGMENTATION
+[3.859s] -- looking for PCL_VISUALIZATION
+[3.860s] -- looking for PCL_SURFACE
+[3.860s] -- looking for PCL_REGISTRATION
+[3.861s] -- looking for PCL_KEYPOINTS
+[3.861s] -- looking for PCL_TRACKING
+[3.862s] -- looking for PCL_RECOGNITION
+[3.863s] -- looking for PCL_STEREO
+[3.863s] -- looking for PCL_APPS
+[3.864s] -- looking for PCL_IN_HAND_SCANNER
+[3.864s] -- looking for PCL_MODELER
+[3.865s] -- looking for PCL_POINT_CLOUD_EDITOR
+[3.865s] -- looking for PCL_OUTOFCORE
+[3.866s] -- looking for PCL_PEOPLE
+[3.886s] -- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include
+[3.891s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread serialization timer 
+[4.059s] -- Found AMD headers in: /usr/include/suitesparse
+[4.059s] -- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+[4.059s] -- Found CAMD headers in: /usr/include/suitesparse
+[4.059s] -- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+[4.059s] -- Found CCOLAMD headers in: /usr/include/suitesparse
+[4.059s] -- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+[4.059s] -- Found CHOLMOD headers in: /usr/include/suitesparse
+[4.059s] -- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+[4.059s] -- Found COLAMD headers in: /usr/include/suitesparse
+[4.059s] -- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+[4.059s] -- Found SPQR headers in: /usr/include/suitesparse
+[4.060s] -- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+[4.060s] -- Found Config headers in: /usr/include/suitesparse
+[4.060s] -- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+[4.060s] -- Found Intel Thread Building Blocks (TBB) library (2021.5 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+[4.060s] -- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+[4.065s] -- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+[4.069s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake
+[4.071s] -- Found required Ceres dependency: glog
+[4.072s] -- Found required Ceres dependency: gflags
+[4.073s] -- Found Ceres version: 2.2.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]
+[4.237s] -- Configuring done
+[4.383s] -- Generating done
+[4.398s] -- Build files have been written to: /home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam
+[4.456s] [35m[1mConsolidate compiler generated dependencies of target lidar_slam[0m
+[4.553s] [ 20%] [32mBuilding CXX object CMakeFiles/lidar_slam.dir/src/data_process.cpp.o[0m
+[22.403s] [ 40%] [32mBuilding CXX object CMakeFiles/lidar_slam.dir/src/main.cpp.o[0m
+[43.588s] [ 60%] [32mBuilding CXX object CMakeFiles/lidar_slam.dir/src/mapOptmization.cpp.o[0m
+[55.730s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/mapOptmization.cpp:[m[K In destructor ‘[01m[Kvirtual MapOptimization::~MapOptimization()[m[K’:
+[55.730s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/mapOptmization.cpp:94:22:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Knav_msgs::msg::Odometry[m[K’ {aka ‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Knav_msgs::msg::Odometry_<ContainerAllocator>::Odometry_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+[55.730s]    94 |   [01;35m[K_input_channel.send({})[m[K;
+[55.730s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[55.730s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/mapOptmization.cpp:94:22:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[56.135s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/mapOptmization.cpp:[m[K In member function ‘[01m[Kvoid MapOptimization::run()[m[K’:
+[56.135s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/mapOptmization.cpp:1397:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct lidarslam::FrontEndOut[m[K’ has no member named ‘[01m[Klaser_odometry[m[K’; did you mean ‘[01m[KlaserOdometry[m[K’?
+[56.135s]  1397 |       timeLaserOdometry = association.[01;31m[Klaser_odometry[m[K.header.stamp;
+[56.135s]       |                                       [01;31m[K^~~~~~~~~~~~~~[m[K
+[56.135s]       |                                       [32m[KlaserOdometry[m[K
+[56.135s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/mapOptmization.cpp:1400:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct lidarslam::FrontEndOut[m[K’ has no member named ‘[01m[Klaser_odometry[m[K’; did you mean ‘[01m[KlaserOdometry[m[K’?
+[56.135s]  1400 |       OdometryToTransform(association.[01;31m[Klaser_odometry[m[K, transformSum);
+[56.135s]       |                                       [01;31m[K^~~~~~~~~~~~~~[m[K
+[56.135s]       |                                       [32m[KlaserOdometry[m[K
+[85.714s] gmake[2]: *** [CMakeFiles/lidar_slam.dir/build.make:104: CMakeFiles/lidar_slam.dir/src/mapOptmization.cpp.o] Error 1
+[85.714s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_slam.dir/all] Error 2
+[85.714s] gmake: *** [Makefile:146: all] Error 2
+[85.717s] Invoked command in '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evan/code/lego-loam/lego/install/cloud_msgs:/opt/ros/humble /usr/bin/cmake --build /home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam -- -j4 -l4

@@ -1,0 +1,43 @@
+[0.052s] Invoking command in '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evan/code/lego-loam/lego/install/cloud_msgs:/opt/ros/humble /usr/bin/cmake --build /home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam -- -j4 -l4
+[0.144s] [35m[1mConsolidate compiler generated dependencies of target lidar_slam[0m
+[0.228s] [ 20%] [32mBuilding CXX object CMakeFiles/lidar_slam.dir/src/front_end.cpp.o[0m
+[2.893s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/front_end.cpp:121:43:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[2.893s]   121 |         RCLCPP_INFO(this -> get_logger(), [01;35m[K"[m[Kcorner sharp num: %d, corner less sharp num: %ld,
+[2.893s]       |                                           [01;35m[K^[m[K
+[2.893s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/front_end.cpp:122:55:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[2.893s]   122 |             surf flat num: %d, surf less flat num: %ld[01;35m[K"[m[K,
+[2.894s]       |                                                       [01;35m[K^[m[K
+[2.894s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.894s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.894s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.894s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.894s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.894s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.894s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.894s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.894s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.894s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.894s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.894s]                  from [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/slam_utils.h:16[m[K,
+[2.894s]                  from [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/include/lidar_slam/front_end.h:4[m[K,
+[2.894s]                  from [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/front_end.cpp:1[m[K:
+[2.895s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/front_end.cpp:121:43:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+[2.895s]   121 |         RCLCPP_INFO(this -> get_logger(), [01;31m[K"corner sharp num: %d, corner less sharp num: %ld,[m[K
+[2.895s]       |                                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K 
+[2.895s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/front_end.cpp:122:55:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+[2.895s]   122 |             surf flat num: %d, surf less flat num: %ld[01;31m[K",[m[K
+[2.895s]       |                                                       [01;31m[K^~[m[K 
+[7.750s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/front_end.cpp:[m[K In member function ‘[01m[Kvoid lidarslam::FrontEnd::odometry()[m[K’:
+[7.751s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/front_end.cpp:122:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksurf[m[K’ was not declared in this scope
+[7.751s]   122 |             [01;31m[Ksurf[m[K flat num: %d, surf less flat num: %ld",
+[7.751s]       |             [01;31m[K^~~~[m[K
+[7.772s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/front_end.cpp:122:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kless[m[K’
+[7.772s]   122 |             surf flat num: %d, surf [01;31m[Kless[m[K flat num: %ld",
+[7.772s]       |                                     [01;31m[K^~~~[m[K
+[7.772s] [01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/front_end.cpp:121:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[7.772s]   121 |         [01;36m[KRCLCPP_INFO[m[K(this -> get_logger(), "corner sharp num: %d, corner less sharp num: %ld,
+[7.772s]       |         [01;36m[K^~~~~~~~~~~[m[K
+[11.189s] gmake[2]: *** [CMakeFiles/lidar_slam.dir/build.make:90: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o] Error 1
+[11.190s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_slam.dir/all] Error 2
+[11.190s] gmake: *** [Makefile:146: all] Error 2
+[11.193s] Invoked command in '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evan/code/lego-loam/lego/install/cloud_msgs:/opt/ros/humble /usr/bin/cmake --build /home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam -- -j4 -l4

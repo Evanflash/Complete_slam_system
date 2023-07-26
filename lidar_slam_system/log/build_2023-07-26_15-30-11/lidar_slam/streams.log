@@ -1,0 +1,76 @@
+[0.164s] Invoking command in '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evan/code/lego-loam/lego/install/cloud_msgs:/opt/ros/humble /usr/bin/cmake --build /home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam -- -j4 -l4
+[0.194s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.730s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.766s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.770s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.777s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.792s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.812s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.885s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.887s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.036s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.254s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.418s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.527s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.721s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.733s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.762s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.180s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.187s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.187s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.381s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.388s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.396s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.578s] -- Found Qhull version 8.0.2
+[2.761s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.944s] -- looking for PCL_COMMON
+[2.945s] -- looking for PCL_KDTREE
+[2.945s] -- looking for PCL_OCTREE
+[2.946s] -- looking for PCL_SEARCH
+[2.947s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.947s] -- looking for PCL_FILTERS
+[2.948s] -- looking for PCL_2D
+[2.948s] -- looking for PCL_GEOMETRY
+[2.949s] -- looking for PCL_IO
+[2.949s] -- looking for PCL_FEATURES
+[2.950s] -- looking for PCL_ML
+[2.950s] -- looking for PCL_SEGMENTATION
+[2.951s] -- looking for PCL_VISUALIZATION
+[2.951s] -- looking for PCL_SURFACE
+[2.952s] -- looking for PCL_REGISTRATION
+[2.953s] -- looking for PCL_KEYPOINTS
+[2.953s] -- looking for PCL_TRACKING
+[2.954s] -- looking for PCL_RECOGNITION
+[2.954s] -- looking for PCL_STEREO
+[2.955s] -- looking for PCL_APPS
+[2.956s] -- looking for PCL_IN_HAND_SCANNER
+[2.956s] -- looking for PCL_MODELER
+[2.957s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.957s] -- looking for PCL_OUTOFCORE
+[2.958s] -- looking for PCL_PEOPLE
+[2.981s] -- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include
+[2.986s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread serialization timer 
+[3.187s] -- Found AMD headers in: /usr/include/suitesparse
+[3.187s] -- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so
+[3.187s] -- Found CAMD headers in: /usr/include/suitesparse
+[3.187s] -- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so
+[3.187s] -- Found CCOLAMD headers in: /usr/include/suitesparse
+[3.187s] -- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so
+[3.188s] -- Found CHOLMOD headers in: /usr/include/suitesparse
+[3.188s] -- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so
+[3.188s] -- Found COLAMD headers in: /usr/include/suitesparse
+[3.188s] -- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so
+[3.188s] -- Found SPQR headers in: /usr/include/suitesparse
+[3.188s] -- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so
+[3.188s] -- Found Config headers in: /usr/include/suitesparse
+[3.188s] -- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so
+[3.188s] -- Found Intel Thread Building Blocks (TBB) library (2021.5 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.
+[3.188s] -- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).
+[3.188s] -- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) 
+[3.188s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake
+[3.188s] -- Found required Ceres dependency: glog
+[3.188s] -- Found required Ceres dependency: gflags
+[3.189s] -- Found Ceres version: 2.2.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]
+[3.641s] -- Configuring done
+[6.553s] gmake: *** [Makefile:348: cmake_check_build_system] Interrupt
+[6.553s] Invoked command in '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/evan/code/lego-loam/lego/install/cloud_msgs:/opt/ros/humble /usr/bin/cmake --build /home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam -- -j4 -l4

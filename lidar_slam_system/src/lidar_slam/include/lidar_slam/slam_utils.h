@@ -67,6 +67,7 @@ struct FrontEndOut{
     CloudTypePtr ground_cloud;
 };
 
+
 struct pose{
     Eigen::Quaterniond q;
     Eigen::Vector3d t;

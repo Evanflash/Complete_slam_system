@@ -210,30 +210,6 @@ lidar_slam/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_slam.dir/build.make CMakeFiles/lidar_slam.dir/build
 .PHONY : lidar_slam/fast
 
-src/back_end.o: src/back_end.cpp.o
-.PHONY : src/back_end.o
-
-# target to build an object file
-src/back_end.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_slam.dir/build.make CMakeFiles/lidar_slam.dir/src/back_end.cpp.o
-.PHONY : src/back_end.cpp.o
-
-src/back_end.i: src/back_end.cpp.i
-.PHONY : src/back_end.i
-
-# target to preprocess a source file
-src/back_end.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_slam.dir/build.make CMakeFiles/lidar_slam.dir/src/back_end.cpp.i
-.PHONY : src/back_end.cpp.i
-
-src/back_end.s: src/back_end.cpp.s
-.PHONY : src/back_end.s
-
-# target to generate assembly for a file
-src/back_end.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_slam.dir/build.make CMakeFiles/lidar_slam.dir/src/back_end.cpp.s
-.PHONY : src/back_end.cpp.s
-
 src/data_process.o: src/data_process.cpp.o
 .PHONY : src/data_process.o
 
@@ -306,6 +282,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_slam.dir/build.make CMakeFiles/lidar_slam.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/mapOptmization.o: src/mapOptmization.cpp.o
+.PHONY : src/mapOptmization.o
+
+# target to build an object file
+src/mapOptmization.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_slam.dir/build.make CMakeFiles/lidar_slam.dir/src/mapOptmization.cpp.o
+.PHONY : src/mapOptmization.cpp.o
+
+src/mapOptmization.i: src/mapOptmization.cpp.i
+.PHONY : src/mapOptmization.i
+
+# target to preprocess a source file
+src/mapOptmization.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_slam.dir/build.make CMakeFiles/lidar_slam.dir/src/mapOptmization.cpp.i
+.PHONY : src/mapOptmization.cpp.i
+
+src/mapOptmization.s: src/mapOptmization.cpp.s
+.PHONY : src/mapOptmization.s
+
+# target to generate assembly for a file
+src/mapOptmization.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_slam.dir/build.make CMakeFiles/lidar_slam.dir/src/mapOptmization.cpp.s
+.PHONY : src/mapOptmization.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -322,9 +322,6 @@ help:
 	@echo "... lidar_slam_uninstall"
 	@echo "... uninstall"
 	@echo "... lidar_slam"
-	@echo "... src/back_end.o"
-	@echo "... src/back_end.i"
-	@echo "... src/back_end.s"
 	@echo "... src/data_process.o"
 	@echo "... src/data_process.i"
 	@echo "... src/data_process.s"
@@ -334,6 +331,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/mapOptmization.o"
+	@echo "... src/mapOptmization.i"
+	@echo "... src/mapOptmization.s"
 .PHONY : help
 
 

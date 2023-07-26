@@ -80,7 +80,7 @@ void BackEnd::publishGlobalMap(){
             // 将新帧插入
             for(size_t i = 0; i < globalMapIndex.size(); ++i){
                 CloudTypePtr temp(new CloudType());
-                transToGlobalMap(allSegmentCloud[globalMapIndex[i]], temp, keyFramePoses[globalMapIndex[i]]);
+                transToGlobalMap(allCornerCloud[globalMapIndex[i]], temp, keyFramePoses[globalMapIndex[i]]);
                 downsample(temp, downSampleGlobalMap);
                 *globalMap += *temp;
             }
@@ -155,8 +155,8 @@ void BackEnd::scan2MapOptimization(){
     q_pre = q_cur;
     t_pre = t_cur;
 
-    RCLCPP_INFO(this -> get_logger(), "x:%f, y:%f, z:%f",
-        t_w_last.x(), t_w_last.y(), t_w_last.z());
+    // RCLCPP_INFO(this -> get_logger(), "x:%f, y:%f, z:%f",
+    //     t_w_last.x(), t_w_last.y(), t_w_last.z());
 
     auto transform = [&](const PointType &pi, PointType &po){
         Eigen::Vector3d p(pi.x, pi.y, pi.z);
@@ -169,7 +169,7 @@ void BackEnd::scan2MapOptimization(){
 
     if(!keyFramePoses.empty()){
         kdtreeCorner -> setInputCloud(subMapCorner);
-        kdtreeCorner -> setInputCloud(subMapSurf);
+        kdtreeSurf -> setInputCloud(subMapSurf);
 
         int cornerNum = keyPointCorner -> size();
         int surfNum = keyPointSurf -> size();
@@ -178,7 +178,9 @@ void BackEnd::scan2MapOptimization(){
         std::vector<int> pointSearchInd;
         std::vector<float> pointSearchSqDis;
 
-        /*
+        // RCLCPP_INFO(this -> get_logger(), "corner num:%d, surf num:%d", cornerNum, surfNum);
+        RCLCPP_INFO(this -> get_logger(), "************************************");
+        
         for(size_t opti_counter = 0; opti_counter < 4; ++opti_counter){
             ceres::LossFunction *loss_function = new ceres::HuberLoss(0.1);
             ceres::Problem::Options problem_options;
@@ -187,7 +189,62 @@ void BackEnd::scan2MapOptimization(){
             ceres::Manifold *q_manifold = new ceres::EigenQuaternionManifold;
             problem.AddParameterBlock(q_, 4, q_manifold);
             problem.AddParameterBlock(t_, 3);
+            /*
+            for(int i = 0; i < cornerNum; ++i){
+                transform(keyPointCorner -> points[i], pointSel);
+                kdtreeCorner -> nearestKSearch(pointSel, 5, pointSearchInd, pointSearchSqDis);
 
+                if(pointSearchSqDis[4] < 1.0){
+                    Eigen::Matrix<double, 5, 1> matb;
+                    matb.fill(-1);
+                    Eigen::Matrix<double, 5, 3> matA;
+                    Eigen::Matrix<double, 3, 1> matX;
+
+                    for(int j = 0; j < 5; ++j){
+                        matA(j, 0) = subMapCorner -> points[pointSearchInd[j]].x;
+                        matA(j, 1) = subMapCorner -> points[pointSearchInd[j]].y;
+                        matA(j, 2) = subMapCorner -> points[pointSearchInd[j]].z;
+                    }
+                    // 求解Ax = b得到平面方程
+                    matX = matA.colPivHouseholderQr().solve(matb);
+
+                    double pa = matX(0, 0);
+                    double pb = matX(1, 0);
+                    double pc = matX(2, 0);
+                    double pd = 1;
+                    // 归一化
+                    double ps = sqrt(pa * pa + pb * pb + pc * pc);
+                    pa /= ps;
+                    pb /= ps;
+                    pc /= ps;
+                    pd /= ps;
+
+
+                    // 判断平面是否合理
+                    bool planeValid = true;
+                    for(int j = 0; j < 5; ++j){
+                        if(abs(pa * subMapCorner -> points[pointSearchInd[j]].x +
+                               pb * subMapCorner -> points[pointSearchInd[j]].y +
+                               pc * subMapCorner -> points[pointSearchInd[j]].z +
+                               pd) > 0.2){
+                            planeValid = false;
+                            break;
+                        }
+                    }
+
+                    if(planeValid == true){
+                        Eigen::Vector3d curr_point{keyPointCorner -> points[i].x,
+                                                   keyPointCorner -> points[i].y,
+                                                   keyPointCorner -> points[i].z};
+                        Eigen::Vector3d norm{pa, pb, pc};
+                        ceres::CostFunction *cost_function =
+                            LidarPlaneNormFactor::Create(curr_point, norm, pd);
+                        problem.AddResidualBlock(cost_function, loss_function, q_, t_);
+                    }
+                }
+            }  */
+
+            
             // 边缘点
             for(int i = 0; i < cornerNum; ++i){
                 transform(keyPointCorner -> points[i], pointSel);
@@ -243,7 +300,7 @@ void BackEnd::scan2MapOptimization(){
                     matD = esolver.eigenvalues().real();
                     matV = esolver.eigenvectors().real();
 
-                    if(matD[2] > 3 * matD[1]){
+                    if(matD[2] > 5 * matD[1]){
                         Eigen::Vector3d curr_p{keyPointCorner -> points[i].x, 
                                                keyPointCorner -> points[i].y, 
                                                keyPointCorner -> points[i].z};
@@ -256,10 +313,58 @@ void BackEnd::scan2MapOptimization(){
                         ceres::CostFunction *cost_function = 
                             LidarEdgeFactor::Create(curr_p, point_a, point_b, 1);
                         problem.AddResidualBlock(cost_function, loss_function, q_, t_);
-                    }
+                    } else {
+                        Eigen::Matrix<double, 5, 1> matb;
+                        matb.fill(-1);
+                        Eigen::Matrix<double, 5, 3> matA;
+                        Eigen::Matrix<double, 3, 1> matX;
+
+                        for(int j = 0; j < 5; ++j){
+                            matA(j, 0) = subMapCorner -> points[pointSearchInd[j]].x;
+                            matA(j, 1) = subMapCorner -> points[pointSearchInd[j]].y;
+                            matA(j, 2) = subMapCorner -> points[pointSearchInd[j]].z;
+                        }
+                        // 求解Ax = b得到平面方程
+                        matX = matA.colPivHouseholderQr().solve(matb);
+
+                        double pa = matX(0, 0);
+                        double pb = matX(1, 0);
+                        double pc = matX(2, 0);
+                        double pd = 1;
+                        // 归一化
+                        double ps = sqrt(pa * pa + pb * pb + pc * pc);
+                        pa /= ps;
+                        pb /= ps;
+                        pc /= ps;
+                        pd /= ps;
+
+
+                        // 判断平面是否合理
+                        bool planeValid = true;
+                        for(int j = 0; j < 5; ++j){
+                            if(abs(pa * subMapCorner -> points[pointSearchInd[j]].x +
+                                pb * subMapCorner -> points[pointSearchInd[j]].y +
+                                pc * subMapCorner -> points[pointSearchInd[j]].z +
+                                pd) > 0.2){
+                                planeValid = false;
+                                break;
+                            }
+                        }
+
+                        if(planeValid == true){
+                            Eigen::Vector3d curr_point{keyPointCorner -> points[i].x,
+                                                    keyPointCorner -> points[i].y,
+                                                    keyPointCorner -> points[i].z};
+                            Eigen::Vector3d norm{pa, pb, pc};
+                            ceres::CostFunction *cost_function =
+                                LidarPlaneNormFactor::Create(curr_point, norm, pd);
+                            problem.AddResidualBlock(cost_function, loss_function, q_, t_);
+                        }
+                    }   
                 }
             }
-
+            
+            /*
             // 地面点
             for(int i = 0; i < surfNum; ++i){
                 transform(keyPointSurf -> points[i], pointSel);
@@ -314,7 +419,7 @@ void BackEnd::scan2MapOptimization(){
                     }
                 }
             }   
-
+            */
 
             // 求解
             ceres::Solver::Options options;
@@ -323,8 +428,9 @@ void BackEnd::scan2MapOptimization(){
             options.minimizer_progress_to_stdout = false;
             ceres::Solver::Summary summary;
             ceres::Solve(options, &problem, &summary);
+            RCLCPP_INFO_STREAM(this -> get_logger(), summary.BriefReport());
         }
-        */
+        
     }
 
 }

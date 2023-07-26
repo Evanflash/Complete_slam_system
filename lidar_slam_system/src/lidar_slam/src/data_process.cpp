@@ -417,6 +417,8 @@ void DataProcess::cornerCloudSegmentation(){
 
 void DataProcess::publishCloud(){
     auto publish = [&](rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pub, CloudTypePtr cloud){
+        if(pub -> get_subscription_count() == 0)
+            return;
         sensor_msgs::msg::PointCloud2 msg;
         pcl::toROSMsg(*cloud, msg);
         msg.header = oneCloud.header;

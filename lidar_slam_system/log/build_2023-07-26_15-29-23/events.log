@@ -1,0 +1,310 @@
+[0.000000] (-) TimerEvent: {}
+[0.000598] (-) JobUnselected: {'identifier': 'lidar_slam_msgs'}
+[0.000686] (lidar_slam) JobQueued: {'identifier': 'lidar_slam', 'dependencies': OrderedDict()}
+[0.001324] (lidar_slam) JobStarted: {'identifier': 'lidar_slam'}
+[0.099967] (-) TimerEvent: {}
+[0.200421] (-) TimerEvent: {}
+[0.300766] (-) TimerEvent: {}
+[0.401323] (-) TimerEvent: {}
+[0.453729] (lidar_slam) JobProgress: {'identifier': 'lidar_slam', 'progress': 'cmake'}
+[0.501496] (-) TimerEvent: {}
+[0.507345] (lidar_slam) JobProgress: {'identifier': 'lidar_slam', 'progress': 'build'}
+[0.508812] (lidar_slam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam', '--', '-j4', '-l4'], 'cwd': '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'evan'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/evan/code/lidar_slam/lidar_slam/install/other_msgs/lib:/home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam_msgs/lib:/home/evan/code/lego-loam/lego/install/cloud_msgs/lib:/home/evan/code/ndt-loc/install/cloud_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/lib'), ('HOME', '/home/evan'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/evan/code/Complete_slam_system'), ('TERM_PROGRAM_VERSION', '1.77.3'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2050'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/evan/code/lidar_slam/lidar_slam/install:/home/evan/code/Complete_slam_system/lidar_slam_system/install:/home/evan/code/lego-loam/lego/install:/home/evan/code/ndt-loc/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'evan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'evan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/java/jdk1.6.0_45/bin:~/mycomd:/usr/lib/java/jdk1.6.0_45/bin:~/mycomd'), ('SESSION_MANAGER', 'local/evan-RESCUER-R720-15IKBN:@/tmp/.ICE-unix/2019,unix/evan-RESCUER-R720-15IKBN:/tmp/.ICE-unix/2019'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/849d821c_4895_43c0_8f18_8338e4d81235'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VESC81'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e7fdec9274.sock'), ('GNOME_TERMINAL_SERVICE', ':1.6308'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/evan/code/lidar_slam/lidar_slam/install/slam_learn:/home/evan/code/lidar_slam/lidar_slam/install/other_msgs:/home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam_msgs:/home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam:/home/evan/code/lego-loam/lego/install/lego_loam_sr:/home/evan/code/lego-loam/lego/install/cloud_msgs:/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/zsh'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/java/jdk1.6.0_45'), ('PWD', '/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam'), ('XDG_DATA_DIRS', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/evan/code/lidar_slam/lidar_slam/install/other_msgs/local/lib/python3.10/dist-packages:/home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam_msgs/local/lib/python3.10/dist-packages:/home/evan/code/lego-loam/lego/install/cloud_msgs/local/lib/python3.10/dist-packages:/home/evan/code/ndt-loc/install/cloud_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/evan/code/lidar_slam/lidar_slam/install/slam_learn:/home/evan/code/lidar_slam/lidar_slam/install/other_msgs:/home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam_msgs:/home/evan/code/Complete_slam_system/lidar_slam_system/install/lidar_slam:/home/evan/code/lego-loam/lego/install/lego_loam_sr:/home/evan/code/ndt-loc/install/radar-odometry:/home/evan/code/ndt-loc/install/radar-data:/home/evan/code/ndt-loc/install/ndt-lidar-radar:/home/evan/code/ndt-loc/install/map:/home/evan/code/ndt-loc/install/data-publisher:/home/evan/code/ndt-loc/install/cloud_msgs:/home/evan/code/ndt-loc/install/a-loam:/home/evan/code/lego-loam/lego/install/cloud_msgs:/opt/ros/humble')]), 'shell': False}
+[0.601837] (-) TimerEvent: {}
+[0.707288] (-) TimerEvent: {}
+[0.807828] (-) TimerEvent: {}
+[0.908355] (-) TimerEvent: {}
+[1.008754] (-) TimerEvent: {}
+[1.109147] (-) TimerEvent: {}
+[1.209521] (-) TimerEvent: {}
+[1.309870] (-) TimerEvent: {}
+[1.410238] (-) TimerEvent: {}
+[1.510541] (-) TimerEvent: {}
+[1.610831] (-) TimerEvent: {}
+[1.711120] (-) TimerEvent: {}
+[1.811535] (-) TimerEvent: {}
+[1.911901] (-) TimerEvent: {}
+[2.012392] (-) TimerEvent: {}
+[2.112787] (-) TimerEvent: {}
+[2.213172] (-) TimerEvent: {}
+[2.313496] (-) TimerEvent: {}
+[2.413900] (-) TimerEvent: {}
+[2.514247] (-) TimerEvent: {}
+[2.614590] (-) TimerEvent: {}
+[2.715017] (-) TimerEvent: {}
+[2.815330] (-) TimerEvent: {}
+[2.915712] (-) TimerEvent: {}
+[3.016169] (-) TimerEvent: {}
+[3.116638] (-) TimerEvent: {}
+[3.217102] (-) TimerEvent: {}
+[3.317637] (-) TimerEvent: {}
+[3.418198] (-) TimerEvent: {}
+[3.518552] (-) TimerEvent: {}
+[3.619072] (-) TimerEvent: {}
+[3.719573] (-) TimerEvent: {}
+[3.820085] (-) TimerEvent: {}
+[3.920523] (-) TimerEvent: {}
+[4.021084] (-) TimerEvent: {}
+[4.121507] (-) TimerEvent: {}
+[4.221837] (-) TimerEvent: {}
+[4.249123] (lidar_slam) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.322050] (-) TimerEvent: {}
+[4.422534] (-) TimerEvent: {}
+[4.522890] (-) TimerEvent: {}
+[4.623193] (-) TimerEvent: {}
+[4.723554] (-) TimerEvent: {}
+[4.823829] (-) TimerEvent: {}
+[4.924125] (-) TimerEvent: {}
+[5.024760] (-) TimerEvent: {}
+[5.125582] (-) TimerEvent: {}
+[5.225950] (-) TimerEvent: {}
+[5.326287] (-) TimerEvent: {}
+[5.426691] (-) TimerEvent: {}
+[5.527074] (-) TimerEvent: {}
+[5.627390] (-) TimerEvent: {}
+[5.727722] (-) TimerEvent: {}
+[5.828203] (-) TimerEvent: {}
+[5.928646] (-) TimerEvent: {}
+[6.028992] (-) TimerEvent: {}
+[6.129380] (-) TimerEvent: {}
+[6.229938] (-) TimerEvent: {}
+[6.330364] (-) TimerEvent: {}
+[6.430763] (-) TimerEvent: {}
+[6.531140] (-) TimerEvent: {}
+[6.562203] (lidar_slam) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[6.631231] (-) TimerEvent: {}
+[6.731654] (-) TimerEvent: {}
+[6.832135] (-) TimerEvent: {}
+[6.932685] (-) TimerEvent: {}
+[7.033025] (-) TimerEvent: {}
+[7.133636] (-) TimerEvent: {}
+[7.234005] (-) TimerEvent: {}
+[7.334448] (-) TimerEvent: {}
+[7.434811] (-) TimerEvent: {}
+[7.535123] (-) TimerEvent: {}
+[7.635595] (-) TimerEvent: {}
+[7.736046] (-) TimerEvent: {}
+[7.836540] (-) TimerEvent: {}
+[7.937071] (-) TimerEvent: {}
+[8.037568] (-) TimerEvent: {}
+[8.138124] (-) TimerEvent: {}
+[8.148482] (lidar_slam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[8.238413] (-) TimerEvent: {}
+[8.253694] (lidar_slam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.338568] (-) TimerEvent: {}
+[8.366758] (lidar_slam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[8.438860] (-) TimerEvent: {}
+[8.539164] (-) TimerEvent: {}
+[8.639669] (-) TimerEvent: {}
+[8.740191] (-) TimerEvent: {}
+[8.840700] (-) TimerEvent: {}
+[8.941121] (-) TimerEvent: {}
+[9.041647] (-) TimerEvent: {}
+[9.061806] (lidar_slam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.141974] (-) TimerEvent: {}
+[9.242279] (-) TimerEvent: {}
+[9.291348] (lidar_slam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.342388] (-) TimerEvent: {}
+[9.442726] (-) TimerEvent: {}
+[9.543040] (-) TimerEvent: {}
+[9.643367] (-) TimerEvent: {}
+[9.743881] (-) TimerEvent: {}
+[9.844269] (-) TimerEvent: {}
+[9.907181] (lidar_slam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.944375] (-) TimerEvent: {}
+[10.018381] (lidar_slam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[10.044536] (-) TimerEvent: {}
+[10.144958] (-) TimerEvent: {}
+[10.245291] (-) TimerEvent: {}
+[10.345757] (-) TimerEvent: {}
+[10.446190] (-) TimerEvent: {}
+[10.546537] (-) TimerEvent: {}
+[10.646896] (-) TimerEvent: {}
+[10.747195] (-) TimerEvent: {}
+[10.847574] (-) TimerEvent: {}
+[10.947952] (-) TimerEvent: {}
+[11.048318] (-) TimerEvent: {}
+[11.148691] (-) TimerEvent: {}
+[11.249205] (-) TimerEvent: {}
+[11.349733] (-) TimerEvent: {}
+[11.450091] (-) TimerEvent: {}
+[11.550401] (-) TimerEvent: {}
+[11.650718] (-) TimerEvent: {}
+[11.674716] (lidar_slam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.750878] (-) TimerEvent: {}
+[11.851209] (-) TimerEvent: {}
+[11.951495] (-) TimerEvent: {}
+[12.051791] (-) TimerEvent: {}
+[12.152095] (-) TimerEvent: {}
+[12.252383] (-) TimerEvent: {}
+[12.291326] (lidar_slam) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[12.352505] (-) TimerEvent: {}
+[12.452776] (-) TimerEvent: {}
+[12.514419] (lidar_slam) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[12.552899] (-) TimerEvent: {}
+[12.653203] (-) TimerEvent: {}
+[12.683344] (lidar_slam) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[12.753321] (-) TimerEvent: {}
+[12.853851] (-) TimerEvent: {}
+[12.954149] (-) TimerEvent: {}
+[13.054662] (-) TimerEvent: {}
+[13.123810] (lidar_slam) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[13.154898] (-) TimerEvent: {}
+[13.255295] (-) TimerEvent: {}
+[13.355672] (-) TimerEvent: {}
+[13.456140] (-) TimerEvent: {}
+[13.497667] (lidar_slam) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[13.551379] (lidar_slam) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[13.556262] (-) TimerEvent: {}
+[13.656566] (-) TimerEvent: {}
+[13.756892] (-) TimerEvent: {}
+[13.857229] (-) TimerEvent: {}
+[13.957558] (-) TimerEvent: {}
+[14.057809] (-) TimerEvent: {}
+[14.158119] (-) TimerEvent: {}
+[14.258415] (-) TimerEvent: {}
+[14.358708] (-) TimerEvent: {}
+[14.458994] (-) TimerEvent: {}
+[14.559325] (-) TimerEvent: {}
+[14.659638] (-) TimerEvent: {}
+[14.759970] (-) TimerEvent: {}
+[14.860258] (-) TimerEvent: {}
+[14.960576] (-) TimerEvent: {}
+[15.060911] (-) TimerEvent: {}
+[15.161243] (-) TimerEvent: {}
+[15.261585] (-) TimerEvent: {}
+[15.361913] (-) TimerEvent: {}
+[15.462298] (-) TimerEvent: {}
+[15.562656] (-) TimerEvent: {}
+[15.662978] (-) TimerEvent: {}
+[15.763284] (-) TimerEvent: {}
+[15.863624] (-) TimerEvent: {}
+[15.963949] (-) TimerEvent: {}
+[16.064342] (-) TimerEvent: {}
+[16.164640] (-) TimerEvent: {}
+[16.264916] (-) TimerEvent: {}
+[16.365208] (-) TimerEvent: {}
+[16.465487] (-) TimerEvent: {}
+[16.565852] (-) TimerEvent: {}
+[16.666230] (-) TimerEvent: {}
+[16.766516] (-) TimerEvent: {}
+[16.866846] (-) TimerEvent: {}
+[16.967176] (-) TimerEvent: {}
+[17.067470] (-) TimerEvent: {}
+[17.167743] (-) TimerEvent: {}
+[17.268029] (-) TimerEvent: {}
+[17.368352] (-) TimerEvent: {}
+[17.468664] (-) TimerEvent: {}
+[17.568934] (-) TimerEvent: {}
+[17.669245] (-) TimerEvent: {}
+[17.769567] (-) TimerEvent: {}
+[17.869895] (-) TimerEvent: {}
+[17.970213] (-) TimerEvent: {}
+[18.070536] (-) TimerEvent: {}
+[18.171335] (-) TimerEvent: {}
+[18.271668] (-) TimerEvent: {}
+[18.371940] (-) TimerEvent: {}
+[18.472224] (-) TimerEvent: {}
+[18.572545] (-) TimerEvent: {}
+[18.672860] (-) TimerEvent: {}
+[18.718850] (lidar_slam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[18.744808] (lidar_slam) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[18.745135] (lidar_slam) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[18.773017] (-) TimerEvent: {}
+[18.873607] (-) TimerEvent: {}
+[18.932156] (lidar_slam) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[18.939805] (lidar_slam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[18.947567] (lidar_slam) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[18.973727] (-) TimerEvent: {}
+[19.074033] (-) TimerEvent: {}
+[19.149041] (lidar_slam) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[19.174154] (-) TimerEvent: {}
+[19.274429] (-) TimerEvent: {}
+[19.333579] (lidar_slam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[19.374553] (-) TimerEvent: {}
+[19.474849] (-) TimerEvent: {}
+[19.512588] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[19.512774] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[19.513582] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[19.513964] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[19.514404] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[19.515019] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[19.515706] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[19.516105] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[19.516428] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[19.517158] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[19.517719] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[19.518235] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[19.518792] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[19.519422] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[19.519996] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[19.520467] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[19.521101] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[19.521568] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[19.522185] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[19.522601] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[19.523478] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[19.523895] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[19.524193] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[19.525473] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[19.525666] (lidar_slam) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[19.574972] (-) TimerEvent: {}
+[19.663796] (lidar_slam) StdoutLine: {'line': b'-- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include\n'}
+[19.669175] (lidar_slam) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread serialization timer \n'}
+[19.675081] (-) TimerEvent: {}
+[19.775450] (-) TimerEvent: {}
+[19.875763] (-) TimerEvent: {}
+[19.903727] (lidar_slam) StdoutLine: {'line': b'-- Found AMD headers in: /usr/include/suitesparse\n'}
+[19.903915] (lidar_slam) StdoutLine: {'line': b'-- Found AMD library: /usr/lib/x86_64-linux-gnu/libamd.so\n'}
+[19.904047] (lidar_slam) StdoutLine: {'line': b'-- Found CAMD headers in: /usr/include/suitesparse\n'}
+[19.904134] (lidar_slam) StdoutLine: {'line': b'-- Found CAMD library: /usr/lib/x86_64-linux-gnu/libcamd.so\n'}
+[19.904218] (lidar_slam) StdoutLine: {'line': b'-- Found CCOLAMD headers in: /usr/include/suitesparse\n'}
+[19.904289] (lidar_slam) StdoutLine: {'line': b'-- Found CCOLAMD library: /usr/lib/x86_64-linux-gnu/libccolamd.so\n'}
+[19.904417] (lidar_slam) StdoutLine: {'line': b'-- Found CHOLMOD headers in: /usr/include/suitesparse\n'}
+[19.904496] (lidar_slam) StdoutLine: {'line': b'-- Found CHOLMOD library: /usr/lib/x86_64-linux-gnu/libcholmod.so\n'}
+[19.904572] (lidar_slam) StdoutLine: {'line': b'-- Found COLAMD headers in: /usr/include/suitesparse\n'}
+[19.904642] (lidar_slam) StdoutLine: {'line': b'-- Found COLAMD library: /usr/lib/x86_64-linux-gnu/libcolamd.so\n'}
+[19.904769] (lidar_slam) StdoutLine: {'line': b'-- Found SPQR headers in: /usr/include/suitesparse\n'}
+[19.904846] (lidar_slam) StdoutLine: {'line': b'-- Found SPQR library: /usr/lib/x86_64-linux-gnu/libspqr.so\n'}
+[19.904922] (lidar_slam) StdoutLine: {'line': b'-- Found Config headers in: /usr/include/suitesparse\n'}
+[19.904995] (lidar_slam) StdoutLine: {'line': b'-- Found Config library: /usr/lib/x86_64-linux-gnu/libsuitesparseconfig.so\n'}
+[19.905252] (lidar_slam) StdoutLine: {'line': b'-- Found Intel Thread Building Blocks (TBB) library (2021.5 / ) include location: . Assuming SuiteSparseQR was compiled with TBB.\n'}
+[19.905396] (lidar_slam) StdoutLine: {'line': b'-- Adding librt to SuiteSparse_config libraries (required on Linux & Unix [not OSX] if SuiteSparse is compiled with timing).\n'}
+[19.927535] (lidar_slam) StdoutLine: {'line': b'-- Could NOT find METIS (missing: METIS_INCLUDE_DIR METIS_LIBRARY) \n'}
+[19.931165] (lidar_slam) StdoutLine: {'line': b'-- Found required Ceres dependency: Eigen version 3.4.0 in /usr/share/eigen3/cmake\n'}
+[19.949274] (lidar_slam) StdoutLine: {'line': b'-- Found required Ceres dependency: glog\n'}
+[19.950025] (lidar_slam) StdoutLine: {'line': b'-- Found required Ceres dependency: gflags\n'}
+[19.950640] (lidar_slam) StdoutLine: {'line': b'-- Found Ceres version: 2.2.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, SchurSpecializations]\n'}
+[19.975851] (-) TimerEvent: {}
+[20.076146] (-) TimerEvent: {}
+[20.176492] (-) TimerEvent: {}
+[20.276776] (-) TimerEvent: {}
+[20.377083] (-) TimerEvent: {}
+[20.437236] (lidar_slam) StdoutLine: {'line': b'-- Configuring done\n'}
+[20.446092] (lidar_slam) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:30 (add_executable):\n'}
+[20.446279] (lidar_slam) StderrLine: {'line': b'  Cannot find source file:\n'}
+[20.446356] (lidar_slam) StderrLine: {'line': b'\n'}
+[20.446427] (lidar_slam) StderrLine: {'line': b'    src/mapOptimization.cpp\n'}
+[20.446495] (lidar_slam) StderrLine: {'line': b'\n'}
+[20.446564] (lidar_slam) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[20.446632] (lidar_slam) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[20.446699] (lidar_slam) StderrLine: {'line': b'\n'}
+[20.446765] (lidar_slam) StderrLine: {'line': b'\x1b[0m\n'}
+[20.449803] (lidar_slam) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:30 (add_executable):\n'}
+[20.449973] (lidar_slam) StderrLine: {'line': b'  No SOURCES given to target: lidar_slam\n'}
+[20.450052] (lidar_slam) StderrLine: {'line': b'\n'}
+[20.450123] (lidar_slam) StderrLine: {'line': b'\x1b[0m\n'}
+[20.450194] (lidar_slam) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[20.469263] (lidar_slam) StderrLine: {'line': b'gmake: *** [Makefile:348: cmake_check_build_system] Error 1\n'}
+[20.471851] (lidar_slam) CommandEnded: {'returncode': 2}
+[20.477174] (-) TimerEvent: {}
+[20.577561] (-) TimerEvent: {}
+[20.677928] (-) TimerEvent: {}
+[20.778322] (-) TimerEvent: {}
+[20.878617] (-) TimerEvent: {}
+[20.978902] (-) TimerEvent: {}
+[21.079169] (-) TimerEvent: {}
+[21.179602] (-) TimerEvent: {}
+[21.279998] (-) TimerEvent: {}
+[21.281731] (lidar_slam) JobEnded: {'identifier': 'lidar_slam', 'rc': 2}
+[21.292272] (-) EventReactorShutdown: {}

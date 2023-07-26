@@ -97,19 +97,19 @@ CMakeFiles/lidar_slam.dir/src/front_end.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lidar_slam.dir/src/front_end.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/front_end.cpp -o CMakeFiles/lidar_slam.dir/src/front_end.cpp.s
 
-CMakeFiles/lidar_slam.dir/src/back_end.cpp.o: CMakeFiles/lidar_slam.dir/flags.make
-CMakeFiles/lidar_slam.dir/src/back_end.cpp.o: /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/back_end.cpp
-CMakeFiles/lidar_slam.dir/src/back_end.cpp.o: CMakeFiles/lidar_slam.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lidar_slam.dir/src/back_end.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lidar_slam.dir/src/back_end.cpp.o -MF CMakeFiles/lidar_slam.dir/src/back_end.cpp.o.d -o CMakeFiles/lidar_slam.dir/src/back_end.cpp.o -c /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/back_end.cpp
+CMakeFiles/lidar_slam.dir/src/mapOptmization.cpp.o: CMakeFiles/lidar_slam.dir/flags.make
+CMakeFiles/lidar_slam.dir/src/mapOptmization.cpp.o: /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/mapOptmization.cpp
+CMakeFiles/lidar_slam.dir/src/mapOptmization.cpp.o: CMakeFiles/lidar_slam.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evan/code/Complete_slam_system/lidar_slam_system/build/lidar_slam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lidar_slam.dir/src/mapOptmization.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lidar_slam.dir/src/mapOptmization.cpp.o -MF CMakeFiles/lidar_slam.dir/src/mapOptmization.cpp.o.d -o CMakeFiles/lidar_slam.dir/src/mapOptmization.cpp.o -c /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/mapOptmization.cpp
 
-CMakeFiles/lidar_slam.dir/src/back_end.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lidar_slam.dir/src/back_end.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/back_end.cpp > CMakeFiles/lidar_slam.dir/src/back_end.cpp.i
+CMakeFiles/lidar_slam.dir/src/mapOptmization.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lidar_slam.dir/src/mapOptmization.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/mapOptmization.cpp > CMakeFiles/lidar_slam.dir/src/mapOptmization.cpp.i
 
-CMakeFiles/lidar_slam.dir/src/back_end.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lidar_slam.dir/src/back_end.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/back_end.cpp -o CMakeFiles/lidar_slam.dir/src/back_end.cpp.s
+CMakeFiles/lidar_slam.dir/src/mapOptmization.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lidar_slam.dir/src/mapOptmization.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/mapOptmization.cpp -o CMakeFiles/lidar_slam.dir/src/mapOptmization.cpp.s
 
 CMakeFiles/lidar_slam.dir/src/main.cpp.o: CMakeFiles/lidar_slam.dir/flags.make
 CMakeFiles/lidar_slam.dir/src/main.cpp.o: /home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/main.cpp
@@ -129,7 +129,7 @@ CMakeFiles/lidar_slam.dir/src/main.cpp.s: cmake_force
 lidar_slam_OBJECTS = \
 "CMakeFiles/lidar_slam.dir/src/data_process.cpp.o" \
 "CMakeFiles/lidar_slam.dir/src/front_end.cpp.o" \
-"CMakeFiles/lidar_slam.dir/src/back_end.cpp.o" \
+"CMakeFiles/lidar_slam.dir/src/mapOptmization.cpp.o" \
 "CMakeFiles/lidar_slam.dir/src/main.cpp.o"
 
 # External object files for target lidar_slam
@@ -137,7 +137,7 @@ lidar_slam_EXTERNAL_OBJECTS =
 
 lidar_slam: CMakeFiles/lidar_slam.dir/src/data_process.cpp.o
 lidar_slam: CMakeFiles/lidar_slam.dir/src/front_end.cpp.o
-lidar_slam: CMakeFiles/lidar_slam.dir/src/back_end.cpp.o
+lidar_slam: CMakeFiles/lidar_slam.dir/src/mapOptmization.cpp.o
 lidar_slam: CMakeFiles/lidar_slam.dir/src/main.cpp.o
 lidar_slam: CMakeFiles/lidar_slam.dir/build.make
 lidar_slam: /usr/lib/x86_64-linux-gnu/libpcl_apps.so
@@ -156,8 +156,8 @@ lidar_slam: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_c.
 lidar_slam: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
 lidar_slam: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_cpp.so
 lidar_slam: /opt/ros/humble/lib/libnav_msgs__rosidl_generator_py.so
+lidar_slam: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
 lidar_slam: /opt/ros/humble/lib/libmessage_filters.so
-lidar_slam: /opt/ros/humble/lib/librclcpp.so
 lidar_slam: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 lidar_slam: /opt/ros/humble/lib/librmw.so
 lidar_slam: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
@@ -183,62 +183,25 @@ lidar_slam: /opt/ros/humble/lib/libpcl_msgs__rosidl_generator_py.so
 lidar_slam: /opt/ros/humble/lib/libpcl_msgs__rosidl_typesupport_c.so
 lidar_slam: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 lidar_slam: /opt/ros/humble/lib/librclcpp.so
-lidar_slam: /opt/ros/humble/lib/liblibstatistics_collector.so
-lidar_slam: /opt/ros/humble/lib/librcl.so
-lidar_slam: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
-lidar_slam: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
-lidar_slam: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so
-lidar_slam: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
-lidar_slam: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
-lidar_slam: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
-lidar_slam: /opt/ros/humble/lib/librcl_yaml_param_parser.so
-lidar_slam: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
-lidar_slam: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
-lidar_slam: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
-lidar_slam: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so
-lidar_slam: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_cpp.so
-lidar_slam: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so
-lidar_slam: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so
-lidar_slam: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
-lidar_slam: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
-lidar_slam: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
-lidar_slam: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
-lidar_slam: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
-lidar_slam: /opt/ros/humble/lib/libtracetools.so
 lidar_slam: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 lidar_slam: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
-lidar_slam: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
-lidar_slam: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 lidar_slam: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
-lidar_slam: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
-lidar_slam: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
 lidar_slam: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
-lidar_slam: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
-lidar_slam: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 lidar_slam: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 lidar_slam: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
-lidar_slam: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
-lidar_slam: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 lidar_slam: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 lidar_slam: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 lidar_slam: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
-lidar_slam: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
-lidar_slam: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 lidar_slam: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 lidar_slam: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 lidar_slam: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
-lidar_slam: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 lidar_slam: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
-lidar_slam: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 lidar_slam: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-lidar_slam: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 lidar_slam: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 lidar_slam: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-lidar_slam: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 lidar_slam: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 lidar_slam: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 lidar_slam: /usr/lib/x86_64-linux-gnu/libpython3.10.so
-lidar_slam: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 lidar_slam: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
 lidar_slam: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so
 lidar_slam: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so
@@ -331,29 +294,97 @@ lidar_slam: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.74.0
 lidar_slam: /usr/lib/x86_64-linux-gnu/libboost_timer.so.1.74.0
 lidar_slam: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.74.0
 lidar_slam: /usr/local/lib/libmetis-gtsam.so
+lidar_slam: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_c.so
+lidar_slam: /opt/ros/humble/lib/libnav_msgs__rosidl_generator_c.so
+lidar_slam: /opt/ros/humble/lib/libtf2_ros.so
+lidar_slam: /opt/ros/humble/lib/libtf2.so
+lidar_slam: /opt/ros/humble/lib/libmessage_filters.so
+lidar_slam: /opt/ros/humble/lib/librclcpp_action.so
+lidar_slam: /opt/ros/humble/lib/librclcpp.so
+lidar_slam: /opt/ros/humble/lib/liblibstatistics_collector.so
+lidar_slam: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
+lidar_slam: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+lidar_slam: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
+lidar_slam: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so
+lidar_slam: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_cpp.so
+lidar_slam: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so
+lidar_slam: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so
+lidar_slam: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so
+lidar_slam: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so
+lidar_slam: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
+lidar_slam: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
+lidar_slam: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
+lidar_slam: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
+lidar_slam: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
+lidar_slam: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
+lidar_slam: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
+lidar_slam: /opt/ros/humble/lib/librcl_action.so
+lidar_slam: /opt/ros/humble/lib/librcl.so
+lidar_slam: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
+lidar_slam: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
+lidar_slam: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so
+lidar_slam: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
+lidar_slam: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
+lidar_slam: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
+lidar_slam: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
+lidar_slam: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so
+lidar_slam: /opt/ros/humble/lib/librcl_yaml_param_parser.so
+lidar_slam: /opt/ros/humble/lib/libyaml.so
+lidar_slam: /opt/ros/humble/lib/libtracetools.so
 lidar_slam: /opt/ros/humble/lib/librmw_implementation.so
 lidar_slam: /opt/ros/humble/lib/libament_index_cpp.so
 lidar_slam: /opt/ros/humble/lib/librcl_logging_spdlog.so
 lidar_slam: /opt/ros/humble/lib/librcl_logging_interface.so
-lidar_slam: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
-lidar_slam: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so
-lidar_slam: /opt/ros/humble/lib/libyaml.so
-lidar_slam: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so
-lidar_slam: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so
-lidar_slam: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
-lidar_slam: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
+lidar_slam: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so
+lidar_slam: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+lidar_slam: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+lidar_slam: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
+lidar_slam: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+lidar_slam: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so
 lidar_slam: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
+lidar_slam: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so
+lidar_slam: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+lidar_slam: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+lidar_slam: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
+lidar_slam: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+lidar_slam: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so
+lidar_slam: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so
+lidar_slam: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+lidar_slam: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+lidar_slam: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
+lidar_slam: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+lidar_slam: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
 lidar_slam: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 lidar_slam: /opt/ros/humble/lib/libfastcdr.so.1.0.24
 lidar_slam: /opt/ros/humble/lib/librmw.so
+lidar_slam: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_cpp.so
+lidar_slam: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+lidar_slam: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+lidar_slam: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
+lidar_slam: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+lidar_slam: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so
 lidar_slam: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 lidar_slam: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
+lidar_slam: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_cpp.so
 lidar_slam: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 lidar_slam: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
+lidar_slam: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_cpp.so
 lidar_slam: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+lidar_slam: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
 lidar_slam: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-lidar_slam: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_c.so
-lidar_slam: /opt/ros/humble/lib/libnav_msgs__rosidl_generator_c.so
+lidar_slam: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_py.so
+lidar_slam: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
+lidar_slam: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
+lidar_slam: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_c.so
+lidar_slam: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_c.so
+lidar_slam: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_py.so
+lidar_slam: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
+lidar_slam: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_c.so
+lidar_slam: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
+lidar_slam: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_py.so
+lidar_slam: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
+lidar_slam: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
+lidar_slam: /usr/lib/x86_64-linux-gnu/liborocos-kdl.so
 lidar_slam: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 lidar_slam: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
 lidar_slam: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so

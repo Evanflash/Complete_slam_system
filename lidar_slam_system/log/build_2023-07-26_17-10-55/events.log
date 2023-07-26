@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000704] (-) JobUnselected: {'identifier': 'lidar_slam_msgs'}
+[0.000777] (lidar_slam) JobQueued: {'identifier': 'lidar_slam', 'dependencies': OrderedDict()}
+[0.000820] (lidar_slam) JobStarted: {'identifier': 'lidar_slam'}
+[0.063999] (lidar_slam) JobEnded: {'identifier': 'lidar_slam', 'rc': 0}
+[0.065175] (-) EventReactorShutdown: {}

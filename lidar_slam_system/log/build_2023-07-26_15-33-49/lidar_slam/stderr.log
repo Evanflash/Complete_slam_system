@@ -1,0 +1,18 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/mapOptmization.cpp:[m[K In destructor ‘[01m[Kvirtual MapOptimization::~MapOptimization()[m[K’:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/mapOptmization.cpp:94:22:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Knav_msgs::msg::Odometry[m[K’ {aka ‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} from initializer list would use explicit constructor ‘[01m[Knav_msgs::msg::Odometry_<ContainerAllocator>::Odometry_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+   94 |   [01;35m[K_input_channel.send({})[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/mapOptmization.cpp:94:22:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/mapOptmization.cpp:[m[K In member function ‘[01m[Kvoid MapOptimization::run()[m[K’:
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/mapOptmization.cpp:1397:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct lidarslam::FrontEndOut[m[K’ has no member named ‘[01m[Klaser_odometry[m[K’; did you mean ‘[01m[KlaserOdometry[m[K’?
+ 1397 |       timeLaserOdometry = association.[01;31m[Klaser_odometry[m[K.header.stamp;
+      |                                       [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                       [32m[KlaserOdometry[m[K
+[01m[K/home/evan/code/Complete_slam_system/lidar_slam_system/src/lidar_slam/src/mapOptmization.cpp:1400:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct lidarslam::FrontEndOut[m[K’ has no member named ‘[01m[Klaser_odometry[m[K’; did you mean ‘[01m[KlaserOdometry[m[K’?
+ 1400 |       OdometryToTransform(association.[01;31m[Klaser_odometry[m[K, transformSum);
+      |                                       [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                       [32m[KlaserOdometry[m[K
+gmake[2]: *** [CMakeFiles/lidar_slam.dir/build.make:104: CMakeFiles/lidar_slam.dir/src/mapOptmization.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_slam.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
